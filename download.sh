@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
-rm -rf data/tmp
-mkdir data/tmp
+rm -rf data/tmp data/shp
+mkdir data/tmp data/shp
 
 wget https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip -O data/tmp/countries.zip
 wget https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_map_units.zip -O data/tmp/units.zip
