@@ -7,11 +7,11 @@
     "name": "Cavan",
     "ne_id": 1159308719
   },
-  "id3:IE-CO.1159308709": {
+  "id3:IE-CO_1159308709": {
     "name": "Cork",
     "ne_id": 1159308709
   },
-  "id3:IE-CO.1159317299": {
+  "id3:IE-CO_1159317299": {
     "name": "Cork",
     "ne_id": 1159317299
   },
@@ -19,31 +19,31 @@
     "name": "Carlow",
     "ne_id": 1159308717
   },
-  "id3:IE-D.1159311003": {
-    "name": "South Dublin",
-    "ne_id": 1159311003
-  },
-  "id3:IE-D.1159317305": {
-    "name": "Fingal",
-    "ne_id": 1159317305
-  },
-  "id3:IE-D.1159317307": {
-    "name": "Dublin",
-    "ne_id": 1159317307
-  },
-  "id3:IE-D.1159317309": {
-    "name": "Dún Laoghaire–Rathdown",
-    "ne_id": 1159317309
-  },
   "id3:IE-DL": {
     "name": "Donegal",
     "ne_id": 1159310987
   },
-  "id3:IE-G.1159310965": {
+  "id3:IE-D_1159311003": {
+    "name": "South Dublin",
+    "ne_id": 1159311003
+  },
+  "id3:IE-D_1159317305": {
+    "name": "Fingal",
+    "ne_id": 1159317305
+  },
+  "id3:IE-D_1159317307": {
+    "name": "Dublin",
+    "ne_id": 1159317307
+  },
+  "id3:IE-D_1159317309": {
+    "name": "Dún Laoghaire–Rathdown",
+    "ne_id": 1159317309
+  },
+  "id3:IE-G_1159310965": {
     "name": "Galway",
     "ne_id": 1159310965
   },
-  "id3:IE-G.1159317293": {
+  "id3:IE-G_1159317293": {
     "name": "Galway",
     "ne_id": 1159317293
   },
@@ -67,11 +67,11 @@
     "name": "Louth",
     "ne_id": 1159310989
   },
-  "id3:IE-LK.1159311013": {
+  "id3:IE-LK_1159311013": {
     "name": "Limerick",
     "ne_id": 1159311013
   },
-  "id3:IE-LK.1159317295": {
+  "id3:IE-LK_1159317295": {
     "name": "Limerick",
     "ne_id": 1159317295
   },
@@ -107,19 +107,19 @@
     "name": "Sligo",
     "ne_id": 1159311019
   },
-  "id3:IE-TA.1159311011": {
+  "id3:IE-TA_1159311011": {
     "name": "North Tipperary",
     "ne_id": 1159311011
   },
-  "id3:IE-TA.1159317303": {
+  "id3:IE-TA_1159317303": {
     "name": "South Tipperary",
     "ne_id": 1159317303
   },
-  "id3:IE-WD.1159312835": {
+  "id3:IE-WD_1159312835": {
     "name": "Waterford",
     "ne_id": 1159312835
   },
-  "id3:IE-WD.1159317301": {
+  "id3:IE-WD_1159317301": {
     "name": "Waterford",
     "ne_id": 1159317301
   },
