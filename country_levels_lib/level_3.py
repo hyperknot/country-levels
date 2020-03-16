@@ -43,13 +43,16 @@ def process_level_3():
         ne_id = prop['ne_id']
         assert type(ne_id) == int
 
-        # skipping unnamed places (tiny islands)
+        # skipping minor island
+        if prop['featurecla'] == 'Admin-1 minor island':
+            continue
+
+        # skipping unnamed places (also minor islands)
         if state_name is None:
-            # print(state_iso)
             continue
 
         if state_iso.startswith('-99-'):
-            # print(state_iso)
+            print(state_iso)
             continue
 
         # check if state's iso code matches country's iso code
