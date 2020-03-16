@@ -47,16 +47,15 @@ def process_level_3():
         if prop['featurecla'] == 'Admin-1 minor island':
             continue
 
-        # skipping unnamed places (also minor islands)
+        # skipping unnamed places (right now the same as minor islands)
         if state_name is None:
             continue
 
         if state_iso.startswith('-99-'):
-            print(state_iso)
             continue
 
         # check if state's iso code matches country's iso code
-        if state_iso.export('-')[0] != country_iso:
+        if state_iso.split('-')[0] != country_iso:
             print(repr(country_name), repr(state_name), repr(state_iso), repr(country_iso))
 
         # clean up state_iso

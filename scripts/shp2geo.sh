@@ -3,8 +3,8 @@ set -e
 cd "${BASH_SOURCE%/*}/" || exit
 
 cd ..
-rm -rf geojson
-mkdir geojson
+rm -rf data/geojson
+mkdir data/geojson
 
 yarn
 
