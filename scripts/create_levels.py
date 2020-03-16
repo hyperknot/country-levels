@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import pathlib
 
-from newcases_lib.config import countries_dir
-from newcases_lib.utils import read_json, write_json
+from country_levels_lib.config import countries_dir
+from country_levels_lib.utils import read_json, write_json
 
 ADD_STATES = ['United States of America', 'Canada', 'Australia', 'China']
 

@@ -1,20 +1,19 @@
 #!/usr/bin/env bash
 set -e
-cd "${BASH_SOURCE%/*}/.." || exit
+cd "${BASH_SOURCE%/*}/" || exit
 
-cd ..
+cd ../data
+rm -rf tmp shp
+mkdir tmp shp
 
-rm -rf data/tmp data/shp
-mkdir data/tmp data/shp
+wget https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip -O tmp/countries.zip
+wget https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_map_units.zip -O tmp/units.zip
+wget https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_map_subunits.zip -O tmp/subunits.zip
+wget https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_1_states_provinces_lakes.zip -O tmp/states.zip
 
-wget https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip -O data/tmp/countries.zip
-wget https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_map_units.zip -O data/tmp/units.zip
-wget https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_map_subunits.zip -O data/tmp/subunits.zip
-wget https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_1_states_provinces_lakes.zip -O data/tmp/states.zip
+unzip tmp/countries.zip -d shp/countries
+unzip tmp/units.zip -d shp/units
+unzip tmp/subunits.zip -d shp/subunits
+unzip tmp/states.zip -d shp/states
 
-unzip data/tmp/countries.zip -d data/shp/countries
-unzip data/tmp/units.zip -d data/shp/units
-unzip data/tmp/subunits.zip -d data/shp/subunits
-unzip data/tmp/states.zip -d data/shp/states
-
-rm -rf data/tmp
+rm -r tmp
