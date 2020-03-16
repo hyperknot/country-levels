@@ -7,7 +7,9 @@ from country_levels_lib.level_3 import process_level_3
 
 
 def main():
-    # shutil.rmtree(levels_dir, ignore_errors=True)
+    shutil.rmtree(levels_dir, ignore_errors=True)
+    levels_dir.mkdir()
+
     # process_level_012()
     process_level_3()
 

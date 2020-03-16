@@ -69,9 +69,8 @@ def process_level_3():
         if state_iso in data[country_iso]:
             print(f'duplicate state_iso: {state_iso}')
 
-        # TODO validate codes
-
-        data[country_iso][state_iso] = {'name': state_name}
+        id3 = f'id3:{state_iso}'
+        data[country_iso][id3] = {'name': state_name, 'ne_id': prop['ne_id']}
 
     for country_iso, country_states in data.items():
         level_3_dir.mkdir(exist_ok=True)
