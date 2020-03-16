@@ -57,7 +57,7 @@ def process_level_012():
         country_iso = adm_iso_map[prop['adm0_a3']]
         validate_iso_012(country_iso)
 
-        ne_id = prop['ne_id']
+            ne_id = prop['ne_id']
         assert type(ne_id) == int
 
         id0 = f'id0:{country_iso}'

@@ -2,14 +2,14 @@
 import shutil
 
 from country_levels_lib.config import export_dir
+from country_levels_lib.export import export_0
 
 
 def main():
     shutil.rmtree(export_dir, ignore_errors=True)
     export_dir.mkdir()
 
-    geojson_level_012()
-    # process_level_3()
+    export_0()
 
 
 if __name__ == "__main__":

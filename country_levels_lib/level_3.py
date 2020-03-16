@@ -56,7 +56,7 @@ def process_level_3():
             continue
 
         # check if state's iso code matches country's iso code
-        if state_iso.split('-')[0] != country_iso:
+        if state_iso.export('-')[0] != country_iso:
             print(repr(country_name), repr(state_name), repr(state_iso), repr(country_iso))
 
         # clean up state_iso
