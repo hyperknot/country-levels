@@ -1,4 +1,4 @@
-from country_levels_lib.config import levels_dir, geojson_dir, export_0_dir
+from country_levels_lib.config import levels_dir, geojson_dir, export_id0_dir
 from country_levels_lib.utils import read_json, write_json
 
 
@@ -20,8 +20,8 @@ def export_0():
         feature_data = features_by_id[ne_id]
 
         filename = id0[4:].lower()
-        geojson_path = export_0_dir / f'{filename}.geojson'
-        export_0_dir.mkdir(exist_ok=True)
+        geojson_path = export_id0_dir / f'{filename}.geojson'
+        export_id0_dir.mkdir(exist_ok=True)
 
         write_json(geojson_path, feature_data)
 
