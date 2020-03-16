@@ -13,3 +13,4 @@ def write_json(file_path: pathlib.Path, data, indent: int = None, sort_keys: boo
             data, outfile, ensure_ascii=False, indent=indent, allow_nan=False, sort_keys=sort_keys
         )
 
+

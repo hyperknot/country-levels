@@ -1,7 +1,11 @@
+import re
+
 from country_levels_lib.config import geojson_dir, levels_dir
 from country_levels_lib.utils import read_json, write_json
 
+
 fix_iso_codes = {'FRA': 'FR', 'NOR': 'NO'}
+level_012_regex = re.compile('[A-Z]{2,3}')
 
 
 def create_adm_iso_map(countries: list):
@@ -14,7 +18,7 @@ def create_adm_iso_map(countries: list):
         for key in prop:
             prop[key.lower()] = prop.pop(key)
 
-        country_name = prop['admin']
+        # country_name = prop['admin']
         iso = prop['iso_a2']
         if iso == '-99':
             # print(country_name, prop['iso_a2'], prop['adm0_a3'])
@@ -51,12 +55,15 @@ def process_level_012():
 
         country_name = prop['admin']
         country_iso = adm_iso_map[prop['adm0_a3']]
+        validate_iso_012(country_iso)
 
         unit_name = prop['geounit']
         unit_iso = prop['gu_a3']
+        validate_iso_012(unit_iso)
 
         subunit_name = prop['subunit']
         subunit_iso = prop['su_a3']
+        validate_iso_012(subunit_iso)
 
         # pop = prop['pop_est']
 
@@ -87,5 +94,10 @@ def process_level_012():
             del country_data['sub1']
 
     levels_dir.mkdir(exist_ok=True)
-    write_json(levels_dir / 'level012.json', levels, indent=2, sort_keys=True)
-    print('level012.json written')
+    write_json(levels_dir / 'level_012.json', levels, indent=2, sort_keys=True)
+    print('level_012.json written')
+
+
+def validate_iso_012(iso_code: str):
+    if level_012_regex.fullmatch(iso_code) is None:
+        print(f'wrong level 1 code: {iso_code}')

@@ -9,4 +9,4 @@ levels_dir = data_dir / 'levels'
 tmp_dir = data_dir / 'tmp'
 fixes_dir = data_dir / 'fixes'
 
-level3_dir = levels_dir / 'level3'
+level_3_dir = levels_dir / 'level_3'
