@@ -1,9 +1,9 @@
-from country_level_lib.config import levels_dir, geojson_dir, export_id0_dir, export_id1_dir
+from country_level_lib.config import id_dir, geojson_dir, export_id0_dir, export_id1_dir
 from country_level_lib.utils import read_json, write_json
 
 
 def export_0():
-    levels = read_json(levels_dir / 'level_012.json')
+    levels = read_json(id_dir / 'level_012.json')
     countries = read_json(geojson_dir / 'countries.geojson')['features']
 
     features_by_id = {}
@@ -29,7 +29,7 @@ def export_0():
 
 
 def export_1():
-    levels = read_json(levels_dir / 'level_012.json')
+    levels = read_json(id_dir / 'level_012.json')
     units = read_json(geojson_dir / 'units.geojson')['features']
 
     features_by_id = {}

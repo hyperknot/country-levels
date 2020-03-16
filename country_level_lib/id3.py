@@ -1,11 +1,11 @@
 import re
 
-from country_level_lib.config import geojson_dir, level_3_dir, fixes_dir
-from country_level_lib.level_012 import create_adm_iso_map, validate_iso_012
+from country_level_lib.config import geojson_dir, id3_dir, fixes_dir
+from country_level_lib.id012 import create_adm_iso_map, validate_iso_012
 from country_level_lib.utils import read_json, write_json
 
 
-fix_l3_codes = {
+fix_iso_3_codes = {
     'UA-43': 'RU-43',
     'UA-40': 'RU-40',
     'NL-SX': 'SX-01',
@@ -13,10 +13,10 @@ fix_l3_codes = {
     'TK-X01~': 'NZ-TK',
     'AU-X04~': 'ATC-01',
 }
-level_3_regex = re.compile('[A-Z]{2,3}-[A-Z0-9]{1,3}')
+iso_3_regex = re.compile('[A-Z]{2,3}-[A-Z0-9]{1,3}')
 
 
-def process_level_3():
+def process_id3():
     countries = read_json(geojson_dir / 'countries.geojson')['features']
     states = read_json(geojson_dir / 'states.geojson')['features']
 
@@ -38,7 +38,7 @@ def process_level_3():
         validate_iso_012(country_iso)
 
         state_name = prop['name']
-        state_iso = fix_l3_codes.get(prop['iso_3166_2'], prop['iso_3166_2'])
+        state_iso = fix_iso_3_codes.get(prop['iso_3166_2'], prop['iso_3166_2'])
 
         ne_id = prop['ne_id']
         assert type(ne_id) == int
@@ -77,12 +77,12 @@ def process_level_3():
         data[country_iso][id3] = {'name': state_name, 'ne_id': ne_id}
 
     for country_iso, country_states in data.items():
-        level_3_dir.mkdir(exist_ok=True)
+        id3_dir.mkdir(exist_ok=True)
         filename = f'{country_iso.lower()}.json'
-        write_json(level_3_dir / filename, country_states, indent=2, sort_keys=True)
+        write_json(id3_dir / filename, country_states, indent=2, sort_keys=True)
         # print(f'{filename} written')
 
 
 def validate_iso_3(iso_code: str):
-    if level_3_regex.fullmatch(iso_code) is None:
+    if iso_3_regex.fullmatch(iso_code) is None:
         print(f'wrong level 3 code: {iso_code}')

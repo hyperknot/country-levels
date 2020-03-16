@@ -1,11 +1,11 @@
 import re
 
-from country_level_lib.config import geojson_dir, levels_dir
+from country_level_lib.config import geojson_dir, id_dir
 from country_level_lib.utils import read_json, write_json
 
 
-fix_iso_codes = {'FRA': 'FR', 'NOR': 'NO'}
-level_012_regex = re.compile('[A-Z]{2,3}')
+fix_iso_0_codes = {'FRA': 'FR', 'NOR': 'NO'}
+iso_012_regex = re.compile('[A-Z]{2,3}')
 
 
 def create_adm_iso_map(countries: list):
@@ -30,12 +30,12 @@ def create_adm_iso_map(countries: list):
         adm_iso_map[adm] = iso
 
     # manual fixing
-    adm_iso_map = dict(adm_iso_map, **fix_iso_codes)
+    adm_iso_map = dict(adm_iso_map, **fix_iso_0_codes)
 
     return adm_iso_map
 
 
-def process_level_012():
+def process_id012():
     countries = read_json(geojson_dir / 'countries.geojson')['features']
     print(f'{len(countries)} countries')
 
@@ -129,10 +129,10 @@ def process_level_012():
         if 'sub2' not in sub1_first:
             del country_data['sub1']
 
-    levels_dir.mkdir(exist_ok=True)
-    write_json(levels_dir / 'level_012.json', levels, indent=2, sort_keys=True)
+    id_dir.mkdir(exist_ok=True)
+    write_json(id_dir / 'level_012.json', levels, indent=2, sort_keys=True)
 
 
 def validate_iso_012(iso_code: str):
-    if level_012_regex.fullmatch(iso_code) is None:
+    if iso_012_regex.fullmatch(iso_code) is None:
         print(f'wrong level 1 code: {iso_code}')

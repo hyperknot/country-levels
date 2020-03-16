@@ -2,7 +2,7 @@
 import shutil
 
 from country_level_lib.config import export_dir
-from country_level_lib.export import export_0, export_1
+from country_level_lib.geojson import export_0, export_1
 
 
 def main():
