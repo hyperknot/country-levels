@@ -48,7 +48,7 @@ def process_level_012():
     adm_iso_map = create_adm_iso_map(countries)
     levels = dict()
 
-    for feature in subunits:
+    for feature in countries:
         prop = feature['properties']
         for key in prop:
             prop[key.lower()] = prop.pop(key)
@@ -57,7 +57,42 @@ def process_level_012():
         country_iso = adm_iso_map[prop['adm0_a3']]
         validate_iso_012(country_iso)
 
+        ne_id = prop['ne_id']
+        assert type(ne_id) == int
+
+        id0 = f'id0:{country_iso}'
+
+        levels.setdefault(id0, {'name': country_name, 'ne_id': ne_id, 'sub1': {}})
+
+    for feature in units:
+        prop = feature['properties']
+        for key in prop:
+            prop[key.lower()] = prop.pop(key)
+
+        country_iso = adm_iso_map[prop['adm0_a3']]
+        validate_iso_012(country_iso)
+
         unit_name = prop['geounit']
+        unit_iso = prop['gu_a3']
+        validate_iso_012(unit_iso)
+
+        ne_id = prop['ne_id']
+        assert type(ne_id) == int
+
+        id0 = f'id0:{country_iso}'
+        id1 = f'id1:{unit_iso}'
+
+        sub1 = levels[id0]['sub1']
+        sub1.setdefault(id1, {'name': unit_name, 'ne_id': ne_id, 'sub2': {}})
+
+    for feature in subunits:
+        prop = feature['properties']
+        for key in prop:
+            prop[key.lower()] = prop.pop(key)
+
+        country_iso = adm_iso_map[prop['adm0_a3']]
+        validate_iso_012(country_iso)
+
         unit_iso = prop['gu_a3']
         validate_iso_012(unit_iso)
 
@@ -65,15 +100,16 @@ def process_level_012():
         subunit_iso = prop['su_a3']
         validate_iso_012(subunit_iso)
 
-        # pop = prop['pop_est']
+        ne_id = prop['ne_id']
+        assert type(ne_id) == int
 
-        levels.setdefault(country_name, {'id0': country_iso, 'sub1': {}})
+        id0 = f'id0:{country_iso}'
+        id1 = f'id1:{unit_iso}'
+        id2 = f'id2:{subunit_iso}'
 
-        sub1 = levels[country_name]['sub1']
-        sub1.setdefault(unit_name, {'id1': unit_iso, 'sub2': {}})
-
-        sub2 = sub1[unit_name]['sub2']
-        sub2.setdefault(subunit_name, {'id2': subunit_iso})
+        sub1 = levels[id0]['sub1']
+        sub2 = sub1[id1]['sub2']
+        sub2.setdefault(id2, {'name': subunit_name, 'ne_id': ne_id})
 
     # clean up sub2
     for sub_country, country_data in levels.items():
@@ -95,7 +131,6 @@ def process_level_012():
 
     levels_dir.mkdir(exist_ok=True)
     write_json(levels_dir / 'level_012.json', levels, indent=2, sort_keys=True)
-    print('level_012.json written')
 
 
 def validate_iso_012(iso_code: str):

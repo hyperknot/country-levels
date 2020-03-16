@@ -40,6 +40,9 @@ def process_level_3():
         state_name = prop['name']
         state_iso = fix_l3_codes.get(prop['iso_3166_2'], prop['iso_3166_2'])
 
+        ne_id = prop['ne_id']
+        assert type(ne_id) == int
+
         # skipping unnamed places (tiny islands)
         if state_name is None:
             # print(state_iso)
@@ -64,13 +67,12 @@ def process_level_3():
         # check duplicate iso codes
         # we need to add a unique id to each
         if state_iso in duplicate_l3_ids:
-            assert type(prop['ne_id']) == int
-            state_iso = f'{state_iso}.{prop["ne_id"]}'
+            state_iso = f'{state_iso}.{ne_id}'
         if state_iso in data[country_iso]:
             print(f'duplicate state_iso: {state_iso}')
 
         id3 = f'id3:{state_iso}'
-        data[country_iso][id3] = {'name': state_name, 'ne_id': prop['ne_id']}
+        data[country_iso][id3] = {'name': state_name, 'ne_id': ne_id}
 
     for country_iso, country_states in data.items():
         level_3_dir.mkdir(exist_ok=True)

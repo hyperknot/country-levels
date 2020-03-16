@@ -10,7 +10,7 @@ def main():
     shutil.rmtree(levels_dir, ignore_errors=True)
     levels_dir.mkdir()
 
-    # process_level_012()
+    process_level_012()
     process_level_3()
 
 
