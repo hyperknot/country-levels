@@ -69,7 +69,7 @@ def process_level_3():
         # check duplicate iso codes
         # we need to add a unique id to each
         if state_iso in duplicate_l3_ids:
-            state_iso = f'{state_iso}.{ne_id}'
+            state_iso = f'{state_iso}_{ne_id}'
         if state_iso in data[country_iso]:
             print(f'duplicate state_iso: {state_iso}')
 
