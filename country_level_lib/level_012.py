@@ -1,7 +1,7 @@
 import re
 
-from country_level_id_lib.config import geojson_dir, levels_dir
-from country_level_id_lib.utils import read_json, write_json
+from country_level_lib.config import geojson_dir, levels_dir
+from country_level_lib.utils import read_json, write_json
 
 
 fix_iso_codes = {'FRA': 'FR', 'NOR': 'NO'}

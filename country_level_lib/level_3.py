@@ -1,8 +1,8 @@
 import re
 
-from country_level_id_lib.config import geojson_dir, level_3_dir, fixes_dir
-from country_level_id_lib.level_012 import create_adm_iso_map, validate_iso_012
-from country_level_id_lib.utils import read_json, write_json
+from country_level_lib.config import geojson_dir, level_3_dir, fixes_dir
+from country_level_lib.level_012 import create_adm_iso_map, validate_iso_012
+from country_level_lib.utils import read_json, write_json
 
 
 fix_l3_codes = {

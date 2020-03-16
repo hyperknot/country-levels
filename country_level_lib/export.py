@@ -1,5 +1,5 @@
-from country_level_id_lib.config import levels_dir, geojson_dir, export_id0_dir
-from country_level_id_lib.utils import read_json, write_json
+from country_level_lib.config import levels_dir, geojson_dir, export_id0_dir
+from country_level_lib.utils import read_json, write_json
 
 
 def export_0():
