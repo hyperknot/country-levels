@@ -1,7 +1,7 @@
-from pprint import pprint
-
 from country_levels_lib.config import geojson_dir, levels_dir
 from country_levels_lib.utils import read_json, write_json
+
+fix_iso_codes = {'FRA': 'FR', 'NOR': 'NO'}
 
 
 def create_adm_iso_map(countries: list):
@@ -14,8 +14,10 @@ def create_adm_iso_map(countries: list):
         for key in prop:
             prop[key.lower()] = prop.pop(key)
 
+        country_name = prop['admin']
         iso = prop['iso_a2']
         if iso == '-99':
+            # print(country_name, prop['iso_a2'], prop['adm0_a3'])
             iso = prop['adm0_a3']
 
         adm = prop['adm0_a3']
@@ -23,10 +25,13 @@ def create_adm_iso_map(countries: list):
             raise ValueError(f'adm exists: {adm}')
         adm_iso_map[adm] = iso
 
+    # manual fixing
+    adm_iso_map = dict(adm_iso_map, **fix_iso_codes)
+
     return adm_iso_map
 
 
-def process_levels_012():
+def process_level_012():
     countries = read_json(geojson_dir / 'countries.geojson')['features']
     print(f'{len(countries)} countries')
 
@@ -45,7 +50,6 @@ def process_levels_012():
             prop[key.lower()] = prop.pop(key)
 
         country_name = prop['admin']
-
         country_iso = adm_iso_map[prop['adm0_a3']]
 
         unit_name = prop['geounit']
@@ -83,23 +87,5 @@ def process_levels_012():
             del country_data['sub1']
 
     levels_dir.mkdir(exist_ok=True)
-    write_json(levels_dir / 'levels012.json', levels, indent=2, sort_keys=True)
-    print('levels012.json written')
-
-
-def process_level_3():
-    states = read_json(geojson_dir / 'states.geojson')['features']
-    print(f'{len(states)} states')
-
-    data = {}
-
-    for feature in states:
-        prop = feature['properties']
-        for key in prop:
-            prop[key.lower()] = prop.pop(key)
-
-        country_name = prop['admin']
-        country_iso = prop['adm0_a3']
-
-        state_name = prop['name']
-        state_iso = prop['iso_3166_2']
+    write_json(levels_dir / 'level012.json', levels, indent=2, sort_keys=True)
+    print('level012.json written')
