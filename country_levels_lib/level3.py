@@ -1,14 +1,17 @@
 from pprint import pprint
 
-from country_levels_lib.config import geojson_dir, level3_dir, tmp_dir
+from country_levels_lib.config import geojson_dir, level3_dir, tmp_dir, fixes_dir
 from country_levels_lib.level0123 import create_adm_iso_map
 from country_levels_lib.utils import read_json, write_json
 
 
 def process_level_3():
     countries = read_json(geojson_dir / 'countries.geojson')['features']
-
     states = read_json(geojson_dir / 'states.geojson')['features']
+
+    with (fixes_dir / 'duplicate_l3_ids.txt').open() as infile:
+        duplicate_l3_ids = {l.strip() for l in infile.readlines()}
+
     print(f'{len(states)} states')
 
     adm_iso_map = create_adm_iso_map(countries)
@@ -42,19 +45,10 @@ def process_level_3():
 
         # check duplicate iso codes
         # we need to add a unique id to each
+        if state_iso in duplicate_l3_ids:
+            state_iso = f'{state_iso}.{prop["ne_id"]}'
         if state_iso in data[country_iso]:
-            print(state_iso)
-            # tmp_dir.mkdir(exist_ok=True)
-            # print(
-            #     f'{country_name} {country_iso} {state_iso} seen',
-            #     prop['gns_adm1'],
-            #     seen[state_iso]['gns_adm1'],
-            # )
-            #
-            # write_json(tmp_dir / f'{state_iso}-new.json', prop, indent=2, sort_keys=True)
-            # write_json(tmp_dir / f'{state_iso}-old.json', seen[state_iso], indent=2, sort_keys=True)
-            #
-            # assert prop['gns_adm1'] != seen[state_iso]['gns_adm1']
+            print(f'duplicate state_iso: {state_iso}')
 
         data[country_iso][state_iso] = {'name': state_name}
 
