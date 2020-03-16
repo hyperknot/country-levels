@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 set -e
+cd "${BASH_SOURCE%/*}/.." || exit
+
+cd ..
 
 rm -rf data/tmp data/shp
 mkdir data/tmp data/shp
