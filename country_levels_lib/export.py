@@ -12,10 +12,10 @@ def export_0():
         prop = feature['properties']
         for key in prop:
             prop[key.lower()] = prop.pop(key)
-        features_by_id[prop['ne_id']] = feature
+        ne_id = prop['ne_id']
+        features_by_id[ne_id] = feature
 
     for id0, data in levels.items():
-
         ne_id = data['ne_id']
         feature_data = features_by_id[ne_id]
 
@@ -23,6 +23,6 @@ def export_0():
         geojson_path = export_0_dir / f'{filename}.geojson'
         export_0_dir.mkdir(exist_ok=True)
 
-        write_json(geojson_path, feature_data, sort_keys=True)
+        write_json(geojson_path, feature_data)
 
     print(f'{len(levels)} level_0 geojson exported')
