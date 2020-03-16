@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import shutil
 
-from country_levels_lib.config import export_dir
-from country_levels_lib.export import export_0
+from country_level_id_lib.config import export_dir
+from country_level_id_lib.export import export_0
 
 
 def main():
