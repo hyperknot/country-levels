@@ -1,0 +1,38 @@
+{
+  "id3:ZA-EC": {
+    "name": "Eastern Cape",
+    "ne_id": 1159311157
+  },
+  "id3:ZA-FS": {
+    "name": "Free State",
+    "ne_id": 1159309739
+  },
+  "id3:ZA-GT": {
+    "name": "Gauteng",
+    "ne_id": 1159309741
+  },
+  "id3:ZA-LP": {
+    "name": "Limpopo",
+    "ne_id": 1159309745
+  },
+  "id3:ZA-MP": {
+    "name": "Mpumalanga",
+    "ne_id": 1159309743
+  },
+  "id3:ZA-NC": {
+    "name": "Northern Cape",
+    "ne_id": 1159309731
+  },
+  "id3:ZA-NL": {
+    "name": "KwaZulu-Natal",
+    "ne_id": 1159309747
+  },
+  "id3:ZA-NW": {
+    "name": "North West",
+    "ne_id": 1159309735
+  },
+  "id3:ZA-WC": {
+    "name": "Western Cape",
+    "ne_id": 1159309733
+  }
+}

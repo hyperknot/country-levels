@@ -1,0 +1,42 @@
+{
+  "id3:SB-CE": {
+    "name": "Central",
+    "ne_id": 1159309861
+  },
+  "id3:SB-CH.1159314977": {
+    "name": "Western",
+    "ne_id": 1159314977
+  },
+  "id3:SB-CH.1159314981": {
+    "name": "Choiseul",
+    "ne_id": 1159314981
+  },
+  "id3:SB-CT": {
+    "name": "Capital Territory (Honiara)",
+    "ne_id": 1159316483
+  },
+  "id3:SB-GU": {
+    "name": "Guadalcanal",
+    "ne_id": 1159309859
+  },
+  "id3:SB-IS": {
+    "name": "Isabel",
+    "ne_id": 1159309871
+  },
+  "id3:SB-MK": {
+    "name": "Makira",
+    "ne_id": 1159314973
+  },
+  "id3:SB-ML": {
+    "name": "Malaita",
+    "ne_id": 1159309849
+  },
+  "id3:SB-RB": {
+    "name": "Rennell and Bellona",
+    "ne_id": 1159309829
+  },
+  "id3:SB-TE": {
+    "name": "Temotu",
+    "ne_id": 1159311165
+  }
+}

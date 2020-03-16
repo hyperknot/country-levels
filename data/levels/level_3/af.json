@@ -1,0 +1,138 @@
+{
+  "id3:AF-BAL": {
+    "name": "Balkh",
+    "ne_id": 1159312043
+  },
+  "id3:AF-BAM": {
+    "name": "Bamyan",
+    "ne_id": 1159312039
+  },
+  "id3:AF-BDG": {
+    "name": "Badghis",
+    "ne_id": 1159312035
+  },
+  "id3:AF-BDS": {
+    "name": "Badakhshan",
+    "ne_id": 1159312075
+  },
+  "id3:AF-BGL": {
+    "name": "Baghlan",
+    "ne_id": 1159312089
+  },
+  "id3:AF-FRA": {
+    "name": "Farah",
+    "ne_id": 1159312053
+  },
+  "id3:AF-FYB": {
+    "name": "Faryab",
+    "ne_id": 1159312045
+  },
+  "id3:AF-GHA": {
+    "name": "Ghazni",
+    "ne_id": 1159312069
+  },
+  "id3:AF-GHO": {
+    "name": "Ghor",
+    "ne_id": 1159312049
+  },
+  "id3:AF-HEL": {
+    "name": "Hilmand",
+    "ne_id": 1159312055
+  },
+  "id3:AF-HER": {
+    "name": "Hirat",
+    "ne_id": 1159312037
+  },
+  "id3:AF-JOW": {
+    "name": "Jawzjan",
+    "ne_id": 1159312047
+  },
+  "id3:AF-KAB": {
+    "name": "Kabul",
+    "ne_id": 1159312091
+  },
+  "id3:AF-KAN": {
+    "name": "Kandahar",
+    "ne_id": 1159312065
+  },
+  "id3:AF-KAP": {
+    "name": "Kapisa",
+    "ne_id": 1159312093
+  },
+  "id3:AF-KDZ": {
+    "name": "Kunduz",
+    "ne_id": 1159312083
+  },
+  "id3:AF-KHO": {
+    "name": "Khost",
+    "ne_id": 1159312071
+  },
+  "id3:AF-KNR": {
+    "name": "Kunar",
+    "ne_id": 1159312081
+  },
+  "id3:AF-LAG": {
+    "name": "Laghman",
+    "ne_id": 1159312099
+  },
+  "id3:AF-LOG": {
+    "name": "Logar",
+    "ne_id": 1159312101
+  },
+  "id3:AF-NAN": {
+    "name": "Nangarhar",
+    "ne_id": 1159312085
+  },
+  "id3:AF-NIM": {
+    "name": "Nimroz",
+    "ne_id": 1159312057
+  },
+  "id3:AF-NUR": {
+    "name": "Nuristan",
+    "ne_id": 1159312079
+  },
+  "id3:AF-PAR.1159312097": {
+    "name": "Parwan",
+    "ne_id": 1159312097
+  },
+  "id3:AF-PAR.1159312103": {
+    "name": "Parwan",
+    "ne_id": 1159312103
+  },
+  "id3:AF-PIA": {
+    "name": "Paktika",
+    "ne_id": 1159312073
+  },
+  "id3:AF-PKA": {
+    "name": "Paktya",
+    "ne_id": 1159315265
+  },
+  "id3:AF-SAM": {
+    "name": "Samangan",
+    "ne_id": 1159312105
+  },
+  "id3:AF-SAR": {
+    "name": "Sari Pul",
+    "ne_id": 1159312051
+  },
+  "id3:AF-TAK": {
+    "name": "Takhar",
+    "ne_id": 1159312087
+  },
+  "id3:AF-URU.1159312061": {
+    "name": "Uruzgan",
+    "ne_id": 1159312061
+  },
+  "id3:AF-URU.1159312063": {
+    "name": "Uruzgan",
+    "ne_id": 1159312063
+  },
+  "id3:AF-WAR": {
+    "name": "Wardak",
+    "ne_id": 1159312107
+  },
+  "id3:AF-ZAB": {
+    "name": "Zabul",
+    "ne_id": 1159312067
+  }
+}

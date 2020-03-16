@@ -1,0 +1,50 @@
+{
+  "id3:PA-1": {
+    "name": "Bocas del Toro",
+    "ne_id": 1159311391
+  },
+  "id3:PA-2": {
+    "name": "Coclé",
+    "ne_id": 1159310099
+  },
+  "id3:PA-3": {
+    "name": "Colón",
+    "ne_id": 1159310101
+  },
+  "id3:PA-4": {
+    "name": "Chiriquí",
+    "ne_id": 1159310095
+  },
+  "id3:PA-5": {
+    "name": "Darién",
+    "ne_id": 1159310091
+  },
+  "id3:PA-6": {
+    "name": "Herrera",
+    "ne_id": 1159310103
+  },
+  "id3:PA-7": {
+    "name": "Los Santos",
+    "ne_id": 1159310105
+  },
+  "id3:PA-8": {
+    "name": "Panama",
+    "ne_id": 1159310085
+  },
+  "id3:PA-9": {
+    "name": "Veraguas",
+    "ne_id": 1159310081
+  },
+  "id3:PA-EM": {
+    "name": "Emberá",
+    "ne_id": 1159315095
+  },
+  "id3:PA-KY": {
+    "name": "Kuna Yala",
+    "ne_id": 1159310093
+  },
+  "id3:PA-NB": {
+    "name": "Ngöbe Buglé",
+    "ne_id": 1159311389
+  }
+}

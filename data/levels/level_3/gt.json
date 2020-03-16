@@ -1,0 +1,90 @@
+{
+  "id3:GT-AV": {
+    "name": "Alta Verapaz",
+    "ne_id": 1159311649
+  },
+  "id3:GT-BV": {
+    "name": "Baja Verapaz",
+    "ne_id": 1159311635
+  },
+  "id3:GT-CM": {
+    "name": "Chimaltenango",
+    "ne_id": 1159311651
+  },
+  "id3:GT-CQ": {
+    "name": "Chiquimula",
+    "ne_id": 1159311673
+  },
+  "id3:GT-ES": {
+    "name": "Escuintla",
+    "ne_id": 1159311653
+  },
+  "id3:GT-GU": {
+    "name": "Guatemala",
+    "ne_id": 1159311655
+  },
+  "id3:GT-HU": {
+    "name": "Huehuetenango",
+    "ne_id": 1159311637
+  },
+  "id3:GT-IZ": {
+    "name": "Izabal",
+    "ne_id": 1159311671
+  },
+  "id3:GT-JA": {
+    "name": "Jalapa",
+    "ne_id": 1159311675
+  },
+  "id3:GT-JU": {
+    "name": "Jutiapa",
+    "ne_id": 1159311677
+  },
+  "id3:GT-PE": {
+    "name": "Petén",
+    "ne_id": 1159311639
+  },
+  "id3:GT-PR": {
+    "name": "El Progreso",
+    "ne_id": 1159311667
+  },
+  "id3:GT-QC": {
+    "name": "Quiché",
+    "ne_id": 1159315161
+  },
+  "id3:GT-QZ": {
+    "name": "Quezaltenango",
+    "ne_id": 1159311641
+  },
+  "id3:GT-RE": {
+    "name": "Retalhuleu",
+    "ne_id": 1159311643
+  },
+  "id3:GT-SA": {
+    "name": "Sacatepéquez",
+    "ne_id": 1159311659
+  },
+  "id3:GT-SM": {
+    "name": "San Marcos",
+    "ne_id": 1159311647
+  },
+  "id3:GT-SO": {
+    "name": "Sololá",
+    "ne_id": 1159311661
+  },
+  "id3:GT-SR": {
+    "name": "Santa Rosa",
+    "ne_id": 1159311669
+  },
+  "id3:GT-SU": {
+    "name": "Suchitepéquez",
+    "ne_id": 1159311657
+  },
+  "id3:GT-TO": {
+    "name": "Totonicapán",
+    "ne_id": 1159311665
+  },
+  "id3:GT-ZA": {
+    "name": "Zacapa",
+    "ne_id": 1159311679
+  }
+}

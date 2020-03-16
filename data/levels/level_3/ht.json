@@ -1,0 +1,42 @@
+{
+  "id3:HT-AR": {
+    "name": "L'Artibonite",
+    "ne_id": 1159310317
+  },
+  "id3:HT-CE": {
+    "name": "Centre",
+    "ne_id": 1159310319
+  },
+  "id3:HT-GA": {
+    "name": "Grand'Anse",
+    "ne_id": 1159310297
+  },
+  "id3:HT-ND": {
+    "name": "Nord",
+    "ne_id": 1159310323
+  },
+  "id3:HT-NE": {
+    "name": "Nord-Est",
+    "ne_id": 1159310321
+  },
+  "id3:HT-NI": {
+    "name": "Nippes",
+    "ne_id": 1159310327
+  },
+  "id3:HT-NO": {
+    "name": "Nord-Ouest",
+    "ne_id": 1159310329
+  },
+  "id3:HT-OU": {
+    "name": "Ouest",
+    "ne_id": 1159310299
+  },
+  "id3:HT-SD": {
+    "name": "Sud",
+    "ne_id": 1159310255
+  },
+  "id3:HT-SE": {
+    "name": "Sud-Est",
+    "ne_id": 1159310325
+  }
+}

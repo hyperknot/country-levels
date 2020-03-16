@@ -1,0 +1,162 @@
+{
+  "id3:MD-AN": {
+    "name": "Anenii Noi",
+    "ne_id": 1159312591
+  },
+  "id3:MD-BA": {
+    "name": "Bălţi",
+    "ne_id": 1159312569
+  },
+  "id3:MD-BD": {
+    "name": "Bender",
+    "ne_id": 1159311151
+  },
+  "id3:MD-BR": {
+    "name": "Briceni",
+    "ne_id": 1159312557
+  },
+  "id3:MD-BS": {
+    "name": "Basarabeasca",
+    "ne_id": 1159312593
+  },
+  "id3:MD-CA": {
+    "name": "Cahul",
+    "ne_id": 1159312583
+  },
+  "id3:MD-CAM": {
+    "name": "Camenca",
+    "ne_id": 1159311153
+  },
+  "id3:MD-CL": {
+    "name": "Călărași",
+    "ne_id": 1159312597
+  },
+  "id3:MD-CM": {
+    "name": "Cimişlia",
+    "ne_id": 1159312601
+  },
+  "id3:MD-CR": {
+    "name": "Criuleni",
+    "ne_id": 1159312603
+  },
+  "id3:MD-CS": {
+    "name": "Causeni",
+    "ne_id": 1159312627
+  },
+  "id3:MD-CT": {
+    "name": "Cantemir",
+    "ne_id": 1159312595
+  },
+  "id3:MD-CU": {
+    "name": "Chişinău",
+    "ne_id": 1159312589
+  },
+  "id3:MD-DO": {
+    "name": "Donduseni",
+    "ne_id": 1159312559
+  },
+  "id3:MD-DR": {
+    "name": "Drochia",
+    "ne_id": 1159312571
+  },
+  "id3:MD-ED": {
+    "name": "Edineţ",
+    "ne_id": 1159312561
+  },
+  "id3:MD-FA": {
+    "name": "Făleşti",
+    "ne_id": 1159312573
+  },
+  "id3:MD-FL": {
+    "name": "Floreşti",
+    "ne_id": 1159312605
+  },
+  "id3:MD-GA": {
+    "name": "Comrat",
+    "ne_id": 1159312587
+  },
+  "id3:MD-GL": {
+    "name": "Glodeni",
+    "ne_id": 1159312575
+  },
+  "id3:MD-GRI": {
+    "name": "Grigoriopol",
+    "ne_id": 1159311145
+  },
+  "id3:MD-HI": {
+    "name": "Hîncesti",
+    "ne_id": 1159312607
+  },
+  "id3:MD-IA": {
+    "name": "Ialoveni",
+    "ne_id": 1159312609
+  },
+  "id3:MD-LE": {
+    "name": "Leova",
+    "ne_id": 1159312611
+  },
+  "id3:MD-NI": {
+    "name": "Nisporeni",
+    "ne_id": 1159312613
+  },
+  "id3:MD-OC": {
+    "name": "Ocniţa",
+    "ne_id": 1159312565
+  },
+  "id3:MD-OR": {
+    "name": "Orhei",
+    "ne_id": 1159312615
+  },
+  "id3:MD-RE.1159311149": {
+    "name": "Rezina",
+    "ne_id": 1159311149
+  },
+  "id3:MD-RE.1159312619": {
+    "name": "Rezina",
+    "ne_id": 1159312619
+  },
+  "id3:MD-RI": {
+    "name": "Rîşcani",
+    "ne_id": 1159312567
+  },
+  "id3:MD-SD": {
+    "name": "Şoldăneşti",
+    "ne_id": 1159312621
+  },
+  "id3:MD-SI": {
+    "name": "Sîngerei",
+    "ne_id": 1159312577
+  },
+  "id3:MD-SN.1159311143": {
+    "name": "Stîngă Nistrului",
+    "ne_id": 1159311143
+  },
+  "id3:MD-SN.1159311147": {
+    "name": "Transnistria",
+    "ne_id": 1159311147
+  },
+  "id3:MD-SO": {
+    "name": "Soroca",
+    "ne_id": 1159312631
+  },
+  "id3:MD-ST": {
+    "name": "Străşeni",
+    "ne_id": 1159312623
+  },
+  "id3:MD-SV": {
+    "name": "Ștefan Vodă",
+    "ne_id": 1159312629
+  },
+  "id3:MD-TA": {
+    "name": "Taraclia",
+    "ne_id": 1159312585
+  },
+  "id3:MD-TE": {
+    "name": "Teleneşti",
+    "ne_id": 1159312625
+  },
+  "id3:MD-UN": {
+    "name": "Ungheni",
+    "ne_id": 1159312579
+  }
+}

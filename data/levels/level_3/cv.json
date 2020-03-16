@@ -1,0 +1,90 @@
+{
+  "id3:CV-BR": {
+    "name": "Brava",
+    "ne_id": 1159315639
+  },
+  "id3:CV-BV": {
+    "name": "Boa Vista",
+    "ne_id": 1159316333
+  },
+  "id3:CV-CA": {
+    "name": "Santa Catarina",
+    "ne_id": 1159316313
+  },
+  "id3:CV-CF": {
+    "name": "Santa Catarina do Fogo",
+    "ne_id": 1159316309
+  },
+  "id3:CV-CR": {
+    "name": "Santa Cruz",
+    "ne_id": 1159316317
+  },
+  "id3:CV-MA": {
+    "name": "Maio",
+    "ne_id": 1159316331
+  },
+  "id3:CV-MO": {
+    "name": "Mosteiros",
+    "ne_id": 1159316305
+  },
+  "id3:CV-PA": {
+    "name": "Paul",
+    "ne_id": 1159316349
+  },
+  "id3:CV-PN": {
+    "name": "Porto Novo",
+    "ne_id": 1159316345
+  },
+  "id3:CV-PR": {
+    "name": "Praia",
+    "ne_id": 1159316329
+  },
+  "id3:CV-RB": {
+    "name": "Ribeira Brava",
+    "ne_id": 1159316337
+  },
+  "id3:CV-RG": {
+    "name": "Ribeira Grande",
+    "ne_id": 1159316347
+  },
+  "id3:CV-RS": {
+    "name": "Ribeira Grande de Santiago",
+    "ne_id": 1159316327
+  },
+  "id3:CV-SD": {
+    "name": "São Domingos",
+    "ne_id": 1159316323
+  },
+  "id3:CV-SF": {
+    "name": "São Filipe",
+    "ne_id": 1159316303
+  },
+  "id3:CV-SL": {
+    "name": "Sal",
+    "ne_id": 1159316335
+  },
+  "id3:CV-SM": {
+    "name": "São Miguel",
+    "ne_id": 1159316315
+  },
+  "id3:CV-SO": {
+    "name": "São Lourenço dos Órgãos",
+    "ne_id": 1159316321
+  },
+  "id3:CV-SS": {
+    "name": "São Salvador do Mundo",
+    "ne_id": 1159316319
+  },
+  "id3:CV-SV": {
+    "name": "São Vicente",
+    "ne_id": 1159316341
+  },
+  "id3:CV-TA": {
+    "name": "Tarrafal",
+    "ne_id": 1159316311
+  },
+  "id3:CV-TS": {
+    "name": "Tarrafal de São Nicolau",
+    "ne_id": 1159316339
+  }
+}

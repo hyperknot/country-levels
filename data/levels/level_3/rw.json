@@ -1,0 +1,22 @@
+{
+  "id3:RW-01": {
+    "name": "Kigali City",
+    "ne_id": 1159315001
+  },
+  "id3:RW-02": {
+    "name": "Eastern",
+    "ne_id": 1159314997
+  },
+  "id3:RW-03": {
+    "name": "Northern",
+    "ne_id": 1159314999
+  },
+  "id3:RW-04": {
+    "name": "Western",
+    "ne_id": 1159314995
+  },
+  "id3:RW-05": {
+    "name": "Southern",
+    "ne_id": 1159314991
+  }
+}

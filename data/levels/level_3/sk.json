@@ -1,0 +1,34 @@
+{
+  "id3:SK-BC": {
+    "name": "Banskobystrický",
+    "ne_id": 1159310935
+  },
+  "id3:SK-BL": {
+    "name": "Bratislavský",
+    "ne_id": 1159310933
+  },
+  "id3:SK-KI": {
+    "name": "Košický",
+    "ne_id": 1159310947
+  },
+  "id3:SK-NI": {
+    "name": "Nitriansky",
+    "ne_id": 1159310939
+  },
+  "id3:SK-PV": {
+    "name": "Prešov",
+    "ne_id": 1159310949
+  },
+  "id3:SK-TA": {
+    "name": "Trnavský",
+    "ne_id": 1159310945
+  },
+  "id3:SK-TC": {
+    "name": "Trenciansky",
+    "ne_id": 1159310941
+  },
+  "id3:SK-ZI": {
+    "name": "Žilinský",
+    "ne_id": 1159310937
+  }
+}

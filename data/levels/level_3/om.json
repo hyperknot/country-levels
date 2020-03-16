@@ -1,0 +1,46 @@
+{
+  "id3:OM-BA": {
+    "name": "Al Batnah North",
+    "ne_id": 1159311785
+  },
+  "id3:OM-BJ": {
+    "name": "Al Batnah South",
+    "ne_id": 1159317141
+  },
+  "id3:OM-BU": {
+    "name": "Al Buraymi",
+    "ne_id": 1159315899
+  },
+  "id3:OM-DA": {
+    "name": "Ad Dakhliyah",
+    "ne_id": 1159311777
+  },
+  "id3:OM-MA": {
+    "name": "Muscat",
+    "ne_id": 1159311787
+  },
+  "id3:OM-MU": {
+    "name": "Musandam",
+    "ne_id": 1159311791
+  },
+  "id3:OM-SH": {
+    "name": "Ash Sharqiyah South",
+    "ne_id": 1159311781
+  },
+  "id3:OM-SS": {
+    "name": "Ash Sharqiyah North",
+    "ne_id": 1159317139
+  },
+  "id3:OM-WU": {
+    "name": "Al Wusta",
+    "ne_id": 1159311779
+  },
+  "id3:OM-ZA": {
+    "name": "Al Dhahira",
+    "ne_id": 1159311783
+  },
+  "id3:OM-ZU": {
+    "name": "Dhofar",
+    "ne_id": 1159311631
+  }
+}

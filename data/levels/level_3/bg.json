@@ -1,0 +1,114 @@
+{
+  "id3:BG-01": {
+    "name": "Blagoevgrad",
+    "ne_id": 1159314603
+  },
+  "id3:BG-02": {
+    "name": "Burgas",
+    "ne_id": 1159312445
+  },
+  "id3:BG-03": {
+    "name": "Varna",
+    "ne_id": 1159312459
+  },
+  "id3:BG-04": {
+    "name": "Veliko Tarnovo",
+    "ne_id": 1159312495
+  },
+  "id3:BG-05": {
+    "name": "Vidin",
+    "ne_id": 1159312503
+  },
+  "id3:BG-06": {
+    "name": "Vratsa",
+    "ne_id": 1159312499
+  },
+  "id3:BG-07": {
+    "name": "Gabrovo",
+    "ne_id": 1159312487
+  },
+  "id3:BG-08": {
+    "name": "Dobrich",
+    "ne_id": 1159312457
+  },
+  "id3:BG-09": {
+    "name": "Kardzhali",
+    "ne_id": 1159312479
+  },
+  "id3:BG-10": {
+    "name": "Kyustendil",
+    "ne_id": 1159312501
+  },
+  "id3:BG-11": {
+    "name": "Lovech",
+    "ne_id": 1159312489
+  },
+  "id3:BG-12": {
+    "name": "Montana",
+    "ne_id": 1159312497
+  },
+  "id3:BG-13": {
+    "name": "Pazardzhik",
+    "ne_id": 1159312471
+  },
+  "id3:BG-14": {
+    "name": "Pernik",
+    "ne_id": 1159312485
+  },
+  "id3:BG-15": {
+    "name": "Pleven",
+    "ne_id": 1159312493
+  },
+  "id3:BG-16": {
+    "name": "Plovdiv",
+    "ne_id": 1159312475
+  },
+  "id3:BG-17": {
+    "name": "Razgrad",
+    "ne_id": 1159312449
+  },
+  "id3:BG-18": {
+    "name": "Ruse",
+    "ne_id": 1159312463
+  },
+  "id3:BG-19": {
+    "name": "Silistra",
+    "ne_id": 1159312461
+  },
+  "id3:BG-20": {
+    "name": "Sliven",
+    "ne_id": 1159312465
+  },
+  "id3:BG-21": {
+    "name": "Smolyan",
+    "ne_id": 1159312477
+  },
+  "id3:BG-22": {
+    "name": "Grad Sofiya",
+    "ne_id": 1159312481
+  },
+  "id3:BG-23": {
+    "name": "Sofia",
+    "ne_id": 1159312483
+  },
+  "id3:BG-24": {
+    "name": "Stara Zagora",
+    "ne_id": 1159312469
+  },
+  "id3:BG-25": {
+    "name": "Targovishte",
+    "ne_id": 1159312451
+  },
+  "id3:BG-26": {
+    "name": "Haskovo",
+    "ne_id": 1159312467
+  },
+  "id3:BG-27": {
+    "name": "Shumen",
+    "ne_id": 1159312453
+  },
+  "id3:BG-28": {
+    "name": "Yambol",
+    "ne_id": 1159312447
+  }
+}

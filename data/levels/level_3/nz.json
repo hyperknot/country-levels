@@ -1,0 +1,98 @@
+{
+  "id3:NZ-AUK": {
+    "name": "Auckland",
+    "ne_id": 1159314923
+  },
+  "id3:NZ-BOP": {
+    "name": "Bay of Plenty",
+    "ne_id": 1159314931
+  },
+  "id3:NZ-CAN": {
+    "name": "Canterbury",
+    "ne_id": 1159314911
+  },
+  "id3:NZ-CIT": {
+    "name": "Chatham Islands Territory",
+    "ne_id": 1159315477
+  },
+  "id3:NZ-GIS": {
+    "name": "Gisborne District",
+    "ne_id": 1159314927
+  },
+  "id3:NZ-HKB": {
+    "name": "Hawke's Bay",
+    "ne_id": 1159314929
+  },
+  "id3:NZ-MBH": {
+    "name": "Marlborough District",
+    "ne_id": 1159314909
+  },
+  "id3:NZ-MWT": {
+    "name": "Manawatu-Wanganui",
+    "ne_id": 1159314925
+  },
+  "id3:NZ-NSN": {
+    "name": "Nelson City",
+    "ne_id": 1159314913
+  },
+  "id3:NZ-NTL": {
+    "name": "Northland",
+    "ne_id": 1159314933
+  },
+  "id3:NZ-OTA": {
+    "name": "Otago",
+    "ne_id": 1159314919
+  },
+  "id3:NZ-STL": {
+    "name": "Southland",
+    "ne_id": 1159314877
+  },
+  "id3:NZ-TAS": {
+    "name": "Tasman District",
+    "ne_id": 1159314915
+  },
+  "id3:NZ-TK": {
+    "name": "Tokelau",
+    "ne_id": 1159315503
+  },
+  "id3:NZ-TKI": {
+    "name": "Taranaki",
+    "ne_id": 1159314935
+  },
+  "id3:NZ-WGN": {
+    "name": "Wellington",
+    "ne_id": 1159307723
+  },
+  "id3:NZ-WKO": {
+    "name": "Waikato",
+    "ne_id": 1159307719
+  },
+  "id3:NZ-WTC": {
+    "name": "West Coast",
+    "ne_id": 1159314917
+  },
+  "id3:NZ-X01": {
+    "name": "Kermadec Islands",
+    "ne_id": 1159315483
+  },
+  "id3:NZ-X03": {
+    "name": "Three Kings Islands",
+    "ne_id": 1159317107
+  },
+  "id3:NZ-X04": {
+    "name": "Antipodes Islands",
+    "ne_id": 1159317109
+  },
+  "id3:NZ-X05": {
+    "name": "Campbell Islands",
+    "ne_id": 1159317111
+  },
+  "id3:NZ-X06": {
+    "name": "Auckland Islands",
+    "ne_id": 1159317113
+  },
+  "id3:NZ-X07": {
+    "name": "The Snares",
+    "ne_id": 1159317115
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id3:CU-01": {
+    "name": "Pinar del Río",
+    "ne_id": 1159310345
+  },
+  "id3:CU-03": {
+    "name": "Ciudad de la Habana",
+    "ne_id": 1159310361
+  },
+  "id3:CU-04": {
+    "name": "Matanzas",
+    "ne_id": 1159310347
+  },
+  "id3:CU-05": {
+    "name": "Villa Clara",
+    "ne_id": 1159311759
+  },
+  "id3:CU-06": {
+    "name": "Cienfuegos",
+    "ne_id": 1159310363
+  },
+  "id3:CU-07": {
+    "name": "Sancti Spíritus",
+    "ne_id": 1159310355
+  },
+  "id3:CU-08": {
+    "name": "Ciego de Ávila",
+    "ne_id": 1159310337
+  },
+  "id3:CU-09": {
+    "name": "Camagüey",
+    "ne_id": 1159310333
+  },
+  "id3:CU-10": {
+    "name": "Las Tunas",
+    "ne_id": 1159310357
+  },
+  "id3:CU-11": {
+    "name": "Holguín",
+    "ne_id": 1159310339
+  },
+  "id3:CU-12": {
+    "name": "Granma",
+    "ne_id": 1159310369
+  },
+  "id3:CU-13": {
+    "name": "Santiago de Cuba",
+    "ne_id": 1159310359
+  },
+  "id3:CU-14": {
+    "name": "Guantánamo",
+    "ne_id": 1159310365
+  },
+  "id3:CU-15": {
+    "name": "Artemisa",
+    "ne_id": 1159310353
+  },
+  "id3:CU-16": {
+    "name": "Mayabeque",
+    "ne_id": 1159317123
+  },
+  "id3:CU-99": {
+    "name": "Isla de la Juventud",
+    "ne_id": 1159310343
+  }
+}

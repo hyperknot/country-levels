@@ -1,0 +1,174 @@
+{
+  "id3:HU-BA": {
+    "name": "Baranya",
+    "ne_id": 1159314623
+  },
+  "id3:HU-BC": {
+    "name": "Békéscsaba",
+    "ne_id": 1159316067
+  },
+  "id3:HU-BE": {
+    "name": "Békés",
+    "ne_id": 1159314655
+  },
+  "id3:HU-BK": {
+    "name": "Bács-Kiskun",
+    "ne_id": 1159314637
+  },
+  "id3:HU-BU": {
+    "name": "Budapest",
+    "ne_id": 1159314635
+  },
+  "id3:HU-BZ": {
+    "name": "Borsod-Abaúj-Zemplén",
+    "ne_id": 1159314649
+  },
+  "id3:HU-CS": {
+    "name": "Csongrád",
+    "ne_id": 1159314657
+  },
+  "id3:HU-DE": {
+    "name": "Debrecen",
+    "ne_id": 1159316079
+  },
+  "id3:HU-DU": {
+    "name": "Dunaújváros",
+    "ne_id": 1159316081
+  },
+  "id3:HU-ED": {
+    "name": "Érd",
+    "ne_id": 1159316041
+  },
+  "id3:HU-EG": {
+    "name": "Eger",
+    "ne_id": 1159316069
+  },
+  "id3:HU-FE": {
+    "name": "Fejér",
+    "ne_id": 1159314639
+  },
+  "id3:HU-GS": {
+    "name": "Gyor-Moson-Sopron",
+    "ne_id": 1159314625
+  },
+  "id3:HU-GY": {
+    "name": "Gyôr",
+    "ne_id": 1159316035
+  },
+  "id3:HU-HB": {
+    "name": "Hajdú-Bihar",
+    "ne_id": 1159314659
+  },
+  "id3:HU-HE": {
+    "name": "Heves",
+    "ne_id": 1159314661
+  },
+  "id3:HU-HV": {
+    "name": "Hódmezôvásárhely",
+    "ne_id": 1159316063
+  },
+  "id3:HU-JN": {
+    "name": "Jász-Nagykun-Szolnok",
+    "ne_id": 1159314663
+  },
+  "id3:HU-KE": {
+    "name": "Komárom-Esztergom",
+    "ne_id": 1159314641
+  },
+  "id3:HU-KM": {
+    "name": "Kecskemét",
+    "ne_id": 1159316059
+  },
+  "id3:HU-KV": {
+    "name": "Kaposvár",
+    "ne_id": 1159316051
+  },
+  "id3:HU-MI": {
+    "name": "Miskolc",
+    "ne_id": 1159316075
+  },
+  "id3:HU-NK": {
+    "name": "Nagykanizsa",
+    "ne_id": 1159316049
+  },
+  "id3:HU-NO": {
+    "name": "Nógrád",
+    "ne_id": 1159314647
+  },
+  "id3:HU-NY": {
+    "name": "Nyíregyháza",
+    "ne_id": 1159316077
+  },
+  "id3:HU-PE": {
+    "name": "Pest",
+    "ne_id": 1159314643
+  },
+  "id3:HU-PS": {
+    "name": "Pécs",
+    "ne_id": 1159316053
+  },
+  "id3:HU-SD": {
+    "name": "Szeged",
+    "ne_id": 1159316061
+  },
+  "id3:HU-SF": {
+    "name": "Székesfehérvár",
+    "ne_id": 1159316043
+  },
+  "id3:HU-SH": {
+    "name": "Szombathely",
+    "ne_id": 1159316031
+  },
+  "id3:HU-SK": {
+    "name": "Szolnok",
+    "ne_id": 1159316065
+  },
+  "id3:HU-SN": {
+    "name": "Sopron",
+    "ne_id": 1159316033
+  },
+  "id3:HU-SO": {
+    "name": "Somogy",
+    "ne_id": 1159314627
+  },
+  "id3:HU-SS": {
+    "name": "Szekszárd",
+    "ne_id": 1159316057
+  },
+  "id3:HU-ST": {
+    "name": "Salgótarján",
+    "ne_id": 1159316071
+  },
+  "id3:HU-SZ": {
+    "name": "Szabolcs-Szatmár-Bereg",
+    "ne_id": 1159314653
+  },
+  "id3:HU-TB": {
+    "name": "Tatabánya",
+    "ne_id": 1159316039
+  },
+  "id3:HU-TO": {
+    "name": "Tolna",
+    "ne_id": 1159314645
+  },
+  "id3:HU-VA": {
+    "name": "Vas",
+    "ne_id": 1159314621
+  },
+  "id3:HU-VE": {
+    "name": "Veszprém",
+    "ne_id": 1159314629
+  },
+  "id3:HU-VM": {
+    "name": "Veszprém",
+    "ne_id": 1159316045
+  },
+  "id3:HU-ZA": {
+    "name": "Zala",
+    "ne_id": 1159314631
+  },
+  "id3:HU-ZE": {
+    "name": "Zalaegerszeg",
+    "ne_id": 1159316047
+  }
+}

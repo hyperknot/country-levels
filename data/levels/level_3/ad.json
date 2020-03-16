@@ -1,0 +1,30 @@
+{
+  "id3:AD-02": {
+    "name": "Canillo",
+    "ne_id": 1159315981
+  },
+  "id3:AD-03": {
+    "name": "Encamp",
+    "ne_id": 1159315985
+  },
+  "id3:AD-04": {
+    "name": "La Massana",
+    "ne_id": 1159315977
+  },
+  "id3:AD-05": {
+    "name": "Ordino",
+    "ne_id": 1159315979
+  },
+  "id3:AD-06": {
+    "name": "Sant Julià de Lòria",
+    "ne_id": 1159315989
+  },
+  "id3:AD-07": {
+    "name": "Andorra la Vella",
+    "ne_id": 1159315671
+  },
+  "id3:AD-08": {
+    "name": "Escaldes-Engordany",
+    "ne_id": 1159315987
+  }
+}

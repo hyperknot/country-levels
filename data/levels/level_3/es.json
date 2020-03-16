@@ -1,0 +1,210 @@
+{
+  "id3:ES-A": {
+    "name": "Alicante",
+    "ne_id": 1159317803
+  },
+  "id3:ES-AB": {
+    "name": "Albacete",
+    "ne_id": 1159317811
+  },
+  "id3:ES-AL": {
+    "name": "Almería",
+    "ne_id": 1159317829
+  },
+  "id3:ES-AV": {
+    "name": "Ávila",
+    "ne_id": 1159317771
+  },
+  "id3:ES-B": {
+    "name": "Barcelona",
+    "ne_id": 1159309497
+  },
+  "id3:ES-BA": {
+    "name": "Badajoz",
+    "ne_id": 1159310641
+  },
+  "id3:ES-BI": {
+    "name": "Bizkaia",
+    "ne_id": 1159317785
+  },
+  "id3:ES-BU": {
+    "name": "Burgos",
+    "ne_id": 1159317763
+  },
+  "id3:ES-C": {
+    "name": "La Coruña",
+    "ne_id": 1159310639
+  },
+  "id3:ES-CA": {
+    "name": "Cádiz",
+    "ne_id": 1159317821
+  },
+  "id3:ES-CC": {
+    "name": "Cáceres",
+    "ne_id": 1159317813
+  },
+  "id3:ES-CE": {
+    "name": "Ceuta",
+    "ne_id": 1159310507
+  },
+  "id3:ES-CO": {
+    "name": "Córdoba",
+    "ne_id": 1159308491
+  },
+  "id3:ES-CR": {
+    "name": "Ciudad Real",
+    "ne_id": 1159308493
+  },
+  "id3:ES-CS": {
+    "name": "Castellón",
+    "ne_id": 1159317799
+  },
+  "id3:ES-CU": {
+    "name": "Cuenca",
+    "ne_id": 1159317809
+  },
+  "id3:ES-GC": {
+    "name": "Las Palmas",
+    "ne_id": 1159317831
+  },
+  "id3:ES-GI": {
+    "name": "Gerona",
+    "ne_id": 1159317795
+  },
+  "id3:ES-GR": {
+    "name": "Granada",
+    "ne_id": 1159317827
+  },
+  "id3:ES-GU": {
+    "name": "Guadalajara",
+    "ne_id": 1159317807
+  },
+  "id3:ES-H": {
+    "name": "Huelva",
+    "ne_id": 1159317817
+  },
+  "id3:ES-HU": {
+    "name": "Huesca",
+    "ne_id": 1159317789
+  },
+  "id3:ES-J": {
+    "name": "Jaén",
+    "ne_id": 1159317825
+  },
+  "id3:ES-L": {
+    "name": "Lérida",
+    "ne_id": 1159317793
+  },
+  "id3:ES-LE": {
+    "name": "León",
+    "ne_id": 1159317781
+  },
+  "id3:ES-LO": {
+    "name": "La Rioja",
+    "ne_id": 1159310643
+  },
+  "id3:ES-LU": {
+    "name": "Lugo",
+    "ne_id": 1159317757
+  },
+  "id3:ES-M": {
+    "name": "Madrid",
+    "ne_id": 1159308499
+  },
+  "id3:ES-MA": {
+    "name": "Málaga",
+    "ne_id": 1159317823
+  },
+  "id3:ES-ML": {
+    "name": "Melilla",
+    "ne_id": 1159310505
+  },
+  "id3:ES-MU": {
+    "name": "Murcia",
+    "ne_id": 1159310549
+  },
+  "id3:ES-NA": {
+    "name": "Navarra",
+    "ne_id": 1159315293
+  },
+  "id3:ES-O": {
+    "name": "Asturias",
+    "ne_id": 1159310635
+  },
+  "id3:ES-OR": {
+    "name": "Orense",
+    "ne_id": 1159317761
+  },
+  "id3:ES-P": {
+    "name": "Palencia",
+    "ne_id": 1159317779
+  },
+  "id3:ES-PM": {
+    "name": "Baleares",
+    "ne_id": 1159308465
+  },
+  "id3:ES-PO": {
+    "name": "Pontevedra",
+    "ne_id": 1159317759
+  },
+  "id3:ES-S": {
+    "name": "Cantabria",
+    "ne_id": 1159308497
+  },
+  "id3:ES-SA": {
+    "name": "Salamanca",
+    "ne_id": 1159317773
+  },
+  "id3:ES-SE": {
+    "name": "Sevilla",
+    "ne_id": 1159317815
+  },
+  "id3:ES-SG": {
+    "name": "Segovia",
+    "ne_id": 1159317769
+  },
+  "id3:ES-SO": {
+    "name": "Soria",
+    "ne_id": 1159317767
+  },
+  "id3:ES-SS": {
+    "name": "Gipuzkoa",
+    "ne_id": 1159317787
+  },
+  "id3:ES-T": {
+    "name": "Tarragona",
+    "ne_id": 1159317797
+  },
+  "id3:ES-TE": {
+    "name": "Teruel",
+    "ne_id": 1159317791
+  },
+  "id3:ES-TF": {
+    "name": "Santa Cruz de Tenerife",
+    "ne_id": 1159315577
+  },
+  "id3:ES-TO": {
+    "name": "Toledo",
+    "ne_id": 1159317805
+  },
+  "id3:ES-V": {
+    "name": "Valencia",
+    "ne_id": 1159315295
+  },
+  "id3:ES-VA": {
+    "name": "Valladolid",
+    "ne_id": 1159317777
+  },
+  "id3:ES-VI": {
+    "name": "Álava",
+    "ne_id": 1159310645
+  },
+  "id3:ES-Z": {
+    "name": "Zaragoza",
+    "ne_id": 1159315291
+  },
+  "id3:ES-ZA": {
+    "name": "Zamora",
+    "ne_id": 1159317775
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id3:LS-A": {
+    "name": "Maseru",
+    "ne_id": 1159309709
+  },
+  "id3:LS-B": {
+    "name": "Butha-Buthe",
+    "ne_id": 1159309715
+  },
+  "id3:LS-C": {
+    "name": "Leribe",
+    "ne_id": 1159309717
+  },
+  "id3:LS-D": {
+    "name": "Berea",
+    "ne_id": 1159309707
+  },
+  "id3:LS-E": {
+    "name": "Mafeteng",
+    "ne_id": 1159314937
+  },
+  "id3:LS-F": {
+    "name": "Mohale's Hoek",
+    "ne_id": 1159309711
+  },
+  "id3:LS-G": {
+    "name": "Quthing",
+    "ne_id": 1159309713
+  },
+  "id3:LS-H": {
+    "name": "Qacha's Nek",
+    "ne_id": 1159309723
+  },
+  "id3:LS-J": {
+    "name": "Mokhotlong",
+    "ne_id": 1159309721
+  },
+  "id3:LS-K": {
+    "name": "Thaba-Tseka",
+    "ne_id": 1159309725
+  }
+}

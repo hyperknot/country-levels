@@ -1,0 +1,78 @@
+{
+  "id3:UY-AR": {
+    "name": "Artigas",
+    "ne_id": 1159307729
+  },
+  "id3:UY-CA": {
+    "name": "Canelones",
+    "ne_id": 1159307753
+  },
+  "id3:UY-CL": {
+    "name": "Cerro Largo",
+    "ne_id": 1159307743
+  },
+  "id3:UY-CO": {
+    "name": "Colonia",
+    "ne_id": 1159307725
+  },
+  "id3:UY-DU": {
+    "name": "Durazno",
+    "ne_id": 1159307745
+  },
+  "id3:UY-FD": {
+    "name": "Florida",
+    "ne_id": 1159307755
+  },
+  "id3:UY-FS": {
+    "name": "Flores",
+    "ne_id": 1159307731
+  },
+  "id3:UY-LA": {
+    "name": "Lavalleja",
+    "ne_id": 1159307759
+  },
+  "id3:UY-MA": {
+    "name": "Maldonado",
+    "ne_id": 1159307761
+  },
+  "id3:UY-MO": {
+    "name": "Montevideo",
+    "ne_id": 1159307763
+  },
+  "id3:UY-PA": {
+    "name": "Paysandú",
+    "ne_id": 1159307733
+  },
+  "id3:UY-RN": {
+    "name": "Río Negro",
+    "ne_id": 1159307735
+  },
+  "id3:UY-RO": {
+    "name": "Rocha",
+    "ne_id": 1159307765
+  },
+  "id3:UY-RV": {
+    "name": "Rivera",
+    "ne_id": 1159307747
+  },
+  "id3:UY-SA": {
+    "name": "Salto",
+    "ne_id": 1159307737
+  },
+  "id3:UY-SJ": {
+    "name": "San José",
+    "ne_id": 1159307727
+  },
+  "id3:UY-SO": {
+    "name": "Soriano",
+    "ne_id": 1159307741
+  },
+  "id3:UY-TA": {
+    "name": "Tacuarembó",
+    "ne_id": 1159307749
+  },
+  "id3:UY-TT": {
+    "name": "Treinta y Tres",
+    "ne_id": 1159307751
+  }
+}

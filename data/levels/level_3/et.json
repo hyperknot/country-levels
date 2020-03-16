@@ -1,0 +1,46 @@
+{
+  "id3:ET-AA": {
+    "name": "Addis Ababa",
+    "ne_id": 1159313863
+  },
+  "id3:ET-AF": {
+    "name": "Afar",
+    "ne_id": 1159313851
+  },
+  "id3:ET-AM": {
+    "name": "Amhara",
+    "ne_id": 1159313847
+  },
+  "id3:ET-BE": {
+    "name": "Benshangul-Gumaz",
+    "ne_id": 1159313861
+  },
+  "id3:ET-DD": {
+    "name": "Dire Dawa",
+    "ne_id": 1159313867
+  },
+  "id3:ET-GA": {
+    "name": "Gambela Peoples",
+    "ne_id": 1159313855
+  },
+  "id3:ET-HA": {
+    "name": "Harari People",
+    "ne_id": 1159313869
+  },
+  "id3:ET-OR": {
+    "name": "Oromiya",
+    "ne_id": 1159313857
+  },
+  "id3:ET-SN": {
+    "name": "Southern Nations, Nationalities and Peoples",
+    "ne_id": 1159313853
+  },
+  "id3:ET-SO": {
+    "name": "Somali",
+    "ne_id": 1159313865
+  },
+  "id3:ET-TI": {
+    "name": "Tigray",
+    "ne_id": 1159313849
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id3:GE-AB": {
+    "name": "Abkhazia",
+    "ne_id": 1159314601
+  },
+  "id3:GE-AJ": {
+    "name": "Ajaria",
+    "ne_id": 1159314341
+  },
+  "id3:GE-GU": {
+    "name": "Guria",
+    "ne_id": 1159314581
+  },
+  "id3:GE-IM": {
+    "name": "Imereti",
+    "ne_id": 1159314585
+  },
+  "id3:GE-KA": {
+    "name": "Kakheti",
+    "ne_id": 1159314587
+  },
+  "id3:GE-KK": {
+    "name": "Kvemo Kartli",
+    "ne_id": 1159314595
+  },
+  "id3:GE-MM": {
+    "name": "Mtskheta-Mtianeti",
+    "ne_id": 1159314589
+  },
+  "id3:GE-RL": {
+    "name": "Racha-Lechkhumi-Kvemo Svaneti",
+    "ne_id": 1159314591
+  },
+  "id3:GE-SJ": {
+    "name": "Samtskhe-Javakheti",
+    "ne_id": 1159314599
+  },
+  "id3:GE-SK": {
+    "name": "Shida Kartli",
+    "ne_id": 1159314577
+  },
+  "id3:GE-SZ": {
+    "name": "Samegrelo-Zemo Svaneti",
+    "ne_id": 1159314583
+  },
+  "id3:GE-TB": {
+    "name": "Tbilisi",
+    "ne_id": 1159314593
+  }
+}

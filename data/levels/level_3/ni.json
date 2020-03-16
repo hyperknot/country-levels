@@ -1,0 +1,70 @@
+{
+  "id3:NI-AN": {
+    "name": "Atlántico Norte",
+    "ne_id": 1159309037
+  },
+  "id3:NI-AS": {
+    "name": "Atlántico Sur",
+    "ne_id": 1159308989
+  },
+  "id3:NI-BO": {
+    "name": "Boaco",
+    "ne_id": 1159309087
+  },
+  "id3:NI-CA": {
+    "name": "Carazo",
+    "ne_id": 1159309063
+  },
+  "id3:NI-CI": {
+    "name": "Chinandega",
+    "ne_id": 1159309077
+  },
+  "id3:NI-CO": {
+    "name": "Chontales",
+    "ne_id": 1159309091
+  },
+  "id3:NI-ES": {
+    "name": "Estelí",
+    "ne_id": 1159309079
+  },
+  "id3:NI-GR": {
+    "name": "Granada",
+    "ne_id": 1159309065
+  },
+  "id3:NI-JI": {
+    "name": "Jinotega",
+    "ne_id": 1159309067
+  },
+  "id3:NI-LE": {
+    "name": "León",
+    "ne_id": 1159309069
+  },
+  "id3:NI-MD": {
+    "name": "Madriz",
+    "ne_id": 1159309081
+  },
+  "id3:NI-MN": {
+    "name": "Managua",
+    "ne_id": 1159309073
+  },
+  "id3:NI-MS": {
+    "name": "Masaya",
+    "ne_id": 1159309075
+  },
+  "id3:NI-MT": {
+    "name": "Matagalpa",
+    "ne_id": 1159309083
+  },
+  "id3:NI-NS": {
+    "name": "Nueva Segovia",
+    "ne_id": 1159309085
+  },
+  "id3:NI-RI": {
+    "name": "Rivas",
+    "ne_id": 1159308137
+  },
+  "id3:NI-SJ": {
+    "name": "Rio San Juan",
+    "ne_id": 1159315817
+  }
+}

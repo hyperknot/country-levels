@@ -1,0 +1,106 @@
+{
+  "id3:SC-01": {
+    "name": "Anse aux Pins",
+    "ne_id": 1159316603
+  },
+  "id3:SC-02": {
+    "name": "Anse Boileau",
+    "ne_id": 1159316605
+  },
+  "id3:SC-03": {
+    "name": "Anse Etoile",
+    "ne_id": 1159316607
+  },
+  "id3:SC-04": {
+    "name": "Au Cap",
+    "ne_id": 1159316609
+  },
+  "id3:SC-05": {
+    "name": "Anse Royale",
+    "ne_id": 1159316611
+  },
+  "id3:SC-06": {
+    "name": "Baie Lazare",
+    "ne_id": 1159316615
+  },
+  "id3:SC-07": {
+    "name": "Baie Sainte Anne",
+    "ne_id": 1159316617
+  },
+  "id3:SC-08": {
+    "name": "Beau Vallon",
+    "ne_id": 1159316619
+  },
+  "id3:SC-09": {
+    "name": "Bel Air",
+    "ne_id": 1159316621
+  },
+  "id3:SC-10": {
+    "name": "Bel Ombre",
+    "ne_id": 1159316623
+  },
+  "id3:SC-11": {
+    "name": "Cascade",
+    "ne_id": 1159316625
+  },
+  "id3:SC-12": {
+    "name": "Glacis",
+    "ne_id": 1159316627
+  },
+  "id3:SC-13": {
+    "name": "Grand'Anse",
+    "ne_id": 1159316629
+  },
+  "id3:SC-14": {
+    "name": "Grand'Anse Praslin",
+    "ne_id": 1159316633
+  },
+  "id3:SC-15": {
+    "name": "La Digue and Inner Islands",
+    "ne_id": 1159316635
+  },
+  "id3:SC-16": {
+    "name": "English River",
+    "ne_id": 1159316637
+  },
+  "id3:SC-17": {
+    "name": "Mont Buxton",
+    "ne_id": 1159316639
+  },
+  "id3:SC-18": {
+    "name": "Mont Fleuri",
+    "ne_id": 1159316641
+  },
+  "id3:SC-19": {
+    "name": "Plaisance",
+    "ne_id": 1159316643
+  },
+  "id3:SC-20": {
+    "name": "Pointe La Rue",
+    "ne_id": 1159316645
+  },
+  "id3:SC-21": {
+    "name": "Port Glaud",
+    "ne_id": 1159316647
+  },
+  "id3:SC-22": {
+    "name": "Saint Louis",
+    "ne_id": 1159316651
+  },
+  "id3:SC-23": {
+    "name": "Takamaka",
+    "ne_id": 1159316653
+  },
+  "id3:SC-24": {
+    "name": "Les Mamelles",
+    "ne_id": 1159316655
+  },
+  "id3:SC-25": {
+    "name": "Roche Caïman",
+    "ne_id": 1159316657
+  },
+  "id3:SC-X02": {
+    "name": "Outer Islands",
+    "ne_id": 1159315499
+  }
+}

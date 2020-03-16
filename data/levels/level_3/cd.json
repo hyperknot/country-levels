@@ -1,0 +1,46 @@
+{
+  "id3:CD-BC": {
+    "name": "Bas-Congo",
+    "ne_id": 1159311245
+  },
+  "id3:CD-BN": {
+    "name": "Bandundu",
+    "ne_id": 1159311349
+  },
+  "id3:CD-EQ": {
+    "name": "Équateur",
+    "ne_id": 1159310055
+  },
+  "id3:CD-KA": {
+    "name": "Katanga",
+    "ne_id": 1159311345
+  },
+  "id3:CD-KE": {
+    "name": "Kasaï-Oriental",
+    "ne_id": 1159311343
+  },
+  "id3:CD-KN": {
+    "name": "Kinshasa City",
+    "ne_id": 1159311335
+  },
+  "id3:CD-KW": {
+    "name": "Kasaï-Occidental",
+    "ne_id": 1159311351
+  },
+  "id3:CD-MA": {
+    "name": "Maniema",
+    "ne_id": 1159311341
+  },
+  "id3:CD-NK": {
+    "name": "Nord-Kivu",
+    "ne_id": 1159311347
+  },
+  "id3:CD-OR": {
+    "name": "Orientale",
+    "ne_id": 1159310057
+  },
+  "id3:CD-SK": {
+    "name": "Sud-Kivu",
+    "ne_id": 1159311337
+  }
+}

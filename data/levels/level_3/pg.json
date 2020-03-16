@@ -1,0 +1,82 @@
+{
+  "id3:PG-CPK": {
+    "name": "Chimbu",
+    "ne_id": 1159309909
+  },
+  "id3:PG-CPM": {
+    "name": "Central",
+    "ne_id": 1159309921
+  },
+  "id3:PG-EBR": {
+    "name": "East New Britain",
+    "ne_id": 1159309891
+  },
+  "id3:PG-EHG": {
+    "name": "Eastern Highlands",
+    "ne_id": 1159309911
+  },
+  "id3:PG-EPW": {
+    "name": "Enga",
+    "ne_id": 1159309905
+  },
+  "id3:PG-ESW": {
+    "name": "East Sepik",
+    "ne_id": 1159309893
+  },
+  "id3:PG-GPK": {
+    "name": "Gulf",
+    "ne_id": 1159309913
+  },
+  "id3:PG-MBA": {
+    "name": "Milne Bay",
+    "ne_id": 1159309831
+  },
+  "id3:PG-MPL": {
+    "name": "Morobe",
+    "ne_id": 1159309887
+  },
+  "id3:PG-MPM": {
+    "name": "Madang",
+    "ne_id": 1159309693
+  },
+  "id3:PG-MRL": {
+    "name": "Manus",
+    "ne_id": 1159309925
+  },
+  "id3:PG-NCD": {
+    "name": "National Capital District",
+    "ne_id": 1159309923
+  },
+  "id3:PG-NIK": {
+    "name": "New Ireland",
+    "ne_id": 1159308863
+  },
+  "id3:PG-NPP": {
+    "name": "Northern",
+    "ne_id": 1159308859
+  },
+  "id3:PG-NSB": {
+    "name": "North Solomons",
+    "ne_id": 1159309695
+  },
+  "id3:PG-SAN": {
+    "name": "Sandaun",
+    "ne_id": 1159309907
+  },
+  "id3:PG-SHM": {
+    "name": "Southern Highlands",
+    "ne_id": 1159309915
+  },
+  "id3:PG-WBK": {
+    "name": "West New Britain",
+    "ne_id": 1159308781
+  },
+  "id3:PG-WHM": {
+    "name": "Western Highlands",
+    "ne_id": 1159309919
+  },
+  "id3:PG-WPD": {
+    "name": "Western",
+    "ne_id": 1159309867
+  }
+}

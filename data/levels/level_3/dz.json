@@ -1,0 +1,194 @@
+{
+  "id3:DZ-01": {
+    "name": "Adrar",
+    "ne_id": 1159311997
+  },
+  "id3:DZ-02": {
+    "name": "Chlef",
+    "ne_id": 1159311937
+  },
+  "id3:DZ-03": {
+    "name": "Laghouat",
+    "ne_id": 1159311921
+  },
+  "id3:DZ-04": {
+    "name": "Oum el Bouaghi",
+    "ne_id": 1159311991
+  },
+  "id3:DZ-05": {
+    "name": "Batna",
+    "ne_id": 1159311979
+  },
+  "id3:DZ-06": {
+    "name": "Béjaïa",
+    "ne_id": 1159311961
+  },
+  "id3:DZ-07": {
+    "name": "Biskra",
+    "ne_id": 1159311967
+  },
+  "id3:DZ-08": {
+    "name": "Béchar",
+    "ne_id": 1159312009
+  },
+  "id3:DZ-09": {
+    "name": "Blida",
+    "ne_id": 1159311963
+  },
+  "id3:DZ-10": {
+    "name": "Bouira",
+    "ne_id": 1159311965
+  },
+  "id3:DZ-11": {
+    "name": "Tamanghasset",
+    "ne_id": 1159311945
+  },
+  "id3:DZ-12": {
+    "name": "Tébessa",
+    "ne_id": 1159311995
+  },
+  "id3:DZ-13": {
+    "name": "Tlemcen",
+    "ne_id": 1159312007
+  },
+  "id3:DZ-14": {
+    "name": "Tiaret",
+    "ne_id": 1159311955
+  },
+  "id3:DZ-15": {
+    "name": "Tizi Ouzou",
+    "ne_id": 1159311929
+  },
+  "id3:DZ-16": {
+    "name": "Alger",
+    "ne_id": 1159311925
+  },
+  "id3:DZ-17": {
+    "name": "Djelfa",
+    "ne_id": 1159311971
+  },
+  "id3:DZ-18": {
+    "name": "Jijel",
+    "ne_id": 1159312019
+  },
+  "id3:DZ-19": {
+    "name": "Sétif",
+    "ne_id": 1159311977
+  },
+  "id3:DZ-20": {
+    "name": "Saïda",
+    "ne_id": 1159311953
+  },
+  "id3:DZ-21": {
+    "name": "Skikda",
+    "ne_id": 1159312021
+  },
+  "id3:DZ-22": {
+    "name": "Sidi Bel Abbès",
+    "ne_id": 1159312003
+  },
+  "id3:DZ-23": {
+    "name": "Annaba",
+    "ne_id": 1159312015
+  },
+  "id3:DZ-24": {
+    "name": "Guelma",
+    "ne_id": 1159311983
+  },
+  "id3:DZ-25": {
+    "name": "Constantine",
+    "ne_id": 1159311981
+  },
+  "id3:DZ-26": {
+    "name": "Médéa",
+    "ne_id": 1159311973
+  },
+  "id3:DZ-27": {
+    "name": "Mostaganem",
+    "ne_id": 1159311941
+  },
+  "id3:DZ-28": {
+    "name": "M'Sila",
+    "ne_id": 1159311975
+  },
+  "id3:DZ-29": {
+    "name": "Mascara",
+    "ne_id": 1159311939
+  },
+  "id3:DZ-30": {
+    "name": "Ouargla",
+    "ne_id": 1159311923
+  },
+  "id3:DZ-31": {
+    "name": "Oran",
+    "ne_id": 1159312001
+  },
+  "id3:DZ-32": {
+    "name": "El Bayadh",
+    "ne_id": 1159311947
+  },
+  "id3:DZ-33": {
+    "name": "Illizi",
+    "ne_id": 1159311943
+  },
+  "id3:DZ-34": {
+    "name": "Bordj Bou Arréridj",
+    "ne_id": 1159311959
+  },
+  "id3:DZ-35": {
+    "name": "Boumerdès",
+    "ne_id": 1159311927
+  },
+  "id3:DZ-36": {
+    "name": "El Tarf",
+    "ne_id": 1159312017
+  },
+  "id3:DZ-37": {
+    "name": "Tindouf",
+    "ne_id": 1159312013
+  },
+  "id3:DZ-38": {
+    "name": "Tissemsilt",
+    "ne_id": 1159311957
+  },
+  "id3:DZ-39": {
+    "name": "El Oued",
+    "ne_id": 1159311917
+  },
+  "id3:DZ-40": {
+    "name": "Khenchela",
+    "ne_id": 1159311985
+  },
+  "id3:DZ-41": {
+    "name": "Souk Ahras",
+    "ne_id": 1159311993
+  },
+  "id3:DZ-42": {
+    "name": "Tipaza",
+    "ne_id": 1159311931
+  },
+  "id3:DZ-43": {
+    "name": "Mila",
+    "ne_id": 1159311989
+  },
+  "id3:DZ-44": {
+    "name": "Aïn Defla",
+    "ne_id": 1159311935
+  },
+  "id3:DZ-45": {
+    "name": "Naâma",
+    "ne_id": 1159312011
+  },
+  "id3:DZ-46": {
+    "name": "Aïn Témouchent",
+    "ne_id": 1159311999
+  },
+  "id3:DZ-47": {
+    "name": "Ghardaïa",
+    "ne_id": 1159311919
+  },
+  "id3:DZ-48": {
+    "name": "Relizane",
+    "ne_id": 1159311949
+  }
+}

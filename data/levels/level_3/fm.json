@@ -1,0 +1,18 @@
+{
+  "id3:FM-KSA": {
+    "name": "Kosrae",
+    "ne_id": 1159316115
+  },
+  "id3:FM-PNI": {
+    "name": "Pohnpei",
+    "ne_id": 1159315521
+  },
+  "id3:FM-TRK": {
+    "name": "Chuuk",
+    "ne_id": 1159316111
+  },
+  "id3:FM-YAP": {
+    "name": "Yap",
+    "ne_id": 1159316113
+  }
+}

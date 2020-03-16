@@ -1,0 +1,110 @@
+{
+  "id3:MW-BA": {
+    "name": "Balaka",
+    "ne_id": 1159311225
+  },
+  "id3:MW-BL": {
+    "name": "Blantyre",
+    "ne_id": 1159311237
+  },
+  "id3:MW-CK": {
+    "name": "Chikwawa",
+    "ne_id": 1159311227
+  },
+  "id3:MW-CR": {
+    "name": "Chiradzulu",
+    "ne_id": 1159311229
+  },
+  "id3:MW-CT.1159309857": {
+    "name": "Chitipa",
+    "ne_id": 1159309857
+  },
+  "id3:MW-CT.1159311233": {
+    "name": "Chitipa",
+    "ne_id": 1159311233
+  },
+  "id3:MW-DE": {
+    "name": "Dedza",
+    "ne_id": 1159311207
+  },
+  "id3:MW-DO": {
+    "name": "Dowa",
+    "ne_id": 1159311209
+  },
+  "id3:MW-KS": {
+    "name": "Kasungu",
+    "ne_id": 1159311193
+  },
+  "id3:MW-LI": {
+    "name": "Lilongwe",
+    "ne_id": 1159311211
+  },
+  "id3:MW-MC": {
+    "name": "Mchinji",
+    "ne_id": 1159311217
+  },
+  "id3:MW-MG": {
+    "name": "Mangochi",
+    "ne_id": 1159311215
+  },
+  "id3:MW-MH": {
+    "name": "Machinga",
+    "ne_id": 1159311205
+  },
+  "id3:MW-MU": {
+    "name": "Mulanje",
+    "ne_id": 1159311241
+  },
+  "id3:MW-MW": {
+    "name": "Mwanza",
+    "ne_id": 1159311239
+  },
+  "id3:MW-MZ": {
+    "name": "Mzimba",
+    "ne_id": 1159311197
+  },
+  "id3:MW-NB": {
+    "name": "Nkhata Bay",
+    "ne_id": 1159311199
+  },
+  "id3:MW-NE": {
+    "name": "Neno",
+    "ne_id": 1159317169
+  },
+  "id3:MW-NI": {
+    "name": "Ntchisi",
+    "ne_id": 1159311221
+  },
+  "id3:MW-NK": {
+    "name": "Nkhotakota",
+    "ne_id": 1159311201
+  },
+  "id3:MW-NS": {
+    "name": "Nsanje",
+    "ne_id": 1159311191
+  },
+  "id3:MW-NU": {
+    "name": "Ntcheu",
+    "ne_id": 1159311219
+  },
+  "id3:MW-PH": {
+    "name": "Phalombe",
+    "ne_id": 1159311243
+  },
+  "id3:MW-RU": {
+    "name": "Rumphi",
+    "ne_id": 1159311203
+  },
+  "id3:MW-SA": {
+    "name": "Salima",
+    "ne_id": 1159311223
+  },
+  "id3:MW-TH": {
+    "name": "Thyolo",
+    "ne_id": 1159311189
+  },
+  "id3:MW-ZO": {
+    "name": "Zomba",
+    "ne_id": 1159311235
+  }
+}

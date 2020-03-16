@@ -1,0 +1,58 @@
+{
+  "id3:MM-01": {
+    "name": "Sagaing",
+    "ne_id": 1159315219
+  },
+  "id3:MM-02": {
+    "name": "Bago",
+    "ne_id": 1159314045
+  },
+  "id3:MM-03": {
+    "name": "Magway",
+    "ne_id": 1159314051
+  },
+  "id3:MM-04": {
+    "name": "Mandalay",
+    "ne_id": 1159314043
+  },
+  "id3:MM-05": {
+    "name": "Tanintharyi",
+    "ne_id": 1159313765
+  },
+  "id3:MM-06": {
+    "name": "Yangon",
+    "ne_id": 1159314047
+  },
+  "id3:MM-07": {
+    "name": "Ayeyarwady",
+    "ne_id": 1159315793
+  },
+  "id3:MM-11": {
+    "name": "Kachin",
+    "ne_id": 1159315217
+  },
+  "id3:MM-12": {
+    "name": "Kayah",
+    "ne_id": 1159311841
+  },
+  "id3:MM-13": {
+    "name": "Kayin",
+    "ne_id": 1159314041
+  },
+  "id3:MM-14": {
+    "name": "Chin",
+    "ne_id": 1159314049
+  },
+  "id3:MM-15": {
+    "name": "Mon",
+    "ne_id": 1159313965
+  },
+  "id3:MM-16": {
+    "name": "Rakhine",
+    "ne_id": 1159313975
+  },
+  "id3:MM-17": {
+    "name": "Shan",
+    "ne_id": 1159314053
+  }
+}

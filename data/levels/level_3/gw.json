@@ -1,0 +1,38 @@
+{
+  "id3:GW-BA": {
+    "name": "Bafatá",
+    "ne_id": 1159309021
+  },
+  "id3:GW-BL": {
+    "name": "Bolama",
+    "ne_id": 1159308987
+  },
+  "id3:GW-BM": {
+    "name": "Biombo",
+    "ne_id": 1159317147
+  },
+  "id3:GW-BS": {
+    "name": "Bissau",
+    "ne_id": 1159310193
+  },
+  "id3:GW-CA": {
+    "name": "Cacheu",
+    "ne_id": 1159309013
+  },
+  "id3:GW-GA": {
+    "name": "Gabú",
+    "ne_id": 1159309023
+  },
+  "id3:GW-OI": {
+    "name": "Oio",
+    "ne_id": 1159309015
+  },
+  "id3:GW-QU": {
+    "name": "Quinara",
+    "ne_id": 1159309019
+  },
+  "id3:GW-TO": {
+    "name": "Tombali",
+    "ne_id": 1159309025
+  }
+}

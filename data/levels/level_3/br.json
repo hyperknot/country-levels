@@ -1,0 +1,110 @@
+{
+  "id3:BR-AC": {
+    "name": "Acre",
+    "ne_id": 1159310053
+  },
+  "id3:BR-AL": {
+    "name": "Alagoas",
+    "ne_id": 1159307923
+  },
+  "id3:BR-AM": {
+    "name": "Amazonas",
+    "ne_id": 1159307981
+  },
+  "id3:BR-AP": {
+    "name": "Amapá",
+    "ne_id": 1159308867
+  },
+  "id3:BR-BA": {
+    "name": "Bahia",
+    "ne_id": 1159307841
+  },
+  "id3:BR-CE": {
+    "name": "Ceará",
+    "ne_id": 1159307917
+  },
+  "id3:BR-DF": {
+    "name": "Distrito Federal",
+    "ne_id": 1159307927
+  },
+  "id3:BR-ES": {
+    "name": "Espírito Santo",
+    "ne_id": 1159307929
+  },
+  "id3:BR-GO": {
+    "name": "Goiás",
+    "ne_id": 1159309897
+  },
+  "id3:BR-MA": {
+    "name": "Maranhão",
+    "ne_id": 1159307935
+  },
+  "id3:BR-MG": {
+    "name": "Minas Gerais",
+    "ne_id": 1159307907
+  },
+  "id3:BR-MS": {
+    "name": "Mato Grosso do Sul",
+    "ne_id": 1159307905
+  },
+  "id3:BR-MT": {
+    "name": "Mato Grosso",
+    "ne_id": 1159307909
+  },
+  "id3:BR-PA": {
+    "name": "Pará",
+    "ne_id": 1159307941
+  },
+  "id3:BR-PB": {
+    "name": "Paraíba",
+    "ne_id": 1159307931
+  },
+  "id3:BR-PE": {
+    "name": "Pernambuco",
+    "ne_id": 1159309901
+  },
+  "id3:BR-PI": {
+    "name": "Piauí",
+    "ne_id": 1159307921
+  },
+  "id3:BR-PR": {
+    "name": "Paraná",
+    "ne_id": 1159307913
+  },
+  "id3:BR-RJ": {
+    "name": "Rio de Janeiro",
+    "ne_id": 1159307777
+  },
+  "id3:BR-RN": {
+    "name": "Rio Grande do Norte",
+    "ne_id": 1159307975
+  },
+  "id3:BR-RO": {
+    "name": "Rondônia",
+    "ne_id": 1159307983
+  },
+  "id3:BR-RR": {
+    "name": "Roraima",
+    "ne_id": 1159308883
+  },
+  "id3:BR-RS": {
+    "name": "Rio Grande do Sul",
+    "ne_id": 1159307911
+  },
+  "id3:BR-SC": {
+    "name": "Santa Catarina",
+    "ne_id": 1159307915
+  },
+  "id3:BR-SE": {
+    "name": "Sergipe",
+    "ne_id": 1159307933
+  },
+  "id3:BR-SP": {
+    "name": "São Paulo",
+    "ne_id": 1159309727
+  },
+  "id3:BR-TO": {
+    "name": "Tocantins",
+    "ne_id": 1159307925
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id3:TW-CHA": {
+    "name": "Changhua",
+    "ne_id": 1159310411
+  },
+  "id3:TW-CYI": {
+    "name": "Chiayi City",
+    "ne_id": 1159310413
+  },
+  "id3:TW-CYQ": {
+    "name": "Chiayi",
+    "ne_id": 1159308289
+  },
+  "id3:TW-HSQ": {
+    "name": "Hsinchu",
+    "ne_id": 1159310395
+  },
+  "id3:TW-HSZ": {
+    "name": "Hsinchu City",
+    "ne_id": 1159310393
+  },
+  "id3:TW-HUA": {
+    "name": "Hualien",
+    "ne_id": 1159310415
+  },
+  "id3:TW-ILA": {
+    "name": "Yilan",
+    "ne_id": 1159310397
+  },
+  "id3:TW-KEE": {
+    "name": "Keelung City",
+    "ne_id": 1159310399
+  },
+  "id3:TW-KHH": {
+    "name": "Kaohsiung City",
+    "ne_id": 1159310389
+  },
+  "id3:TW-KIN": {
+    "name": "Kinmen",
+    "ne_id": 1159315205
+  },
+  "id3:TW-MIA": {
+    "name": "Miaoli",
+    "ne_id": 1159310401
+  },
+  "id3:TW-NAN": {
+    "name": "Nantou",
+    "ne_id": 1159310417
+  },
+  "id3:TW-PEN": {
+    "name": "Penghu",
+    "ne_id": 1159308287
+  },
+  "id3:TW-PIF": {
+    "name": "Pingtung",
+    "ne_id": 1159310391
+  },
+  "id3:TW-TAO": {
+    "name": "Taoyuan",
+    "ne_id": 1159310409
+  },
+  "id3:TW-TNN": {
+    "name": "Tainan City",
+    "ne_id": 1159308285
+  },
+  "id3:TW-TPE": {
+    "name": "Taipei City",
+    "ne_id": 1159310405
+  },
+  "id3:TW-TPQ": {
+    "name": "New Taipei City",
+    "ne_id": 1159310407
+  },
+  "id3:TW-TTT": {
+    "name": "Taitung",
+    "ne_id": 1159310351
+  },
+  "id3:TW-TXG": {
+    "name": "Taichung City",
+    "ne_id": 1159310419
+  },
+  "id3:TW-YUN": {
+    "name": "Yunlin",
+    "ne_id": 1159310423
+  }
+}
