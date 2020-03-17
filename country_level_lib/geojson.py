@@ -9,7 +9,7 @@ from country_level_lib.utils import read_json, write_json
 
 
 def export_id0():
-    levels = read_json(id_dir / 'level_012.json')
+    levels = read_json(id_dir / 'id012.json')
     countries = read_json(geojson_dir / 'countries.geojson')['features']
 
     features_by_id = {}
@@ -35,7 +35,7 @@ def export_id0():
 
 
 def export_id1():
-    levels = read_json(id_dir / 'level_012.json')
+    levels = read_json(id_dir / 'id012.json')
     units = read_json(geojson_dir / 'units.geojson')['features']
 
     features_by_id = {}
@@ -69,7 +69,7 @@ def export_id1():
 
 
 def export_id2():
-    levels = read_json(id_dir / 'level_012.json')
+    levels = read_json(id_dir / 'id012.json')
     subunits = read_json(geojson_dir / 'subunits.geojson')['features']
 
     features_by_id = {}
