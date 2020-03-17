@@ -62,7 +62,9 @@ def process_id012():
 
         id0 = f'id0:{country_iso}'
 
-        levels.setdefault(id0, {'name': country_name, 'ne_id': ne_id, 'sub1': {}})
+        levels.setdefault(
+            id0, {'name': country_name, 'ne_id': ne_id, 'pop_est': prop['pop_est'], 'sub1': {}}
+        )
 
     for feature in units:
         prop = feature['properties']
@@ -83,7 +85,9 @@ def process_id012():
         id1 = f'id1:{unit_iso}'
 
         sub1 = levels[id0]['sub1']
-        sub1.setdefault(id1, {'name': unit_name, 'ne_id': ne_id, 'sub2': {}})
+        sub1.setdefault(
+            id1, {'name': unit_name, 'ne_id': ne_id, 'pop_est': prop['pop_est'], 'sub2': {}}
+        )
 
     for feature in subunits:
         prop = feature['properties']
@@ -109,7 +113,7 @@ def process_id012():
 
         sub1 = levels[id0]['sub1']
         sub2 = sub1[id1]['sub2']
-        sub2.setdefault(id2, {'name': subunit_name, 'ne_id': ne_id})
+        sub2.setdefault(id2, {'name': subunit_name, 'ne_id': ne_id, 'pop_est': prop['pop_est']})
 
     # clean up sub2
     for sub_country, country_data in levels.items():
