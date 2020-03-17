@@ -9,9 +9,9 @@ def main():
     shutil.rmtree(export_dir, ignore_errors=True)
     export_dir.mkdir(parents=True)
 
-    # export_id0()
-    # export_id1()
-    # export_id2()
+    export_id0()
+    export_id1()
+    export_id2()
     export_id3()
 
 
