@@ -1,0 +1,54 @@
+{
+  "id3:NA-CA": {
+    "name": "Caprivi",
+    "ne_id": 1159314967
+  },
+  "id3:NA-ER": {
+    "name": "Erongo",
+    "ne_id": 1159314949
+  },
+  "id3:NA-HA": {
+    "name": "Hardap",
+    "ne_id": 1159314943
+  },
+  "id3:NA-KA": {
+    "name": "Karas",
+    "ne_id": 1159314941
+  },
+  "id3:NA-KH": {
+    "name": "Khomas",
+    "ne_id": 1159314945
+  },
+  "id3:NA-KU": {
+    "name": "Kunene",
+    "ne_id": 1159314947
+  },
+  "id3:NA-OD": {
+    "name": "Otjozondjupa",
+    "ne_id": 1159314951
+  },
+  "id3:NA-OH": {
+    "name": "Omaheke",
+    "ne_id": 1159314961
+  },
+  "id3:NA-OK": {
+    "name": "Kavango",
+    "ne_id": 1159314963
+  },
+  "id3:NA-ON": {
+    "name": "Oshana",
+    "ne_id": 1159314955
+  },
+  "id3:NA-OS": {
+    "name": "Omusati",
+    "ne_id": 1159314953
+  },
+  "id3:NA-OT": {
+    "name": "Oshikoto",
+    "ne_id": 1159314965
+  },
+  "id3:NA-OW": {
+    "name": "Ohangwena",
+    "ne_id": 1159314959
+  }
+}

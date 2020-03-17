@@ -1,0 +1,46 @@
+{
+  "id3:KP-01": {
+    "name": "P'yŏngyang",
+    "ne_id": 1159315275
+  },
+  "id3:KP-02": {
+    "name": "P'yŏngan-namdo",
+    "ne_id": 1159315287
+  },
+  "id3:KP-03": {
+    "name": "P'yŏngan-bukto",
+    "ne_id": 1159315269
+  },
+  "id3:KP-04": {
+    "name": "Chagang-do",
+    "ne_id": 1159315283
+  },
+  "id3:KP-05": {
+    "name": "Hwanghae-namdo",
+    "ne_id": 1159315261
+  },
+  "id3:KP-06": {
+    "name": "Hwanghae-bukto",
+    "ne_id": 1159315273
+  },
+  "id3:KP-07": {
+    "name": "Kangwŏn-do",
+    "ne_id": 1159315279
+  },
+  "id3:KP-08": {
+    "name": "Hamgyŏng-namdo",
+    "ne_id": 1159315285
+  },
+  "id3:KP-09": {
+    "name": "Hamgyŏng-bukto",
+    "ne_id": 1159315277
+  },
+  "id3:KP-10": {
+    "name": "Ryanggang",
+    "ne_id": 1159315289
+  },
+  "id3:KP-13": {
+    "name": "Rasŏn",
+    "ne_id": 1159317137
+  }
+}

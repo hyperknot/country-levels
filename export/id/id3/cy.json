@@ -1,0 +1,22 @@
+{
+  "id3:CY-01": {
+    "name": "Nicosia",
+    "ne_id": 1159315247
+  },
+  "id3:CY-02": {
+    "name": "Limassol",
+    "ne_id": 1159315251
+  },
+  "id3:CY-03": {
+    "name": "Larnaca",
+    "ne_id": 1159308419
+  },
+  "id3:CY-04": {
+    "name": "Famagusta",
+    "ne_id": 1159315243
+  },
+  "id3:CY-05": {
+    "name": "Paphos",
+    "ne_id": 1159315249
+  }
+}

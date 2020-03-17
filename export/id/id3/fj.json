@@ -1,0 +1,22 @@
+{
+  "id3:FJ-C": {
+    "name": "Central",
+    "ne_id": 1159313275
+  },
+  "id3:FJ-E": {
+    "name": "Eastern",
+    "ne_id": 1159313273
+  },
+  "id3:FJ-N": {
+    "name": "Northern",
+    "ne_id": 1159313293
+  },
+  "id3:FJ-R": {
+    "name": "Rotuma",
+    "ne_id": 1159313295
+  },
+  "id3:FJ-W": {
+    "name": "Western",
+    "ne_id": 1159313271
+  }
+}

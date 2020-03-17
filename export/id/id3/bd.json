@@ -1,0 +1,30 @@
+{
+  "id3:BD-A": {
+    "name": "Barisal",
+    "ne_id": 1159311757
+  },
+  "id3:BD-B": {
+    "name": "Chittagong",
+    "ne_id": 1159311751
+  },
+  "id3:BD-C": {
+    "name": "Dhaka",
+    "ne_id": 1159311761
+  },
+  "id3:BD-D": {
+    "name": "Khulna",
+    "ne_id": 1159311755
+  },
+  "id3:BD-E": {
+    "name": "Rajshahi",
+    "ne_id": 1159314011
+  },
+  "id3:BD-F": {
+    "name": "Rangpur",
+    "ne_id": 1159317129
+  },
+  "id3:BD-G": {
+    "name": "Sylhet",
+    "ne_id": 1159311793
+  }
+}

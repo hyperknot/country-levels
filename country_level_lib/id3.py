@@ -77,7 +77,7 @@ def process_id3():
         data[country_iso][id3] = {'name': state_name, 'ne_id': ne_id}
 
     for country_iso, country_states in data.items():
-        id3_dir.mkdir(exist_ok=True)
+        id3_dir.mkdir(exist_ok=True, parents=True)
         filename = f'{country_iso.lower()}.json'
         write_json(id3_dir / filename, country_states, indent=2, sort_keys=True)
         # print(f'{filename} written')

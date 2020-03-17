@@ -1,0 +1,30 @@
+{
+  "id3:BY-BR": {
+    "name": "Brest",
+    "ne_id": 1159312991
+  },
+  "id3:BY-HM": {
+    "name": "City of Minsk",
+    "ne_id": 1159315869
+  },
+  "id3:BY-HO": {
+    "name": "Gomel",
+    "ne_id": 1159312993
+  },
+  "id3:BY-HR": {
+    "name": "Grodno",
+    "ne_id": 1159313001
+  },
+  "id3:BY-MA": {
+    "name": "Mogilev",
+    "ne_id": 1159312997
+  },
+  "id3:BY-MI": {
+    "name": "Minsk",
+    "ne_id": 1159313003
+  },
+  "id3:BY-VI": {
+    "name": "Vitebsk",
+    "ne_id": 1159312999
+  }
+}

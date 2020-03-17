@@ -1,0 +1,46 @@
+{
+  "id3:LC-01": {
+    "name": "Anse-la-Raye",
+    "ne_id": 1159316393
+  },
+  "id3:LC-02": {
+    "name": "Castries",
+    "ne_id": 1159316395
+  },
+  "id3:LC-03": {
+    "name": "Choiseul",
+    "ne_id": 1159316389
+  },
+  "id3:LC-04": {
+    "name": "Dauphin",
+    "ne_id": 1159316375
+  },
+  "id3:LC-05": {
+    "name": "Dennery",
+    "ne_id": 1159316377
+  },
+  "id3:LC-06": {
+    "name": "Gros Islet",
+    "ne_id": 1159315539
+  },
+  "id3:LC-07": {
+    "name": "Laborie",
+    "ne_id": 1159316387
+  },
+  "id3:LC-08": {
+    "name": "Micoud",
+    "ne_id": 1159316383
+  },
+  "id3:LC-09": {
+    "name": "Praslin",
+    "ne_id": 1159316381
+  },
+  "id3:LC-10": {
+    "name": "Soufrière",
+    "ne_id": 1159316391
+  },
+  "id3:LC-11": {
+    "name": "Vieux Fort",
+    "ne_id": 1159316385
+  }
+}

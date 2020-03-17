@@ -8,7 +8,7 @@ from country_level_lib.id3 import process_id3
 
 def main():
     shutil.rmtree(id_dir, ignore_errors=True)
-    id_dir.mkdir()
+    id_dir.mkdir(parents=True)
 
     process_id012()
     process_id3()

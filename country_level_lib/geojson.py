@@ -22,7 +22,7 @@ def export_0():
         filename = id0[4:].lower()
         geojson_path = export_id0_dir / f'{filename}.geojson'
 
-        export_id0_dir.mkdir(exist_ok=True)
+        export_id0_dir.mkdir(exist_ok=True, parents=True)
         write_json(geojson_path, feature_data)
 
     print(f'{len(countries)} id0 geojson exported')
@@ -53,7 +53,7 @@ def export_1():
             filename = id1[4:].lower()
             geojson_path = export_id1_dir / f'{filename}.geojson'
 
-            export_id1_dir.mkdir(exist_ok=True)
+            export_id1_dir.mkdir(exist_ok=True, parents=True)
             write_json(geojson_path, feature_data)
 
     print(f'{len(units)} id1 geojson exported')

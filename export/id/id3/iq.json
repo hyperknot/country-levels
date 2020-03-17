@@ -1,0 +1,74 @@
+{
+  "id3:IQ-AN": {
+    "name": "Al-Anbar",
+    "ne_id": 1159315255
+  },
+  "id3:IQ-AR": {
+    "name": "Arbil",
+    "ne_id": 1159314251
+  },
+  "id3:IQ-BA": {
+    "name": "Al-Basrah",
+    "ne_id": 1159314233
+  },
+  "id3:IQ-BB": {
+    "name": "Babil",
+    "ne_id": 1159315257
+  },
+  "id3:IQ-BG": {
+    "name": "Baghdad",
+    "ne_id": 1159314231
+  },
+  "id3:IQ-DA": {
+    "name": "Dihok",
+    "ne_id": 1159314249
+  },
+  "id3:IQ-DI": {
+    "name": "Diyala",
+    "ne_id": 1159314247
+  },
+  "id3:IQ-DQ": {
+    "name": "Dhi-Qar",
+    "ne_id": 1159314241
+  },
+  "id3:IQ-KA": {
+    "name": "Karbala'",
+    "ne_id": 1159314229
+  },
+  "id3:IQ-MA": {
+    "name": "Maysan",
+    "ne_id": 1159314243
+  },
+  "id3:IQ-MU": {
+    "name": "Al-Muthannia",
+    "ne_id": 1159314235
+  },
+  "id3:IQ-NA": {
+    "name": "An-Najaf",
+    "ne_id": 1159314227
+  },
+  "id3:IQ-NI": {
+    "name": "Ninawa",
+    "ne_id": 1159314223
+  },
+  "id3:IQ-QA": {
+    "name": "Al-Qādisiyyah",
+    "ne_id": 1159314239
+  },
+  "id3:IQ-SD": {
+    "name": "Sala ad-Din",
+    "ne_id": 1159314225
+  },
+  "id3:IQ-SU": {
+    "name": "As-Sulaymaniyah",
+    "ne_id": 1159314253
+  },
+  "id3:IQ-TS": {
+    "name": "At-Ta'mim",
+    "ne_id": 1159314221
+  },
+  "id3:IQ-WA": {
+    "name": "Wasit",
+    "ne_id": 1159314245
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id3:SA-01": {
+    "name": "Ar Riyad",
+    "ne_id": 1159310501
+  },
+  "id3:SA-02": {
+    "name": "Makkah",
+    "ne_id": 1159309311
+  },
+  "id3:SA-03": {
+    "name": "Al Madinah",
+    "ne_id": 1159309295
+  },
+  "id3:SA-04": {
+    "name": "Ash Sharqiyah",
+    "ne_id": 1159310437
+  },
+  "id3:SA-05": {
+    "name": "Al Quassim",
+    "ne_id": 1159309297
+  },
+  "id3:SA-06": {
+    "name": "Ha'il",
+    "ne_id": 1159309299
+  },
+  "id3:SA-07": {
+    "name": "Tabuk",
+    "ne_id": 1159309247
+  },
+  "id3:SA-08": {
+    "name": "Al Hudud ash Shamaliyah",
+    "ne_id": 1159309301
+  },
+  "id3:SA-09": {
+    "name": "Jizan",
+    "ne_id": 1159309137
+  },
+  "id3:SA-10": {
+    "name": "Najran",
+    "ne_id": 1159310499
+  },
+  "id3:SA-11": {
+    "name": "Al Bahah",
+    "ne_id": 1159309307
+  },
+  "id3:SA-12": {
+    "name": "Al Jawf",
+    "ne_id": 1159309303
+  },
+  "id3:SA-14": {
+    "name": "`Asir",
+    "ne_id": 1159309309
+  }
+}

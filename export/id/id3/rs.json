@@ -1,0 +1,102 @@
+{
+  "id3:RS-00": {
+    "name": "Grad Beograd",
+    "ne_id": 1159309515
+  },
+  "id3:RS-01": {
+    "name": "Severno-Backi",
+    "ne_id": 1159309541
+  },
+  "id3:RS-02": {
+    "name": "Srednje-Banatski",
+    "ne_id": 1159310653
+  },
+  "id3:RS-03": {
+    "name": "Severno-Banatski",
+    "ne_id": 1159309543
+  },
+  "id3:RS-04": {
+    "name": "Južno-Banatski",
+    "ne_id": 1159310651
+  },
+  "id3:RS-05": {
+    "name": "Zapadno-Backi",
+    "ne_id": 1159309537
+  },
+  "id3:RS-06": {
+    "name": "Južno-Backi",
+    "ne_id": 1159310649
+  },
+  "id3:RS-07": {
+    "name": "Sremski",
+    "ne_id": 1159309545
+  },
+  "id3:RS-08": {
+    "name": "Macvanski",
+    "ne_id": 1159309519
+  },
+  "id3:RS-09": {
+    "name": "Kolubarski",
+    "ne_id": 1159309517
+  },
+  "id3:RS-10": {
+    "name": "Podunavski",
+    "ne_id": 1159309505
+  },
+  "id3:RS-11": {
+    "name": "Branicevski",
+    "ne_id": 1159309531
+  },
+  "id3:RS-12": {
+    "name": "Šumadijski",
+    "ne_id": 1159309523
+  },
+  "id3:RS-13": {
+    "name": "Pomoravski",
+    "ne_id": 1159309507
+  },
+  "id3:RS-14": {
+    "name": "Borski",
+    "ne_id": 1159308505
+  },
+  "id3:RS-15": {
+    "name": "Zajecarski",
+    "ne_id": 1159309529
+  },
+  "id3:RS-16": {
+    "name": "Zlatiborski",
+    "ne_id": 1159310647
+  },
+  "id3:RS-17": {
+    "name": "Moravicki",
+    "ne_id": 1159309499
+  },
+  "id3:RS-18": {
+    "name": "Raški",
+    "ne_id": 1159309511
+  },
+  "id3:RS-19": {
+    "name": "Pomoravski",
+    "ne_id": 1159309509
+  },
+  "id3:RS-20": {
+    "name": "Nišavski",
+    "ne_id": 1159309501
+  },
+  "id3:RS-21": {
+    "name": "Toplicki",
+    "ne_id": 1159309513
+  },
+  "id3:RS-22": {
+    "name": "Pirotski",
+    "ne_id": 1159308503
+  },
+  "id3:RS-23": {
+    "name": "Jablanicki",
+    "ne_id": 1159309527
+  },
+  "id3:RS-24": {
+    "name": "Pcinjski",
+    "ne_id": 1159309525
+  }
+}

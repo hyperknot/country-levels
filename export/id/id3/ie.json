@@ -1,0 +1,138 @@
+{
+  "id3:IE-CE": {
+    "name": "Clare",
+    "ne_id": 1159308715
+  },
+  "id3:IE-CN": {
+    "name": "Cavan",
+    "ne_id": 1159308719
+  },
+  "id3:IE-CO_1159308709": {
+    "name": "Cork",
+    "ne_id": 1159308709
+  },
+  "id3:IE-CO_1159317299": {
+    "name": "Cork",
+    "ne_id": 1159317299
+  },
+  "id3:IE-CW": {
+    "name": "Carlow",
+    "ne_id": 1159308717
+  },
+  "id3:IE-DL": {
+    "name": "Donegal",
+    "ne_id": 1159310987
+  },
+  "id3:IE-D_1159311003": {
+    "name": "South Dublin",
+    "ne_id": 1159311003
+  },
+  "id3:IE-D_1159317305": {
+    "name": "Fingal",
+    "ne_id": 1159317305
+  },
+  "id3:IE-D_1159317307": {
+    "name": "Dublin",
+    "ne_id": 1159317307
+  },
+  "id3:IE-D_1159317309": {
+    "name": "Dún Laoghaire–Rathdown",
+    "ne_id": 1159317309
+  },
+  "id3:IE-G_1159310965": {
+    "name": "Galway",
+    "ne_id": 1159310965
+  },
+  "id3:IE-G_1159317293": {
+    "name": "Galway",
+    "ne_id": 1159317293
+  },
+  "id3:IE-KE": {
+    "name": "Kildare",
+    "ne_id": 1159311005
+  },
+  "id3:IE-KK": {
+    "name": "Kilkenny",
+    "ne_id": 1159311007
+  },
+  "id3:IE-KY": {
+    "name": "Kerry",
+    "ne_id": 1159310963
+  },
+  "id3:IE-LD": {
+    "name": "Longford",
+    "ne_id": 1159311023
+  },
+  "id3:IE-LH": {
+    "name": "Louth",
+    "ne_id": 1159310989
+  },
+  "id3:IE-LK_1159311013": {
+    "name": "Limerick",
+    "ne_id": 1159311013
+  },
+  "id3:IE-LK_1159317295": {
+    "name": "Limerick",
+    "ne_id": 1159317295
+  },
+  "id3:IE-LM": {
+    "name": "Leitrim",
+    "ne_id": 1159311021
+  },
+  "id3:IE-LS": {
+    "name": "Laoighis",
+    "ne_id": 1159311009
+  },
+  "id3:IE-MH": {
+    "name": "Meath",
+    "ne_id": 1159310991
+  },
+  "id3:IE-MN": {
+    "name": "Monaghan",
+    "ne_id": 1159315457
+  },
+  "id3:IE-MO": {
+    "name": "Mayo",
+    "ne_id": 1159309699
+  },
+  "id3:IE-OY": {
+    "name": "Offaly",
+    "ne_id": 1159310993
+  },
+  "id3:IE-RN": {
+    "name": "Roscommon",
+    "ne_id": 1159311017
+  },
+  "id3:IE-SO": {
+    "name": "Sligo",
+    "ne_id": 1159311019
+  },
+  "id3:IE-TA_1159311011": {
+    "name": "North Tipperary",
+    "ne_id": 1159311011
+  },
+  "id3:IE-TA_1159317303": {
+    "name": "South Tipperary",
+    "ne_id": 1159317303
+  },
+  "id3:IE-WD_1159312835": {
+    "name": "Waterford",
+    "ne_id": 1159312835
+  },
+  "id3:IE-WD_1159317301": {
+    "name": "Waterford",
+    "ne_id": 1159317301
+  },
+  "id3:IE-WH": {
+    "name": "Westmeath",
+    "ne_id": 1159310995
+  },
+  "id3:IE-WW": {
+    "name": "Wicklow",
+    "ne_id": 1159311001
+  },
+  "id3:IE-WX": {
+    "name": "Wexford",
+    "ne_id": 1159310999
+  }
+}

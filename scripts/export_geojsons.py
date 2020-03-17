@@ -7,7 +7,7 @@ from country_level_lib.geojson import export_0, export_1
 
 def main():
     shutil.rmtree(export_dir, ignore_errors=True)
-    export_dir.mkdir()
+    export_dir.mkdir(parents=True)
 
     export_0()
     export_1()

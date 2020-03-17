@@ -1,0 +1,66 @@
+{
+  "id3:KZ-AKM": {
+    "name": "Aqmola",
+    "ne_id": 1159314725
+  },
+  "id3:KZ-AKT": {
+    "name": "Aqtöbe",
+    "ne_id": 1159314713
+  },
+  "id3:KZ-ALA_1159314735": {
+    "name": "Almaty",
+    "ne_id": 1159314735
+  },
+  "id3:KZ-ALA_1159315881": {
+    "name": "Almaty City",
+    "ne_id": 1159315881
+  },
+  "id3:KZ-AST": {
+    "name": "Astana",
+    "ne_id": 1159315883
+  },
+  "id3:KZ-ATY": {
+    "name": "Atyrau",
+    "ne_id": 1159314719
+  },
+  "id3:KZ-KAR": {
+    "name": "Qaraghandy",
+    "ne_id": 1159314727
+  },
+  "id3:KZ-KUS": {
+    "name": "Qostanay",
+    "ne_id": 1159314715
+  },
+  "id3:KZ-KZY": {
+    "name": "Qyzylorda",
+    "ne_id": 1159314717
+  },
+  "id3:KZ-MAN": {
+    "name": "Mangghystau",
+    "ne_id": 1159314605
+  },
+  "id3:KZ-PAV": {
+    "name": "Pavlodar",
+    "ne_id": 1159314731
+  },
+  "id3:KZ-SEV": {
+    "name": "North Kazakhstan",
+    "ne_id": 1159314729
+  },
+  "id3:KZ-VOS": {
+    "name": "East Kazakhstan",
+    "ne_id": 1159314733
+  },
+  "id3:KZ-YUZ": {
+    "name": "South Kazakhstan",
+    "ne_id": 1159314737
+  },
+  "id3:KZ-ZAP": {
+    "name": "West Kazakhstan",
+    "ne_id": 1159314721
+  },
+  "id3:KZ-ZHA": {
+    "name": "Zhambyl",
+    "ne_id": 1159314739
+  }
+}

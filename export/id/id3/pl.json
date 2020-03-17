@@ -1,0 +1,66 @@
+{
+  "id3:PL-DS": {
+    "name": "Lower Silesian",
+    "ne_id": 1159314679
+  },
+  "id3:PL-KP": {
+    "name": "Kuyavian-Pomeranian",
+    "ne_id": 1159314689
+  },
+  "id3:PL-LB": {
+    "name": "Lubusz",
+    "ne_id": 1159314683
+  },
+  "id3:PL-LD": {
+    "name": "Łódź",
+    "ne_id": 1159314693
+  },
+  "id3:PL-LU": {
+    "name": "Lublin",
+    "ne_id": 1159314701
+  },
+  "id3:PL-MA": {
+    "name": "Lesser Poland",
+    "ne_id": 1159314709
+  },
+  "id3:PL-MZ": {
+    "name": "Masovian",
+    "ne_id": 1159314695
+  },
+  "id3:PL-OP": {
+    "name": "Opole",
+    "ne_id": 1159314707
+  },
+  "id3:PL-PD": {
+    "name": "Podlachian",
+    "ne_id": 1159314699
+  },
+  "id3:PL-PK": {
+    "name": "Subcarpathian",
+    "ne_id": 1159314703
+  },
+  "id3:PL-PM": {
+    "name": "Pomeranian",
+    "ne_id": 1159314677
+  },
+  "id3:PL-SK": {
+    "name": "Świętokrzyskie",
+    "ne_id": 1159314697
+  },
+  "id3:PL-SL": {
+    "name": "Silesian",
+    "ne_id": 1159314691
+  },
+  "id3:PL-WN": {
+    "name": "Warmian-Masurian",
+    "ne_id": 1159314675
+  },
+  "id3:PL-WP": {
+    "name": "Greater Poland",
+    "ne_id": 1159314685
+  },
+  "id3:PL-ZP": {
+    "name": "West Pomeranian",
+    "ne_id": 1159314681
+  }
+}

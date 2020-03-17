@@ -1,0 +1,26 @@
+{
+  "id3:IL-D": {
+    "name": "HaDarom",
+    "ne_id": 1159314185
+  },
+  "id3:IL-HA": {
+    "name": "Haifa",
+    "ne_id": 1159314187
+  },
+  "id3:IL-JM": {
+    "name": "Jerusalem",
+    "ne_id": 1159314195
+  },
+  "id3:IL-M": {
+    "name": "HaMerkaz",
+    "ne_id": 1159314189
+  },
+  "id3:IL-TA": {
+    "name": "Tel Aviv",
+    "ne_id": 1159314193
+  },
+  "id3:IL-Z": {
+    "name": "HaZafon",
+    "ne_id": 1159314191
+  }
+}

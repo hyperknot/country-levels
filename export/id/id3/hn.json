@@ -1,0 +1,74 @@
+{
+  "id3:HN-AT": {
+    "name": "Atlántida",
+    "ne_id": 1159309093
+  },
+  "id3:HN-CH": {
+    "name": "Choluteca",
+    "ne_id": 1159309123
+  },
+  "id3:HN-CL": {
+    "name": "Colón",
+    "ne_id": 1159309095
+  },
+  "id3:HN-CM": {
+    "name": "Comayagua",
+    "ne_id": 1159309105
+  },
+  "id3:HN-CP": {
+    "name": "Copán",
+    "ne_id": 1159309117
+  },
+  "id3:HN-CR": {
+    "name": "Cortés",
+    "ne_id": 1159309109
+  },
+  "id3:HN-EP": {
+    "name": "El Paraíso",
+    "ne_id": 1159309127
+  },
+  "id3:HN-FM": {
+    "name": "Francisco Morazán",
+    "ne_id": 1159309097
+  },
+  "id3:HN-GD": {
+    "name": "Gracias a Dios",
+    "ne_id": 1159309099
+  },
+  "id3:HN-IB": {
+    "name": "Islas de la Bahía",
+    "ne_id": 1159309129
+  },
+  "id3:HN-IN": {
+    "name": "Intibucá",
+    "ne_id": 1159309111
+  },
+  "id3:HN-LE": {
+    "name": "Lempira",
+    "ne_id": 1159309119
+  },
+  "id3:HN-LP": {
+    "name": "La Paz",
+    "ne_id": 1159309113
+  },
+  "id3:HN-OC": {
+    "name": "Ocotepeque",
+    "ne_id": 1159309121
+  },
+  "id3:HN-OL": {
+    "name": "Olancho",
+    "ne_id": 1159309101
+  },
+  "id3:HN-SB": {
+    "name": "Santa Bárbara",
+    "ne_id": 1159309115
+  },
+  "id3:HN-VA": {
+    "name": "Valle",
+    "ne_id": 1159309033
+  },
+  "id3:HN-YO": {
+    "name": "Yoro",
+    "ne_id": 1159309103
+  }
+}

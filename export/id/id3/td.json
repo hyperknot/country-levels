@@ -1,0 +1,90 @@
+{
+  "id3:TD-BA": {
+    "name": "Batha",
+    "ne_id": 1159310379
+  },
+  "id3:TD-BG": {
+    "name": "Barh El Gazel",
+    "ne_id": 1159317317
+  },
+  "id3:TD-BO": {
+    "name": "Borkou",
+    "ne_id": 1159310371
+  },
+  "id3:TD-CB": {
+    "name": "Chari-Baguirmi",
+    "ne_id": 1159317319
+  },
+  "id3:TD-GR": {
+    "name": "Guéra",
+    "ne_id": 1159310383
+  },
+  "id3:TD-HL": {
+    "name": "Hadjer-Lamis",
+    "ne_id": 1159310373
+  },
+  "id3:TD-KA": {
+    "name": "Kanem",
+    "ne_id": 1159310375
+  },
+  "id3:TD-LC": {
+    "name": "Lac",
+    "ne_id": 1159310377
+  },
+  "id3:TD-LO": {
+    "name": "Logone Occidental",
+    "ne_id": 1159311763
+  },
+  "id3:TD-LR": {
+    "name": "Logone Oriental",
+    "ne_id": 1159311765
+  },
+  "id3:TD-MA": {
+    "name": "Mandoul",
+    "ne_id": 1159317323
+  },
+  "id3:TD-MC": {
+    "name": "Moyen-Chari",
+    "ne_id": 1159311773
+  },
+  "id3:TD-ME": {
+    "name": "Mayo-Kebbi Est",
+    "ne_id": 1159315949
+  },
+  "id3:TD-MO": {
+    "name": "Mayo-Kebbi Ouest",
+    "ne_id": 1159311767
+  },
+  "id3:TD-ND": {
+    "name": "Ville de N'Djamena",
+    "ne_id": 1159315945
+  },
+  "id3:TD-OD": {
+    "name": "Ouaddaï",
+    "ne_id": 1159310387
+  },
+  "id3:TD-SA": {
+    "name": "Salamat",
+    "ne_id": 1159311775
+  },
+  "id3:TD-SI": {
+    "name": "Sila",
+    "ne_id": 1159317321
+  },
+  "id3:TD-TA": {
+    "name": "Tandjilé",
+    "ne_id": 1159311769
+  },
+  "id3:TD-TI": {
+    "name": "Tibesti",
+    "ne_id": 1159317311
+  },
+  "id3:TD-WF": {
+    "name": "Wadi Fira",
+    "ne_id": 1159310381
+  },
+  "id3:TD-X01": {
+    "name": "Ennedi",
+    "ne_id": 1159317313
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id3:NE-1": {
+    "name": "Agadez",
+    "ne_id": 1159309231
+  },
+  "id3:NE-2": {
+    "name": "Diffa",
+    "ne_id": 1159309229
+  },
+  "id3:NE-3": {
+    "name": "Dosso",
+    "ne_id": 1159309239
+  },
+  "id3:NE-4": {
+    "name": "Maradi",
+    "ne_id": 1159309235
+  },
+  "id3:NE-5": {
+    "name": "Tahoua",
+    "ne_id": 1159309243
+  },
+  "id3:NE-6": {
+    "name": "Tillabéri",
+    "ne_id": 1159315951
+  },
+  "id3:NE-7": {
+    "name": "Zinder",
+    "ne_id": 1159309237
+  },
+  "id3:NE-8": {
+    "name": "Niamey",
+    "ne_id": 1159309241
+  }
+}

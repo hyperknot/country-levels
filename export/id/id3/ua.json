@@ -1,0 +1,102 @@
+{
+  "id3:UA-05": {
+    "name": "Vinnytsya",
+    "ne_id": 1159309619
+  },
+  "id3:UA-07": {
+    "name": "Volyn",
+    "ne_id": 1159309607
+  },
+  "id3:UA-09": {
+    "name": "Luhans'k",
+    "ne_id": 1159309633
+  },
+  "id3:UA-12": {
+    "name": "Dnipropetrovs'k",
+    "ne_id": 1159309625
+  },
+  "id3:UA-14": {
+    "name": "Donets'k",
+    "ne_id": 1159309627
+  },
+  "id3:UA-18": {
+    "name": "Zhytomyr",
+    "ne_id": 1159309621
+  },
+  "id3:UA-21": {
+    "name": "Transcarpathia",
+    "ne_id": 1159309605
+  },
+  "id3:UA-23": {
+    "name": "Zaporizhzhya",
+    "ne_id": 1159309637
+  },
+  "id3:UA-26": {
+    "name": "Ivano-Frankivs'k",
+    "ne_id": 1159309597
+  },
+  "id3:UA-30": {
+    "name": "Kiev City",
+    "ne_id": 1159315871
+  },
+  "id3:UA-32": {
+    "name": "Kiev",
+    "ne_id": 1159309615
+  },
+  "id3:UA-35": {
+    "name": "Kirovohrad",
+    "ne_id": 1159309613
+  },
+  "id3:UA-46": {
+    "name": "L'viv",
+    "ne_id": 1159309601
+  },
+  "id3:UA-48": {
+    "name": "Mykolayiv",
+    "ne_id": 1159309587
+  },
+  "id3:UA-51": {
+    "name": "Odessa",
+    "ne_id": 1159309617
+  },
+  "id3:UA-53": {
+    "name": "Poltava",
+    "ne_id": 1159309635
+  },
+  "id3:UA-56": {
+    "name": "Rivne",
+    "ne_id": 1159309591
+  },
+  "id3:UA-59": {
+    "name": "Sumy",
+    "ne_id": 1159309623
+  },
+  "id3:UA-61": {
+    "name": "Ternopil'",
+    "ne_id": 1159309603
+  },
+  "id3:UA-63": {
+    "name": "Kharkiv",
+    "ne_id": 1159309631
+  },
+  "id3:UA-65": {
+    "name": "Kherson",
+    "ne_id": 1159315873
+  },
+  "id3:UA-68": {
+    "name": "Khmel'nyts'kyy",
+    "ne_id": 1159309599
+  },
+  "id3:UA-71": {
+    "name": "Cherkasy",
+    "ne_id": 1159309609
+  },
+  "id3:UA-74": {
+    "name": "Chernihiv",
+    "ne_id": 1159309589
+  },
+  "id3:UA-77": {
+    "name": "Chernivtsi",
+    "ne_id": 1159309595
+  }
+}

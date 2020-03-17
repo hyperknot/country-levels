@@ -1,0 +1,62 @@
+{
+  "id3:BW-CE": {
+    "name": "Central",
+    "ne_id": 1159313281
+  },
+  "id3:BW-FR": {
+    "name": "Francistown",
+    "ne_id": 1159317151
+  },
+  "id3:BW-GA": {
+    "name": "Gaborone",
+    "ne_id": 1159317149
+  },
+  "id3:BW-GH": {
+    "name": "Ghanzi",
+    "ne_id": 1159309801
+  },
+  "id3:BW-JW": {
+    "name": "Jwaneng",
+    "ne_id": 1159317157
+  },
+  "id3:BW-KG": {
+    "name": "Kgalagadi",
+    "ne_id": 1159313277
+  },
+  "id3:BW-KL": {
+    "name": "Kgatleng",
+    "ne_id": 1159313285
+  },
+  "id3:BW-KW": {
+    "name": "Kweneng",
+    "ne_id": 1159313287
+  },
+  "id3:BW-LO": {
+    "name": "Lobatse",
+    "ne_id": 1159317155
+  },
+  "id3:BW-NE": {
+    "name": "North-East",
+    "ne_id": 1159315937
+  },
+  "id3:BW-NW": {
+    "name": "North-West",
+    "ne_id": 1159313279
+  },
+  "id3:BW-SE": {
+    "name": "South-East",
+    "ne_id": 1159313289
+  },
+  "id3:BW-SO": {
+    "name": "Southern",
+    "ne_id": 1159313291
+  },
+  "id3:BW-SP": {
+    "name": "Selebi-Phikwe",
+    "ne_id": 1159317161
+  },
+  "id3:BW-ST": {
+    "name": "Sowa",
+    "ne_id": 1159317159
+  }
+}

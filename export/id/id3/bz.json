@@ -1,0 +1,26 @@
+{
+  "id3:BZ-BZ": {
+    "name": "Belize",
+    "ne_id": 1159310243
+  },
+  "id3:BZ-CY": {
+    "name": "Cayo",
+    "ne_id": 1159310257
+  },
+  "id3:BZ-CZL": {
+    "name": "Corozal",
+    "ne_id": 1159310261
+  },
+  "id3:BZ-OW": {
+    "name": "Orange Walk",
+    "ne_id": 1159310263
+  },
+  "id3:BZ-SC": {
+    "name": "Stann Creek",
+    "ne_id": 1159309139
+  },
+  "id3:BZ-TOL": {
+    "name": "Toledo",
+    "ne_id": 1159309141
+  }
+}

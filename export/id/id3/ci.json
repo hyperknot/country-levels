@@ -1,0 +1,78 @@
+{
+  "id3:CI-01": {
+    "name": "Lagunes",
+    "ne_id": 1159315129
+  },
+  "id3:CI-02": {
+    "name": "Haut-Sassandra",
+    "ne_id": 1159315113
+  },
+  "id3:CI-03": {
+    "name": "Savanes",
+    "ne_id": 1159315097
+  },
+  "id3:CI-04": {
+    "name": "Vallée du Bandama",
+    "ne_id": 1159315123
+  },
+  "id3:CI-05": {
+    "name": "Comoe",
+    "ne_id": 1159315133
+  },
+  "id3:CI-06": {
+    "name": "Dix-Huit Montagnes",
+    "ne_id": 1159315105
+  },
+  "id3:CI-07": {
+    "name": "Lacs",
+    "ne_id": 1159315135
+  },
+  "id3:CI-08": {
+    "name": "Zanzan",
+    "ne_id": 1159315121
+  },
+  "id3:CI-09": {
+    "name": "Bas-Sassandra",
+    "ne_id": 1159315117
+  },
+  "id3:CI-10": {
+    "name": "Denguélé",
+    "ne_id": 1159315099
+  },
+  "id3:CI-11": {
+    "name": "N'zi-Comoé",
+    "ne_id": 1159315127
+  },
+  "id3:CI-12": {
+    "name": "Marahoué",
+    "ne_id": 1159315109
+  },
+  "id3:CI-13": {
+    "name": "Sud-Comoé",
+    "ne_id": 1159315093
+  },
+  "id3:CI-14": {
+    "name": "Worodougou",
+    "ne_id": 1159315107
+  },
+  "id3:CI-15": {
+    "name": "Sud-Bandama",
+    "ne_id": 1159315115
+  },
+  "id3:CI-16": {
+    "name": "Agnéby",
+    "ne_id": 1159315125
+  },
+  "id3:CI-17": {
+    "name": "Bafing",
+    "ne_id": 1159315103
+  },
+  "id3:CI-18": {
+    "name": "Fromager",
+    "ne_id": 1159315111
+  },
+  "id3:CI-19": {
+    "name": "Cavally",
+    "ne_id": 1159315131
+  }
+}

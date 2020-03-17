@@ -1,0 +1,74 @@
+{
+  "id3:PY-1": {
+    "name": "Concepción",
+    "ne_id": 1159307779
+  },
+  "id3:PY-10": {
+    "name": "Alto Paraná",
+    "ne_id": 1159307801
+  },
+  "id3:PY-11": {
+    "name": "Central",
+    "ne_id": 1159315901
+  },
+  "id3:PY-12": {
+    "name": "Ñeembucú",
+    "ne_id": 1159307795
+  },
+  "id3:PY-13": {
+    "name": "Amambay",
+    "ne_id": 1159307799
+  },
+  "id3:PY-14": {
+    "name": "Canindeyú",
+    "ne_id": 1159307807
+  },
+  "id3:PY-15": {
+    "name": "Presidente Hayes",
+    "ne_id": 1159307783
+  },
+  "id3:PY-16": {
+    "name": "Alto Paraguay",
+    "ne_id": 1159307813
+  },
+  "id3:PY-19": {
+    "name": "Boquerón",
+    "ne_id": 1159307815
+  },
+  "id3:PY-2": {
+    "name": "San Pedro",
+    "ne_id": 1159307785
+  },
+  "id3:PY-3": {
+    "name": "Cordillera",
+    "ne_id": 1159307781
+  },
+  "id3:PY-4": {
+    "name": "Guairá",
+    "ne_id": 1159307789
+  },
+  "id3:PY-5": {
+    "name": "Caaguazú",
+    "ne_id": 1159307803
+  },
+  "id3:PY-6": {
+    "name": "Caazapá",
+    "ne_id": 1159307805
+  },
+  "id3:PY-7": {
+    "name": "Itapúa",
+    "ne_id": 1159307809
+  },
+  "id3:PY-8": {
+    "name": "Misiones",
+    "ne_id": 1159307791
+  },
+  "id3:PY-9": {
+    "name": "Paraguarí",
+    "ne_id": 1159307797
+  },
+  "id3:PY-ASU": {
+    "name": "Asunción",
+    "ne_id": 1159307787
+  }
+}

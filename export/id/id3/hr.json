@@ -1,0 +1,86 @@
+{
+  "id3:HR-01": {
+    "name": "Zagrebacka",
+    "ne_id": 1159312531
+  },
+  "id3:HR-02": {
+    "name": "Krapinsko-Zagorska",
+    "ne_id": 1159312523
+  },
+  "id3:HR-03": {
+    "name": "Sisacko-Moslavacka",
+    "ne_id": 1159312529
+  },
+  "id3:HR-04": {
+    "name": "Karlovacka",
+    "ne_id": 1159312525
+  },
+  "id3:HR-05": {
+    "name": "Varaždinska",
+    "ne_id": 1159312555
+  },
+  "id3:HR-06": {
+    "name": "Koprivničko-Križevačka",
+    "ne_id": 1159312551
+  },
+  "id3:HR-07": {
+    "name": "Bjelovarsko-bilogorska",
+    "ne_id": 1159312549
+  },
+  "id3:HR-08": {
+    "name": "Primorsko-Goranska",
+    "ne_id": 1159312505
+  },
+  "id3:HR-09": {
+    "name": "Licko-Senjska",
+    "ne_id": 1159312507
+  },
+  "id3:HR-10": {
+    "name": "Viroviticko-Podravska",
+    "ne_id": 1159312547
+  },
+  "id3:HR-12_1159312537": {
+    "name": "Brodsko-Posavska",
+    "ne_id": 1159312537
+  },
+  "id3:HR-12_1159312541": {
+    "name": "Brodsko-Posavska",
+    "ne_id": 1159312541
+  },
+  "id3:HR-13": {
+    "name": "Zadarska",
+    "ne_id": 1159312443
+  },
+  "id3:HR-14": {
+    "name": "Osjecko-Baranjska",
+    "ne_id": 1159312539
+  },
+  "id3:HR-15": {
+    "name": "Šibensko-Kninska",
+    "ne_id": 1159312439
+  },
+  "id3:HR-16": {
+    "name": "Vukovarsko-Srijemska",
+    "ne_id": 1159312543
+  },
+  "id3:HR-17": {
+    "name": "Splitsko-Dalmatinska",
+    "ne_id": 1159312433
+  },
+  "id3:HR-18": {
+    "name": "Istarska",
+    "ne_id": 1159312535
+  },
+  "id3:HR-19": {
+    "name": "Dubrovacko-Neretvanska",
+    "ne_id": 1159312431
+  },
+  "id3:HR-20": {
+    "name": "Medimurska",
+    "ne_id": 1159312553
+  },
+  "id3:HR-21": {
+    "name": "Grad Zagreb",
+    "ne_id": 1159312533
+  }
+}

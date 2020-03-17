@@ -1,0 +1,74 @@
+{
+  "id3:FI-02": {
+    "name": "South Karelia",
+    "ne_id": 1159314865
+  },
+  "id3:FI-03": {
+    "name": "Southern Ostrobothnia",
+    "ne_id": 1159314857
+  },
+  "id3:FI-04": {
+    "name": "Southern Savonia",
+    "ne_id": 1159314869
+  },
+  "id3:FI-05": {
+    "name": "Kainuu",
+    "ne_id": 1159314853
+  },
+  "id3:FI-06": {
+    "name": "Tavastia Proper",
+    "ne_id": 1159314861
+  },
+  "id3:FI-07": {
+    "name": "Central Ostrobothnia",
+    "ne_id": 1159314855
+  },
+  "id3:FI-08": {
+    "name": "Central Finland",
+    "ne_id": 1159314847
+  },
+  "id3:FI-09": {
+    "name": "Kymenlaakso",
+    "ne_id": 1159314829
+  },
+  "id3:FI-10": {
+    "name": "Lapland",
+    "ne_id": 1159314845
+  },
+  "id3:FI-11": {
+    "name": "Pirkanmaa",
+    "ne_id": 1159314863
+  },
+  "id3:FI-12": {
+    "name": "Ostrobothnia",
+    "ne_id": 1159314837
+  },
+  "id3:FI-13": {
+    "name": "North Karelia",
+    "ne_id": 1159314871
+  },
+  "id3:FI-14": {
+    "name": "Northern Ostrobothnia",
+    "ne_id": 1159314839
+  },
+  "id3:FI-15": {
+    "name": "Northern Savonia",
+    "ne_id": 1159314851
+  },
+  "id3:FI-16": {
+    "name": "Päijät-Häme",
+    "ne_id": 1159314859
+  },
+  "id3:FI-17": {
+    "name": "Satakunta",
+    "ne_id": 1159314835
+  },
+  "id3:FI-18": {
+    "name": "Uusimaa",
+    "ne_id": 1159314827
+  },
+  "id3:FI-19": {
+    "name": "Finland Proper",
+    "ne_id": 1159314823
+  }
+}

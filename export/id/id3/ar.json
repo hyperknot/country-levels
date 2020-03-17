@@ -1,0 +1,98 @@
+{
+  "id3:AR-A": {
+    "name": "Salta",
+    "ne_id": 1159309777
+  },
+  "id3:AR-B": {
+    "name": "Buenos Aires",
+    "ne_id": 1159309705
+  },
+  "id3:AR-C": {
+    "name": "Ciudad de Buenos Aires",
+    "ne_id": 1159317131
+  },
+  "id3:AR-D": {
+    "name": "San Luis",
+    "ne_id": 1159309765
+  },
+  "id3:AR-E": {
+    "name": "Entre Ríos",
+    "ne_id": 1159309789
+  },
+  "id3:AR-F": {
+    "name": "La Rioja",
+    "ne_id": 1159309775
+  },
+  "id3:AR-G": {
+    "name": "Santiago del Estero",
+    "ne_id": 1159309779
+  },
+  "id3:AR-H": {
+    "name": "Chaco",
+    "ne_id": 1159309783
+  },
+  "id3:AR-J": {
+    "name": "San Juan",
+    "ne_id": 1159309751
+  },
+  "id3:AR-K": {
+    "name": "Catamarca",
+    "ne_id": 1159309769
+  },
+  "id3:AR-L": {
+    "name": "La Pampa",
+    "ne_id": 1159309761
+  },
+  "id3:AR-M": {
+    "name": "Mendoza",
+    "ne_id": 1159309757
+  },
+  "id3:AR-N": {
+    "name": "Misiones",
+    "ne_id": 1159309795
+  },
+  "id3:AR-P": {
+    "name": "Formosa",
+    "ne_id": 1159309785
+  },
+  "id3:AR-Q": {
+    "name": "Neuquén",
+    "ne_id": 1159309759
+  },
+  "id3:AR-R": {
+    "name": "Río Negro",
+    "ne_id": 1159309763
+  },
+  "id3:AR-S": {
+    "name": "Santa Fe",
+    "ne_id": 1159309793
+  },
+  "id3:AR-T": {
+    "name": "Tucumán",
+    "ne_id": 1159309781
+  },
+  "id3:AR-U": {
+    "name": "Chubut",
+    "ne_id": 1159309753
+  },
+  "id3:AR-V": {
+    "name": "Tierra del Fuego",
+    "ne_id": 1159309691
+  },
+  "id3:AR-W": {
+    "name": "Corrientes",
+    "ne_id": 1159309787
+  },
+  "id3:AR-X": {
+    "name": "Córdoba",
+    "ne_id": 1159309767
+  },
+  "id3:AR-Y": {
+    "name": "Jujuy",
+    "ne_id": 1159309771
+  },
+  "id3:AR-Z": {
+    "name": "Santa Cruz",
+    "ne_id": 1159309749
+  }
+}

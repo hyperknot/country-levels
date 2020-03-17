@@ -1,0 +1,42 @@
+{
+  "id3:ZM-01": {
+    "name": "Western",
+    "ne_id": 1159307895
+  },
+  "id3:ZM-02": {
+    "name": "Central",
+    "ne_id": 1159307881
+  },
+  "id3:ZM-03": {
+    "name": "Eastern",
+    "ne_id": 1159307887
+  },
+  "id3:ZM-04": {
+    "name": "Luapula",
+    "ne_id": 1159307877
+  },
+  "id3:ZM-05": {
+    "name": "Northern",
+    "ne_id": 1159307879
+  },
+  "id3:ZM-06": {
+    "name": "North-Western",
+    "ne_id": 1159307891
+  },
+  "id3:ZM-07": {
+    "name": "Southern",
+    "ne_id": 1159307893
+  },
+  "id3:ZM-08": {
+    "name": "Copperbelt",
+    "ne_id": 1159307885
+  },
+  "id3:ZM-09": {
+    "name": "Lusaka",
+    "ne_id": 1159307889
+  },
+  "id3:ZM-10": {
+    "name": "Muchinga",
+    "ne_id": 1159317173
+  }
+}

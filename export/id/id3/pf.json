@@ -1,0 +1,22 @@
+{
+  "id3:PF-X01": {
+    "name": "Windward Islands",
+    "ne_id": 1159307839
+  },
+  "id3:PF-X02": {
+    "name": "Leeward Islands",
+    "ne_id": 1159316149
+  },
+  "id3:PF-X03": {
+    "name": "Tuamotu-Gambier",
+    "ne_id": 1159316151
+  },
+  "id3:PF-X04": {
+    "name": "Austral Islands",
+    "ne_id": 1159316153
+  },
+  "id3:PF-X05": {
+    "name": "Marquesas Islands",
+    "ne_id": 1159316155
+  }
+}

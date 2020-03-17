@@ -129,7 +129,7 @@ def process_id012():
         if 'sub2' not in sub1_first:
             del country_data['sub1']
 
-    id_dir.mkdir(exist_ok=True)
+    id_dir.mkdir(exist_ok=True, parents=True)
     write_json(id_dir / 'level_012.json', levels, indent=2, sort_keys=True)
 
 

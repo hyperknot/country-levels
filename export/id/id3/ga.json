@@ -1,0 +1,38 @@
+{
+  "id3:GA-1": {
+    "name": "Estuaire",
+    "ne_id": 1159311297
+  },
+  "id3:GA-2": {
+    "name": "Haut-Ogooué",
+    "ne_id": 1159313343
+  },
+  "id3:GA-3": {
+    "name": "Moyen-Ogooué",
+    "ne_id": 1159313335
+  },
+  "id3:GA-4": {
+    "name": "Ngounié",
+    "ne_id": 1159313339
+  },
+  "id3:GA-5": {
+    "name": "Nyanga",
+    "ne_id": 1159313341
+  },
+  "id3:GA-6": {
+    "name": "Ogooué-Ivindo",
+    "ne_id": 1159311293
+  },
+  "id3:GA-7": {
+    "name": "Ogooué-Lolo",
+    "ne_id": 1159313345
+  },
+  "id3:GA-8": {
+    "name": "Ogooué-Maritime",
+    "ne_id": 1159313333
+  },
+  "id3:GA-9": {
+    "name": "Wouleu-Ntem",
+    "ne_id": 1159311295
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id3:BM-DEV": {
+    "name": "Devonshire",
+    "ne_id": 1159315579
+  },
+  "id3:BM-HA": {
+    "name": "City of Hamilton",
+    "ne_id": 1159316493
+  },
+  "id3:BM-HAM": {
+    "name": "Hamilton",
+    "ne_id": 1159316503
+  },
+  "id3:BM-PAG": {
+    "name": "Paget",
+    "ne_id": 1159316495
+  },
+  "id3:BM-PEM": {
+    "name": "Pembroke",
+    "ne_id": 1159316491
+  },
+  "id3:BM-SAN": {
+    "name": "Sandys",
+    "ne_id": 1159315681
+  },
+  "id3:BM-SG": {
+    "name": "City of Saint George",
+    "ne_id": 1159316509
+  },
+  "id3:BM-SGE": {
+    "name": "Saint George's",
+    "ne_id": 1159316507
+  },
+  "id3:BM-SMI": {
+    "name": "Smith's",
+    "ne_id": 1159316501
+  },
+  "id3:BM-SOU": {
+    "name": "Southampton",
+    "ne_id": 1159316499
+  },
+  "id3:BM-WAR": {
+    "name": "Warwick",
+    "ne_id": 1159316497
+  }
+}

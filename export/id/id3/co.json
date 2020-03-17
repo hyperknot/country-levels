@@ -1,0 +1,134 @@
+{
+  "id3:CO-AMA": {
+    "name": "Amazonas",
+    "ne_id": 1159310177
+  },
+  "id3:CO-ANT": {
+    "name": "Antioquia",
+    "ne_id": 1159310179
+  },
+  "id3:CO-ARA": {
+    "name": "Arauca",
+    "ne_id": 1159310159
+  },
+  "id3:CO-ATL": {
+    "name": "Atlántico",
+    "ne_id": 1159310149
+  },
+  "id3:CO-BOL": {
+    "name": "Bolívar",
+    "ne_id": 1159308025
+  },
+  "id3:CO-BOY": {
+    "name": "Boyacá",
+    "ne_id": 1159310181
+  },
+  "id3:CO-CAL": {
+    "name": "Caldas",
+    "ne_id": 1159310127
+  },
+  "id3:CO-CAQ": {
+    "name": "Caquetá",
+    "ne_id": 1159310141
+  },
+  "id3:CO-CAS": {
+    "name": "Casanare",
+    "ne_id": 1159310163
+  },
+  "id3:CO-CAU": {
+    "name": "Cauca",
+    "ne_id": 1159309011
+  },
+  "id3:CO-CES": {
+    "name": "Cesar",
+    "ne_id": 1159310153
+  },
+  "id3:CO-CHO": {
+    "name": "Chocó",
+    "ne_id": 1159310035
+  },
+  "id3:CO-COR": {
+    "name": "Córdoba",
+    "ne_id": 1159310183
+  },
+  "id3:CO-CUN_1159310129": {
+    "name": "Cundinamarca",
+    "ne_id": 1159310129
+  },
+  "id3:CO-CUN_1159310131": {
+    "name": "Bogota",
+    "ne_id": 1159310131
+  },
+  "id3:CO-GUA": {
+    "name": "Guainía",
+    "ne_id": 1159310167
+  },
+  "id3:CO-GUV": {
+    "name": "Guaviare",
+    "ne_id": 1159310165
+  },
+  "id3:CO-HUI": {
+    "name": "Huila",
+    "ne_id": 1159310143
+  },
+  "id3:CO-LAG": {
+    "name": "La Guajira",
+    "ne_id": 1159310189
+  },
+  "id3:CO-MAG": {
+    "name": "Magdalena",
+    "ne_id": 1159310155
+  },
+  "id3:CO-MET": {
+    "name": "Meta",
+    "ne_id": 1159310171
+  },
+  "id3:CO-NAR": {
+    "name": "Nariño",
+    "ne_id": 1159310019
+  },
+  "id3:CO-NSA": {
+    "name": "Norte de Santander",
+    "ne_id": 1159310161
+  },
+  "id3:CO-PUT": {
+    "name": "Putumayo",
+    "ne_id": 1159310145
+  },
+  "id3:CO-QUI": {
+    "name": "Quindío",
+    "ne_id": 1159310135
+  },
+  "id3:CO-RIS": {
+    "name": "Risaralda",
+    "ne_id": 1159310137
+  },
+  "id3:CO-SAN": {
+    "name": "Santander",
+    "ne_id": 1159310185
+  },
+  "id3:CO-SAP": {
+    "name": "San Andrés y Providencia",
+    "ne_id": 1159310191
+  },
+  "id3:CO-SUC": {
+    "name": "Sucre",
+    "ne_id": 1159310157
+  },
+  "id3:CO-TOL": {
+    "name": "Tolima",
+    "ne_id": 1159310139
+  },
+  "id3:CO-VAC": {
+    "name": "Valle del Cauca",
+    "ne_id": 1159310147
+  },
+  "id3:CO-VAU": {
+    "name": "Vaupés",
+    "ne_id": 1159310173
+  },
+  "id3:CO-VID": {
+    "name": "Vichada",
+    "ne_id": 1159310175
+  }
+}

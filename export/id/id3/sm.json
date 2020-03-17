@@ -1,0 +1,38 @@
+{
+  "id3:SM-01": {
+    "name": "Acquaviva",
+    "ne_id": 1159315993
+  },
+  "id3:SM-02": {
+    "name": "Chiesanuova",
+    "ne_id": 1159316007
+  },
+  "id3:SM-03": {
+    "name": "Domagnano",
+    "ne_id": 1159315997
+  },
+  "id3:SM-04": {
+    "name": "Faetano",
+    "ne_id": 1159315999
+  },
+  "id3:SM-05": {
+    "name": "Fiorentino",
+    "ne_id": 1159316005
+  },
+  "id3:SM-06": {
+    "name": "Borgo Maggiore",
+    "ne_id": 1159315591
+  },
+  "id3:SM-07": {
+    "name": "San Marino",
+    "ne_id": 1159315991
+  },
+  "id3:SM-08": {
+    "name": "Montegiardino",
+    "ne_id": 1159316003
+  },
+  "id3:SM-09": {
+    "name": "Serravalle",
+    "ne_id": 1159315995
+  }
+}

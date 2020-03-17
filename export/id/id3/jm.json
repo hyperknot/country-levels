@@ -1,0 +1,58 @@
+{
+  "id3:JM-01": {
+    "name": "Kingston",
+    "ne_id": 1159310281
+  },
+  "id3:JM-02": {
+    "name": "Saint Andrew",
+    "ne_id": 1159310291
+  },
+  "id3:JM-03": {
+    "name": "Saint Thomas",
+    "ne_id": 1159310293
+  },
+  "id3:JM-04": {
+    "name": "Portland",
+    "ne_id": 1159310283
+  },
+  "id3:JM-05": {
+    "name": "Saint Mary",
+    "ne_id": 1159310289
+  },
+  "id3:JM-06": {
+    "name": "Saint Ann",
+    "ne_id": 1159310285
+  },
+  "id3:JM-07": {
+    "name": "Trelawny",
+    "ne_id": 1159310275
+  },
+  "id3:JM-08": {
+    "name": "Saint James",
+    "ne_id": 1159310273
+  },
+  "id3:JM-09": {
+    "name": "Hanover",
+    "ne_id": 1159310267
+  },
+  "id3:JM-10": {
+    "name": "Westmoreland",
+    "ne_id": 1159310279
+  },
+  "id3:JM-11": {
+    "name": "Saint Elizabeth",
+    "ne_id": 1159310271
+  },
+  "id3:JM-12": {
+    "name": "Manchester",
+    "ne_id": 1159310269
+  },
+  "id3:JM-13": {
+    "name": "Clarendon",
+    "ne_id": 1159310265
+  },
+  "id3:JM-14": {
+    "name": "Saint Catherine",
+    "ne_id": 1159310287
+  }
+}

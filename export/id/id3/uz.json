@@ -1,0 +1,58 @@
+{
+  "id3:UZ-AN": {
+    "name": "Andijon",
+    "ne_id": 1159308525
+  },
+  "id3:UZ-BU": {
+    "name": "Bukhoro",
+    "ne_id": 1159308509
+  },
+  "id3:UZ-FA": {
+    "name": "Ferghana",
+    "ne_id": 1159308467
+  },
+  "id3:UZ-JI": {
+    "name": "Jizzakh",
+    "ne_id": 1159308529
+  },
+  "id3:UZ-NG": {
+    "name": "Namangan",
+    "ne_id": 1159308527
+  },
+  "id3:UZ-NW": {
+    "name": "Navoi",
+    "ne_id": 1159308517
+  },
+  "id3:UZ-QA": {
+    "name": "Kashkadarya",
+    "ne_id": 1159308521
+  },
+  "id3:UZ-QR": {
+    "name": "Karakalpakstan",
+    "ne_id": 1159308515
+  },
+  "id3:UZ-SA": {
+    "name": "Samarkand",
+    "ne_id": 1159308519
+  },
+  "id3:UZ-SI": {
+    "name": "Sirdaryo",
+    "ne_id": 1159308533
+  },
+  "id3:UZ-SU": {
+    "name": "Surkhandarya",
+    "ne_id": 1159308523
+  },
+  "id3:UZ-TK": {
+    "name": "Tashkent",
+    "ne_id": 1159315879
+  },
+  "id3:UZ-TO": {
+    "name": "Tashkent",
+    "ne_id": 1159308535
+  },
+  "id3:UZ-XO": {
+    "name": "Khorezm",
+    "ne_id": 1159308511
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id3:ML-1": {
+    "name": "Kayes",
+    "ne_id": 1159313997
+  },
+  "id3:ML-2": {
+    "name": "Koulikoro",
+    "ne_id": 1159313995
+  },
+  "id3:ML-3": {
+    "name": "Sikasso",
+    "ne_id": 1159313999
+  },
+  "id3:ML-4": {
+    "name": "Ségou",
+    "ne_id": 1159314005
+  },
+  "id3:ML-5": {
+    "name": "Mopti",
+    "ne_id": 1159314001
+  },
+  "id3:ML-6": {
+    "name": "Timbuktu",
+    "ne_id": 1159313509
+  },
+  "id3:ML-7": {
+    "name": "Gao",
+    "ne_id": 1159313513
+  },
+  "id3:ML-8": {
+    "name": "Kidal",
+    "ne_id": 1159313511
+  },
+  "id3:ML-BKO": {
+    "name": "Bamako",
+    "ne_id": 1159315953
+  }
+}

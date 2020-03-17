@@ -1,0 +1,38 @@
+{
+  "id3:IS-0": {
+    "name": "Reykjavík",
+    "ne_id": 1159316485
+  },
+  "id3:IS-1": {
+    "name": "Höfuðborgarsvæði",
+    "ne_id": 1159311127
+  },
+  "id3:IS-2": {
+    "name": "Suðurnes",
+    "ne_id": 1159311125
+  },
+  "id3:IS-3": {
+    "name": "Vesturland",
+    "ne_id": 1159311129
+  },
+  "id3:IS-4": {
+    "name": "Vestfirðir",
+    "ne_id": 1159311115
+  },
+  "id3:IS-5": {
+    "name": "Norðurland vestra",
+    "ne_id": 1159311119
+  },
+  "id3:IS-6": {
+    "name": "Norðurland eystra",
+    "ne_id": 1159311121
+  },
+  "id3:IS-7": {
+    "name": "Austurland",
+    "ne_id": 1159311117
+  },
+  "id3:IS-8": {
+    "name": "Suðurland",
+    "ne_id": 1159311111
+  }
+}

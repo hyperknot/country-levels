@@ -1,0 +1,34 @@
+{
+  "id3:PK-BA": {
+    "name": "Baluchistan",
+    "ne_id": 1159310539
+  },
+  "id3:PK-GB": {
+    "name": "Northern Areas",
+    "ne_id": 1159310545
+  },
+  "id3:PK-IS": {
+    "name": "F.C.T.",
+    "ne_id": 1159310541
+  },
+  "id3:PK-JK": {
+    "name": "Azad Kashmir",
+    "ne_id": 1159310503
+  },
+  "id3:PK-KP": {
+    "name": "K.P.",
+    "ne_id": 1159309353
+  },
+  "id3:PK-PB": {
+    "name": "Punjab",
+    "ne_id": 1159309349
+  },
+  "id3:PK-SD": {
+    "name": "Sind",
+    "ne_id": 1159309351
+  },
+  "id3:PK-TA": {
+    "name": "F.A.T.A.",
+    "ne_id": 1159309347
+  }
+}

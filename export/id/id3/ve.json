@@ -1,0 +1,102 @@
+{
+  "id3:VE-A": {
+    "name": "Distrito Capital",
+    "ne_id": 1159308119
+  },
+  "id3:VE-B": {
+    "name": "Anzoátegui",
+    "ne_id": 1159308111
+  },
+  "id3:VE-C": {
+    "name": "Apure",
+    "ne_id": 1159308083
+  },
+  "id3:VE-D": {
+    "name": "Aragua",
+    "ne_id": 1159308113
+  },
+  "id3:VE-E": {
+    "name": "Barinas",
+    "ne_id": 1159308085
+  },
+  "id3:VE-F": {
+    "name": "Bolívar",
+    "ne_id": 1159308109
+  },
+  "id3:VE-G": {
+    "name": "Carabobo",
+    "ne_id": 1159308097
+  },
+  "id3:VE-H": {
+    "name": "Cojedes",
+    "ne_id": 1159308095
+  },
+  "id3:VE-I": {
+    "name": "Falcón",
+    "ne_id": 1159308079
+  },
+  "id3:VE-J": {
+    "name": "Guárico",
+    "ne_id": 1159308121
+  },
+  "id3:VE-K": {
+    "name": "Lara",
+    "ne_id": 1159308101
+  },
+  "id3:VE-L": {
+    "name": "Mérida",
+    "ne_id": 1159308087
+  },
+  "id3:VE-M": {
+    "name": "Miranda",
+    "ne_id": 1159308123
+  },
+  "id3:VE-N": {
+    "name": "Monagas",
+    "ne_id": 1159308021
+  },
+  "id3:VE-O": {
+    "name": "Nueva Esparta",
+    "ne_id": 1159308037
+  },
+  "id3:VE-P": {
+    "name": "Portuguesa",
+    "ne_id": 1159308103
+  },
+  "id3:VE-R": {
+    "name": "Sucre",
+    "ne_id": 1159308031
+  },
+  "id3:VE-S": {
+    "name": "Táchira",
+    "ne_id": 1159308089
+  },
+  "id3:VE-T": {
+    "name": "Trujillo",
+    "ne_id": 1159308091
+  },
+  "id3:VE-U": {
+    "name": "Yaracuy",
+    "ne_id": 1159308105
+  },
+  "id3:VE-V": {
+    "name": "Zulia",
+    "ne_id": 1159308093
+  },
+  "id3:VE-W": {
+    "name": "Dependencias Federales",
+    "ne_id": 1159308071
+  },
+  "id3:VE-X": {
+    "name": "Vargas",
+    "ne_id": 1159308115
+  },
+  "id3:VE-Y": {
+    "name": "Delta Amacuro",
+    "ne_id": 1159308013
+  },
+  "id3:VE-Z": {
+    "name": "Amazonas",
+    "ne_id": 1159308107
+  }
+}

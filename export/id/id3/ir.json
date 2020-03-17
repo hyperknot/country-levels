@@ -1,0 +1,126 @@
+{
+  "id3:IR-01": {
+    "name": "East Azarbaijan",
+    "ne_id": 1159314307
+  },
+  "id3:IR-02": {
+    "name": "West Azarbaijan",
+    "ne_id": 1159314305
+  },
+  "id3:IR-03": {
+    "name": "Ardebil",
+    "ne_id": 1159314293
+  },
+  "id3:IR-04": {
+    "name": "Esfahan",
+    "ne_id": 1159314267
+  },
+  "id3:IR-05": {
+    "name": "Ilam",
+    "ne_id": 1159314289
+  },
+  "id3:IR-06": {
+    "name": "Bushehr",
+    "ne_id": 1159314055
+  },
+  "id3:IR-07_1159314279": {
+    "name": "Tehran",
+    "ne_id": 1159314279
+  },
+  "id3:IR-07_1159317125": {
+    "name": "Alborz",
+    "ne_id": 1159317125
+  },
+  "id3:IR-08": {
+    "name": "Chahar Mahall and Bakhtiari",
+    "ne_id": 1159314283
+  },
+  "id3:IR-10": {
+    "name": "Khuzestan",
+    "ne_id": 1159314285
+  },
+  "id3:IR-11": {
+    "name": "Zanjan",
+    "ne_id": 1159314301
+  },
+  "id3:IR-12": {
+    "name": "Semnan",
+    "ne_id": 1159314277
+  },
+  "id3:IR-13": {
+    "name": "Sistan and Baluchestan",
+    "ne_id": 1159314323
+  },
+  "id3:IR-14": {
+    "name": "Fars",
+    "ne_id": 1159314269
+  },
+  "id3:IR-15": {
+    "name": "Kerman",
+    "ne_id": 1159314325
+  },
+  "id3:IR-16": {
+    "name": "Kordestan",
+    "ne_id": 1159314315
+  },
+  "id3:IR-17": {
+    "name": "Kermanshah",
+    "ne_id": 1159314311
+  },
+  "id3:IR-18": {
+    "name": "Kohgiluyeh and Buyer Ahmad",
+    "ne_id": 1159314265
+  },
+  "id3:IR-19": {
+    "name": "Gilan",
+    "ne_id": 1159314313
+  },
+  "id3:IR-20": {
+    "name": "Lorestan",
+    "ne_id": 1159314287
+  },
+  "id3:IR-21": {
+    "name": "Mazandaran",
+    "ne_id": 1159314275
+  },
+  "id3:IR-22": {
+    "name": "Markazi",
+    "ne_id": 1159314295
+  },
+  "id3:IR-23": {
+    "name": "Hormozgan",
+    "ne_id": 1159314009
+  },
+  "id3:IR-24": {
+    "name": "Hamadan",
+    "ne_id": 1159314299
+  },
+  "id3:IR-25": {
+    "name": "Yazd",
+    "ne_id": 1159314281
+  },
+  "id3:IR-26": {
+    "name": "Qom",
+    "ne_id": 1159314297
+  },
+  "id3:IR-27": {
+    "name": "Golestan",
+    "ne_id": 1159314271
+  },
+  "id3:IR-28": {
+    "name": "Qazvin",
+    "ne_id": 1159314303
+  },
+  "id3:IR-29": {
+    "name": "South Khorasan",
+    "ne_id": 1159314317
+  },
+  "id3:IR-30": {
+    "name": "Razavi Khorasan",
+    "ne_id": 1159314319
+  },
+  "id3:IR-31": {
+    "name": "North Khorasan",
+    "ne_id": 1159314321
+  }
+}

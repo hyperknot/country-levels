@@ -1,0 +1,58 @@
+{
+  "id3:NP-BA": {
+    "name": "Bagmati",
+    "ne_id": 1159309281
+  },
+  "id3:NP-BH": {
+    "name": "Bheri",
+    "ne_id": 1159309267
+  },
+  "id3:NP-DH": {
+    "name": "Dhawalagiri",
+    "ne_id": 1159309271
+  },
+  "id3:NP-GA": {
+    "name": "Gandaki",
+    "ne_id": 1159310445
+  },
+  "id3:NP-JA": {
+    "name": "Janakpur",
+    "ne_id": 1159309283
+  },
+  "id3:NP-KA": {
+    "name": "Karnali",
+    "ne_id": 1159309273
+  },
+  "id3:NP-KO": {
+    "name": "Bhojpur",
+    "ne_id": 1159309291
+  },
+  "id3:NP-LU": {
+    "name": "Lumbini",
+    "ne_id": 1159309275
+  },
+  "id3:NP-MA": {
+    "name": "Mahakali",
+    "ne_id": 1159309277
+  },
+  "id3:NP-ME": {
+    "name": "Mechi",
+    "ne_id": 1159309293
+  },
+  "id3:NP-NA": {
+    "name": "Narayani",
+    "ne_id": 1159309285
+  },
+  "id3:NP-RA": {
+    "name": "Rapti",
+    "ne_id": 1159308411
+  },
+  "id3:NP-SA": {
+    "name": "Sagarmatha",
+    "ne_id": 1159309289
+  },
+  "id3:NP-SE": {
+    "name": "Seti",
+    "ne_id": 1159309279
+  }
+}

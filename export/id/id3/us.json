@@ -1,0 +1,206 @@
+{
+  "id3:US-AK": {
+    "name": "Alaska",
+    "ne_id": 1159308731
+  },
+  "id3:US-AL": {
+    "name": "Alabama",
+    "ne_id": 1159315233
+  },
+  "id3:US-AR": {
+    "name": "Arkansas",
+    "ne_id": 1159315355
+  },
+  "id3:US-AZ": {
+    "name": "Arizona",
+    "ne_id": 1159315341
+  },
+  "id3:US-CA": {
+    "name": "California",
+    "ne_id": 1159308415
+  },
+  "id3:US-CO": {
+    "name": "Colorado",
+    "ne_id": 1159315343
+  },
+  "id3:US-CT": {
+    "name": "Connecticut",
+    "ne_id": 1159315301
+  },
+  "id3:US-DC": {
+    "name": "District of Columbia",
+    "ne_id": 1159315327
+  },
+  "id3:US-DE": {
+    "name": "Delaware",
+    "ne_id": 1159315325
+  },
+  "id3:US-FL": {
+    "name": "Florida",
+    "ne_id": 1159315207
+  },
+  "id3:US-GA": {
+    "name": "Georgia",
+    "ne_id": 1159311857
+  },
+  "id3:US-HI": {
+    "name": "Hawaii",
+    "ne_id": 1159308409
+  },
+  "id3:US-IA": {
+    "name": "Iowa",
+    "ne_id": 1159315357
+  },
+  "id3:US-ID": {
+    "name": "Idaho",
+    "ne_id": 1159315339
+  },
+  "id3:US-IL": {
+    "name": "Illinois",
+    "ne_id": 1159315309
+  },
+  "id3:US-IN": {
+    "name": "Indiana",
+    "ne_id": 1159315311
+  },
+  "id3:US-KS": {
+    "name": "Kansas",
+    "ne_id": 1159315359
+  },
+  "id3:US-KY": {
+    "name": "Kentucky",
+    "ne_id": 1159315313
+  },
+  "id3:US-LA": {
+    "name": "Louisiana",
+    "ne_id": 1159315221
+  },
+  "id3:US-MA": {
+    "name": "Massachusetts",
+    "ne_id": 1159312157
+  },
+  "id3:US-MD": {
+    "name": "Maryland",
+    "ne_id": 1159315329
+  },
+  "id3:US-ME": {
+    "name": "Maine",
+    "ne_id": 1159308501
+  },
+  "id3:US-MI": {
+    "name": "Michigan",
+    "ne_id": 1159314665
+  },
+  "id3:US-MN": {
+    "name": "Minnesota",
+    "ne_id": 1159315297
+  },
+  "id3:US-MO": {
+    "name": "Missouri",
+    "ne_id": 1159315361
+  },
+  "id3:US-MS": {
+    "name": "Mississippi",
+    "ne_id": 1159315231
+  },
+  "id3:US-MT": {
+    "name": "Montana",
+    "ne_id": 1159315333
+  },
+  "id3:US-NC": {
+    "name": "North Carolina",
+    "ne_id": 1159314887
+  },
+  "id3:US-ND": {
+    "name": "North Dakota",
+    "ne_id": 1159315337
+  },
+  "id3:US-NE": {
+    "name": "Nebraska",
+    "ne_id": 1159315363
+  },
+  "id3:US-NH": {
+    "name": "New Hampshire",
+    "ne_id": 1159315303
+  },
+  "id3:US-NJ": {
+    "name": "New Jersey",
+    "ne_id": 1159315267
+  },
+  "id3:US-NM": {
+    "name": "New Mexico",
+    "ne_id": 1159315347
+  },
+  "id3:US-NV": {
+    "name": "Nevada",
+    "ne_id": 1159315345
+  },
+  "id3:US-NY": {
+    "name": "New York",
+    "ne_id": 1159312155
+  },
+  "id3:US-OH": {
+    "name": "Ohio",
+    "ne_id": 1159315315
+  },
+  "id3:US-OK": {
+    "name": "Oklahoma",
+    "ne_id": 1159315365
+  },
+  "id3:US-OR": {
+    "name": "Oregon",
+    "ne_id": 1159309549
+  },
+  "id3:US-PA": {
+    "name": "Pennsylvania",
+    "ne_id": 1159315331
+  },
+  "id3:US-RI": {
+    "name": "Rhode Island",
+    "ne_id": 1159312213
+  },
+  "id3:US-SC": {
+    "name": "South Carolina",
+    "ne_id": 1159315307
+  },
+  "id3:US-SD": {
+    "name": "South Dakota",
+    "ne_id": 1159315367
+  },
+  "id3:US-TN": {
+    "name": "Tennessee",
+    "ne_id": 1159315319
+  },
+  "id3:US-TX": {
+    "name": "Texas",
+    "ne_id": 1159315211
+  },
+  "id3:US-UT": {
+    "name": "Utah",
+    "ne_id": 1159315349
+  },
+  "id3:US-VA": {
+    "name": "Virginia",
+    "ne_id": 1159315259
+  },
+  "id3:US-VT": {
+    "name": "Vermont",
+    "ne_id": 1159315305
+  },
+  "id3:US-WA": {
+    "name": "Washington",
+    "ne_id": 1159309547
+  },
+  "id3:US-WI": {
+    "name": "Wisconsin",
+    "ne_id": 1159315321
+  },
+  "id3:US-WV": {
+    "name": "West Virginia",
+    "ne_id": 1159315323
+  },
+  "id3:US-WY": {
+    "name": "Wyoming",
+    "ne_id": 1159315351
+  }
+}
