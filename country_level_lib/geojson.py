@@ -57,6 +57,10 @@ def export_id1():
             ne_id = id1_data['ne_id']
             feature_data = features_by_id[ne_id]
 
+            # skip one-to-one fixed polygons
+            if id1[:3] == 'id0':
+                continue
+
             filename = id1[4:].lower()
             geojson_path = export_id1_dir / f'{filename}.geojson'
 
