@@ -115,13 +115,21 @@ def process_id012():
         sub2 = sub1[id1]['sub2']
         sub2.setdefault(id2, {'name': subunit_name, 'ne_id': ne_id, 'pop_est': prop['pop_est']})
 
-    # clean up sub2
+    cleanup_sub2(levels)
+    cleanup_sub1(levels)
+
+    id_dir.mkdir(exist_ok=True, parents=True)
+    write_json(id_dir / 'id012.json', levels, indent=2, sort_keys=True)
+
+
+def cleanup_sub2(levels: dict):
     for sub_country, country_data in levels.items():
         for data1 in country_data['sub1'].values():
             if len(data1['sub2']) == 1:
                 del data1['sub2']
 
-    # clean up sub1
+
+def cleanup_sub1(levels: dict):
     for sub_country, country_data in levels.items():
         sub1 = country_data['sub1']
 
@@ -132,9 +140,6 @@ def process_id012():
         sub1_first = list(sub1.values())[0]
         if 'sub2' not in sub1_first:
             del country_data['sub1']
-
-    id_dir.mkdir(exist_ok=True, parents=True)
-    write_json(id_dir / 'id012.json', levels, indent=2, sort_keys=True)
 
 
 def validate_iso_012(iso_code: str):
