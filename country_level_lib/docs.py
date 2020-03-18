@@ -13,7 +13,7 @@ def generate_readme():
         tree_md += f'\n**{id0}** [{name}](export/geojson/id0/{code}.geojson)'
 
         if (id3_dir / f'{code}.json').is_file():
-            tree_md += f'    *([id3](export/id/id3/{code}.json))*'
+            tree_md += f' *([id3](export/id/id3/{code}.json))*'
 
         tree_md += '\n\n'
 
