@@ -13,7 +13,9 @@ def generate_readme():
         tree_md += f'\n**{id0}** [{name}](export/geojson/id0/{code}.geojson)'
 
         if (id3_dir / f'{code}.json').is_file():
-            f'    *([id3](export/id/id3/{code}.json))*\n\n'
+            tree_md += f'    *([id3](export/id/id3/{code}.json))*'
+
+        tree_md += '\n\n'
 
         if 'sub1' not in id0_data:
             continue
