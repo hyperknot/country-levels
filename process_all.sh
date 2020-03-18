@@ -8,3 +8,4 @@ cd scripts
 ./shp2geo.sh
 ./create_levels.py
 ./export_geojsons.py
+./generate_docs.py
