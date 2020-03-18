@@ -1,4 +1,4 @@
-from country_level_lib.config import root_dir, id_dir, docs_dir
+from country_level_lib.config import root_dir, id_dir, docs_dir, id3_dir
 from country_level_lib.utils import read_json, read_file, write_file
 
 
@@ -10,11 +10,11 @@ def generate_readme():
         name = id0_data['name']
         code = id0[4:].lower()
 
-        tree_md += (
-            f'\n**{id0}** [{name}](export/geojson/id0/{code}.geojson)'
+        tree_md += f'\n**{id0}** [{name}](export/geojson/id0/{code}.geojson)'
+
+        if (id3_dir / f'{code}.json').is_file():
             f'    *([id3](export/id/id3/{code}.json))*\n\n'
-        )
-        # print(id0, id0_data)
+
         if 'sub1' not in id0_data:
             continue
 
