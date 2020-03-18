@@ -1,4 +1,4 @@
-from country_level_lib.config import root_dir, id_dir
+from country_level_lib.config import root_dir, id_dir, docs_dir
 from country_level_lib.utils import read_json, read_file, write_file
 
 
@@ -30,7 +30,7 @@ def generate_readme():
             for id2, id2_data in sub2.items():
                 print('   ', id2, id2_data)
 
-    readme_template = read_file(root_dir / 'README_template.md')
+    readme_template = read_file(docs_dir / 'README_template.md')
     readme_replaced = readme_template.replace('___REPLACE_TEMPLATE___', document)
     write_file(root_dir / 'README.md', readme_replaced)
 
