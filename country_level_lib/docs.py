@@ -36,7 +36,7 @@ def generate_readme():
                 level = id2[:3]
                 code = id2[4:].lower()
 
-                tree_md += f'  - **{id2}** [{name}](export/geojson/{level}/{code}.geojson)\n\n'
+                tree_md += f'    - **{id2}** [{name}](export/geojson/{level}/{code}.geojson)\n\n'
 
     readme_template = read_file(docs_dir / 'README_template.md')
     readme_replaced = readme_template.replace('___REPLACE_TEMPLATE___', tree_md)
