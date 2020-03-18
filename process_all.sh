@@ -6,6 +6,6 @@ cd scripts
 
 ./download.sh
 ./shp2geo.sh
-./create_levels.py
+./create_ids.py
 ./export_geojsons.py
 ./generate_docs.py
