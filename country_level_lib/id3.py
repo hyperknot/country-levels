@@ -20,8 +20,8 @@ def process_id3():
     countries = read_json(geojson_dir / 'countries.geojson')['features']
     states = read_json(geojson_dir / 'states.geojson')['features']
 
-    with (fixes_dir / 'duplicate_l3_ids.txt').open() as infile:
-        duplicate_l3_ids = {l.strip() for l in infile.readlines()}
+    with (fixes_dir / 'duplicate_id3.txt').open() as infile:
+        duplicate_id3 = {l.strip() for l in infile.readlines()}
 
     print(f'{len(states)} states')
 
@@ -68,7 +68,7 @@ def process_id3():
 
         # check duplicate iso codes
         # we need to add a unique id to each
-        if state_iso in duplicate_l3_ids:
+        if state_iso in duplicate_id3:
             state_iso = f'{state_iso}_{ne_id}'
         if state_iso in data[country_iso]:
             print(f'duplicate state_iso: {state_iso}')
