@@ -11,10 +11,8 @@ def generate_readme():
         code = id0[4:].lower()
 
         tree_md += (
-            f'- **{id0}** [{name}](export/geojson/id0/{code}.geojson)'
-            f'\n'
-            f'       id3 [json](export/id/id3/{code}.json)'
-            f'\n'
+            f'\n**{id0}** [{name}](export/geojson/id0/{code}.geojson)\n'
+            f'  *[id3](export/id/id3/{code}.json)*\n\n'
         )
         # print(id0, id0_data)
         if 'sub1' not in id0_data:
@@ -26,7 +24,7 @@ def generate_readme():
             level = id1[:3]
             code = id1[4:].lower()
 
-            tree_md += f'  - **{id1}** [{name}](export/geojson/{level}/{code}.geojson)\n'
+            tree_md += f'  - **{id1}** [{name}](export/geojson/{level}/{code}.geojson)\n\n'
             if 'sub2' not in id1_data:
                 continue
 
@@ -36,7 +34,7 @@ def generate_readme():
                 level = id2[:3]
                 code = id2[4:].lower()
 
-                tree_md += f'  - **{id2}** [{name}](export/geojson/{level}/{code}.geojson)\n'
+                tree_md += f'  - **{id2}** [{name}](export/geojson/{level}/{code}.geojson)\n\n'
 
     readme_template = read_file(docs_dir / 'README_template.md')
     readme_replaced = readme_template.replace('___REPLACE_TEMPLATE___', tree_md)
