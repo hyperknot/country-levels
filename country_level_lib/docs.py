@@ -12,7 +12,7 @@ def generate_readme():
 
         tree_md += (
             f'\n**{id0}** [{name}](export/geojson/id0/{code}.geojson)  \n'
-            f'  *[id3](export/id/id3/{code}.json)*\n\n'
+            f'    *[id3](export/id/id3/{code}.json)*\n\n'
         )
         # print(id0, id0_data)
         if 'sub1' not in id0_data:
