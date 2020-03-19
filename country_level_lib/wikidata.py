@@ -28,9 +28,9 @@ def get_population():
     mix_data = dict(simple_data, **latest_data)
 
     population_dir.mkdir(exist_ok=True, parents=True)
-    write_json(population_dir / 'simple.json', simple_data, indent=2, sort_keys=True)
-    write_json(population_dir / 'latest.json', latest_data, indent=2, sort_keys=True)
-    write_json(population_dir / 'mix.json', mix_data, indent=2, sort_keys=True)
+    # write_json(population_dir / 'simple.json', simple_data, indent=2, sort_keys=True)
+    # write_json(population_dir / 'latest.json', latest_data, indent=2, sort_keys=True)
+    write_json(population_dir / 'population.json', mix_data, indent=2, sort_keys=True)
 
 
 def get_all_ids():
