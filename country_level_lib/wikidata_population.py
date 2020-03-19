@@ -48,7 +48,7 @@ def run_query_simple(qids: list):
 
     for result in results["results"]["bindings"]:
         qid = result['item']['value'].split('/')[-1]
-        population = int(result['population']['value'])
+        population = int(float(result['population']['value']))
         data[qid] = population
 
     return data
@@ -80,7 +80,7 @@ def run_query_latest(qids: list):
 
     for result in results["results"]["bindings"]:
         qid = result['item']['value'].split('/')[-1]
-        population = int(result['population']['value'])
+        population = int(float(result['population']['value']))
         data[qid] = population
 
     return data
