@@ -1,7 +1,7 @@
 import re
 from pprint import pprint
 
-from country_level_lib.config import geojson_dir, id3_dir, fixes_dir
+from country_level_lib.config import geojson_dir, id3_dir, fixes_dir, population_dir
 from country_level_lib.id012 import create_adm_iso_map, validate_iso_012
 from country_level_lib.utils import read_json, write_json
 
@@ -27,9 +27,53 @@ def process_id3():
     print(f'{len(states)} states')
 
     adm_iso_map = create_adm_iso_map(countries)
+    processed_states = process_states(states, adm_iso_map)
+
+    print(processed_states[:3])
+
+    return
     data = {}
 
-    clean_duplicate_states(states)
+    for feature in states:
+
+        data.setdefault(country_iso, {})
+
+        # check duplicate iso codes
+        # we need to add a unique id to each
+        if state_iso in duplicate_id3:
+            state_iso = f'{state_iso}_{ne_id}'
+        if state_iso in data[country_iso]:
+            print(f'duplicate state_iso: {state_iso}')
+
+        id3 = f'id3:{state_iso}'
+        data[country_iso][id3] = {'name': state_name, 'ne_id': ne_id}
+
+    for country_iso, country_states in data.items():
+        id3_dir.mkdir(exist_ok=True, parents=True)
+        filename = f'{country_iso.lower()}.json'
+        write_json(id3_dir / filename, country_states, indent=2, sort_keys=True)
+        # print(f'{filename} written')
+
+
+def validate_iso_3(iso_code: str):
+    if iso_3_regex.fullmatch(iso_code) is None:
+        print(f'wrong level 3 code: {iso_code}')
+
+
+def clean_duplicate_states(states):
+    for feature in states[:3]:
+        prop = feature['properties']
+        for key in prop:
+            prop[key.lower()] = prop.pop(key)
+
+        state_iso = fix_iso_3_codes.get(prop['iso_3166_2'], prop['iso_3166_2'])
+        geom = feature['geometry']
+
+
+def process_states(states: list, adm_iso_map: dict):
+    population_by_wikiid = read_json(population_dir / 'population.json')
+
+    clean_states = list()
 
     for feature in states:
         prop = feature['properties']
@@ -67,35 +111,18 @@ def process_id3():
         # regex check state_iso
         validate_iso_3(state_iso)
 
-        data.setdefault(country_iso, {})
+        wikidata_id = prop.get('wikidata_id')
+        population = population_by_wikiid.get(wikidata_id, 0)
 
-        # check duplicate iso codes
-        # we need to add a unique id to each
-        if state_iso in duplicate_id3:
-            state_iso = f'{state_iso}_{ne_id}'
-        if state_iso in data[country_iso]:
-            print(f'duplicate state_iso: {state_iso}')
+        prop['_processed'] = {
+            'country_name': country_name,
+            'country_iso': country_iso,
+            'state_name': state_name,
+            'state_iso': state_iso,
+            'ne_id': ne_id,
+            'population': population,
+        }
 
-        id3 = f'id3:{state_iso}'
-        data[country_iso][id3] = {'name': state_name, 'ne_id': ne_id}
+        clean_states.append(feature)
 
-    for country_iso, country_states in data.items():
-        id3_dir.mkdir(exist_ok=True, parents=True)
-        filename = f'{country_iso.lower()}.json'
-        write_json(id3_dir / filename, country_states, indent=2, sort_keys=True)
-        # print(f'{filename} written')
-
-
-def validate_iso_3(iso_code: str):
-    if iso_3_regex.fullmatch(iso_code) is None:
-        print(f'wrong level 3 code: {iso_code}')
-
-
-def clean_duplicate_states(states):
-    for feature in states[:3]:
-        prop = feature['properties']
-        for key in prop:
-            prop[key.lower()] = prop.pop(key)
-
-        state_iso = fix_iso_3_codes.get(prop['iso_3166_2'], prop['iso_3166_2'])
-        geom = feature['geometry']
+    return clean_states
