@@ -6,7 +6,7 @@ root_dir = lib_dir.parent
 data_dir = root_dir / 'data'
 geojson_dir = data_dir / 'geojson'
 fixes_dir = data_dir / 'fixes'
-population_dir = data_dir / 'population'
+wikidata_dir = data_dir / 'wikidata'
 
 export_dir = root_dir / 'export'
 

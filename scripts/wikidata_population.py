@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from country_level_lib.wikidata import get_population
+from country_level_lib.wikidata_population import get_population
 
 
 def main():
