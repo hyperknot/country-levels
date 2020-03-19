@@ -1,4 +1,5 @@
 import re
+from pprint import pprint
 
 from country_level_lib.config import geojson_dir, id3_dir, fixes_dir
 from country_level_lib.id012 import create_adm_iso_map, validate_iso_012
@@ -27,6 +28,8 @@ def process_id3():
 
     adm_iso_map = create_adm_iso_map(countries)
     data = {}
+
+    clean_duplicate_states(states)
 
     for feature in states:
         prop = feature['properties']
@@ -86,3 +89,13 @@ def process_id3():
 def validate_iso_3(iso_code: str):
     if iso_3_regex.fullmatch(iso_code) is None:
         print(f'wrong level 3 code: {iso_code}')
+
+
+def clean_duplicate_states(states):
+    for feature in states[:3]:
+        prop = feature['properties']
+        for key in prop:
+            prop[key.lower()] = prop.pop(key)
+
+        state_iso = fix_iso_3_codes.get(prop['iso_3166_2'], prop['iso_3166_2'])
+        geom = feature['geometry']

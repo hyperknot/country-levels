@@ -22,3 +22,9 @@ def read_file(file_path: pathlib.Path):
 def write_file(file_path: pathlib.Path, text):
     with file_path.open('w') as outfile:
         outfile.write(text)
+
+
+def split_to_chunks(lst, n):
+    """Yield successive n-sized chunks from lst."""
+    for i in range(0, len(lst), n):
+        yield lst[i : i + n]
