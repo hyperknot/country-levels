@@ -1,34 +1,50 @@
 {
   "id3:NE-1": {
     "name": "Agadez",
-    "ne_id": 1159309231
+    "ne_id": 1159309231,
+    "population": 487620,
+    "wikidata_id": "Q389944"
   },
   "id3:NE-2": {
     "name": "Diffa",
-    "ne_id": 1159309229
+    "ne_id": 1159309229,
+    "population": 593821,
+    "wikidata_id": "Q1053302"
   },
   "id3:NE-3": {
     "name": "Dosso",
-    "ne_id": 1159309239
+    "ne_id": 1159309239,
+    "population": 2037713,
+    "wikidata_id": "Q850055"
   },
   "id3:NE-4": {
     "name": "Maradi",
-    "ne_id": 1159309235
+    "ne_id": 1159309235,
+    "population": 3402094,
+    "wikidata_id": "Q850036"
   },
   "id3:NE-5": {
     "name": "Tahoua",
-    "ne_id": 1159309243
+    "ne_id": 1159309243,
+    "population": 3328365,
+    "wikidata_id": "Q871083"
   },
   "id3:NE-6": {
     "name": "Tillabéri",
-    "ne_id": 1159315951
+    "ne_id": 1159315951,
+    "population": 2722482,
+    "wikidata_id": "Q861914"
   },
   "id3:NE-7": {
     "name": "Zinder",
-    "ne_id": 1159309237
+    "ne_id": 1159309237,
+    "population": 3539764,
+    "wikidata_id": "Q204367"
   },
   "id3:NE-8": {
     "name": "Niamey",
-    "ne_id": 1159309241
+    "ne_id": 1159309241,
+    "population": 1026848,
+    "wikidata_id": "Q3674"
   }
 }

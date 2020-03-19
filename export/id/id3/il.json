@@ -1,26 +1,38 @@
 {
   "id3:IL-D": {
     "name": "HaDarom",
-    "ne_id": 1159314185
+    "ne_id": 1159314185,
+    "population": 1272100,
+    "wikidata_id": "Q188781"
   },
   "id3:IL-HA": {
     "name": "Haifa",
-    "ne_id": 1159314187
+    "ne_id": 1159314187,
+    "population": 966700,
+    "wikidata_id": "Q185845"
   },
   "id3:IL-JM": {
     "name": "Jerusalem",
-    "ne_id": 1159314195
+    "ne_id": 1159314195,
+    "population": 1034200,
+    "wikidata_id": "Q192232"
   },
   "id3:IL-M": {
     "name": "HaMerkaz",
-    "ne_id": 1159314189
+    "ne_id": 1159314189,
+    "population": 2115800,
+    "wikidata_id": "Q188785"
   },
   "id3:IL-TA": {
     "name": "Tel Aviv",
-    "ne_id": 1159314193
+    "ne_id": 1159314193,
+    "population": 1350000,
+    "wikidata_id": "Q192811"
   },
   "id3:IL-Z": {
     "name": "HaZafon",
-    "ne_id": 1159314191
+    "ne_id": 1159314191,
+    "population": 1448100,
+    "wikidata_id": "Q189942"
   }
 }

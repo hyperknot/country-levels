@@ -1,22 +1,32 @@
 {
   "id3:TO-01": {
     "name": "Eua",
-    "ne_id": 1159316123
+    "ne_id": 1159316123,
+    "population": 4950,
+    "wikidata_id": "Q423528"
   },
   "id3:TO-02": {
     "name": "Ha'apai",
-    "ne_id": 1159316121
+    "ne_id": 1159316121,
+    "population": 0,
+    "wikidata_id": "Q612098"
   },
   "id3:TO-03": {
     "name": "Niuas",
-    "ne_id": 1159316119
+    "ne_id": 1159316119,
+    "population": 0,
+    "wikidata_id": "Q1200954"
   },
   "id3:TO-04": {
     "name": "Tongatapu",
-    "ne_id": 1159315487
+    "ne_id": 1159315487,
+    "population": 71260,
+    "wikidata_id": "Q620452"
   },
   "id3:TO-05": {
     "name": "Vava'u",
-    "ne_id": 1159316117
+    "ne_id": 1159316117,
+    "population": 0,
+    "wikidata_id": "Q859666"
   }
 }

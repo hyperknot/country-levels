@@ -1,6 +1,8 @@
 {
   "id3:VA-X01": {
     "name": "Vatican",
-    "ne_id": 1159308479
+    "ne_id": 1159308479,
+    "population": 0,
+    "wikidata_id": null
   }
 }

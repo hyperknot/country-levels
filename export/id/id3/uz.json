@@ -1,58 +1,86 @@
 {
   "id3:UZ-AN": {
     "name": "Andijon",
-    "ne_id": 1159308525
+    "ne_id": 1159308525,
+    "population": 1899500,
+    "wikidata_id": "Q487384"
   },
   "id3:UZ-BU": {
     "name": "Bukhoro",
-    "ne_id": 1159308509
+    "ne_id": 1159308509,
+    "population": 1543900,
+    "wikidata_id": "Q487372"
   },
   "id3:UZ-FA": {
     "name": "Ferghana",
-    "ne_id": 1159308467
+    "ne_id": 1159308467,
+    "population": 3564800,
+    "wikidata_id": "Q487089"
   },
   "id3:UZ-JI": {
     "name": "Jizzakh",
-    "ne_id": 1159308529
+    "ne_id": 1159308529,
+    "population": 1250100,
+    "wikidata_id": "Q488811"
   },
   "id3:UZ-NG": {
     "name": "Namangan",
-    "ne_id": 1159308527
+    "ne_id": 1159308527,
+    "population": 2554200,
+    "wikidata_id": "Q474876"
   },
   "id3:UZ-NW": {
     "name": "Navoi",
-    "ne_id": 1159308517
+    "ne_id": 1159308517,
+    "population": 767500,
+    "wikidata_id": "Q487570"
   },
   "id3:UZ-QA": {
     "name": "Kashkadarya",
-    "ne_id": 1159308521
+    "ne_id": 1159308521,
+    "population": 0,
+    "wikidata_id": "Q487577"
   },
   "id3:UZ-QR": {
     "name": "Karakalpakstan",
-    "ne_id": 1159308515
+    "ne_id": 1159308515,
+    "population": 1817500,
+    "wikidata_id": "Q484245"
   },
   "id3:UZ-SA": {
     "name": "Samarkand",
-    "ne_id": 1159308519
+    "ne_id": 1159308519,
+    "population": 3444800,
+    "wikidata_id": "Q487532"
   },
   "id3:UZ-SI": {
     "name": "Sirdaryo",
-    "ne_id": 1159308533
+    "ne_id": 1159308533,
+    "population": 0,
+    "wikidata_id": "Q487547"
   },
   "id3:UZ-SU": {
     "name": "Surkhandarya",
-    "ne_id": 1159308523
+    "ne_id": 1159308523,
+    "population": 0,
+    "wikidata_id": "Q487537"
   },
   "id3:UZ-TK": {
     "name": "Tashkent",
-    "ne_id": 1159315879
+    "ne_id": 1159315879,
+    "population": 2522800,
+    "wikidata_id": "Q269"
   },
   "id3:UZ-TO": {
     "name": "Tashkent",
-    "ne_id": 1159308535
+    "ne_id": 1159308535,
+    "population": 2644400,
+    "wikidata_id": "Q487585"
   },
   "id3:UZ-XO": {
     "name": "Khorezm",
-    "ne_id": 1159308511
+    "ne_id": 1159308511,
+    "population": 1715600,
+    "wikidata_id": "Q487561"
   }
 }

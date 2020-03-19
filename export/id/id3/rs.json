@@ -1,102 +1,152 @@
 {
   "id3:RS-00": {
     "name": "Grad Beograd",
-    "ne_id": 1159309515
+    "ne_id": 1159309515,
+    "population": 1378682,
+    "wikidata_id": "Q3711"
   },
   "id3:RS-01": {
     "name": "Severno-Backi",
-    "ne_id": 1159309541
+    "ne_id": 1159309541,
+    "population": 186906,
+    "wikidata_id": "Q648758"
   },
   "id3:RS-02": {
     "name": "Srednje-Banatski",
-    "ne_id": 1159310653
+    "ne_id": 1159310653,
+    "population": 0,
+    "wikidata_id": "Q425782"
   },
   "id3:RS-03": {
     "name": "Severno-Banatski",
-    "ne_id": 1159309543
+    "ne_id": 1159309543,
+    "population": 0,
+    "wikidata_id": "Q728041"
   },
   "id3:RS-04": {
     "name": "Južno-Banatski",
-    "ne_id": 1159310651
+    "ne_id": 1159310651,
+    "population": 293730,
+    "wikidata_id": "Q720030"
   },
   "id3:RS-05": {
     "name": "Zapadno-Backi",
-    "ne_id": 1159309537
+    "ne_id": 1159309537,
+    "population": 188087,
+    "wikidata_id": "Q735169"
   },
   "id3:RS-06": {
     "name": "Južno-Backi",
-    "ne_id": 1159310649
+    "ne_id": 1159310649,
+    "population": 615371,
+    "wikidata_id": "Q648718"
   },
   "id3:RS-07": {
     "name": "Sremski",
-    "ne_id": 1159309545
+    "ne_id": 1159309545,
+    "population": 312278,
+    "wikidata_id": "Q217331"
   },
   "id3:RS-08": {
     "name": "Macvanski",
-    "ne_id": 1159309519
+    "ne_id": 1159309519,
+    "population": 298931,
+    "wikidata_id": "Q867803"
   },
   "id3:RS-09": {
     "name": "Kolubarski",
-    "ne_id": 1159309517
+    "ne_id": 1159309517,
+    "population": 174228,
+    "wikidata_id": "Q1048139"
   },
   "id3:RS-10": {
     "name": "Podunavski",
-    "ne_id": 1159309505
+    "ne_id": 1159309505,
+    "population": 0,
+    "wikidata_id": "Q778561"
   },
   "id3:RS-11": {
     "name": "Branicevski",
-    "ne_id": 1159309531
+    "ne_id": 1159309531,
+    "population": 0,
+    "wikidata_id": "Q861539"
   },
   "id3:RS-12": {
     "name": "Šumadijski",
-    "ne_id": 1159309523
+    "ne_id": 1159309523,
+    "population": 0,
+    "wikidata_id": "Q544118"
   },
   "id3:RS-13": {
     "name": "Pomoravski",
-    "ne_id": 1159309507
+    "ne_id": 1159309507,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:RS-14": {
     "name": "Borski",
-    "ne_id": 1159308505
+    "ne_id": 1159308505,
+    "population": 124992,
+    "wikidata_id": "Q477586"
   },
   "id3:RS-15": {
     "name": "Zajecarski",
-    "ne_id": 1159309529
+    "ne_id": 1159309529,
+    "population": 0,
+    "wikidata_id": "Q967339"
   },
   "id3:RS-16": {
     "name": "Zlatiborski",
-    "ne_id": 1159310647
+    "ne_id": 1159310647,
+    "population": 286549,
+    "wikidata_id": "Q478278"
   },
   "id3:RS-17": {
     "name": "Moravicki",
-    "ne_id": 1159309499
+    "ne_id": 1159309499,
+    "population": 212603,
+    "wikidata_id": "Q915380"
   },
   "id3:RS-18": {
     "name": "Raški",
-    "ne_id": 1159309511
+    "ne_id": 1159309511,
+    "population": 309258,
+    "wikidata_id": "Q1061082"
   },
   "id3:RS-19": {
     "name": "Pomoravski",
-    "ne_id": 1159309509
+    "ne_id": 1159309509,
+    "population": 0,
+    "wikidata_id": "Q1043446"
   },
   "id3:RS-20": {
     "name": "Nišavski",
-    "ne_id": 1159309501
+    "ne_id": 1159309501,
+    "population": 0,
+    "wikidata_id": "Q1061076"
   },
   "id3:RS-21": {
     "name": "Toplicki",
-    "ne_id": 1159309513
+    "ne_id": 1159309513,
+    "population": 0,
+    "wikidata_id": "Q1048184"
   },
   "id3:RS-22": {
     "name": "Pirotski",
-    "ne_id": 1159308503
+    "ne_id": 1159308503,
+    "population": 0,
+    "wikidata_id": "Q580069"
   },
   "id3:RS-23": {
     "name": "Jablanicki",
-    "ne_id": 1159309527
+    "ne_id": 1159309527,
+    "population": 0,
+    "wikidata_id": "Q876541"
   },
   "id3:RS-24": {
     "name": "Pcinjski",
-    "ne_id": 1159309525
+    "ne_id": 1159309525,
+    "population": 0,
+    "wikidata_id": "Q1061099"
   }
 }

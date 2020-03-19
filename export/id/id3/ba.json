@@ -1,74 +1,110 @@
 {
+  "id3:BA-BIH": {
+    "name": "Sarajevo",
+    "ne_id": 1159314613,
+    "population": 413593,
+    "wikidata_id": "Q18276"
+  },
   "id3:BA-BIH_1159312511": {
     "name": "West Bosnia",
-    "ne_id": 1159312511
+    "ne_id": 1159312511,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:BA-BIH_1159312513": {
     "name": "Una-Sana",
-    "ne_id": 1159312513
+    "ne_id": 1159312513,
+    "population": 0,
+    "wikidata_id": "Q18248"
   },
   "id3:BA-BIH_1159312515": {
     "name": "Central Bosnia",
-    "ne_id": 1159312515
+    "ne_id": 1159312515,
+    "population": 0,
+    "wikidata_id": "Q18262"
   },
   "id3:BA-BIH_1159312517": {
     "name": "West Herzegovina",
-    "ne_id": 1159312517
+    "ne_id": 1159312517,
+    "population": 0,
+    "wikidata_id": "Q18275"
   },
   "id3:BA-BIH_1159312519": {
     "name": "Herzegovina-Neretva",
-    "ne_id": 1159312519
+    "ne_id": 1159312519,
+    "population": 222007,
+    "wikidata_id": "Q18273"
   },
   "id3:BA-BIH_1159314609": {
     "name": "Tuzla",
-    "ne_id": 1159314609
+    "ne_id": 1159314609,
+    "population": 0,
+    "wikidata_id": "Q18250"
   },
   "id3:BA-BIH_1159314611": {
     "name": "Zenica-Doboj",
-    "ne_id": 1159314611
-  },
-  "id3:BA-BIH_1159314613": {
-    "name": "Sarajevo",
-    "ne_id": 1159314613
+    "ne_id": 1159314611,
+    "population": 0,
+    "wikidata_id": "Q18253"
   },
   "id3:BA-BIH_1159314617": {
     "name": "Bosnian Podrinje",
-    "ne_id": 1159314617
+    "ne_id": 1159314617,
+    "population": 0,
+    "wikidata_id": "Q18256"
   },
   "id3:BA-BRC": {
     "name": "Brčko Distrikt",
-    "ne_id": 1159315823
+    "ne_id": 1159315823,
+    "population": 0,
+    "wikidata_id": "Q194483"
   },
   "id3:BA-SRP": {
     "name": "Posavina",
-    "ne_id": 1159314607
+    "ne_id": 1159314607,
+    "population": 0,
+    "wikidata_id": "Q18249"
   },
   "id3:BA-X01": {
     "name": "Doboj",
-    "ne_id": 1159314619
+    "ne_id": 1159314619,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:BA-X02": {
     "name": "Banja Luka",
-    "ne_id": 1159315819
+    "ne_id": 1159315819,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:BA-X03": {
     "name": "Bijeljina",
-    "ne_id": 1159315825
+    "ne_id": 1159315825,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:BA-X04": {
     "name": "Vlasenica",
-    "ne_id": 1159315827
+    "ne_id": 1159315827,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:BA-X05": {
     "name": "Sarajevo-romanija",
-    "ne_id": 1159315829
+    "ne_id": 1159315829,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:BA-X06": {
     "name": "Foča",
-    "ne_id": 1159315831
+    "ne_id": 1159315831,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:BA-X07": {
     "name": "Trebinje",
-    "ne_id": 1159315833
+    "ne_id": 1159315833,
+    "population": 0,
+    "wikidata_id": null
   }
 }

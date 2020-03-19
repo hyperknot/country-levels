@@ -1,22 +1,32 @@
 {
   "id3:DK-81": {
     "name": "Nordjylland",
-    "ne_id": 1159315459
+    "ne_id": 1159315459,
+    "population": 590580,
+    "wikidata_id": "Q26067"
   },
   "id3:DK-82": {
     "name": "Midtjylland",
-    "ne_id": 1159315813
+    "ne_id": 1159315813,
+    "population": 1326913,
+    "wikidata_id": "Q26586"
   },
   "id3:DK-83": {
     "name": "Syddanmark",
-    "ne_id": 1159315455
+    "ne_id": 1159315455,
+    "population": 1223894,
+    "wikidata_id": "Q26061"
   },
   "id3:DK-84": {
     "name": "Hovedstaden",
-    "ne_id": 1159315811
+    "ne_id": 1159315811,
+    "population": 1848989,
+    "wikidata_id": "Q26073"
   },
   "id3:DK-85": {
     "name": "Sjaælland",
-    "ne_id": 1159315453
+    "ne_id": 1159315453,
+    "population": 837087,
+    "wikidata_id": "Q26589"
   }
 }

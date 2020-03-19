@@ -1,38 +1,56 @@
 {
   "id3:ML-1": {
     "name": "Kayes",
-    "ne_id": 1159313997
+    "ne_id": 1159313997,
+    "population": 0,
+    "wikidata_id": "Q332113"
   },
   "id3:ML-2": {
     "name": "Koulikoro",
-    "ne_id": 1159313995
+    "ne_id": 1159313995,
+    "population": 0,
+    "wikidata_id": "Q287789"
   },
   "id3:ML-3": {
     "name": "Sikasso",
-    "ne_id": 1159313999
+    "ne_id": 1159313999,
+    "population": 0,
+    "wikidata_id": "Q461298"
   },
   "id3:ML-4": {
     "name": "Ségou",
-    "ne_id": 1159314005
+    "ne_id": 1159314005,
+    "population": 0,
+    "wikidata_id": "Q656845"
   },
   "id3:ML-5": {
     "name": "Mopti",
-    "ne_id": 1159314001
+    "ne_id": 1159314001,
+    "population": 0,
+    "wikidata_id": "Q214155"
   },
   "id3:ML-6": {
     "name": "Timbuktu",
-    "ne_id": 1159313509
+    "ne_id": 1159313509,
+    "population": 681691,
+    "wikidata_id": "Q339462"
   },
   "id3:ML-7": {
     "name": "Gao",
-    "ne_id": 1159313513
+    "ne_id": 1159313513,
+    "population": 544120,
+    "wikidata_id": "Q332392"
   },
   "id3:ML-8": {
     "name": "Kidal",
-    "ne_id": 1159313511
+    "ne_id": 1159313511,
+    "population": 0,
+    "wikidata_id": "Q338988"
   },
   "id3:ML-BKO": {
     "name": "Bamako",
-    "ne_id": 1159315953
+    "ne_id": 1159315953,
+    "population": 2009109,
+    "wikidata_id": "Q3703"
   }
 }

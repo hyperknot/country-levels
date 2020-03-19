@@ -1,6 +1,8 @@
 {
   "id3:NU-X01": {
     "name": "Niue",
-    "ne_id": 1159315491
+    "ne_id": 1159315491,
+    "population": 0,
+    "wikidata_id": null
   }
 }

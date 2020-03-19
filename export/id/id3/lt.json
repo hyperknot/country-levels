@@ -1,42 +1,62 @@
 {
   "id3:LT-AL": {
     "name": "Alytaus",
-    "ne_id": 1159311029
+    "ne_id": 1159311029,
+    "population": 32086,
+    "wikidata_id": "Q769940"
   },
   "id3:LT-KL": {
     "name": "Klaipedos",
-    "ne_id": 1159311025
+    "ne_id": 1159311025,
+    "population": 324628,
+    "wikidata_id": "Q475207"
   },
   "id3:LT-KU": {
     "name": "Kauno",
-    "ne_id": 1159311031
+    "ne_id": 1159311031,
+    "population": 563347,
+    "wikidata_id": "Q853861"
   },
   "id3:LT-MR": {
     "name": "Marijampoles",
-    "ne_id": 1159311035
+    "ne_id": 1159311035,
+    "population": 149125,
+    "wikidata_id": "Q853948"
   },
   "id3:LT-PN": {
     "name": "Panevezio",
-    "ne_id": 1159311037
+    "ne_id": 1159311037,
+    "population": 231063,
+    "wikidata_id": "Q188085"
   },
   "id3:LT-SA": {
     "name": "Šiauliai",
-    "ne_id": 1159311039
+    "ne_id": 1159311039,
+    "population": 276406,
+    "wikidata_id": "Q186410"
   },
   "id3:LT-TA": {
     "name": "Taurages",
-    "ne_id": 1159311041
+    "ne_id": 1159311041,
+    "population": 101249,
+    "wikidata_id": "Q188960"
   },
   "id3:LT-TE": {
     "name": "Telšiai",
-    "ne_id": 1159311027
+    "ne_id": 1159311027,
+    "population": 141357,
+    "wikidata_id": "Q188963"
   },
   "id3:LT-UT": {
     "name": "Utenos",
-    "ne_id": 1159311043
+    "ne_id": 1159311043,
+    "population": 137260,
+    "wikidata_id": "Q188659"
   },
   "id3:LT-VL": {
     "name": "Vilniaus",
-    "ne_id": 1159311045
+    "ne_id": 1159311045,
+    "population": 805142,
+    "wikidata_id": "Q188061"
   }
 }

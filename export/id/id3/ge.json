@@ -1,50 +1,74 @@
 {
   "id3:GE-AB": {
     "name": "Abkhazia",
-    "ne_id": 1159314601
+    "ne_id": 1159314601,
+    "population": 0,
+    "wikidata_id": "Q23334"
   },
   "id3:GE-AJ": {
     "name": "Ajaria",
-    "ne_id": 1159314341
+    "ne_id": 1159314341,
+    "population": 337000,
+    "wikidata_id": "Q45693"
   },
   "id3:GE-GU": {
     "name": "Guria",
-    "ne_id": 1159314581
+    "ne_id": 1159314581,
+    "population": 113000,
+    "wikidata_id": "Q19038"
   },
   "id3:GE-IM": {
     "name": "Imereti",
-    "ne_id": 1159314585
+    "ne_id": 1159314585,
+    "population": 532900,
+    "wikidata_id": "Q200045"
   },
   "id3:GE-KA": {
     "name": "Kakheti",
-    "ne_id": 1159314587
+    "ne_id": 1159314587,
+    "population": 318400,
+    "wikidata_id": "Q169674"
   },
   "id3:GE-KK": {
     "name": "Kvemo Kartli",
-    "ne_id": 1159314595
+    "ne_id": 1159314595,
+    "population": 0,
+    "wikidata_id": "Q200048"
   },
   "id3:GE-MM": {
     "name": "Mtskheta-Mtianeti",
-    "ne_id": 1159314589
+    "ne_id": 1159314589,
+    "population": 94370,
+    "wikidata_id": "Q203339"
   },
   "id3:GE-RL": {
     "name": "Racha-Lechkhumi-Kvemo Svaneti",
-    "ne_id": 1159314591
+    "ne_id": 1159314591,
+    "population": 31927,
+    "wikidata_id": "Q38893"
   },
   "id3:GE-SJ": {
     "name": "Samtskhe-Javakheti",
-    "ne_id": 1159314599
+    "ne_id": 1159314599,
+    "population": 0,
+    "wikidata_id": "Q19039"
   },
   "id3:GE-SK": {
     "name": "Shida Kartli",
-    "ne_id": 1159314577
+    "ne_id": 1159314577,
+    "population": 0,
+    "wikidata_id": "Q200047"
   },
   "id3:GE-SZ": {
     "name": "Samegrelo-Zemo Svaneti",
-    "ne_id": 1159314583
+    "ne_id": 1159314583,
+    "population": 320805,
+    "wikidata_id": "Q200309"
   },
   "id3:GE-TB": {
     "name": "Tbilisi",
-    "ne_id": 1159314593
+    "ne_id": 1159314593,
+    "population": 1082400,
+    "wikidata_id": "Q994"
   }
 }

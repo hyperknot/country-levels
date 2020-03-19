@@ -1,42 +1,62 @@
 {
   "id3:DM-02": {
     "name": "Saint Andrew",
-    "ne_id": 1159311605
+    "ne_id": 1159311605,
+    "population": 0,
+    "wikidata_id": "Q732322"
   },
   "id3:DM-03": {
     "name": "Saint David",
-    "ne_id": 1159311607
+    "ne_id": 1159311607,
+    "population": 0,
+    "wikidata_id": "Q1431129"
   },
   "id3:DM-04": {
     "name": "Saint George",
-    "ne_id": 1159311611
+    "ne_id": 1159311611,
+    "population": 0,
+    "wikidata_id": "Q617801"
   },
   "id3:DM-05": {
     "name": "Saint John",
-    "ne_id": 1159311613
+    "ne_id": 1159311613,
+    "population": 0,
+    "wikidata_id": "Q1476285"
   },
   "id3:DM-06": {
     "name": "Saint Joseph",
-    "ne_id": 1159311615
+    "ne_id": 1159311615,
+    "population": 0,
+    "wikidata_id": "Q1476302"
   },
   "id3:DM-07": {
     "name": "Saint Luke",
-    "ne_id": 1159311617
+    "ne_id": 1159311617,
+    "population": 0,
+    "wikidata_id": "Q1431099"
   },
   "id3:DM-08": {
     "name": "Saint Mark",
-    "ne_id": 1159311619
+    "ne_id": 1159311619,
+    "population": 0,
+    "wikidata_id": "Q1431115"
   },
   "id3:DM-09": {
     "name": "Saint Patrick",
-    "ne_id": 1159311621
+    "ne_id": 1159311621,
+    "population": 0,
+    "wikidata_id": "Q1431108"
   },
   "id3:DM-10": {
     "name": "Saint Paul",
-    "ne_id": 1159311623
+    "ne_id": 1159311623,
+    "population": 0,
+    "wikidata_id": "Q339063"
   },
   "id3:DM-11": {
     "name": "Saint Peter",
-    "ne_id": 1159311625
+    "ne_id": 1159311625,
+    "population": 0,
+    "wikidata_id": "Q1476294"
   }
 }

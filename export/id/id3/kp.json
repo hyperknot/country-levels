@@ -1,46 +1,68 @@
 {
   "id3:KP-01": {
     "name": "P'yŏngyang",
-    "ne_id": 1159315275
+    "ne_id": 1159315275,
+    "population": 2863000,
+    "wikidata_id": "Q18808"
   },
   "id3:KP-02": {
     "name": "P'yŏngan-namdo",
-    "ne_id": 1159315287
+    "ne_id": 1159315287,
+    "population": 4051696,
+    "wikidata_id": "Q109380"
   },
   "id3:KP-03": {
     "name": "P'yŏngan-bukto",
-    "ne_id": 1159315269
+    "ne_id": 1159315269,
+    "population": 2728662,
+    "wikidata_id": "Q109348"
   },
   "id3:KP-04": {
     "name": "Chagang-do",
-    "ne_id": 1159315283
+    "ne_id": 1159315283,
+    "population": 0,
+    "wikidata_id": "Q272406"
   },
   "id3:KP-05": {
     "name": "Hwanghae-namdo",
-    "ne_id": 1159315261
+    "ne_id": 1159315261,
+    "population": 2310485,
+    "wikidata_id": "Q626052"
   },
   "id3:KP-06": {
     "name": "Hwanghae-bukto",
-    "ne_id": 1159315273
+    "ne_id": 1159315273,
+    "population": 0,
+    "wikidata_id": "Q109342"
   },
   "id3:KP-07": {
     "name": "Kangwŏn-do",
-    "ne_id": 1159315279
+    "ne_id": 1159315279,
+    "population": 0,
+    "wikidata_id": "Q41416"
   },
   "id3:KP-08": {
     "name": "Hamgyŏng-namdo",
-    "ne_id": 1159315285
+    "ne_id": 1159315285,
+    "population": 3066013,
+    "wikidata_id": "Q109368"
   },
   "id3:KP-09": {
     "name": "Hamgyŏng-bukto",
-    "ne_id": 1159315277
+    "ne_id": 1159315277,
+    "population": 0,
+    "wikidata_id": "Q109361"
   },
   "id3:KP-10": {
     "name": "Ryanggang",
-    "ne_id": 1159315289
+    "ne_id": 1159315289,
+    "population": 719269,
+    "wikidata_id": "Q110171"
   },
   "id3:KP-13": {
     "name": "Rasŏn",
-    "ne_id": 1159317137
+    "ne_id": 1159317137,
+    "population": 196954,
+    "wikidata_id": "Q221734"
   }
 }

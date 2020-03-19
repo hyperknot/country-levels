@@ -1,54 +1,80 @@
 {
   "id3:MR-01": {
     "name": "Hodh ech Chargui",
-    "ne_id": 1159314033
+    "ne_id": 1159314033,
+    "population": 0,
+    "wikidata_id": "Q12621"
   },
   "id3:MR-02": {
     "name": "Hodh el Gharbi",
-    "ne_id": 1159314035
+    "ne_id": 1159314035,
+    "population": 0,
+    "wikidata_id": "Q850435"
   },
   "id3:MR-03": {
     "name": "Assaba",
-    "ne_id": 1159314025
+    "ne_id": 1159314025,
+    "population": 0,
+    "wikidata_id": "Q738546"
   },
   "id3:MR-04": {
     "name": "Gorgol",
-    "ne_id": 1159314029
+    "ne_id": 1159314029,
+    "population": 0,
+    "wikidata_id": "Q859831"
   },
   "id3:MR-05": {
     "name": "Brakna",
-    "ne_id": 1159314015
+    "ne_id": 1159314015,
+    "population": 0,
+    "wikidata_id": "Q12632"
   },
   "id3:MR-06": {
     "name": "Trarza",
-    "ne_id": 1159314023
+    "ne_id": 1159314023,
+    "population": 0,
+    "wikidata_id": "Q859581"
   },
   "id3:MR-07": {
     "name": "Adrar",
-    "ne_id": 1159314031
+    "ne_id": 1159314031,
+    "population": 59577,
+    "wikidata_id": "Q366626"
   },
   "id3:MR-08": {
     "name": "Dakhlet Nouadhibou",
-    "ne_id": 1159313977
+    "ne_id": 1159313977,
+    "population": 0,
+    "wikidata_id": "Q859573"
   },
   "id3:MR-09": {
     "name": "Tagant",
-    "ne_id": 1159314037
+    "ne_id": 1159314037,
+    "population": 0,
+    "wikidata_id": "Q843903"
   },
   "id3:MR-10": {
     "name": "Guidimaka",
-    "ne_id": 1159314027
+    "ne_id": 1159314027,
+    "population": 0,
+    "wikidata_id": "Q768119"
   },
   "id3:MR-11": {
     "name": "Tiris Zemmour",
-    "ne_id": 1159314013
+    "ne_id": 1159314013,
+    "population": 0,
+    "wikidata_id": "Q859567"
   },
   "id3:MR-12": {
     "name": "Inchiri",
-    "ne_id": 1159314017
+    "ne_id": 1159314017,
+    "population": 0,
+    "wikidata_id": "Q850022"
   },
   "id3:MR-NKC": {
     "name": "Nouakchott",
-    "ne_id": 1159314019
+    "ne_id": 1159314019,
+    "population": 1077169,
+    "wikidata_id": "Q3688"
   }
 }

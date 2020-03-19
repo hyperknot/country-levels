@@ -1,22 +1,32 @@
 {
   "id3:AS-X01": {
     "name": "Eastern",
-    "ne_id": 1159316219
+    "ne_id": 1159316219,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AS-X02": {
     "name": "Manu's",
-    "ne_id": 1159316221
+    "ne_id": 1159316221,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AS-X03": {
     "name": "Rose Atoll",
-    "ne_id": 1159315493
+    "ne_id": 1159315493,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AS-X04": {
     "name": "Swain's Island",
-    "ne_id": 1159316213
+    "ne_id": 1159316213,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AS-X05": {
     "name": "Western",
-    "ne_id": 1159316215
+    "ne_id": 1159316215,
+    "population": 0,
+    "wikidata_id": null
   }
 }

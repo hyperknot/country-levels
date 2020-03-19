@@ -1,58 +1,86 @@
 {
   "id3:AI-X01": {
     "name": "Blowing Point",
-    "ne_id": 1159316459
+    "ne_id": 1159316459,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AI-X02": {
     "name": "East End",
-    "ne_id": 1159316449
+    "ne_id": 1159316449,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AI-X03": {
     "name": "George Hill",
-    "ne_id": 1159316461
+    "ne_id": 1159316461,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AI-X04": {
     "name": "Island Harbour",
-    "ne_id": 1159316453
+    "ne_id": 1159316453,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AI-X05": {
     "name": "North Hill",
-    "ne_id": 1159316463
+    "ne_id": 1159316463,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AI-X06": {
     "name": "North Side",
-    "ne_id": 1159316455
+    "ne_id": 1159316455,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AI-X07": {
     "name": "Sandy Ground",
-    "ne_id": 1159316477
+    "ne_id": 1159316477,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AI-X08": {
     "name": "Sandy Hill",
-    "ne_id": 1159316465
+    "ne_id": 1159316465,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AI-X09": {
     "name": "South Hill",
-    "ne_id": 1159316457
+    "ne_id": 1159316457,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AI-X10": {
     "name": "Stoney Ground",
-    "ne_id": 1159316471
+    "ne_id": 1159316471,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AI-X11": {
     "name": "The Farrington",
-    "ne_id": 1159316475
+    "ne_id": 1159316475,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AI-X12": {
     "name": "The Quarter",
-    "ne_id": 1159316467
+    "ne_id": 1159316467,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AI-X13": {
     "name": "The Valley",
-    "ne_id": 1159316473
+    "ne_id": 1159316473,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AI-X14": {
     "name": "West End",
-    "ne_id": 1159315555
+    "ne_id": 1159315555,
+    "population": 0,
+    "wikidata_id": null
   }
 }

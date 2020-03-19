@@ -1,50 +1,74 @@
 {
   "id3:BJ-AK": {
     "name": "Atakora",
-    "ne_id": 1159311499
+    "ne_id": 1159311499,
+    "population": 0,
+    "wikidata_id": "Q29154"
   },
   "id3:BJ-AL": {
     "name": "Alibori",
-    "ne_id": 1159311479
+    "ne_id": 1159311479,
+    "population": 0,
+    "wikidata_id": "Q29165"
   },
   "id3:BJ-AQ": {
     "name": "Atlantique",
-    "ne_id": 1159311485
+    "ne_id": 1159311485,
+    "population": 0,
+    "wikidata_id": "Q29147"
   },
   "id3:BJ-BO": {
     "name": "Borgou",
-    "ne_id": 1159311477
+    "ne_id": 1159311477,
+    "population": 0,
+    "wikidata_id": "Q29136"
   },
   "id3:BJ-CO": {
     "name": "Collines",
-    "ne_id": 1159311481
+    "ne_id": 1159311481,
+    "population": 0,
+    "wikidata_id": "Q29141"
   },
   "id3:BJ-DO": {
     "name": "Donga",
-    "ne_id": 1159311503
+    "ne_id": 1159311503,
+    "population": 0,
+    "wikidata_id": "Q29161"
   },
   "id3:BJ-KO": {
     "name": "Kouffo",
-    "ne_id": 1159311489
+    "ne_id": 1159311489,
+    "population": 0,
+    "wikidata_id": "Q29173"
   },
   "id3:BJ-LI": {
     "name": "Littoral",
-    "ne_id": 1159311487
+    "ne_id": 1159311487,
+    "population": 678874,
+    "wikidata_id": "Q29158"
   },
   "id3:BJ-MO": {
     "name": "Mono",
-    "ne_id": 1159311497
+    "ne_id": 1159311497,
+    "population": 0,
+    "wikidata_id": "Q29135"
   },
   "id3:BJ-OU": {
     "name": "Ouémé",
-    "ne_id": 1159311491
+    "ne_id": 1159311491,
+    "population": 1096850,
+    "wikidata_id": "Q29169"
   },
   "id3:BJ-PL": {
     "name": "Plateau",
-    "ne_id": 1159311495
+    "ne_id": 1159311495,
+    "population": 0,
+    "wikidata_id": "Q32108"
   },
   "id3:BJ-ZO": {
     "name": "Zou",
-    "ne_id": 1159311493
+    "ne_id": 1159311493,
+    "population": 0,
+    "wikidata_id": "Q29172"
   }
 }

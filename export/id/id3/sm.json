@@ -1,38 +1,56 @@
 {
   "id3:SM-01": {
     "name": "Acquaviva",
-    "ne_id": 1159315993
+    "ne_id": 1159315993,
+    "population": 2137,
+    "wikidata_id": "Q206363"
   },
   "id3:SM-02": {
     "name": "Chiesanuova",
-    "ne_id": 1159316007
+    "ne_id": 1159316007,
+    "population": 1097,
+    "wikidata_id": "Q206980"
   },
   "id3:SM-03": {
     "name": "Domagnano",
-    "ne_id": 1159315997
+    "ne_id": 1159315997,
+    "population": 3319,
+    "wikidata_id": "Q202202"
   },
   "id3:SM-04": {
     "name": "Faetano",
-    "ne_id": 1159315999
+    "ne_id": 1159315999,
+    "population": 1164,
+    "wikidata_id": "Q206356"
   },
   "id3:SM-05": {
     "name": "Fiorentino",
-    "ne_id": 1159316005
+    "ne_id": 1159316005,
+    "population": 2526,
+    "wikidata_id": "Q206968"
   },
   "id3:SM-06": {
     "name": "Borgo Maggiore",
-    "ne_id": 1159315591
+    "ne_id": 1159315591,
+    "population": 6631,
+    "wikidata_id": "Q201368"
   },
   "id3:SM-07": {
     "name": "San Marino",
-    "ne_id": 1159315991
+    "ne_id": 1159315991,
+    "population": 4040,
+    "wikidata_id": "Q1848"
   },
   "id3:SM-08": {
     "name": "Montegiardino",
-    "ne_id": 1159316003
+    "ne_id": 1159316003,
+    "population": 910,
+    "wikidata_id": "Q206962"
   },
   "id3:SM-09": {
     "name": "Serravalle",
-    "ne_id": 1159315995
+    "ne_id": 1159315995,
+    "population": 10591,
+    "wikidata_id": "Q185412"
   }
 }

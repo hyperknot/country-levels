@@ -1,62 +1,92 @@
 {
   "id3:SY-DI": {
     "name": "Damascus",
-    "ne_id": 1159315915
+    "ne_id": 1159315915,
+    "population": 1754000,
+    "wikidata_id": "Q2007044"
   },
   "id3:SY-DR": {
     "name": "Dar`a",
-    "ne_id": 1159308451
+    "ne_id": 1159308451,
+    "population": 1027000,
+    "wikidata_id": "Q1689560"
   },
   "id3:SY-DY": {
     "name": "Dayr Az Zawr",
-    "ne_id": 1159308443
+    "ne_id": 1159308443,
+    "population": 1239000,
+    "wikidata_id": "Q232387"
   },
   "id3:SY-HA": {
     "name": "Hasaka (Al Haksa)",
-    "ne_id": 1159308439
+    "ne_id": 1159308439,
+    "population": 1512000,
+    "wikidata_id": "Q233914"
   },
   "id3:SY-HI": {
     "name": "Homs (Hims)",
-    "ne_id": 1159308435
+    "ne_id": 1159308435,
+    "population": 2145184,
+    "wikidata_id": "Q214094"
   },
   "id3:SY-HL": {
     "name": "Aleppo",
-    "ne_id": 1159308431
+    "ne_id": 1159308431,
+    "population": 4868000,
+    "wikidata_id": "Q214064"
   },
   "id3:SY-HM": {
     "name": "Hamah",
-    "ne_id": 1159308433
+    "ne_id": 1159308433,
+    "population": 1628000,
+    "wikidata_id": "Q232355"
   },
   "id3:SY-ID": {
     "name": "Idlib",
-    "ne_id": 1159308437
+    "ne_id": 1159308437,
+    "population": 1501000,
+    "wikidata_id": "Q233218"
   },
   "id3:SY-LA": {
     "name": "Lattakia",
-    "ne_id": 1159308425
+    "ne_id": 1159308425,
+    "population": 1364985,
+    "wikidata_id": "Q233236"
   },
   "id3:SY-QU": {
     "name": "Quneitra",
-    "ne_id": 1159308449
+    "ne_id": 1159308449,
+    "population": 49195,
+    "wikidata_id": "Q219690"
   },
   "id3:SY-RA": {
     "name": "Ar Raqqah",
-    "ne_id": 1159308429
+    "ne_id": 1159308429,
+    "population": 944000,
+    "wikidata_id": "Q235563"
   },
   "id3:SY-RD": {
     "name": "Rif Dimashq",
-    "ne_id": 1159308447
+    "ne_id": 1159308447,
+    "population": 2836000,
+    "wikidata_id": "Q232399"
   },
   "id3:SY-SU": {
     "name": "As Suwayda'",
-    "ne_id": 1159308445
+    "ne_id": 1159308445,
+    "population": 566493,
+    "wikidata_id": "Q236797"
   },
   "id3:SY-TA": {
     "name": "Tartus",
-    "ne_id": 1159308427
+    "ne_id": 1159308427,
+    "population": 797000,
+    "wikidata_id": "Q232382"
   },
   "id3:SY-X01": {
     "name": "UNDOF",
-    "ne_id": 1159315665
+    "ne_id": 1159315665,
+    "population": 0,
+    "wikidata_id": null
   }
 }

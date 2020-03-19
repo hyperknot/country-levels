@@ -1,10 +1,14 @@
 {
   "id3:MH-L": {
     "name": "Railik Chain",
-    "ne_id": 1159315519
+    "ne_id": 1159315519,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:MH-T": {
     "name": "Ratak Chain",
-    "ne_id": 1159315523
+    "ne_id": 1159315523,
+    "population": 0,
+    "wikidata_id": "Q700048"
   }
 }

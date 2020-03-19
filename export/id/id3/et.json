@@ -1,46 +1,68 @@
 {
   "id3:ET-AA": {
     "name": "Addis Ababa",
-    "ne_id": 1159313863
+    "ne_id": 1159313863,
+    "population": 3041002,
+    "wikidata_id": "Q3624"
   },
   "id3:ET-AF": {
     "name": "Afar",
-    "ne_id": 1159313851
+    "ne_id": 1159313851,
+    "population": 1411092,
+    "wikidata_id": "Q193494"
   },
   "id3:ET-AM": {
     "name": "Amhara",
-    "ne_id": 1159313847
+    "ne_id": 1159313847,
+    "population": 19120005,
+    "wikidata_id": "Q203009"
   },
   "id3:ET-BE": {
     "name": "Benshangul-Gumaz",
-    "ne_id": 1159313861
+    "ne_id": 1159313861,
+    "population": 617600,
+    "wikidata_id": "Q207635"
   },
   "id3:ET-DD": {
     "name": "Dire Dawa",
-    "ne_id": 1159313867
+    "ne_id": 1159313867,
+    "population": 277000,
+    "wikidata_id": "Q193486"
   },
   "id3:ET-GA": {
     "name": "Gambela Peoples",
-    "ne_id": 1159313855
+    "ne_id": 1159313855,
+    "population": 243900,
+    "wikidata_id": "Q207638"
   },
   "id3:ET-HA": {
     "name": "Harari People",
-    "ne_id": 1159313869
+    "ne_id": 1159313869,
+    "population": 175900,
+    "wikidata_id": "Q1033855"
   },
   "id3:ET-OR": {
     "name": "Oromiya",
-    "ne_id": 1159313857
+    "ne_id": 1159313857,
+    "population": 0,
+    "wikidata_id": "Q202107"
   },
   "id3:ET-SN": {
     "name": "Southern Nations, Nationalities and Peoples",
-    "ne_id": 1159313853
+    "ne_id": 1159313853,
+    "population": 14929548,
+    "wikidata_id": "Q203193"
   },
   "id3:ET-SO": {
     "name": "Somali",
-    "ne_id": 1159313865
+    "ne_id": 1159313865,
+    "population": 4329001,
+    "wikidata_id": "Q202800"
   },
   "id3:ET-TI": {
     "name": "Tigray",
-    "ne_id": 1159313849
+    "ne_id": 1159313849,
+    "population": 4960003,
+    "wikidata_id": "Q200127"
   }
 }

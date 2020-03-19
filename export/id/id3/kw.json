@@ -1,26 +1,38 @@
 {
   "id3:KW-AH": {
     "name": "Al Ahmadi",
-    "ne_id": 1159311851
+    "ne_id": 1159311851,
+    "population": 0,
+    "wikidata_id": "Q552354"
   },
   "id3:KW-FA": {
     "name": "Al Farwaniyah",
-    "ne_id": 1159311849
+    "ne_id": 1159311849,
+    "population": 0,
+    "wikidata_id": "Q1072757"
   },
   "id3:KW-HA": {
     "name": "Hawalli",
-    "ne_id": 1159315229
+    "ne_id": 1159315229,
+    "population": 0,
+    "wikidata_id": "Q747432"
   },
   "id3:KW-JA": {
     "name": "Al Jahrah",
-    "ne_id": 1159311847
+    "ne_id": 1159311847,
+    "population": 0,
+    "wikidata_id": "Q405701"
   },
   "id3:KW-KU": {
     "name": "Al Asimah",
-    "ne_id": 1159311845
+    "ne_id": 1159311845,
+    "population": 0,
+    "wikidata_id": "Q1046645"
   },
   "id3:KW-MU": {
     "name": "Mubarak Al-Kabeer",
-    "ne_id": 1159311853
+    "ne_id": 1159311853,
+    "population": 0,
+    "wikidata_id": "Q913370"
   }
 }

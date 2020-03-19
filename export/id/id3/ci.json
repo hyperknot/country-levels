@@ -1,78 +1,116 @@
 {
   "id3:CI-01": {
     "name": "Lagunes",
-    "ne_id": 1159315129
+    "ne_id": 1159315129,
+    "population": 0,
+    "wikidata_id": "Q639491"
   },
   "id3:CI-02": {
     "name": "Haut-Sassandra",
-    "ne_id": 1159315113
+    "ne_id": 1159315113,
+    "population": 0,
+    "wikidata_id": "Q845709"
   },
   "id3:CI-03": {
     "name": "Savanes",
-    "ne_id": 1159315097
+    "ne_id": 1159315097,
+    "population": 0,
+    "wikidata_id": "Q853460"
   },
   "id3:CI-04": {
     "name": "Vallée du Bandama",
-    "ne_id": 1159315123
+    "ne_id": 1159315123,
+    "population": 1538484,
+    "wikidata_id": "Q845721"
   },
   "id3:CI-05": {
     "name": "Comoe",
-    "ne_id": 1159315133
+    "ne_id": 1159315133,
+    "population": 0,
+    "wikidata_id": "Q1074496"
   },
   "id3:CI-06": {
     "name": "Dix-Huit Montagnes",
-    "ne_id": 1159315105
+    "ne_id": 1159315105,
+    "population": 0,
+    "wikidata_id": "Q820486"
   },
   "id3:CI-07": {
     "name": "Lacs",
-    "ne_id": 1159315135
+    "ne_id": 1159315135,
+    "population": 0,
+    "wikidata_id": "Q845706"
   },
   "id3:CI-08": {
     "name": "Zanzan",
-    "ne_id": 1159315121
+    "ne_id": 1159315121,
+    "population": 0,
+    "wikidata_id": "Q147081"
   },
   "id3:CI-09": {
     "name": "Bas-Sassandra",
-    "ne_id": 1159315117
+    "ne_id": 1159315117,
+    "population": 2037628,
+    "wikidata_id": "Q809733"
   },
   "id3:CI-10": {
     "name": "Denguélé",
-    "ne_id": 1159315099
+    "ne_id": 1159315099,
+    "population": 0,
+    "wikidata_id": "Q729010"
   },
   "id3:CI-11": {
     "name": "N'zi-Comoé",
-    "ne_id": 1159315127
+    "ne_id": 1159315127,
+    "population": 0,
+    "wikidata_id": "Q842491"
   },
   "id3:CI-12": {
     "name": "Marahoué",
-    "ne_id": 1159315109
+    "ne_id": 1159315109,
+    "population": 0,
+    "wikidata_id": "Q839083"
   },
   "id3:CI-13": {
     "name": "Sud-Comoé",
-    "ne_id": 1159315093
+    "ne_id": 1159315093,
+    "population": 0,
+    "wikidata_id": "Q842495"
   },
   "id3:CI-14": {
     "name": "Worodougou",
-    "ne_id": 1159315107
+    "ne_id": 1159315107,
+    "population": 0,
+    "wikidata_id": "Q846056"
   },
   "id3:CI-15": {
     "name": "Sud-Bandama",
-    "ne_id": 1159315115
+    "ne_id": 1159315115,
+    "population": 0,
+    "wikidata_id": "Q845713"
   },
   "id3:CI-16": {
     "name": "Agnéby",
-    "ne_id": 1159315125
+    "ne_id": 1159315125,
+    "population": 743559,
+    "wikidata_id": "Q395166"
   },
   "id3:CI-17": {
     "name": "Bafing",
-    "ne_id": 1159315103
+    "ne_id": 1159315103,
+    "population": 205339,
+    "wikidata_id": "Q799800"
   },
   "id3:CI-18": {
     "name": "Fromager",
-    "ne_id": 1159315111
+    "ne_id": 1159315111,
+    "population": 0,
+    "wikidata_id": "Q818774"
   },
   "id3:CI-19": {
     "name": "Cavally",
-    "ne_id": 1159315131
+    "ne_id": 1159315131,
+    "population": 0,
+    "wikidata_id": "Q842499"
   }
 }

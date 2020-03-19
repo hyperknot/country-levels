@@ -1,110 +1,164 @@
 {
   "id3:BR-AC": {
     "name": "Acre",
-    "ne_id": 1159310053
+    "ne_id": 1159310053,
+    "population": 881935,
+    "wikidata_id": "Q40780"
   },
   "id3:BR-AL": {
     "name": "Alagoas",
-    "ne_id": 1159307923
+    "ne_id": 1159307923,
+    "population": 3322820,
+    "wikidata_id": "Q40885"
   },
   "id3:BR-AM": {
     "name": "Amazonas",
-    "ne_id": 1159307981
+    "ne_id": 1159307981,
+    "population": 4063614,
+    "wikidata_id": "Q40040"
   },
   "id3:BR-AP": {
     "name": "Amapá",
-    "ne_id": 1159308867
+    "ne_id": 1159308867,
+    "population": 797722,
+    "wikidata_id": "Q40130"
   },
   "id3:BR-BA": {
     "name": "Bahia",
-    "ne_id": 1159307841
+    "ne_id": 1159307841,
+    "population": 15344447,
+    "wikidata_id": "Q40430"
   },
   "id3:BR-CE": {
     "name": "Ceará",
-    "ne_id": 1159307917
+    "ne_id": 1159307917,
+    "population": 9020460,
+    "wikidata_id": "Q40123"
   },
   "id3:BR-DF": {
     "name": "Distrito Federal",
-    "ne_id": 1159307927
+    "ne_id": 1159307927,
+    "population": 3039444,
+    "wikidata_id": "Q119158"
   },
   "id3:BR-ES": {
     "name": "Espírito Santo",
-    "ne_id": 1159307929
+    "ne_id": 1159307929,
+    "population": 3885049,
+    "wikidata_id": "Q43233"
   },
   "id3:BR-GO": {
     "name": "Goiás",
-    "ne_id": 1159309897
+    "ne_id": 1159309897,
+    "population": 6778772,
+    "wikidata_id": "Q41587"
   },
   "id3:BR-MA": {
     "name": "Maranhão",
-    "ne_id": 1159307935
+    "ne_id": 1159307935,
+    "population": 7000229,
+    "wikidata_id": "Q42362"
   },
   "id3:BR-MG": {
     "name": "Minas Gerais",
-    "ne_id": 1159307907
+    "ne_id": 1159307907,
+    "population": 21119536,
+    "wikidata_id": "Q39109"
   },
   "id3:BR-MS": {
     "name": "Mato Grosso do Sul",
-    "ne_id": 1159307905
+    "ne_id": 1159307905,
+    "population": 2713147,
+    "wikidata_id": "Q43319"
   },
   "id3:BR-MT": {
     "name": "Mato Grosso",
-    "ne_id": 1159307909
+    "ne_id": 1159307909,
+    "population": 3344544,
+    "wikidata_id": "Q42824"
   },
   "id3:BR-PA": {
     "name": "Pará",
-    "ne_id": 1159307941
+    "ne_id": 1159307941,
+    "population": 8366628,
+    "wikidata_id": "Q39517"
   },
   "id3:BR-PB": {
     "name": "Paraíba",
-    "ne_id": 1159307931
+    "ne_id": 1159307931,
+    "population": 4025558,
+    "wikidata_id": "Q38088"
   },
   "id3:BR-PE": {
     "name": "Pernambuco",
-    "ne_id": 1159309901
+    "ne_id": 1159309901,
+    "population": 9473266,
+    "wikidata_id": "Q40942"
   },
   "id3:BR-PI": {
     "name": "Piauí",
-    "ne_id": 1159307921
+    "ne_id": 1159307921,
+    "population": 3219257,
+    "wikidata_id": "Q42722"
   },
   "id3:BR-PR": {
     "name": "Paraná",
-    "ne_id": 1159307913
+    "ne_id": 1159307913,
+    "population": 11320892,
+    "wikidata_id": "Q15499"
   },
   "id3:BR-RJ": {
     "name": "Rio de Janeiro",
-    "ne_id": 1159307777
+    "ne_id": 1159307777,
+    "population": 16718956,
+    "wikidata_id": "Q41428"
   },
   "id3:BR-RN": {
     "name": "Rio Grande do Norte",
-    "ne_id": 1159307975
+    "ne_id": 1159307975,
+    "population": 3507003,
+    "wikidata_id": "Q43255"
   },
   "id3:BR-RO": {
     "name": "Rondônia",
-    "ne_id": 1159307983
+    "ne_id": 1159307983,
+    "population": 1590011,
+    "wikidata_id": "Q43235"
   },
   "id3:BR-RR": {
     "name": "Roraima",
-    "ne_id": 1159308883
+    "ne_id": 1159308883,
+    "population": 1805788,
+    "wikidata_id": "Q42508"
   },
   "id3:BR-RS": {
     "name": "Rio Grande do Sul",
-    "ne_id": 1159307911
+    "ne_id": 1159307911,
+    "population": 11322895,
+    "wikidata_id": "Q40030"
   },
   "id3:BR-SC": {
     "name": "Santa Catarina",
-    "ne_id": 1159307915
+    "ne_id": 1159307915,
+    "population": 7001161,
+    "wikidata_id": "Q41115"
   },
   "id3:BR-SE": {
     "name": "Sergipe",
-    "ne_id": 1159307933
+    "ne_id": 1159307933,
+    "population": 2288116,
+    "wikidata_id": "Q43783"
   },
   "id3:BR-SP": {
     "name": "São Paulo",
-    "ne_id": 1159309727
+    "ne_id": 1159309727,
+    "population": 45595497,
+    "wikidata_id": "Q175"
   },
   "id3:BR-TO": {
     "name": "Tocantins",
-    "ne_id": 1159307925
+    "ne_id": 1159307925,
+    "population": 1550194,
+    "wikidata_id": "Q43695"
   }
 }

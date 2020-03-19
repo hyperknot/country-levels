@@ -1,18 +1,26 @@
 {
   "id3:FM-KSA": {
     "name": "Kosrae",
-    "ne_id": 1159316115
+    "ne_id": 1159316115,
+    "population": 6616,
+    "wikidata_id": "Q459848"
   },
   "id3:FM-PNI": {
     "name": "Pohnpei",
-    "ne_id": 1159315521
+    "ne_id": 1159315521,
+    "population": 36196,
+    "wikidata_id": "Q7771127"
   },
   "id3:FM-TRK": {
     "name": "Chuuk",
-    "ne_id": 1159316111
+    "ne_id": 1159316111,
+    "population": 48654,
+    "wikidata_id": "Q221684"
   },
   "id3:FM-YAP": {
     "name": "Yap",
-    "ne_id": 1159316113
+    "ne_id": 1159316113,
+    "population": 11377,
+    "wikidata_id": "Q11342951"
   }
 }

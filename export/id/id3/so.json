@@ -1,54 +1,80 @@
 {
   "id3:SO-BK": {
     "name": "Bakool",
-    "ne_id": 1159311359
+    "ne_id": 1159311359,
+    "population": 0,
+    "wikidata_id": "Q282471"
   },
   "id3:SO-BN": {
     "name": "Banaadir",
-    "ne_id": 1159311369
+    "ne_id": 1159311369,
+    "population": 1650227,
+    "wikidata_id": "Q806070"
   },
   "id3:SO-BR": {
     "name": "Bari",
-    "ne_id": 1159308077
+    "ne_id": 1159308077,
+    "population": 0,
+    "wikidata_id": "Q729170"
   },
   "id3:SO-BY": {
     "name": "Bay",
-    "ne_id": 1159311361
+    "ne_id": 1159311361,
+    "population": 0,
+    "wikidata_id": "Q812064"
   },
   "id3:SO-GA": {
     "name": "Galguduud",
-    "ne_id": 1159311371
+    "ne_id": 1159311371,
+    "population": 0,
+    "wikidata_id": "Q876772"
   },
   "id3:SO-GE": {
     "name": "Gedo",
-    "ne_id": 1159311363
+    "ne_id": 1159311363,
+    "population": 0,
+    "wikidata_id": "Q856719"
   },
   "id3:SO-HI": {
     "name": "Hiiraan",
-    "ne_id": 1159311373
+    "ne_id": 1159311373,
+    "population": 0,
+    "wikidata_id": "Q660040"
   },
   "id3:SO-JD": {
     "name": "Jubbada Dhexe",
-    "ne_id": 1159311365
+    "ne_id": 1159311365,
+    "population": 0,
+    "wikidata_id": "Q1046324"
   },
   "id3:SO-JH": {
     "name": "Jubbada Hoose",
-    "ne_id": 1159313359
+    "ne_id": 1159313359,
+    "population": 643,
+    "wikidata_id": "Q877042"
   },
   "id3:SO-MU": {
     "name": "Mudug",
-    "ne_id": 1159311379
+    "ne_id": 1159311379,
+    "population": 0,
+    "wikidata_id": "Q877034"
   },
   "id3:SO-NU": {
     "name": "Nugaal",
-    "ne_id": 1159311473
+    "ne_id": 1159311473,
+    "population": 0,
+    "wikidata_id": "Q1046329"
   },
   "id3:SO-SD": {
     "name": "Shabeellaha Dhexe",
-    "ne_id": 1159311377
+    "ne_id": 1159311377,
+    "population": 514900,
+    "wikidata_id": "Q678435"
   },
   "id3:SO-SH": {
     "name": "Shabeellaha Hoose",
-    "ne_id": 1159311367
+    "ne_id": 1159311367,
+    "population": 0,
+    "wikidata_id": "Q877028"
   }
 }

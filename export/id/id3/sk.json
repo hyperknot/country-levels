@@ -1,34 +1,50 @@
 {
   "id3:SK-BC": {
     "name": "Banskobystrický",
-    "ne_id": 1159310935
+    "ne_id": 1159310935,
+    "population": 649788,
+    "wikidata_id": "Q183640"
   },
   "id3:SK-BL": {
     "name": "Bratislavský",
-    "ne_id": 1159310933
+    "ne_id": 1159310933,
+    "population": 650838,
+    "wikidata_id": "Q183498"
   },
   "id3:SK-KI": {
     "name": "Košický",
-    "ne_id": 1159310947
+    "ne_id": 1159310947,
+    "population": 799217,
+    "wikidata_id": "Q186295"
   },
   "id3:SK-NI": {
     "name": "Nitriansky",
-    "ne_id": 1159310939
+    "ne_id": 1159310939,
+    "population": 678692,
+    "wikidata_id": "Q184548"
   },
   "id3:SK-PV": {
     "name": "Prešov",
-    "ne_id": 1159310949
+    "ne_id": 1159310949,
+    "population": 822946,
+    "wikidata_id": "Q189001"
   },
   "id3:SK-TA": {
     "name": "Trnavský",
-    "ne_id": 1159310945
+    "ne_id": 1159310945,
+    "population": 562372,
+    "wikidata_id": "Q181342"
   },
   "id3:SK-TC": {
     "name": "Trenciansky",
-    "ne_id": 1159310941
+    "ne_id": 1159310941,
+    "population": 587364,
+    "wikidata_id": "Q183139"
   },
   "id3:SK-ZI": {
     "name": "Žilinský",
-    "ne_id": 1159310937
+    "ne_id": 1159310937,
+    "population": 691023,
+    "wikidata_id": "Q184228"
   }
 }

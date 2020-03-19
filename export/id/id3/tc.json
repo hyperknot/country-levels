@@ -1,26 +1,38 @@
 {
   "id3:TC-X01": {
     "name": "Middle Caicos",
-    "ne_id": 1159315567
+    "ne_id": 1159315567,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:TC-X02": {
     "name": "North Caicos",
-    "ne_id": 1159316223
+    "ne_id": 1159316223,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:TC-X03": {
     "name": "Providenciales and West Caicos",
-    "ne_id": 1159316225
+    "ne_id": 1159316225,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:TC-X04": {
     "name": "South Caicos and East Caicos",
-    "ne_id": 1159316227
+    "ne_id": 1159316227,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:TC-X05": {
     "name": "Grand Turk",
-    "ne_id": 1159316229
+    "ne_id": 1159316229,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:TC-X06": {
     "name": "Salt Cay",
-    "ne_id": 1159316231
+    "ne_id": 1159316231,
+    "population": 0,
+    "wikidata_id": null
   }
 }

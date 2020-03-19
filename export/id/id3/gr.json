@@ -1,58 +1,86 @@
 {
   "id3:GR-69": {
     "name": "Ayion Oros",
-    "ne_id": 1159314339
+    "ne_id": 1159314339,
+    "population": 2262,
+    "wikidata_id": "Q130321"
   },
   "id3:GR-A": {
     "name": "Anatoliki Makedonia kai Thraki",
-    "ne_id": 1159314329
+    "ne_id": 1159314329,
+    "population": 601175,
+    "wikidata_id": "Q171314"
   },
   "id3:GR-A1": {
     "name": "Attiki",
-    "ne_id": 1159314215
+    "ne_id": 1159314215,
+    "population": 3756453,
+    "wikidata_id": "Q758056"
   },
   "id3:GR-B": {
     "name": "Kentriki Makedonia",
-    "ne_id": 1159314337
+    "ne_id": 1159314337,
+    "population": 1875996,
+    "wikidata_id": "Q17152"
   },
   "id3:GR-C": {
     "name": "Dytiki Makedonia",
-    "ne_id": 1159314333
+    "ne_id": 1159314333,
+    "population": 269222,
+    "wikidata_id": "Q165408"
   },
   "id3:GR-D": {
     "name": "Ipeiros",
-    "ne_id": 1159314335
+    "ne_id": 1159314335,
+    "population": 334337,
+    "wikidata_id": "Q180484"
   },
   "id3:GR-E": {
     "name": "Thessalia",
-    "ne_id": 1159314263
+    "ne_id": 1159314263,
+    "population": 722065,
+    "wikidata_id": "Q166919"
   },
   "id3:GR-F": {
     "name": "Ionioi Nisoi",
-    "ne_id": 1159314259
+    "ne_id": 1159314259,
+    "population": 207855,
+    "wikidata_id": "Q1147674"
   },
   "id3:GR-G": {
     "name": "Dytiki Ellada",
-    "ne_id": 1159314331
+    "ne_id": 1159314331,
+    "population": 0,
+    "wikidata_id": "Q170291"
   },
   "id3:GR-H": {
     "name": "Stereá Elláda",
-    "ne_id": 1159314261
+    "ne_id": 1159314261,
+    "population": 555623,
+    "wikidata_id": "Q199580"
   },
   "id3:GR-J": {
     "name": "Peloponnisos",
-    "ne_id": 1159314217
+    "ne_id": 1159314217,
+    "population": 576749,
+    "wikidata_id": "Q202484"
   },
   "id3:GR-K": {
     "name": "Voreio Aigaio",
-    "ne_id": 1159314257
+    "ne_id": 1159314257,
+    "population": 211137,
+    "wikidata_id": "Q173620"
   },
   "id3:GR-L": {
     "name": "Notio Aigaio",
-    "ne_id": 1159314213
+    "ne_id": 1159314213,
+    "population": 340870,
+    "wikidata_id": "Q173616"
   },
   "id3:GR-M": {
     "name": "Kriti",
-    "ne_id": 1159314211
+    "ne_id": 1159314211,
+    "population": 623065,
+    "wikidata_id": "Q34374"
   }
 }

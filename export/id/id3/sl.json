@@ -1,18 +1,26 @@
 {
   "id3:SL-E": {
     "name": "Eastern",
-    "ne_id": 1159308939
+    "ne_id": 1159308939,
+    "population": 0,
+    "wikidata_id": "Q1050497"
   },
   "id3:SL-N": {
     "name": "Northern",
-    "ne_id": 1159310109
+    "ne_id": 1159310109,
+    "population": 0,
+    "wikidata_id": "Q912359"
   },
   "id3:SL-S": {
     "name": "Southern",
-    "ne_id": 1159310083
+    "ne_id": 1159310083,
+    "population": 0,
+    "wikidata_id": "Q772185"
   },
   "id3:SL-W": {
     "name": "Western",
-    "ne_id": 1159310107
+    "ne_id": 1159310107,
+    "population": 0,
+    "wikidata_id": "Q1050475"
   }
 }

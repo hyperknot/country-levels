@@ -1,6 +1,8 @@
 {
   "id3:MO-M": {
     "name": "Macau",
-    "ne_id": 1159315653
+    "ne_id": 1159315653,
+    "population": 642900,
+    "wikidata_id": "Q14773"
   }
 }

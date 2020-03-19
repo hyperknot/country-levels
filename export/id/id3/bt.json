@@ -1,82 +1,122 @@
 {
   "id3:BT-11": {
     "name": "Paro",
-    "ne_id": 1159311831
+    "ne_id": 1159311831,
+    "population": 0,
+    "wikidata_id": "Q652784"
   },
   "id3:BT-12": {
     "name": "Chhukha",
-    "ne_id": 1159311823
+    "ne_id": 1159311823,
+    "population": 0,
+    "wikidata_id": "Q652754"
   },
   "id3:BT-13": {
     "name": "Ha",
-    "ne_id": 1159311829
+    "ne_id": 1159311829,
+    "population": 0,
+    "wikidata_id": "Q754448"
   },
   "id3:BT-14": {
     "name": "Samchi",
-    "ne_id": 1159311835
+    "ne_id": 1159311835,
+    "population": 0,
+    "wikidata_id": "Q728917"
   },
   "id3:BT-15": {
     "name": "Thimphu",
-    "ne_id": 1159311837
+    "ne_id": 1159311837,
+    "population": 0,
+    "wikidata_id": "Q254889"
   },
   "id3:BT-21": {
     "name": "Chirang",
-    "ne_id": 1159311799
+    "ne_id": 1159311799,
+    "population": 0,
+    "wikidata_id": "Q728922"
   },
   "id3:BT-22": {
     "name": "Daga",
-    "ne_id": 1159311827
+    "ne_id": 1159311827,
+    "population": 18222,
+    "wikidata_id": "Q735146"
   },
   "id3:BT-23": {
     "name": "Punakha",
-    "ne_id": 1159311839
+    "ne_id": 1159311839,
+    "population": 0,
+    "wikidata_id": "Q587062"
   },
   "id3:BT-24": {
     "name": "Wangdi Phodrang",
-    "ne_id": 1159311813
+    "ne_id": 1159311813,
+    "population": 0,
+    "wikidata_id": "Q728933"
   },
   "id3:BT-31": {
     "name": "Geylegphug",
-    "ne_id": 1159311801
+    "ne_id": 1159311801,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:BT-32": {
     "name": "Tongsa",
-    "ne_id": 1159311811
+    "ne_id": 1159311811,
+    "population": 0,
+    "wikidata_id": "Q728938"
   },
   "id3:BT-33": {
     "name": "Bumthang",
-    "ne_id": 1159311797
+    "ne_id": 1159311797,
+    "population": 0,
+    "wikidata_id": "Q463242"
   },
   "id3:BT-34": {
     "name": "Shemgang",
-    "ne_id": 1159311809
+    "ne_id": 1159311809,
+    "population": 0,
+    "wikidata_id": "Q197564"
   },
   "id3:BT-41": {
     "name": "Tashigang",
-    "ne_id": 1159311821
+    "ne_id": 1159311821,
+    "population": 0,
+    "wikidata_id": "Q652773"
   },
   "id3:BT-42": {
     "name": "Mongar",
-    "ne_id": 1159311815
+    "ne_id": 1159311815,
+    "population": 0,
+    "wikidata_id": "Q389734"
   },
   "id3:BT-43": {
     "name": "Pemagatsel",
-    "ne_id": 1159311817
+    "ne_id": 1159311817,
+    "population": 0,
+    "wikidata_id": "Q167279"
   },
   "id3:BT-44": {
     "name": "Lhuntshi",
-    "ne_id": 1159311803
+    "ne_id": 1159311803,
+    "population": 0,
+    "wikidata_id": "Q598793"
   },
   "id3:BT-45": {
     "name": "Samdrup Jongkhar",
-    "ne_id": 1159311819
+    "ne_id": 1159311819,
+    "population": 0,
+    "wikidata_id": "Q728929"
   },
   "id3:BT-GA": {
     "name": "Gasa",
-    "ne_id": 1159311833
+    "ne_id": 1159311833,
+    "population": 0,
+    "wikidata_id": "Q578294"
   },
   "id3:BT-TY": {
     "name": "Tashi Yangtse",
-    "ne_id": 1159311805
+    "ne_id": 1159311805,
+    "population": 0,
+    "wikidata_id": "Q600200"
   }
 }

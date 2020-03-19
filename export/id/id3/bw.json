@@ -1,62 +1,92 @@
 {
   "id3:BW-CE": {
     "name": "Central",
-    "ne_id": 1159313281
+    "ne_id": 1159313281,
+    "population": 563260,
+    "wikidata_id": "Q57525"
   },
   "id3:BW-FR": {
     "name": "Francistown",
-    "ne_id": 1159317151
+    "ne_id": 1159317151,
+    "population": 0,
+    "wikidata_id": "Q165422"
   },
   "id3:BW-GA": {
     "name": "Gaborone",
-    "ne_id": 1159317149
+    "ne_id": 1159317149,
+    "population": 231626,
+    "wikidata_id": "Q3919"
   },
   "id3:BW-GH": {
     "name": "Ghanzi",
-    "ne_id": 1159309801
+    "ne_id": 1159309801,
+    "population": 33170,
+    "wikidata_id": "Q57571"
   },
   "id3:BW-JW": {
     "name": "Jwaneng",
-    "ne_id": 1159317157
+    "ne_id": 1159317157,
+    "population": 0,
+    "wikidata_id": "Q165954"
   },
   "id3:BW-KG": {
     "name": "Kgalagadi",
-    "ne_id": 1159313277
+    "ne_id": 1159313277,
+    "population": 50492,
+    "wikidata_id": "Q57581"
   },
   "id3:BW-KL": {
     "name": "Kgatleng",
-    "ne_id": 1159313285
+    "ne_id": 1159313285,
+    "population": 73507,
+    "wikidata_id": "Q57593"
   },
   "id3:BW-KW": {
     "name": "Kweneng",
-    "ne_id": 1159313287
+    "ne_id": 1159313287,
+    "population": 230335,
+    "wikidata_id": "Q57599"
   },
   "id3:BW-LO": {
     "name": "Lobatse",
-    "ne_id": 1159317155
+    "ne_id": 1159317155,
+    "population": 29700,
+    "wikidata_id": "Q165768"
   },
   "id3:BW-NE": {
     "name": "North-East",
-    "ne_id": 1159315937
+    "ne_id": 1159315937,
+    "population": 132422,
+    "wikidata_id": "Q57636"
   },
   "id3:BW-NW": {
     "name": "North-West",
-    "ne_id": 1159313279
+    "ne_id": 1159313279,
+    "population": 142970,
+    "wikidata_id": "Q57617"
   },
   "id3:BW-SE": {
     "name": "South-East",
-    "ne_id": 1159313289
+    "ne_id": 1159313289,
+    "population": 276319,
+    "wikidata_id": "Q57695"
   },
   "id3:BW-SO": {
     "name": "Southern",
-    "ne_id": 1159313291
+    "ne_id": 1159313291,
+    "population": 186831,
+    "wikidata_id": "Q57609"
   },
   "id3:BW-SP": {
     "name": "Selebi-Phikwe",
-    "ne_id": 1159317161
+    "ne_id": 1159317161,
+    "population": 49724,
+    "wikidata_id": "Q141263"
   },
   "id3:BW-ST": {
     "name": "Sowa",
-    "ne_id": 1159317159
+    "ne_id": 1159317159,
+    "population": 0,
+    "wikidata_id": "Q141310"
   }
 }

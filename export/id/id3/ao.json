@@ -1,74 +1,110 @@
 {
   "id3:AO-BGO": {
     "name": "Bengo",
-    "ne_id": 1159311253
+    "ne_id": 1159311253,
+    "population": 351579,
+    "wikidata_id": "Q191299"
   },
   "id3:AO-BGU": {
     "name": "Benguela",
-    "ne_id": 1159311269
+    "ne_id": 1159311269,
+    "population": 2036662,
+    "wikidata_id": "Q212786"
   },
   "id3:AO-BIE": {
     "name": "Bié",
-    "ne_id": 1159311265
+    "ne_id": 1159311265,
+    "population": 0,
+    "wikidata_id": "Q213977"
   },
   "id3:AO-CAB": {
     "name": "Cabinda",
-    "ne_id": 1159311283
+    "ne_id": 1159311283,
+    "population": 0,
+    "wikidata_id": "Q168787"
   },
   "id3:AO-CCU": {
     "name": "Cuando Cubango",
-    "ne_id": 1159311271
+    "ne_id": 1159311271,
+    "population": 0,
+    "wikidata_id": "Q215268"
   },
   "id3:AO-CNN": {
     "name": "Cunene",
-    "ne_id": 1159311273
+    "ne_id": 1159311273,
+    "population": 965288,
+    "wikidata_id": "Q216987"
   },
   "id3:AO-CNO": {
     "name": "Cuanza Norte",
-    "ne_id": 1159311255
+    "ne_id": 1159311255,
+    "population": 0,
+    "wikidata_id": "Q216834"
   },
   "id3:AO-CUS": {
     "name": "Cuanza Sul",
-    "ne_id": 1159311257
+    "ne_id": 1159311257,
+    "population": 0,
+    "wikidata_id": "Q216998"
   },
   "id3:AO-HUA": {
     "name": "Huambo",
-    "ne_id": 1159311275
+    "ne_id": 1159311275,
+    "population": 0,
+    "wikidata_id": "Q218848"
   },
   "id3:AO-HUI": {
     "name": "Huíla",
-    "ne_id": 1159311277
+    "ne_id": 1159311277,
+    "population": 0,
+    "wikidata_id": "Q214572"
   },
   "id3:AO-LNO": {
     "name": "Lunda Norte",
-    "ne_id": 1159311281
+    "ne_id": 1159311281,
+    "population": 0,
+    "wikidata_id": "Q214221"
   },
   "id3:AO-LSU": {
     "name": "Lunda Sul",
-    "ne_id": 1159311247
+    "ne_id": 1159311247,
+    "population": 0,
+    "wikidata_id": "Q219648"
   },
   "id3:AO-LUA": {
     "name": "Luanda",
-    "ne_id": 1159311259
+    "ne_id": 1159311259,
+    "population": 6542944,
+    "wikidata_id": "Q190066"
   },
   "id3:AO-MAL": {
     "name": "Malanje",
-    "ne_id": 1159311251
+    "ne_id": 1159311251,
+    "population": 0,
+    "wikidata_id": "Q219072"
   },
   "id3:AO-MOX": {
     "name": "Moxico",
-    "ne_id": 1159311279
+    "ne_id": 1159311279,
+    "population": 727594,
+    "wikidata_id": "Q173988"
   },
   "id3:AO-NAM": {
     "name": "Namibe",
-    "ne_id": 1159311163
+    "ne_id": 1159311163,
+    "population": 471613,
+    "wikidata_id": "Q216819"
   },
   "id3:AO-UIG": {
     "name": "Uíge",
-    "ne_id": 1159311261
+    "ne_id": 1159311261,
+    "population": 0,
+    "wikidata_id": "Q216972"
   },
   "id3:AO-ZAI": {
     "name": "Zaire",
-    "ne_id": 1159311263
+    "ne_id": 1159311263,
+    "population": 0,
+    "wikidata_id": "Q196674"
   }
 }

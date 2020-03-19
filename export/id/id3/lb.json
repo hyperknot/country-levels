@@ -1,26 +1,38 @@
 {
   "id3:LB-AS": {
     "name": "North Lebanon",
-    "ne_id": 1159314199
+    "ne_id": 1159314199,
+    "population": 0,
+    "wikidata_id": "Q390267"
   },
   "id3:LB-BA": {
     "name": "Beirut",
-    "ne_id": 1159314203
+    "ne_id": 1159314203,
+    "population": 0,
+    "wikidata_id": "Q651688"
   },
   "id3:LB-BI": {
     "name": "Beqaa",
-    "ne_id": 1159314197
+    "ne_id": 1159314197,
+    "population": 489900,
+    "wikidata_id": "Q319632"
   },
   "id3:LB-JA": {
     "name": "South Lebanon",
-    "ne_id": 1159314209
+    "ne_id": 1159314209,
+    "population": 542639,
+    "wikidata_id": "Q223643"
   },
   "id3:LB-JL": {
     "name": "Mount Lebanon",
-    "ne_id": 1159314205
+    "ne_id": 1159314205,
+    "population": 1484500,
+    "wikidata_id": "Q216945"
   },
   "id3:LB-NA": {
     "name": "An Nabatiyah",
-    "ne_id": 1159314207
+    "ne_id": 1159314207,
+    "population": 345500,
+    "wikidata_id": "Q458417"
   }
 }

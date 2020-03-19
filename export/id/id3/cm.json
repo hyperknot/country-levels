@@ -1,42 +1,62 @@
 {
   "id3:CM-AD": {
     "name": "Adamaoua",
-    "ne_id": 1159311507
+    "ne_id": 1159311507,
+    "population": 838689,
+    "wikidata_id": "Q351514"
   },
   "id3:CM-CE": {
     "name": "Centre",
-    "ne_id": 1159310215
+    "ne_id": 1159310215,
+    "population": 2797212,
+    "wikidata_id": "Q739951"
   },
   "id3:CM-EN": {
     "name": "Extrême-Nord",
-    "ne_id": 1159310209
+    "ne_id": 1159310209,
+    "population": 3142883,
+    "wikidata_id": "Q823976"
   },
   "id3:CM-ES": {
     "name": "Est",
-    "ne_id": 1159311505
+    "ne_id": 1159311505,
+    "population": 875949,
+    "wikidata_id": "Q845168"
   },
   "id3:CM-LT": {
     "name": "Littoral",
-    "ne_id": 1159310211
+    "ne_id": 1159310211,
+    "population": 2294540,
+    "wikidata_id": "Q845172"
   },
   "id3:CM-NO": {
     "name": "Nord",
-    "ne_id": 1159311509
+    "ne_id": 1159311509,
+    "population": 1409445,
+    "wikidata_id": "Q502341"
   },
   "id3:CM-NW": {
     "name": "Nord-Ouest",
-    "ne_id": 1159310213
+    "ne_id": 1159310213,
+    "population": 2095538,
+    "wikidata_id": "Q823946"
   },
   "id3:CM-OU": {
     "name": "Ouest",
-    "ne_id": 1159309027
+    "ne_id": 1159309027,
+    "population": 2269136,
+    "wikidata_id": "Q165784"
   },
   "id3:CM-SU": {
     "name": "Sud",
-    "ne_id": 1159309031
+    "ne_id": 1159309031,
+    "population": 633082,
+    "wikidata_id": "Q857122"
   },
   "id3:CM-SW": {
     "name": "Sud-Ouest",
-    "ne_id": 1159309029
+    "ne_id": 1159309029,
+    "population": 1419269,
+    "wikidata_id": "Q607499"
   }
 }

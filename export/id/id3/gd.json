@@ -1,30 +1,44 @@
 {
   "id3:GD-01": {
     "name": "Saint Andrew",
-    "ne_id": 1159316371
+    "ne_id": 1159316371,
+    "population": 0,
+    "wikidata_id": "Q977183"
   },
   "id3:GD-02": {
     "name": "Saint David",
-    "ne_id": 1159316369
+    "ne_id": 1159316369,
+    "population": 0,
+    "wikidata_id": "Q2087806"
   },
   "id3:GD-03": {
     "name": "Saint George",
-    "ne_id": 1159316367
+    "ne_id": 1159316367,
+    "population": 0,
+    "wikidata_id": "Q576651"
   },
   "id3:GD-04": {
     "name": "Saint John",
-    "ne_id": 1159316365
+    "ne_id": 1159316365,
+    "population": 0,
+    "wikidata_id": "Q1476289"
   },
   "id3:GD-05": {
     "name": "Saint Mark",
-    "ne_id": 1159316363
+    "ne_id": 1159316363,
+    "population": 0,
+    "wikidata_id": "Q1291077"
   },
   "id3:GD-06": {
     "name": "Saint Patrick",
-    "ne_id": 1159315637
+    "ne_id": 1159315637,
+    "population": 0,
+    "wikidata_id": "Q1476309"
   },
   "id3:GD-10": {
     "name": "Carriacou and Petite Martinique",
-    "ne_id": 1159316373
+    "ne_id": 1159316373,
+    "population": 0,
+    "wikidata_id": "Q3752183"
   }
 }

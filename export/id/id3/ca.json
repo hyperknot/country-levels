@@ -1,54 +1,80 @@
 {
   "id3:CA-AB": {
     "name": "Alberta",
-    "ne_id": 1159308775
+    "ne_id": 1159308775,
+    "population": 4306039,
+    "wikidata_id": "Q1951"
   },
   "id3:CA-BC": {
     "name": "British Columbia",
-    "ne_id": 1159307717
+    "ne_id": 1159307717,
+    "population": 4841078,
+    "wikidata_id": "Q1974"
   },
   "id3:CA-MB": {
     "name": "Manitoba",
-    "ne_id": 1159308777
+    "ne_id": 1159308777,
+    "population": 1343371,
+    "wikidata_id": "Q1948"
   },
   "id3:CA-NB": {
     "name": "New Brunswick",
-    "ne_id": 1159308785
+    "ne_id": 1159308785,
+    "population": 760868,
+    "wikidata_id": "Q1965"
   },
   "id3:CA-NL": {
     "name": "Newfoundland and Labrador",
-    "ne_id": 1159308713
+    "ne_id": 1159308713,
+    "population": 528430,
+    "wikidata_id": "Q2003"
   },
   "id3:CA-NS": {
     "name": "Nova Scotia",
-    "ne_id": 1159309585
+    "ne_id": 1159309585,
+    "population": 957600,
+    "wikidata_id": "Q1952"
   },
   "id3:CA-NT": {
     "name": "Northwest Territories",
-    "ne_id": 1159308771
+    "ne_id": 1159308771,
+    "population": 44718,
+    "wikidata_id": "Q2007"
   },
   "id3:CA-NU": {
     "name": "Nunavut",
-    "ne_id": 1159307715
+    "ne_id": 1159307715,
+    "population": 38243,
+    "wikidata_id": "Q2023"
   },
   "id3:CA-ON": {
     "name": "Ontario",
-    "ne_id": 1159309687
+    "ne_id": 1159309687,
+    "population": 14279196,
+    "wikidata_id": "Q1904"
   },
   "id3:CA-PE": {
     "name": "Prince Edward Island",
-    "ne_id": 1159310911
+    "ne_id": 1159310911,
+    "population": 152784,
+    "wikidata_id": "Q1979"
   },
   "id3:CA-QC": {
     "name": "Québec",
-    "ne_id": 1159308703
+    "ne_id": 1159308703,
+    "population": 8484965,
+    "wikidata_id": "Q176"
   },
   "id3:CA-SK": {
     "name": "Saskatchewan",
-    "ne_id": 1159308773
+    "ne_id": 1159308773,
+    "population": 1168057,
+    "wikidata_id": "Q1989"
   },
   "id3:CA-YT": {
     "name": "Yukon",
-    "ne_id": 1159309667
+    "ne_id": 1159309667,
+    "population": 38669,
+    "wikidata_id": "Q2009"
   }
 }

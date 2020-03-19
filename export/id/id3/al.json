@@ -1,50 +1,74 @@
 {
   "id3:AL-02": {
     "name": "Durrës",
-    "ne_id": 1159312427
+    "ne_id": 1159312427,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:AL-04": {
     "name": "Fier",
-    "ne_id": 1159312429
+    "ne_id": 1159312429,
+    "population": 310331,
+    "wikidata_id": "Q231900"
   },
   "id3:AL-06": {
     "name": "Korçë",
-    "ne_id": 1159309443
+    "ne_id": 1159309443,
+    "population": 220357,
+    "wikidata_id": "Q193464"
   },
   "id3:AL-07": {
     "name": "Kukës",
-    "ne_id": 1159310595
+    "ne_id": 1159310595,
+    "population": 85292,
+    "wikidata_id": "Q231896"
   },
   "id3:AL-10": {
     "name": "Shkodër",
-    "ne_id": 1159310593
+    "ne_id": 1159310593,
+    "population": 215347,
+    "wikidata_id": "Q193438"
   },
   "id3:AL-BR": {
     "name": "Berat",
-    "ne_id": 1159309445
+    "ne_id": 1159309445,
+    "population": 141944,
+    "wikidata_id": "Q189296"
   },
   "id3:AL-DI": {
     "name": "Dibër",
-    "ne_id": 1159309453
+    "ne_id": 1159309453,
+    "population": 137047,
+    "wikidata_id": "Q192866"
   },
   "id3:AL-DR": {
     "name": "Durrës",
-    "ne_id": 1159309457
+    "ne_id": 1159309457,
+    "population": 262785,
+    "wikidata_id": "Q192853"
   },
   "id3:AL-EL": {
     "name": "Elbasan",
-    "ne_id": 1159309447
+    "ne_id": 1159309447,
+    "population": 295827,
+    "wikidata_id": "Q193790"
   },
   "id3:AL-GJ": {
     "name": "Gjirokastër",
-    "ne_id": 1159309451
+    "ne_id": 1159309451,
+    "population": 72176,
+    "wikidata_id": "Q193454"
   },
   "id3:AL-LE": {
     "name": "Lezhë",
-    "ne_id": 1159309455
+    "ne_id": 1159309455,
+    "population": 134027,
+    "wikidata_id": "Q193436"
   },
   "id3:AL-VL": {
     "name": "Vlorë",
-    "ne_id": 1159310597
+    "ne_id": 1159310597,
+    "population": 175640,
+    "wikidata_id": "Q192849"
   }
 }

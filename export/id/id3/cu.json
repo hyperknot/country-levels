@@ -1,66 +1,98 @@
 {
   "id3:CU-01": {
     "name": "Pinar del Río",
-    "ne_id": 1159310345
+    "ne_id": 1159310345,
+    "population": 587026,
+    "wikidata_id": "Q115497"
   },
   "id3:CU-03": {
     "name": "Ciudad de la Habana",
-    "ne_id": 1159310361
+    "ne_id": 1159310361,
+    "population": 2141652,
+    "wikidata_id": "Q1563"
   },
   "id3:CU-04": {
     "name": "Matanzas",
-    "ne_id": 1159310347
+    "ne_id": 1159310347,
+    "population": 690113,
+    "wikidata_id": "Q115438"
   },
   "id3:CU-05": {
     "name": "Villa Clara",
-    "ne_id": 1159311759
+    "ne_id": 1159311759,
+    "population": 803562,
+    "wikidata_id": "Q115434"
   },
   "id3:CU-06": {
     "name": "Cienfuegos",
-    "ne_id": 1159310363
+    "ne_id": 1159310363,
+    "population": 404228,
+    "wikidata_id": "Q115444"
   },
   "id3:CU-07": {
     "name": "Sancti Spíritus",
-    "ne_id": 1159310355
+    "ne_id": 1159310355,
+    "population": 463458,
+    "wikidata_id": "Q115441"
   },
   "id3:CU-08": {
     "name": "Ciego de Ávila",
-    "ne_id": 1159310337
+    "ne_id": 1159310337,
+    "population": 422576,
+    "wikidata_id": "Q220692"
   },
   "id3:CU-09": {
     "name": "Camagüey",
-    "ne_id": 1159310333
+    "ne_id": 1159310333,
+    "population": 782458,
+    "wikidata_id": "Q215147"
   },
   "id3:CU-10": {
     "name": "Las Tunas",
-    "ne_id": 1159310357
+    "ne_id": 1159310357,
+    "population": 532645,
+    "wikidata_id": "Q115334"
   },
   "id3:CU-11": {
     "name": "Holguín",
-    "ne_id": 1159310339
+    "ne_id": 1159310339,
+    "population": 1037161,
+    "wikidata_id": "Q115302"
   },
   "id3:CU-12": {
     "name": "Granma",
-    "ne_id": 1159310369
+    "ne_id": 1159310369,
+    "population": 835675,
+    "wikidata_id": "Q115046"
   },
   "id3:CU-13": {
     "name": "Santiago de Cuba",
-    "ne_id": 1159310359
+    "ne_id": 1159310359,
+    "population": 1047015,
+    "wikidata_id": "Q234200"
   },
   "id3:CU-14": {
     "name": "Guantánamo",
-    "ne_id": 1159310365
+    "ne_id": 1159310365,
+    "population": 515428,
+    "wikidata_id": "Q115319"
   },
   "id3:CU-15": {
     "name": "Artemisa",
-    "ne_id": 1159310353
+    "ne_id": 1159310353,
+    "population": 494631,
+    "wikidata_id": "Q115325"
   },
   "id3:CU-16": {
     "name": "Mayabeque",
-    "ne_id": 1159317123
+    "ne_id": 1159317123,
+    "population": 380274,
+    "wikidata_id": "Q115310"
   },
   "id3:CU-99": {
     "name": "Isla de la Juventud",
-    "ne_id": 1159310343
+    "ne_id": 1159310343,
+    "population": 84263,
+    "wikidata_id": "Q115027"
   }
 }

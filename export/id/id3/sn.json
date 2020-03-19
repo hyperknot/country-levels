@@ -1,58 +1,86 @@
 {
   "id3:SN-DB": {
     "name": "Diourbel",
-    "ne_id": 1159310229
+    "ne_id": 1159310229,
+    "population": 1497453,
+    "wikidata_id": "Q856261"
   },
   "id3:SN-DK": {
     "name": "Dakar",
-    "ne_id": 1159310227
+    "ne_id": 1159310227,
+    "population": 3137196,
+    "wikidata_id": "Q856268"
   },
   "id3:SN-FK": {
     "name": "Fatick",
-    "ne_id": 1159310231
+    "ne_id": 1159310231,
+    "population": 714389,
+    "wikidata_id": "Q856282"
   },
   "id3:SN-KA": {
     "name": "Kaffrine",
-    "ne_id": 1159317185
+    "ne_id": 1159317185,
+    "population": 566992,
+    "wikidata_id": "Q1059694"
   },
   "id3:SN-KD": {
     "name": "Kolda",
-    "ne_id": 1159309131
+    "ne_id": 1159309131,
+    "population": 662455,
+    "wikidata_id": "Q738081"
   },
   "id3:SN-KE": {
     "name": "Kédougou",
-    "ne_id": 1159317181
+    "ne_id": 1159317181,
+    "population": 151357,
+    "wikidata_id": "Q1046666"
   },
   "id3:SN-KL": {
     "name": "Kaolack",
-    "ne_id": 1159310233
+    "ne_id": 1159310233,
+    "population": 960875,
+    "wikidata_id": "Q847671"
   },
   "id3:SN-LG": {
     "name": "Louga",
-    "ne_id": 1159310235
+    "ne_id": 1159310235,
+    "population": 874193,
+    "wikidata_id": "Q738061"
   },
   "id3:SN-MT": {
     "name": "Matam",
-    "ne_id": 1159310237
+    "ne_id": 1159310237,
+    "population": 562539,
+    "wikidata_id": "Q856275"
   },
   "id3:SN-SE": {
     "name": "Sédhiou",
-    "ne_id": 1159317183
+    "ne_id": 1159317183,
+    "population": 452994,
+    "wikidata_id": "Q589848"
   },
   "id3:SN-SL": {
     "name": "Saint-Louis",
-    "ne_id": 1159317179
+    "ne_id": 1159317179,
+    "population": 908941,
+    "wikidata_id": "Q178872"
   },
   "id3:SN-TC": {
     "name": "Tambacounda",
-    "ne_id": 1159309135
+    "ne_id": 1159309135,
+    "population": 681310,
+    "wikidata_id": "Q848554"
   },
   "id3:SN-TH": {
     "name": "Thiès",
-    "ne_id": 1159310239
+    "ne_id": 1159310239,
+    "population": 1788864,
+    "wikidata_id": "Q847682"
   },
   "id3:SN-ZG": {
     "name": "Ziguinchor",
-    "ne_id": 1159309133
+    "ne_id": 1159309133,
+    "population": 549151,
+    "wikidata_id": "Q822692"
   }
 }

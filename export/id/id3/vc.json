@@ -1,26 +1,38 @@
 {
   "id3:VC-01": {
     "name": "Charlotte",
-    "ne_id": 1159316359
+    "ne_id": 1159316359,
+    "population": 0,
+    "wikidata_id": "Q2075188"
   },
   "id3:VC-02": {
     "name": "Saint Andrew",
-    "ne_id": 1159316353
+    "ne_id": 1159316353,
+    "population": 0,
+    "wikidata_id": "Q2305115"
   },
   "id3:VC-03": {
     "name": "Saint David",
-    "ne_id": 1159316357
+    "ne_id": 1159316357,
+    "population": 0,
+    "wikidata_id": "Q2412394"
   },
   "id3:VC-04": {
     "name": "Saint George",
-    "ne_id": 1159316351
+    "ne_id": 1159316351,
+    "population": 0,
+    "wikidata_id": "Q2300294"
   },
   "id3:VC-05": {
     "name": "Saint Patrick",
-    "ne_id": 1159316355
+    "ne_id": 1159316355,
+    "population": 0,
+    "wikidata_id": "Q1864637"
   },
   "id3:VC-06": {
     "name": "Grenadines",
-    "ne_id": 1159308131
+    "ne_id": 1159308131,
+    "population": 9200,
+    "wikidata_id": "Q2545297"
   }
 }

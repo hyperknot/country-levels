@@ -1,106 +1,158 @@
 {
   "id3:CH-AG": {
     "name": "Aargau",
-    "ne_id": 1159307657
+    "ne_id": 1159307657,
+    "population": 678207,
+    "wikidata_id": "Q11972"
   },
   "id3:CH-AI": {
     "name": "Appenzell Innerrhoden",
-    "ne_id": 1159314905
+    "ne_id": 1159314905,
+    "population": 16145,
+    "wikidata_id": "Q12094"
   },
   "id3:CH-AR": {
     "name": "Appenzell Ausserrhoden",
-    "ne_id": 1159307665
+    "ne_id": 1159307665,
+    "population": 55234,
+    "wikidata_id": "Q12079"
   },
   "id3:CH-BE": {
     "name": "Bern",
-    "ne_id": 1159314895
+    "ne_id": 1159314895,
+    "population": 1034977,
+    "wikidata_id": "Q11911"
   },
   "id3:CH-BL": {
     "name": "Basel-Landschaft",
-    "ne_id": 1159314893
+    "ne_id": 1159314893,
+    "population": 288132,
+    "wikidata_id": "Q12146"
   },
   "id3:CH-BS": {
     "name": "Basel-Stadt",
-    "ne_id": 1159314897
+    "ne_id": 1159314897,
+    "population": 194766,
+    "wikidata_id": "Q12172"
   },
   "id3:CH-FR": {
     "name": "Fribourg",
-    "ne_id": 1159314889
+    "ne_id": 1159314889,
+    "population": 318714,
+    "wikidata_id": "Q12640"
   },
   "id3:CH-GE": {
     "name": "Genève",
-    "ne_id": 1159307651
+    "ne_id": 1159307651,
+    "population": 499480,
+    "wikidata_id": "Q11917"
   },
   "id3:CH-GL": {
     "name": "Glarus",
-    "ne_id": 1159307673
+    "ne_id": 1159307673,
+    "population": 40403,
+    "wikidata_id": "Q11922"
   },
   "id3:CH-GR": {
     "name": "Graubünden",
-    "ne_id": 1159307675
+    "ne_id": 1159307675,
+    "population": 198379,
+    "wikidata_id": "Q11925"
   },
   "id3:CH-JU": {
     "name": "Jura",
-    "ne_id": 1159307653
+    "ne_id": 1159307653,
+    "population": 73419,
+    "wikidata_id": "Q12755"
   },
   "id3:CH-LU": {
     "name": "Lucerne",
-    "ne_id": 1159307659
+    "ne_id": 1159307659,
+    "population": 409557,
+    "wikidata_id": "Q12121"
   },
   "id3:CH-NE": {
     "name": "Neuchâtel",
-    "ne_id": 1159307655
+    "ne_id": 1159307655,
+    "population": 176850,
+    "wikidata_id": "Q12738"
   },
   "id3:CH-NW": {
     "name": "Nidwalden",
-    "ne_id": 1159307661
+    "ne_id": 1159307661,
+    "population": 43223,
+    "wikidata_id": "Q12592"
   },
   "id3:CH-OW": {
     "name": "Obwalden",
-    "ne_id": 1159314901
+    "ne_id": 1159314901,
+    "population": 37841,
+    "wikidata_id": "Q12573"
   },
   "id3:CH-SG": {
     "name": "Sankt Gallen",
-    "ne_id": 1159307669
+    "ne_id": 1159307669,
+    "population": 507697,
+    "wikidata_id": "Q12746"
   },
   "id3:CH-SH": {
     "name": "Schaffhausen",
-    "ne_id": 1159307677
+    "ne_id": 1159307677,
+    "population": 81991,
+    "wikidata_id": "Q12697"
   },
   "id3:CH-SO": {
     "name": "Solothurn",
-    "ne_id": 1159314899
+    "ne_id": 1159314899,
+    "population": 273194,
+    "wikidata_id": "Q11929"
   },
   "id3:CH-SZ": {
     "name": "Schwyz",
-    "ne_id": 1159307679
+    "ne_id": 1159307679,
+    "population": 159165,
+    "wikidata_id": "Q12433"
   },
   "id3:CH-TG": {
     "name": "Thurgau",
-    "ne_id": 1159307681
+    "ne_id": 1159307681,
+    "population": 276472,
+    "wikidata_id": "Q12713"
   },
   "id3:CH-TI": {
     "name": "Ticino",
-    "ne_id": 1159307671
+    "ne_id": 1159307671,
+    "population": 353343,
+    "wikidata_id": "Q12724"
   },
   "id3:CH-UR": {
     "name": "Uri",
-    "ne_id": 1159307683
+    "ne_id": 1159307683,
+    "population": 36433,
+    "wikidata_id": "Q12404"
   },
   "id3:CH-VD": {
     "name": "Vaud",
-    "ne_id": 1159314891
+    "ne_id": 1159314891,
+    "population": 799145,
+    "wikidata_id": "Q12771"
   },
   "id3:CH-VS": {
     "name": "Valais",
-    "ne_id": 1159307663
+    "ne_id": 1159307663,
+    "population": 343955,
+    "wikidata_id": "Q834"
   },
   "id3:CH-ZG": {
     "name": "Zug",
-    "ne_id": 1159307689
+    "ne_id": 1159307689,
+    "population": 126837,
+    "wikidata_id": "Q11933"
   },
   "id3:CH-ZH": {
     "name": "Zürich",
-    "ne_id": 1159307687
+    "ne_id": 1159307687,
+    "population": 1520968,
+    "wikidata_id": "Q11943"
   }
 }

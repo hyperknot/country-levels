@@ -1,22 +1,32 @@
 {
   "id3:FJ-C": {
     "name": "Central",
-    "ne_id": 1159313275
+    "ne_id": 1159313275,
+    "population": 0,
+    "wikidata_id": "Q1053789"
   },
   "id3:FJ-E": {
     "name": "Eastern",
-    "ne_id": 1159313273
+    "ne_id": 1159313273,
+    "population": 37311,
+    "wikidata_id": "Q182169"
   },
   "id3:FJ-N": {
     "name": "Northern",
-    "ne_id": 1159313293
+    "ne_id": 1159313293,
+    "population": 0,
+    "wikidata_id": "Q1062430"
   },
   "id3:FJ-R": {
     "name": "Rotuma",
-    "ne_id": 1159313295
+    "ne_id": 1159313295,
+    "population": 0,
+    "wikidata_id": "Q459763"
   },
   "id3:FJ-W": {
     "name": "Western",
-    "ne_id": 1159313271
+    "ne_id": 1159313271,
+    "population": 0,
+    "wikidata_id": "Q1062451"
   }
 }

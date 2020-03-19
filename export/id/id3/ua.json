@@ -1,102 +1,152 @@
 {
   "id3:UA-05": {
     "name": "Vinnytsya",
-    "ne_id": 1159309619
+    "ne_id": 1159309619,
+    "population": 1575808,
+    "wikidata_id": "Q166709"
   },
   "id3:UA-07": {
     "name": "Volyn",
-    "ne_id": 1159309607
+    "ne_id": 1159309607,
+    "population": 1038457,
+    "wikidata_id": "Q167859"
   },
   "id3:UA-09": {
     "name": "Luhans'k",
-    "ne_id": 1159309633
+    "ne_id": 1159309633,
+    "population": 2167802,
+    "wikidata_id": "Q171965"
   },
   "id3:UA-12": {
     "name": "Dnipropetrovs'k",
-    "ne_id": 1159309625
+    "ne_id": 1159309625,
+    "population": 3231140,
+    "wikidata_id": "Q170672"
   },
   "id3:UA-14": {
     "name": "Donets'k",
-    "ne_id": 1159309627
+    "ne_id": 1159309627,
+    "population": 4200461,
+    "wikidata_id": "Q2012050"
   },
   "id3:UA-18": {
     "name": "Zhytomyr",
-    "ne_id": 1159309621
+    "ne_id": 1159309621,
+    "population": 1231239,
+    "wikidata_id": "Q40637"
   },
   "id3:UA-21": {
     "name": "Transcarpathia",
-    "ne_id": 1159309605
+    "ne_id": 1159309605,
+    "population": 1258155,
+    "wikidata_id": "Q170213"
   },
   "id3:UA-23": {
     "name": "Zaporizhzhya",
-    "ne_id": 1159309637
+    "ne_id": 1159309637,
+    "population": 1723171,
+    "wikidata_id": "Q171334"
   },
   "id3:UA-26": {
     "name": "Ivano-Frankivs'k",
-    "ne_id": 1159309597
+    "ne_id": 1159309597,
+    "population": 1377496,
+    "wikidata_id": "Q178269"
   },
   "id3:UA-30": {
     "name": "Kiev City",
-    "ne_id": 1159315871
+    "ne_id": 1159315871,
+    "population": 2935239,
+    "wikidata_id": "Q1899"
   },
   "id3:UA-32": {
     "name": "Kiev",
-    "ne_id": 1159309615
+    "ne_id": 1159309615,
+    "population": 2935239,
+    "wikidata_id": "Q1899"
   },
   "id3:UA-35": {
     "name": "Kirovohrad",
-    "ne_id": 1159309613
+    "ne_id": 1159309613,
+    "population": 956250,
+    "wikidata_id": "Q180981"
   },
   "id3:UA-46": {
     "name": "L'viv",
-    "ne_id": 1159309601
+    "ne_id": 1159309601,
+    "population": 2529608,
+    "wikidata_id": "Q164193"
   },
   "id3:UA-48": {
     "name": "Mykolayiv",
-    "ne_id": 1159309587
+    "ne_id": 1159309587,
+    "population": 1141324,
+    "wikidata_id": "Q181633"
   },
   "id3:UA-51": {
     "name": "Odessa",
-    "ne_id": 1159309617
+    "ne_id": 1159309617,
+    "population": 2383075,
+    "wikidata_id": "Q171852"
   },
   "id3:UA-53": {
     "name": "Poltava",
-    "ne_id": 1159309635
+    "ne_id": 1159309635,
+    "population": 1413829,
+    "wikidata_id": "Q169501"
   },
   "id3:UA-56": {
     "name": "Rivne",
-    "ne_id": 1159309591
+    "ne_id": 1159309591,
+    "population": 1160647,
+    "wikidata_id": "Q174187"
   },
   "id3:UA-59": {
     "name": "Sumy",
-    "ne_id": 1159309623
+    "ne_id": 1159309623,
+    "population": 1094284,
+    "wikidata_id": "Q170446"
   },
   "id3:UA-61": {
     "name": "Ternopil'",
-    "ne_id": 1159309603
+    "ne_id": 1159309603,
+    "population": 1052312,
+    "wikidata_id": "Q173407"
   },
   "id3:UA-63": {
     "name": "Kharkiv",
-    "ne_id": 1159309631
+    "ne_id": 1159309631,
+    "population": 2694007,
+    "wikidata_id": "Q170666"
   },
   "id3:UA-65": {
     "name": "Kherson",
-    "ne_id": 1159315873
+    "ne_id": 1159315873,
+    "population": 1055600,
+    "wikidata_id": "Q163271"
   },
   "id3:UA-68": {
     "name": "Khmel'nyts'kyy",
-    "ne_id": 1159309599
+    "ne_id": 1159309599,
+    "population": 1274409,
+    "wikidata_id": "Q171331"
   },
   "id3:UA-71": {
     "name": "Cherkasy",
-    "ne_id": 1159309609
+    "ne_id": 1159309609,
+    "population": 1220363,
+    "wikidata_id": "Q161808"
   },
   "id3:UA-74": {
     "name": "Chernihiv",
-    "ne_id": 1159309589
+    "ne_id": 1159309589,
+    "population": 1020078,
+    "wikidata_id": "Q167874"
   },
   "id3:UA-77": {
     "name": "Chernivtsi",
-    "ne_id": 1159309595
+    "ne_id": 1159309595,
+    "population": 906701,
+    "wikidata_id": "Q168856"
   }
 }

@@ -1,74 +1,110 @@
 {
   "id3:HN-AT": {
     "name": "Atlántida",
-    "ne_id": 1159309093
+    "ne_id": 1159309093,
+    "population": 436252,
+    "wikidata_id": "Q622619"
   },
   "id3:HN-CH": {
     "name": "Choluteca",
-    "ne_id": 1159309123
+    "ne_id": 1159309123,
+    "population": 437618,
+    "wikidata_id": "Q899272"
   },
   "id3:HN-CL": {
     "name": "Colón",
-    "ne_id": 1159309095
+    "ne_id": 1159309095,
+    "population": 309926,
+    "wikidata_id": "Q867117"
   },
   "id3:HN-CM": {
     "name": "Comayagua",
-    "ne_id": 1159309105
+    "ne_id": 1159309105,
+    "population": 493466,
+    "wikidata_id": "Q823443"
   },
   "id3:HN-CP": {
     "name": "Copán",
-    "ne_id": 1159309117
+    "ne_id": 1159309117,
+    "population": 371057,
+    "wikidata_id": "Q843984"
   },
   "id3:HN-CR": {
     "name": "Cortés",
-    "ne_id": 1159309109
+    "ne_id": 1159309109,
+    "population": 2211234,
+    "wikidata_id": "Q767244"
   },
   "id3:HN-EP": {
     "name": "El Paraíso",
-    "ne_id": 1159309127
+    "ne_id": 1159309127,
+    "population": 455507,
+    "wikidata_id": "Q867108"
   },
   "id3:HN-FM": {
     "name": "Francisco Morazán",
-    "ne_id": 1159309097
+    "ne_id": 1159309097,
+    "population": 1508906,
+    "wikidata_id": "Q867126"
   },
   "id3:HN-GD": {
     "name": "Gracias a Dios",
-    "ne_id": 1159309099
+    "ne_id": 1159309099,
+    "population": 90765,
+    "wikidata_id": "Q867112"
   },
   "id3:HN-IB": {
     "name": "Islas de la Bahía",
-    "ne_id": 1159309129
+    "ne_id": 1159309129,
+    "population": 62557,
+    "wikidata_id": "Q751725"
   },
   "id3:HN-IN": {
     "name": "Intibucá",
-    "ne_id": 1159309111
+    "ne_id": 1159309111,
+    "population": 232553,
+    "wikidata_id": "Q262125"
   },
   "id3:HN-LE": {
     "name": "Lempira",
-    "ne_id": 1159309119
+    "ne_id": 1159309119,
+    "population": 121179,
+    "wikidata_id": "Q744138"
   },
   "id3:HN-LP": {
     "name": "La Paz",
-    "ne_id": 1159309113
+    "ne_id": 1159309113,
+    "population": 198926,
+    "wikidata_id": "Q866886"
   },
   "id3:HN-OC": {
     "name": "Ocotepeque",
-    "ne_id": 1159309121
+    "ne_id": 1159309121,
+    "population": 146030,
+    "wikidata_id": "Q867084"
   },
   "id3:HN-OL": {
     "name": "Olancho",
-    "ne_id": 1159309101
+    "ne_id": 1159309101,
+    "population": 520761,
+    "wikidata_id": "Q867089"
   },
   "id3:HN-SB": {
     "name": "Santa Bárbara",
-    "ne_id": 1159309115
+    "ne_id": 1159309115,
+    "population": 421337,
+    "wikidata_id": "Q591139"
   },
   "id3:HN-VA": {
     "name": "Valle",
-    "ne_id": 1159309033
+    "ne_id": 1159309033,
+    "population": 174511,
+    "wikidata_id": "Q867097"
   },
   "id3:HN-YO": {
     "name": "Yoro",
-    "ne_id": 1159309103
+    "ne_id": 1159309103,
+    "population": 570595,
+    "wikidata_id": "Q1123380"
   }
 }

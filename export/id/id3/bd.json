@@ -1,30 +1,44 @@
 {
   "id3:BD-A": {
     "name": "Barisal",
-    "ne_id": 1159311757
+    "ne_id": 1159311757,
+    "population": 8325666,
+    "wikidata_id": "Q459723"
   },
   "id3:BD-B": {
     "name": "Chittagong",
-    "ne_id": 1159311751
+    "ne_id": 1159311751,
+    "population": 29145000,
+    "wikidata_id": "Q158087"
   },
   "id3:BD-C": {
     "name": "Dhaka",
-    "ne_id": 1159311761
+    "ne_id": 1159311761,
+    "population": 49729000,
+    "wikidata_id": "Q330158"
   },
   "id3:BD-D": {
     "name": "Khulna",
-    "ne_id": 1159311755
+    "ne_id": 1159311755,
+    "population": 0,
+    "wikidata_id": "Q2093344"
   },
   "id3:BD-E": {
     "name": "Rajshahi",
-    "ne_id": 1159314011
+    "ne_id": 1159314011,
+    "population": 0,
+    "wikidata_id": "Q2344697"
   },
   "id3:BD-F": {
     "name": "Rangpur",
-    "ne_id": 1159317129
+    "ne_id": 1159317129,
+    "population": 0,
+    "wikidata_id": "Q2344570"
   },
   "id3:BD-G": {
     "name": "Sylhet",
-    "ne_id": 1159311793
+    "ne_id": 1159311793,
+    "population": 9807000,
+    "wikidata_id": "Q459732"
   }
 }

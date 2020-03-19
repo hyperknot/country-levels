@@ -1,38 +1,56 @@
 {
   "id3:GA-1": {
     "name": "Estuaire",
-    "ne_id": 1159311297
+    "ne_id": 1159311297,
+    "population": 0,
+    "wikidata_id": "Q281109"
   },
   "id3:GA-2": {
     "name": "Haut-Ogooué",
-    "ne_id": 1159313343
+    "ne_id": 1159313343,
+    "population": 0,
+    "wikidata_id": "Q654438"
   },
   "id3:GA-3": {
     "name": "Moyen-Ogooué",
-    "ne_id": 1159313335
+    "ne_id": 1159313335,
+    "population": 0,
+    "wikidata_id": "Q590802"
   },
   "id3:GA-4": {
     "name": "Ngounié",
-    "ne_id": 1159313339
+    "ne_id": 1159313339,
+    "population": 0,
+    "wikidata_id": "Q823774"
   },
   "id3:GA-5": {
     "name": "Nyanga",
-    "ne_id": 1159313341
+    "ne_id": 1159313341,
+    "population": 0,
+    "wikidata_id": "Q846017"
   },
   "id3:GA-6": {
     "name": "Ogooué-Ivindo",
-    "ne_id": 1159311293
+    "ne_id": 1159311293,
+    "population": 0,
+    "wikidata_id": "Q823822"
   },
   "id3:GA-7": {
     "name": "Ogooué-Lolo",
-    "ne_id": 1159313345
+    "ne_id": 1159313345,
+    "population": 0,
+    "wikidata_id": "Q823762"
   },
   "id3:GA-8": {
     "name": "Ogooué-Maritime",
-    "ne_id": 1159313333
+    "ne_id": 1159313333,
+    "population": 0,
+    "wikidata_id": "Q823751"
   },
   "id3:GA-9": {
     "name": "Wouleu-Ntem",
-    "ne_id": 1159311295
+    "ne_id": 1159311295,
+    "population": 0,
+    "wikidata_id": "Q823800"
   }
 }

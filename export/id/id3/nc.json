@@ -1,14 +1,20 @@
 {
   "id3:NC-X01": {
     "name": "Îles Loyauté",
-    "ne_id": 1159308851
+    "ne_id": 1159308851,
+    "population": 18297,
+    "wikidata_id": "Q18655787"
   },
   "id3:NC-X02": {
     "name": "Sud",
-    "ne_id": 1159309729
+    "ne_id": 1159309729,
+    "population": 199983,
+    "wikidata_id": "Q965632"
   },
   "id3:NC-X03": {
     "name": "Nord",
-    "ne_id": 1159309799
+    "ne_id": 1159309799,
+    "population": 50487,
+    "wikidata_id": "Q1612920"
   }
 }

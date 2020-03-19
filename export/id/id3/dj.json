@@ -1,26 +1,38 @@
 {
   "id3:DJ-AR": {
     "name": "Arta",
-    "ne_id": 1159310199
+    "ne_id": 1159310199,
+    "population": 0,
+    "wikidata_id": "Q705941"
   },
   "id3:DJ-AS": {
     "name": "Ali Sabieh",
-    "ne_id": 1159310195
+    "ne_id": 1159310195,
+    "population": 0,
+    "wikidata_id": "Q821008"
   },
   "id3:DJ-DI": {
     "name": "Dikhil",
-    "ne_id": 1159310201
+    "ne_id": 1159310201,
+    "population": 0,
+    "wikidata_id": "Q283979"
   },
   "id3:DJ-DJ": {
     "name": "Djibouti",
-    "ne_id": 1159310197
+    "ne_id": 1159310197,
+    "population": 562000,
+    "wikidata_id": "Q3604"
   },
   "id3:DJ-OB": {
     "name": "Obock",
-    "ne_id": 1159310203
+    "ne_id": 1159310203,
+    "population": 37856,
+    "wikidata_id": "Q844929"
   },
   "id3:DJ-TA": {
     "name": "Tadjourah",
-    "ne_id": 1159310207
+    "ne_id": 1159310207,
+    "population": 0,
+    "wikidata_id": "Q645896"
   }
 }

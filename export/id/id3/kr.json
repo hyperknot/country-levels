@@ -1,70 +1,104 @@
 {
   "id3:KR-11": {
     "name": "Seoul",
-    "ne_id": 1159312115
+    "ne_id": 1159312115,
+    "population": 9806538,
+    "wikidata_id": "Q8684"
   },
   "id3:KR-26": {
     "name": "Busan",
-    "ne_id": 1159313531
+    "ne_id": 1159313531,
+    "population": 3453198,
+    "wikidata_id": "Q16520"
   },
   "id3:KR-27": {
     "name": "Daegu",
-    "ne_id": 1159313523
+    "ne_id": 1159313523,
+    "population": 2461002,
+    "wikidata_id": "Q20927"
   },
   "id3:KR-28": {
     "name": "Incheon",
-    "ne_id": 1159312029
+    "ne_id": 1159312029,
+    "population": 2913024,
+    "wikidata_id": "Q20934"
   },
   "id3:KR-29": {
     "name": "Gwangju",
-    "ne_id": 1159313255
+    "ne_id": 1159313255,
+    "population": 1501557,
+    "wikidata_id": "Q41283"
   },
   "id3:KR-30": {
     "name": "Daejeon",
-    "ne_id": 1159313527
+    "ne_id": 1159313527,
+    "population": 1475221,
+    "wikidata_id": "Q20921"
   },
   "id3:KR-31": {
     "name": "Ulsan",
-    "ne_id": 1159313533
+    "ne_id": 1159313533,
+    "population": 1166033,
+    "wikidata_id": "Q41278"
   },
   "id3:KR-41": {
     "name": "Gyeonggi",
-    "ne_id": 1159312027
+    "ne_id": 1159312027,
+    "population": 0,
+    "wikidata_id": "Q20937"
   },
   "id3:KR-42": {
     "name": "Gangwon",
-    "ne_id": 1159312111
+    "ne_id": 1159312111,
+    "population": 0,
+    "wikidata_id": "Q41071"
   },
   "id3:KR-43": {
     "name": "North Chungcheong",
-    "ne_id": 1159312109
+    "ne_id": 1159312109,
+    "population": 0,
+    "wikidata_id": "Q41066"
   },
   "id3:KR-44": {
     "name": "South Chungcheong",
-    "ne_id": 1159313525
+    "ne_id": 1159313525,
+    "population": 0,
+    "wikidata_id": "Q41070"
   },
   "id3:KR-45": {
     "name": "North Jeolla",
-    "ne_id": 1159313521
+    "ne_id": 1159313521,
+    "population": 0,
+    "wikidata_id": "Q41157"
   },
   "id3:KR-46": {
     "name": "South Jeolla",
-    "ne_id": 1159313529
+    "ne_id": 1159313529,
+    "population": 0,
+    "wikidata_id": "Q41161"
   },
   "id3:KR-47": {
     "name": "North Gyeongsang",
-    "ne_id": 1159313537
+    "ne_id": 1159313537,
+    "population": 0,
+    "wikidata_id": "Q41154"
   },
   "id3:KR-48": {
     "name": "South Gyeongsang",
-    "ne_id": 1159313519
+    "ne_id": 1159313519,
+    "population": 0,
+    "wikidata_id": "Q41151"
   },
   "id3:KR-49": {
     "name": "Jeju",
-    "ne_id": 1159313515
+    "ne_id": 1159313515,
+    "population": 0,
+    "wikidata_id": "Q41164"
   },
   "id3:KR-50": {
     "name": "Sejong",
-    "ne_id": 1159316481
+    "ne_id": 1159316481,
+    "population": 204088,
+    "wikidata_id": "Q20929"
   }
 }

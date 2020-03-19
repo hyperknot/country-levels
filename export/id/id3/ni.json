@@ -1,70 +1,104 @@
 {
   "id3:NI-AN": {
     "name": "Atlántico Norte",
-    "ne_id": 1159309037
+    "ne_id": 1159309037,
+    "population": 249700,
+    "wikidata_id": "Q498452"
   },
   "id3:NI-AS": {
     "name": "Atlántico Sur",
-    "ne_id": 1159308989
+    "ne_id": 1159308989,
+    "population": 369254,
+    "wikidata_id": "Q291279"
   },
   "id3:NI-BO": {
     "name": "Boaco",
-    "ne_id": 1159309087
+    "ne_id": 1159309087,
+    "population": 0,
+    "wikidata_id": "Q280973"
   },
   "id3:NI-CA": {
     "name": "Carazo",
-    "ne_id": 1159309063
+    "ne_id": 1159309063,
+    "population": 186898,
+    "wikidata_id": "Q461133"
   },
   "id3:NI-CI": {
     "name": "Chinandega",
-    "ne_id": 1159309077
+    "ne_id": 1159309077,
+    "population": 423062,
+    "wikidata_id": "Q644024"
   },
   "id3:NI-CO": {
     "name": "Chontales",
-    "ne_id": 1159309091
+    "ne_id": 1159309091,
+    "population": 153932,
+    "wikidata_id": "Q498443"
   },
   "id3:NI-ES": {
     "name": "Estelí",
-    "ne_id": 1159309079
+    "ne_id": 1159309079,
+    "population": 201548,
+    "wikidata_id": "Q728015"
   },
   "id3:NI-GR": {
     "name": "Granada",
-    "ne_id": 1159309065
+    "ne_id": 1159309065,
+    "population": 190600,
+    "wikidata_id": "Q258405"
   },
   "id3:NI-JI": {
     "name": "Jinotega",
-    "ne_id": 1159309067
+    "ne_id": 1159309067,
+    "population": 452973,
+    "wikidata_id": "Q728120"
   },
   "id3:NI-LE": {
     "name": "León",
-    "ne_id": 1159309069
+    "ne_id": 1159309069,
+    "population": 355779,
+    "wikidata_id": "Q586818"
   },
   "id3:NI-MD": {
     "name": "Madriz",
-    "ne_id": 1159309081
+    "ne_id": 1159309081,
+    "population": 132459,
+    "wikidata_id": "Q728056"
   },
   "id3:NI-MN": {
     "name": "Managua",
-    "ne_id": 1159309073
+    "ne_id": 1159309073,
+    "population": 0,
+    "wikidata_id": "Q260009"
   },
   "id3:NI-MS": {
     "name": "Masaya",
-    "ne_id": 1159309075
+    "ne_id": 1159309075,
+    "population": 0,
+    "wikidata_id": "Q570358"
   },
   "id3:NI-MT": {
     "name": "Matagalpa",
-    "ne_id": 1159309083
+    "ne_id": 1159309083,
+    "population": 0,
+    "wikidata_id": "Q728099"
   },
   "id3:NI-NS": {
     "name": "Nueva Segovia",
-    "ne_id": 1159309085
+    "ne_id": 1159309085,
+    "population": 208523,
+    "wikidata_id": "Q728022"
   },
   "id3:NI-RI": {
     "name": "Rivas",
-    "ne_id": 1159308137
+    "ne_id": 1159308137,
+    "population": 0,
+    "wikidata_id": "Q728127"
   },
   "id3:NI-SJ": {
     "name": "Rio San Juan",
-    "ne_id": 1159315817
+    "ne_id": 1159315817,
+    "population": 95596,
+    "wikidata_id": "Q728155"
   }
 }

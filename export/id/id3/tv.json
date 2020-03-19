@@ -1,6 +1,8 @@
 {
   "id3:TV-X01": {
     "name": "Tuvalu",
-    "ne_id": 1159315501
+    "ne_id": 1159315501,
+    "population": 0,
+    "wikidata_id": null
   }
 }

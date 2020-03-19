@@ -1,82 +1,122 @@
 {
   "id3:PT-01": {
     "name": "Aveiro",
-    "ne_id": 1159310559
+    "ne_id": 1159310559,
+    "population": 0,
+    "wikidata_id": "Q210527"
   },
   "id3:PT-02": {
     "name": "Beja",
-    "ne_id": 1159310567
+    "ne_id": 1159310567,
+    "population": 0,
+    "wikidata_id": "Q321455"
   },
   "id3:PT-03": {
     "name": "Braga",
-    "ne_id": 1159310575
+    "ne_id": 1159310575,
+    "population": 0,
+    "wikidata_id": "Q326203"
   },
   "id3:PT-04": {
     "name": "Bragança",
-    "ne_id": 1159310577
+    "ne_id": 1159310577,
+    "population": 0,
+    "wikidata_id": "Q373528"
   },
   "id3:PT-05": {
     "name": "Castelo Branco",
-    "ne_id": 1159310579
+    "ne_id": 1159310579,
+    "population": 0,
+    "wikidata_id": "Q273529"
   },
   "id3:PT-06": {
     "name": "Coimbra",
-    "ne_id": 1159310581
+    "ne_id": 1159310581,
+    "population": 0,
+    "wikidata_id": "Q244517"
   },
   "id3:PT-07": {
     "name": "Évora",
-    "ne_id": 1159310569
+    "ne_id": 1159310569,
+    "population": 0,
+    "wikidata_id": "Q274118"
   },
   "id3:PT-08": {
     "name": "Faro",
-    "ne_id": 1159308421
+    "ne_id": 1159308421,
+    "population": 0,
+    "wikidata_id": "Q244521"
   },
   "id3:PT-09": {
     "name": "Guarda",
-    "ne_id": 1159310585
+    "ne_id": 1159310585,
+    "population": 0,
+    "wikidata_id": "Q273533"
   },
   "id3:PT-10": {
     "name": "Leiria",
-    "ne_id": 1159310561
+    "ne_id": 1159310561,
+    "population": 0,
+    "wikidata_id": "Q244512"
   },
   "id3:PT-11": {
     "name": "Lisboa",
-    "ne_id": 1159310551
+    "ne_id": 1159310551,
+    "population": 2135992,
+    "wikidata_id": "Q207199"
   },
   "id3:PT-12": {
     "name": "Portalegre",
-    "ne_id": 1159310571
+    "ne_id": 1159310571,
+    "population": 0,
+    "wikidata_id": "Q225189"
   },
   "id3:PT-13": {
     "name": "Porto",
-    "ne_id": 1159310587
+    "ne_id": 1159310587,
+    "population": 0,
+    "wikidata_id": "Q322792"
   },
   "id3:PT-14": {
     "name": "Santarém",
-    "ne_id": 1159310573
+    "ne_id": 1159310573,
+    "population": 0,
+    "wikidata_id": "Q244510"
   },
   "id3:PT-15": {
     "name": "Setúbal",
-    "ne_id": 1159317143
+    "ne_id": 1159317143,
+    "population": 788459,
+    "wikidata_id": "Q274109"
   },
   "id3:PT-16": {
     "name": "Viana do Castelo",
-    "ne_id": 1159310563
+    "ne_id": 1159310563,
+    "population": 0,
+    "wikidata_id": "Q326214"
   },
   "id3:PT-17": {
     "name": "Vila Real",
-    "ne_id": 1159310591
+    "ne_id": 1159310591,
+    "population": 0,
+    "wikidata_id": "Q379372"
   },
   "id3:PT-18": {
     "name": "Viseu",
-    "ne_id": 1159310589
+    "ne_id": 1159310589,
+    "population": 0,
+    "wikidata_id": "Q273525"
   },
   "id3:PT-20": {
     "name": "Azores",
-    "ne_id": 1159310543
+    "ne_id": 1159310543,
+    "population": 246746,
+    "wikidata_id": "Q25263"
   },
   "id3:PT-30": {
     "name": "Madeira",
-    "ne_id": 1159310443
+    "ne_id": 1159310443,
+    "population": 267785,
+    "wikidata_id": "Q26253"
   }
 }

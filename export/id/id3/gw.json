@@ -1,38 +1,56 @@
 {
   "id3:GW-BA": {
     "name": "Bafatá",
-    "ne_id": 1159309021
+    "ne_id": 1159309021,
+    "population": 225516,
+    "wikidata_id": "Q799791"
   },
   "id3:GW-BL": {
     "name": "Bolama",
-    "ne_id": 1159308987
+    "ne_id": 1159308987,
+    "population": 0,
+    "wikidata_id": "Q151909"
   },
   "id3:GW-BM": {
     "name": "Biombo",
-    "ne_id": 1159317147
+    "ne_id": 1159317147,
+    "population": 93039,
+    "wikidata_id": "Q872228"
   },
   "id3:GW-BS": {
     "name": "Bissau",
-    "ne_id": 1159310193
+    "ne_id": 1159310193,
+    "population": 395954,
+    "wikidata_id": "Q3739"
   },
   "id3:GW-CA": {
     "name": "Cacheu",
-    "ne_id": 1159309013
+    "ne_id": 1159309013,
+    "population": 192508,
+    "wikidata_id": "Q780838"
   },
   "id3:GW-GA": {
     "name": "Gabú",
-    "ne_id": 1159309023
+    "ne_id": 1159309023,
+    "population": 214520,
+    "wikidata_id": "Q872212"
   },
   "id3:GW-OI": {
     "name": "Oio",
-    "ne_id": 1159309015
+    "ne_id": 1159309015,
+    "population": 224644,
+    "wikidata_id": "Q853991"
   },
   "id3:GW-QU": {
     "name": "Quinara",
-    "ne_id": 1159309019
+    "ne_id": 1159309019,
+    "population": 63610,
+    "wikidata_id": "Q862617"
   },
   "id3:GW-TO": {
     "name": "Tombali",
-    "ne_id": 1159309025
+    "ne_id": 1159309025,
+    "population": 91089,
+    "wikidata_id": "Q1047255"
   }
 }

@@ -1,46 +1,68 @@
 {
   "id3:LI-01": {
     "name": "Balzers",
-    "ne_id": 1159316011
+    "ne_id": 1159316011,
+    "population": 4583,
+    "wikidata_id": "Q49663"
   },
   "id3:LI-02": {
     "name": "Eschen",
-    "ne_id": 1159316029
+    "ne_id": 1159316029,
+    "population": 4375,
+    "wikidata_id": "Q4540"
   },
   "id3:LI-03": {
     "name": "Gamprin",
-    "ne_id": 1159316017
+    "ne_id": 1159316017,
+    "population": 0,
+    "wikidata_id": "Q49662"
   },
   "id3:LI-04": {
     "name": "Mauren",
-    "ne_id": 1159316025
+    "ne_id": 1159316025,
+    "population": 4268,
+    "wikidata_id": "Q49661"
   },
   "id3:LI-05": {
     "name": "Planken",
-    "ne_id": 1159316027
+    "ne_id": 1159316027,
+    "population": 0,
+    "wikidata_id": "Q49660"
   },
   "id3:LI-06": {
     "name": "Ruggell",
-    "ne_id": 1159316021
+    "ne_id": 1159316021,
+    "population": 0,
+    "wikidata_id": "Q49659"
   },
   "id3:LI-07": {
     "name": "Schaan",
-    "ne_id": 1159316015
+    "ne_id": 1159316015,
+    "population": 5959,
+    "wikidata_id": "Q49657"
   },
   "id3:LI-08": {
     "name": "Schellenberg",
-    "ne_id": 1159316023
+    "ne_id": 1159316023,
+    "population": 0,
+    "wikidata_id": "Q49655"
   },
   "id3:LI-09": {
     "name": "Triesen",
-    "ne_id": 1159316009
+    "ne_id": 1159316009,
+    "population": 0,
+    "wikidata_id": "Q49654"
   },
   "id3:LI-10": {
     "name": "Triesenberg",
-    "ne_id": 1159315613
+    "ne_id": 1159315613,
+    "population": 2596,
+    "wikidata_id": "Q49651"
   },
   "id3:LI-11": {
     "name": "Vaduz",
-    "ne_id": 1159316013
+    "ne_id": 1159316013,
+    "population": 5429,
+    "wikidata_id": "Q1844"
   }
 }

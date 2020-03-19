@@ -1,42 +1,62 @@
 {
   "id3:ZW-BU": {
     "name": "Bulawayo",
-    "ne_id": 1159307833
+    "ne_id": 1159307833,
+    "population": 653337,
+    "wikidata_id": "Q193250"
   },
   "id3:ZW-HA": {
     "name": "Harare",
-    "ne_id": 1159307819
+    "ne_id": 1159307819,
+    "population": 0,
+    "wikidata_id": "Q16928358"
   },
   "id3:ZW-MA": {
     "name": "Manicaland",
-    "ne_id": 1159307827
+    "ne_id": 1159307827,
+    "population": 0,
+    "wikidata_id": "Q465847"
   },
   "id3:ZW-MC": {
     "name": "Mashonaland Central",
-    "ne_id": 1159307817
+    "ne_id": 1159307817,
+    "population": 1166928,
+    "wikidata_id": "Q596156"
   },
   "id3:ZW-ME": {
     "name": "Mashonaland East",
-    "ne_id": 1159307825
+    "ne_id": 1159307825,
+    "population": 0,
+    "wikidata_id": "Q465853"
   },
   "id3:ZW-MI": {
     "name": "Midlands",
-    "ne_id": 1159307823
+    "ne_id": 1159307823,
+    "population": 0,
+    "wikidata_id": "Q456556"
   },
   "id3:ZW-MN": {
     "name": "Matabeleland North",
-    "ne_id": 1159307821
+    "ne_id": 1159307821,
+    "population": 747176,
+    "wikidata_id": "Q456562"
   },
   "id3:ZW-MS": {
     "name": "Matabeleland South",
-    "ne_id": 1159307831
+    "ne_id": 1159307831,
+    "population": 0,
+    "wikidata_id": "Q498355"
   },
   "id3:ZW-MV": {
     "name": "Masvingo",
-    "ne_id": 1159307835
+    "ne_id": 1159307835,
+    "population": 0,
+    "wikidata_id": "Q498351"
   },
   "id3:ZW-MW": {
     "name": "Mashonaland West",
-    "ne_id": 1159307837
+    "ne_id": 1159307837,
+    "population": 0,
+    "wikidata_id": "Q457189"
   }
 }

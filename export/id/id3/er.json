@@ -1,26 +1,38 @@
 {
   "id3:ER-AN": {
     "name": "Anseba",
-    "ne_id": 1159310247
+    "ne_id": 1159310247,
+    "population": 0,
+    "wikidata_id": "Q569468"
   },
   "id3:ER-DK": {
     "name": "Debubawi Keyih Bahri",
-    "ne_id": 1159310253
+    "ne_id": 1159310253,
+    "population": 0,
+    "wikidata_id": "Q27928"
   },
   "id3:ER-DU": {
     "name": "Debub",
-    "ne_id": 1159310225
+    "ne_id": 1159310225,
+    "population": 0,
+    "wikidata_id": "Q27728"
   },
   "id3:ER-GB": {
     "name": "Gash Barka",
-    "ne_id": 1159310245
+    "ne_id": 1159310245,
+    "population": 0,
+    "wikidata_id": "Q873012"
   },
   "id3:ER-MA": {
     "name": "Maekel",
-    "ne_id": 1159310251
+    "ne_id": 1159310251,
+    "population": 0,
+    "wikidata_id": "Q27710"
   },
   "id3:ER-SK": {
     "name": "Semenawi Keyih Bahri",
-    "ne_id": 1159310249
+    "ne_id": 1159310249,
+    "population": 0,
+    "wikidata_id": "Q27910"
   }
 }

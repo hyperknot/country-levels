@@ -1,58 +1,86 @@
 {
   "id3:KN-01": {
     "name": "Christ Church Nichola Town",
-    "ne_id": 1159316443
+    "ne_id": 1159316443,
+    "population": 0,
+    "wikidata_id": "Q176164"
   },
   "id3:KN-02": {
     "name": "Saint Anne Sandy Point",
-    "ne_id": 1159316437
+    "ne_id": 1159316437,
+    "population": 0,
+    "wikidata_id": "Q1473654"
   },
   "id3:KN-03": {
     "name": "Saint George Basseterre",
-    "ne_id": 1159316429
+    "ne_id": 1159316429,
+    "population": 0,
+    "wikidata_id": "Q1540744"
   },
   "id3:KN-04": {
     "name": "Saint George Gingerland",
-    "ne_id": 1159316421
+    "ne_id": 1159316421,
+    "population": 0,
+    "wikidata_id": "Q1472520"
   },
   "id3:KN-05": {
     "name": "Saint James Windward",
-    "ne_id": 1159315547
+    "ne_id": 1159315547,
+    "population": 0,
+    "wikidata_id": "Q1342139"
   },
   "id3:KN-06": {
     "name": "Saint John Capesterre",
-    "ne_id": 1159316441
+    "ne_id": 1159316441,
+    "population": 0,
+    "wikidata_id": "Q668498"
   },
   "id3:KN-07": {
     "name": "Saint John Figtree",
-    "ne_id": 1159316423
+    "ne_id": 1159316423,
+    "population": 0,
+    "wikidata_id": "Q657318"
   },
   "id3:KN-08": {
     "name": "Saint Mary Cayon",
-    "ne_id": 1159316445
+    "ne_id": 1159316445,
+    "population": 0,
+    "wikidata_id": "Q1538034"
   },
   "id3:KN-09": {
     "name": "Saint Paul Capesterre",
-    "ne_id": 1159316439
+    "ne_id": 1159316439,
+    "population": 0,
+    "wikidata_id": "Q952735"
   },
   "id3:KN-10": {
     "name": "Saint Paul Charlestown",
-    "ne_id": 1159316425
+    "ne_id": 1159316425,
+    "population": 0,
+    "wikidata_id": "Q1752127"
   },
   "id3:KN-11": {
     "name": "Saint Peter Basseterre",
-    "ne_id": 1159316447
+    "ne_id": 1159316447,
+    "population": 0,
+    "wikidata_id": "Q1725609"
   },
   "id3:KN-12": {
     "name": "Saint Thomas Lowland",
-    "ne_id": 1159316427
+    "ne_id": 1159316427,
+    "population": 0,
+    "wikidata_id": "Q1752122"
   },
   "id3:KN-13": {
     "name": "Saint Thomas Middle Island",
-    "ne_id": 1159316435
+    "ne_id": 1159316435,
+    "population": 0,
+    "wikidata_id": "Q1752101"
   },
   "id3:KN-14": {
     "name": "Trinity Palmetto Point",
-    "ne_id": 1159316431
+    "ne_id": 1159316431,
+    "population": 0,
+    "wikidata_id": "Q376738"
   }
 }

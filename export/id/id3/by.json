@@ -1,30 +1,44 @@
 {
   "id3:BY-BR": {
     "name": "Brest",
-    "ne_id": 1159312991
+    "ne_id": 1159312991,
+    "population": 1384476,
+    "wikidata_id": "Q173822"
   },
   "id3:BY-HM": {
     "name": "City of Minsk",
-    "ne_id": 1159315869
+    "ne_id": 1159315869,
+    "population": 1992685,
+    "wikidata_id": "Q2280"
   },
   "id3:BY-HO": {
     "name": "Gomel",
-    "ne_id": 1159312993
+    "ne_id": 1159312993,
+    "population": 1409890,
+    "wikidata_id": "Q188732"
   },
   "id3:BY-HR": {
     "name": "Grodno",
-    "ne_id": 1159313001
+    "ne_id": 1159313001,
+    "population": 1039278,
+    "wikidata_id": "Q191061"
   },
   "id3:BY-MA": {
     "name": "Mogilev",
-    "ne_id": 1159312997
+    "ne_id": 1159312997,
+    "population": 1067645,
+    "wikidata_id": "Q189822"
   },
   "id3:BY-MI": {
     "name": "Minsk",
-    "ne_id": 1159313003
+    "ne_id": 1159313003,
+    "population": 1417303,
+    "wikidata_id": "Q192959"
   },
   "id3:BY-VI": {
     "name": "Vitebsk",
-    "ne_id": 1159312999
+    "ne_id": 1159312999,
+    "population": 1171523,
+    "wikidata_id": "Q185700"
   }
 }

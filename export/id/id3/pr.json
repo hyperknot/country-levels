@@ -1,6 +1,8 @@
 {
   "id3:PR-01": {
     "name": "Puerto Rico",
-    "ne_id": 1159315553
+    "ne_id": 1159315553,
+    "population": 3411307,
+    "wikidata_id": "Q1183"
   }
 }

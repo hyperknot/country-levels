@@ -1,86 +1,128 @@
 {
   "id3:NO-01": {
     "name": "Østfold",
-    "ne_id": 1159309653
+    "ne_id": 1159309653,
+    "population": 297520,
+    "wikidata_id": "Q50614"
   },
   "id3:NO-02": {
     "name": "Akershus",
-    "ne_id": 1159309671
+    "ne_id": 1159309671,
+    "population": 624055,
+    "wikidata_id": "Q50615"
   },
   "id3:NO-03": {
     "name": "Oslo",
-    "ne_id": 1159309679
+    "ne_id": 1159309679,
+    "population": 693494,
+    "wikidata_id": "Q585"
   },
   "id3:NO-04": {
     "name": "Hedmark",
-    "ne_id": 1159309675
+    "ne_id": 1159309675,
+    "population": 197406,
+    "wikidata_id": "Q50616"
   },
   "id3:NO-05": {
     "name": "Oppland",
-    "ne_id": 1159309677
+    "ne_id": 1159309677,
+    "population": 189545,
+    "wikidata_id": "Q50617"
   },
   "id3:NO-06": {
     "name": "Buskerud",
-    "ne_id": 1159309673
+    "ne_id": 1159309673,
+    "population": 283148,
+    "wikidata_id": "Q50618"
   },
   "id3:NO-07": {
     "name": "Vestfold",
-    "ne_id": 1159309685
+    "ne_id": 1159309685,
+    "population": 251078,
+    "wikidata_id": "Q50619"
   },
   "id3:NO-08": {
     "name": "Telemark",
-    "ne_id": 1159309681
+    "ne_id": 1159309681,
+    "population": 173318,
+    "wikidata_id": "Q2254"
   },
   "id3:NO-09": {
     "name": "Aust-Agder",
-    "ne_id": 1159311133
+    "ne_id": 1159311133,
+    "population": 117655,
+    "wikidata_id": "Q50621"
   },
   "id3:NO-10": {
     "name": "Vest-Agder",
-    "ne_id": 1159309669
+    "ne_id": 1159309669,
+    "population": 187589,
+    "wikidata_id": "Q50623"
   },
   "id3:NO-11": {
     "name": "Rogaland",
-    "ne_id": 1159309655
+    "ne_id": 1159309655,
+    "population": 475654,
+    "wikidata_id": "Q50624"
   },
   "id3:NO-12": {
     "name": "Hordaland",
-    "ne_id": 1159309657
+    "ne_id": 1159309657,
+    "population": 524495,
+    "wikidata_id": "Q50625"
   },
   "id3:NO-14": {
     "name": "Sogn og Fjordane",
-    "ne_id": 1159309659
+    "ne_id": 1159309659,
+    "population": 109774,
+    "wikidata_id": "Q50626"
   },
   "id3:NO-15": {
     "name": "Møre og Romsdal",
-    "ne_id": 1159311109
+    "ne_id": 1159311109,
+    "population": 265392,
+    "wikidata_id": "Q50627"
   },
   "id3:NO-16": {
     "name": "Sør-Trøndelag",
-    "ne_id": 1159311113
+    "ne_id": 1159311113,
+    "population": 318359,
+    "wikidata_id": "Q50628"
   },
   "id3:NO-17": {
     "name": "Nord-Trøndelag",
-    "ne_id": 1159309661
+    "ne_id": 1159309661,
+    "population": 136399,
+    "wikidata_id": "Q50629"
   },
   "id3:NO-18": {
     "name": "Nordland",
-    "ne_id": 1159308743
+    "ne_id": 1159308743,
+    "population": 243385,
+    "wikidata_id": "Q50630"
   },
   "id3:NO-19": {
     "name": "Troms",
-    "ne_id": 1159309663
+    "ne_id": 1159309663,
+    "population": 167207,
+    "wikidata_id": "Q50631"
   },
   "id3:NO-20": {
     "name": "Finnmark",
-    "ne_id": 1159311131
+    "ne_id": 1159311131,
+    "population": 75758,
+    "wikidata_id": "Q50632"
   },
   "id3:NO-21": {
     "name": "Svalbard",
-    "ne_id": 1159309689
+    "ne_id": 1159309689,
+    "population": 2668,
+    "wikidata_id": "Q25231"
   },
   "id3:NO-X01": {
     "name": "Bouvet Island",
-    "ne_id": 1159315469
+    "ne_id": 1159315469,
+    "population": 0,
+    "wikidata_id": null
   }
 }

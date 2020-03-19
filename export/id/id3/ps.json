@@ -1,10 +1,14 @@
 {
   "id3:PS-GZZ": {
     "name": "Gaza Strip",
-    "ne_id": 1159315661
+    "ne_id": 1159315661,
+    "population": 524001,
+    "wikidata_id": "Q762573"
   },
   "id3:PS-WBK": {
     "name": "West Bank",
-    "ne_id": 1159315663
+    "ne_id": 1159315663,
+    "population": 0,
+    "wikidata_id": null
   }
 }

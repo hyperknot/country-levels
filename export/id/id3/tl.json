@@ -1,54 +1,80 @@
 {
   "id3:TL-AL": {
     "name": "Aileu",
-    "ne_id": 1159307853
+    "ne_id": 1159307853,
+    "population": 48837,
+    "wikidata_id": "Q405100"
   },
   "id3:TL-AN": {
     "name": "Ainaro",
-    "ne_id": 1159307855
+    "ne_id": 1159307855,
+    "population": 63136,
+    "wikidata_id": "Q405926"
   },
   "id3:TL-BA": {
     "name": "Baucau",
-    "ne_id": 1159307857
+    "ne_id": 1159307857,
+    "population": 123203,
+    "wikidata_id": "Q811132"
   },
   "id3:TL-BO": {
     "name": "Bobonaro",
-    "ne_id": 1159307859
+    "ne_id": 1159307859,
+    "population": 97762,
+    "wikidata_id": "Q860913"
   },
   "id3:TL-CO": {
     "name": "Cova Lima",
-    "ne_id": 1159307861
+    "ne_id": 1159307861,
+    "population": 65301,
+    "wikidata_id": "Q165575"
   },
   "id3:TL-DI": {
     "name": "Dili",
-    "ne_id": 1159307849
+    "ne_id": 1159307849,
+    "population": 277279,
+    "wikidata_id": "Q860901"
   },
   "id3:TL-ER": {
     "name": "Ermera",
-    "ne_id": 1159307863
+    "ne_id": 1159307863,
+    "population": 125702,
+    "wikidata_id": "Q668171"
   },
   "id3:TL-LA": {
     "name": "Lautém",
-    "ne_id": 1159307873
+    "ne_id": 1159307873,
+    "population": 65240,
+    "wikidata_id": "Q686554"
   },
   "id3:TL-LI": {
     "name": "Liquica",
-    "ne_id": 1159307851
+    "ne_id": 1159307851,
+    "population": 71927,
+    "wikidata_id": "Q860897"
   },
   "id3:TL-MF": {
     "name": "Manufahi",
-    "ne_id": 1159307869
+    "ne_id": 1159307869,
+    "population": 53691,
+    "wikidata_id": "Q629934"
   },
   "id3:TL-MT": {
     "name": "Manatuto",
-    "ne_id": 1159307867
+    "ne_id": 1159307867,
+    "population": 46619,
+    "wikidata_id": "Q860630"
   },
   "id3:TL-OE": {
     "name": "Ambeno",
-    "ne_id": 1159307845
+    "ne_id": 1159307845,
+    "population": 68913,
+    "wikidata_id": "Q860639"
   },
   "id3:TL-VI": {
     "name": "Viqueque",
-    "ne_id": 1159307871
+    "ne_id": 1159307871,
+    "population": 73033,
+    "wikidata_id": "Q610726"
   }
 }

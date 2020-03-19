@@ -1,66 +1,98 @@
 {
   "id3:MA-01": {
     "name": "Tanger - Tétouan",
-    "ne_id": 1159310509
+    "ne_id": 1159310509,
+    "population": 0,
+    "wikidata_id": "Q389777"
   },
   "id3:MA-02": {
     "name": "Gharb - Chrarda - Béni Hssen",
-    "ne_id": 1159310517
+    "ne_id": 1159310517,
+    "population": 1859540,
+    "wikidata_id": "Q477968"
   },
   "id3:MA-03": {
     "name": "Taza - Al Hoceima - Taounate",
-    "ne_id": 1159310515
+    "ne_id": 1159310515,
+    "population": 0,
+    "wikidata_id": "Q818390"
   },
   "id3:MA-04": {
     "name": "Oriental",
-    "ne_id": 1159310531
+    "ne_id": 1159310531,
+    "population": 0,
+    "wikidata_id": "Q648160"
   },
   "id3:MA-05": {
     "name": "Fès - Boulemane",
-    "ne_id": 1159310513
+    "ne_id": 1159310513,
+    "population": 0,
+    "wikidata_id": "Q648249"
   },
   "id3:MA-06": {
     "name": "Meknès - Tafilalet",
-    "ne_id": 1159310525
+    "ne_id": 1159310525,
+    "population": 0,
+    "wikidata_id": "Q497006"
   },
   "id3:MA-07": {
     "name": "Rabat - Salé - Zemmour - Zaer",
-    "ne_id": 1159310523
+    "ne_id": 1159310523,
+    "population": 2366494,
+    "wikidata_id": "Q477961"
   },
   "id3:MA-08": {
     "name": "Grand Casablanca",
-    "ne_id": 1159310521
+    "ne_id": 1159310521,
+    "population": 0,
+    "wikidata_id": "Q478222"
   },
   "id3:MA-09": {
     "name": "Chaouia - Ouardigha",
-    "ne_id": 1159310519
+    "ne_id": 1159310519,
+    "population": 1655660,
+    "wikidata_id": "Q390331"
   },
   "id3:MA-10": {
     "name": "Doukkala - Abda",
-    "ne_id": 1159310537
+    "ne_id": 1159310537,
+    "population": 0,
+    "wikidata_id": "Q390366"
   },
   "id3:MA-11": {
     "name": "Marrakech - Tensift - Al Haouz",
-    "ne_id": 1159310535
+    "ne_id": 1159310535,
+    "population": 3102652,
+    "wikidata_id": "Q477940"
   },
   "id3:MA-12": {
     "name": "Tadla - Azilal",
-    "ne_id": 1159310527
+    "ne_id": 1159310527,
+    "population": 0,
+    "wikidata_id": "Q477942"
   },
   "id3:MA-13": {
     "name": "Souss - Massa - Draâ",
-    "ne_id": 1159310533
+    "ne_id": 1159310533,
+    "population": 0,
+    "wikidata_id": "Q264529"
   },
   "id3:MA-14": {
     "name": "Guelmim - Es-Semara",
-    "ne_id": 1159315253
+    "ne_id": 1159315253,
+    "population": 0,
+    "wikidata_id": "Q529796"
   },
   "id3:MA-15": {
     "name": "Laâyoune - Boujdour - Sakia El Hamra",
-    "ne_id": 1159315213
+    "ne_id": 1159315213,
+    "population": 0,
+    "wikidata_id": "Q818739"
   },
   "id3:MA-16": {
     "name": "Oued el Dahab",
-    "ne_id": 1159315215
+    "ne_id": 1159315215,
+    "population": 126765,
+    "wikidata_id": "Q2410368"
   }
 }

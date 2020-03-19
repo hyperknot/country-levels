@@ -1,78 +1,116 @@
 {
   "id3:UY-AR": {
     "name": "Artigas",
-    "ne_id": 1159307729
+    "ne_id": 1159307729,
+    "population": 0,
+    "wikidata_id": "Q16603"
   },
   "id3:UY-CA": {
     "name": "Canelones",
-    "ne_id": 1159307753
+    "ne_id": 1159307753,
+    "population": 531770,
+    "wikidata_id": "Q16577"
   },
   "id3:UY-CL": {
     "name": "Cerro Largo",
-    "ne_id": 1159307743
+    "ne_id": 1159307743,
+    "population": 84698,
+    "wikidata_id": "Q16575"
   },
   "id3:UY-CO": {
     "name": "Colonia",
-    "ne_id": 1159307725
+    "ne_id": 1159307725,
+    "population": 0,
+    "wikidata_id": "Q16580"
   },
   "id3:UY-DU": {
     "name": "Durazno",
-    "ne_id": 1159307745
+    "ne_id": 1159307745,
+    "population": 0,
+    "wikidata_id": "Q16591"
   },
   "id3:UY-FD": {
     "name": "Florida",
-    "ne_id": 1159307755
+    "ne_id": 1159307755,
+    "population": 0,
+    "wikidata_id": "Q16593"
   },
   "id3:UY-FS": {
     "name": "Flores",
-    "ne_id": 1159307731
+    "ne_id": 1159307731,
+    "population": 0,
+    "wikidata_id": "Q16578"
   },
   "id3:UY-LA": {
     "name": "Lavalleja",
-    "ne_id": 1159307759
+    "ne_id": 1159307759,
+    "population": 0,
+    "wikidata_id": "Q460435"
   },
   "id3:UY-MA": {
     "name": "Maldonado",
-    "ne_id": 1159307761
+    "ne_id": 1159307761,
+    "population": 0,
+    "wikidata_id": "Q331196"
   },
   "id3:UY-MO": {
     "name": "Montevideo",
-    "ne_id": 1159307763
+    "ne_id": 1159307763,
+    "population": 1319108,
+    "wikidata_id": "Q1335"
   },
   "id3:UY-PA": {
     "name": "Paysandú",
-    "ne_id": 1159307733
+    "ne_id": 1159307733,
+    "population": 0,
+    "wikidata_id": "Q16576"
   },
   "id3:UY-RN": {
     "name": "Río Negro",
-    "ne_id": 1159307735
+    "ne_id": 1159307735,
+    "population": 0,
+    "wikidata_id": "Q16596"
   },
   "id3:UY-RO": {
     "name": "Rocha",
-    "ne_id": 1159307765
+    "ne_id": 1159307765,
+    "population": 0,
+    "wikidata_id": "Q16582"
   },
   "id3:UY-RV": {
     "name": "Rivera",
-    "ne_id": 1159307747
+    "ne_id": 1159307747,
+    "population": 0,
+    "wikidata_id": "Q16609"
   },
   "id3:UY-SA": {
     "name": "Salto",
-    "ne_id": 1159307737
+    "ne_id": 1159307737,
+    "population": 0,
+    "wikidata_id": "Q16595"
   },
   "id3:UY-SJ": {
     "name": "San José",
-    "ne_id": 1159307727
+    "ne_id": 1159307727,
+    "population": 0,
+    "wikidata_id": "Q16579"
   },
   "id3:UY-SO": {
     "name": "Soriano",
-    "ne_id": 1159307741
+    "ne_id": 1159307741,
+    "population": 0,
+    "wikidata_id": "Q16584"
   },
   "id3:UY-TA": {
     "name": "Tacuarembó",
-    "ne_id": 1159307749
+    "ne_id": 1159307749,
+    "population": 0,
+    "wikidata_id": "Q16587"
   },
   "id3:UY-TT": {
     "name": "Treinta y Tres",
-    "ne_id": 1159307751
+    "ne_id": 1159307751,
+    "population": 0,
+    "wikidata_id": "Q16610"
   }
 }

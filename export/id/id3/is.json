@@ -1,38 +1,56 @@
 {
   "id3:IS-0": {
     "name": "Reykjavík",
-    "ne_id": 1159316485
+    "ne_id": 1159316485,
+    "population": 128793,
+    "wikidata_id": "Q1764"
   },
   "id3:IS-1": {
     "name": "Höfuðborgarsvæði",
-    "ne_id": 1159311127
+    "ne_id": 1159311127,
+    "population": 213619,
+    "wikidata_id": "Q203304"
   },
   "id3:IS-2": {
     "name": "Suðurnes",
-    "ne_id": 1159311125
+    "ne_id": 1159311125,
+    "population": 21431,
+    "wikidata_id": "Q212768"
   },
   "id3:IS-3": {
     "name": "Vesturland",
-    "ne_id": 1159311129
+    "ne_id": 1159311129,
+    "population": 15766,
+    "wikidata_id": "Q221791"
   },
   "id3:IS-4": {
     "name": "Vestfirðir",
-    "ne_id": 1159311115
+    "ne_id": 1159311115,
+    "population": 6883,
+    "wikidata_id": "Q727267"
   },
   "id3:IS-5": {
     "name": "Norðurland vestra",
-    "ne_id": 1159311119
+    "ne_id": 1159311119,
+    "population": 7392,
+    "wikidata_id": "Q210866"
   },
   "id3:IS-6": {
     "name": "Norðurland eystra",
-    "ne_id": 1159311121
+    "ne_id": 1159311121,
+    "population": 29361,
+    "wikidata_id": "Q241551"
   },
   "id3:IS-7": {
     "name": "Austurland",
-    "ne_id": 1159311117
+    "ne_id": 1159311117,
+    "population": 15300,
+    "wikidata_id": "Q220663"
   },
   "id3:IS-8": {
     "name": "Suðurland",
-    "ne_id": 1159311111
+    "ne_id": 1159311111,
+    "population": 23311,
+    "wikidata_id": "Q204796"
   }
 }

@@ -1,6 +1,8 @@
 {
   "id3:GU-X01": {
     "name": "Guam",
-    "ne_id": 1159315535
+    "ne_id": 1159315535,
+    "population": 167772,
+    "wikidata_id": "Q16635"
   }
 }

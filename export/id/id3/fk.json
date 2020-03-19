@@ -1,6 +1,8 @@
 {
   "id3:FK-X01": {
     "name": "Falkland Islands",
-    "ne_id": 1159315471
+    "ne_id": 1159315471,
+    "population": 0,
+    "wikidata_id": null
   }
 }

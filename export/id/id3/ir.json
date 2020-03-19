@@ -1,126 +1,188 @@
 {
   "id3:IR-01": {
     "name": "East Azarbaijan",
-    "ne_id": 1159314307
+    "ne_id": 1159314307,
+    "population": 3909652,
+    "wikidata_id": "Q176081"
   },
   "id3:IR-02": {
     "name": "West Azarbaijan",
-    "ne_id": 1159314305
+    "ne_id": 1159314305,
+    "population": 3265219,
+    "wikidata_id": "Q134411"
   },
   "id3:IR-03": {
     "name": "Ardebil",
-    "ne_id": 1159314293
+    "ne_id": 1159314293,
+    "population": 1270420,
+    "wikidata_id": "Q134228"
   },
   "id3:IR-04": {
     "name": "Esfahan",
-    "ne_id": 1159314267
+    "ne_id": 1159314267,
+    "population": 5120850,
+    "wikidata_id": "Q1367759"
   },
   "id3:IR-05": {
     "name": "Ilam",
-    "ne_id": 1159314289
+    "ne_id": 1159314289,
+    "population": 580158,
+    "wikidata_id": "Q170570"
   },
   "id3:IR-06": {
     "name": "Bushehr",
-    "ne_id": 1159314055
+    "ne_id": 1159314055,
+    "population": 1163400,
+    "wikidata_id": "Q132945"
   },
-  "id3:IR-07_1159314279": {
+  "id3:IR-07": {
     "name": "Tehran",
-    "ne_id": 1159314279
+    "ne_id": 1159314279,
+    "population": 13267637,
+    "wikidata_id": "Q590866"
   },
   "id3:IR-07_1159317125": {
     "name": "Alborz",
-    "ne_id": 1159317125
+    "ne_id": 1159317125,
+    "population": 2712400,
+    "wikidata_id": "Q392522"
   },
   "id3:IR-08": {
     "name": "Chahar Mahall and Bakhtiari",
-    "ne_id": 1159314283
+    "ne_id": 1159314283,
+    "population": 947763,
+    "wikidata_id": "Q171702"
   },
   "id3:IR-10": {
     "name": "Khuzestan",
-    "ne_id": 1159314285
+    "ne_id": 1159314285,
+    "population": 4710509,
+    "wikidata_id": "Q241119"
   },
   "id3:IR-11": {
     "name": "Zanjan",
-    "ne_id": 1159314301
+    "ne_id": 1159314301,
+    "population": 1057461,
+    "wikidata_id": "Q146726"
   },
   "id3:IR-12": {
     "name": "Semnan",
-    "ne_id": 1159314277
+    "ne_id": 1159314277,
+    "population": 702360,
+    "wikidata_id": "Q168949"
   },
   "id3:IR-13": {
     "name": "Sistan and Baluchestan",
-    "ne_id": 1159314323
+    "ne_id": 1159314323,
+    "population": 2775014,
+    "wikidata_id": "Q939575"
   },
   "id3:IR-14": {
     "name": "Fars",
-    "ne_id": 1159314269
+    "ne_id": 1159314269,
+    "population": 4851274,
+    "wikidata_id": "Q1004666"
   },
   "id3:IR-15": {
     "name": "Kerman",
-    "ne_id": 1159314325
+    "ne_id": 1159314325,
+    "population": 3164718,
+    "wikidata_id": "Q165352"
   },
   "id3:IR-16": {
     "name": "Kordestan",
-    "ne_id": 1159314315
+    "ne_id": 1159314315,
+    "population": 1603011,
+    "wikidata_id": "Q134386"
   },
   "id3:IR-17": {
     "name": "Kermanshah",
-    "ne_id": 1159314311
+    "ne_id": 1159314311,
+    "population": 1952434,
+    "wikidata_id": "Q174010"
   },
   "id3:IR-18": {
     "name": "Kohgiluyeh and Buyer Ahmad",
-    "ne_id": 1159314265
+    "ne_id": 1159314265,
+    "population": 713052,
+    "wikidata_id": "Q180068"
   },
   "id3:IR-19": {
     "name": "Gilan",
-    "ne_id": 1159314313
+    "ne_id": 1159314313,
+    "population": 2530696,
+    "wikidata_id": "Q928828"
   },
   "id3:IR-20": {
     "name": "Lorestan",
-    "ne_id": 1159314287
+    "ne_id": 1159314287,
+    "population": 1760649,
+    "wikidata_id": "Q1131727"
   },
   "id3:IR-21": {
     "name": "Mazandaran",
-    "ne_id": 1159314275
+    "ne_id": 1159314275,
+    "population": 3283582,
+    "wikidata_id": "Q308864"
   },
   "id3:IR-22": {
     "name": "Markazi",
-    "ne_id": 1159314295
+    "ne_id": 1159314295,
+    "population": 1429475,
+    "wikidata_id": "Q134417"
   },
   "id3:IR-23": {
     "name": "Hormozgan",
-    "ne_id": 1159314009
+    "ne_id": 1159314009,
+    "population": 1776415,
+    "wikidata_id": "Q633659"
   },
   "id3:IR-24": {
     "name": "Hamadan",
-    "ne_id": 1159314299
+    "ne_id": 1159314299,
+    "population": 1738234,
+    "wikidata_id": "Q187373"
   },
   "id3:IR-25": {
     "name": "Yazd",
-    "ne_id": 1159314281
+    "ne_id": 1159314281,
+    "population": 1138533,
+    "wikidata_id": "Q170568"
   },
   "id3:IR-26": {
     "name": "Qom",
-    "ne_id": 1159314297
+    "ne_id": 1159314297,
+    "population": 1292283,
+    "wikidata_id": "Q131664"
   },
   "id3:IR-27": {
     "name": "Golestan",
-    "ne_id": 1159314271
+    "ne_id": 1159314271,
+    "population": 1868819,
+    "wikidata_id": "Q170041"
   },
   "id3:IR-28": {
     "name": "Qazvin",
-    "ne_id": 1159314303
+    "ne_id": 1159314303,
+    "population": 1273761,
+    "wikidata_id": "Q1105893"
   },
   "id3:IR-29": {
     "name": "South Khorasan",
-    "ne_id": 1159314317
+    "ne_id": 1159314317,
+    "population": 768898,
+    "wikidata_id": "Q171551"
   },
   "id3:IR-30": {
     "name": "Razavi Khorasan",
-    "ne_id": 1159314319
+    "ne_id": 1159314319,
+    "population": 6434501,
+    "wikidata_id": "Q587090"
   },
   "id3:IR-31": {
     "name": "North Khorasan",
-    "ne_id": 1159314321
+    "ne_id": 1159314321,
+    "population": 863092,
+    "wikidata_id": "Q180075"
   }
 }

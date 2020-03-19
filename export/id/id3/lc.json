@@ -1,46 +1,68 @@
 {
   "id3:LC-01": {
     "name": "Anse-la-Raye",
-    "ne_id": 1159316393
+    "ne_id": 1159316393,
+    "population": 0,
+    "wikidata_id": "Q1676934"
   },
   "id3:LC-02": {
     "name": "Castries",
-    "ne_id": 1159316395
+    "ne_id": 1159316395,
+    "population": 65656,
+    "wikidata_id": "Q1049867"
   },
   "id3:LC-03": {
     "name": "Choiseul",
-    "ne_id": 1159316389
+    "ne_id": 1159316389,
+    "population": 0,
+    "wikidata_id": "Q1075816"
   },
   "id3:LC-04": {
     "name": "Dauphin",
-    "ne_id": 1159316375
+    "ne_id": 1159316375,
+    "population": 0,
+    "wikidata_id": "Q182988"
   },
   "id3:LC-05": {
     "name": "Dennery",
-    "ne_id": 1159316377
+    "ne_id": 1159316377,
+    "population": 0,
+    "wikidata_id": "Q1188890"
   },
   "id3:LC-06": {
     "name": "Gros Islet",
-    "ne_id": 1159315539
+    "ne_id": 1159315539,
+    "population": 0,
+    "wikidata_id": "Q953557"
   },
   "id3:LC-07": {
     "name": "Laborie",
-    "ne_id": 1159316387
+    "ne_id": 1159316387,
+    "population": 0,
+    "wikidata_id": "Q599347"
   },
   "id3:LC-08": {
     "name": "Micoud",
-    "ne_id": 1159316383
+    "ne_id": 1159316383,
+    "population": 0,
+    "wikidata_id": "Q1240193"
   },
   "id3:LC-09": {
     "name": "Praslin",
-    "ne_id": 1159316381
+    "ne_id": 1159316381,
+    "population": 0,
+    "wikidata_id": "Q1567791"
   },
   "id3:LC-10": {
     "name": "Soufrière",
-    "ne_id": 1159316391
+    "ne_id": 1159316391,
+    "population": 0,
+    "wikidata_id": "Q1472841"
   },
   "id3:LC-11": {
     "name": "Vieux Fort",
-    "ne_id": 1159316385
+    "ne_id": 1159316385,
+    "population": 0,
+    "wikidata_id": "Q1472864"
   }
 }

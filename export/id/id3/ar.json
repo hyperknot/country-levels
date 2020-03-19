@@ -1,98 +1,146 @@
 {
   "id3:AR-A": {
     "name": "Salta",
-    "ne_id": 1159309777
+    "ne_id": 1159309777,
+    "population": 1333365,
+    "wikidata_id": "Q44803"
   },
   "id3:AR-B": {
     "name": "Buenos Aires",
-    "ne_id": 1159309705
+    "ne_id": 1159309705,
+    "population": 15355000,
+    "wikidata_id": "Q44754"
   },
   "id3:AR-C": {
     "name": "Ciudad de Buenos Aires",
-    "ne_id": 1159317131
+    "ne_id": 1159317131,
+    "population": 3063728,
+    "wikidata_id": "Q1486"
   },
   "id3:AR-D": {
     "name": "San Luis",
-    "ne_id": 1159309765
+    "ne_id": 1159309765,
+    "population": 489255,
+    "wikidata_id": "Q44818"
   },
   "id3:AR-E": {
     "name": "Entre Ríos",
-    "ne_id": 1159309789
+    "ne_id": 1159309789,
+    "population": 1235994,
+    "wikidata_id": "Q44762"
   },
   "id3:AR-F": {
     "name": "La Rioja",
-    "ne_id": 1159309775
+    "ne_id": 1159309775,
+    "population": 387728,
+    "wikidata_id": "Q44796"
   },
   "id3:AR-G": {
     "name": "Santiago del Estero",
-    "ne_id": 1159309779
+    "ne_id": 1159309779,
+    "population": 896461,
+    "wikidata_id": "Q44827"
   },
   "id3:AR-H": {
     "name": "Chaco",
-    "ne_id": 1159309783
+    "ne_id": 1159309783,
+    "population": 1055259,
+    "wikidata_id": "Q44757"
   },
   "id3:AR-J": {
     "name": "San Juan",
-    "ne_id": 1159309751
+    "ne_id": 1159309751,
+    "population": 738959,
+    "wikidata_id": "Q44805"
   },
   "id3:AR-K": {
     "name": "Catamarca",
-    "ne_id": 1159309769
+    "ne_id": 1159309769,
+    "population": 396895,
+    "wikidata_id": "Q44756"
   },
   "id3:AR-L": {
     "name": "La Pampa",
-    "ne_id": 1159309761
+    "ne_id": 1159309761,
+    "population": 349299,
+    "wikidata_id": "Q44795"
   },
   "id3:AR-M": {
     "name": "Mendoza",
-    "ne_id": 1159309757
+    "ne_id": 1159309757,
+    "population": 1886000,
+    "wikidata_id": "Q44797"
   },
   "id3:AR-N": {
     "name": "Misiones",
-    "ne_id": 1159309795
+    "ne_id": 1159309795,
+    "population": 1189446,
+    "wikidata_id": "Q44798"
   },
   "id3:AR-P": {
     "name": "Formosa",
-    "ne_id": 1159309785
+    "ne_id": 1159309785,
+    "population": 527895,
+    "wikidata_id": "Q44761"
   },
   "id3:AR-Q": {
     "name": "Neuquén",
-    "ne_id": 1159309759
+    "ne_id": 1159309759,
+    "population": 637913,
+    "wikidata_id": "Q44800"
   },
   "id3:AR-R": {
     "name": "Río Negro",
-    "ne_id": 1159309763
+    "ne_id": 1159309763,
+    "population": 638645,
+    "wikidata_id": "Q44802"
   },
   "id3:AR-S": {
     "name": "Santa Fe",
-    "ne_id": 1159309793
+    "ne_id": 1159309793,
+    "population": 3397532,
+    "wikidata_id": "Q44823"
   },
   "id3:AR-T": {
     "name": "Tucumán",
-    "ne_id": 1159309781
+    "ne_id": 1159309781,
+    "population": 1448188,
+    "wikidata_id": "Q44829"
   },
   "id3:AR-U": {
     "name": "Chubut",
-    "ne_id": 1159309753
+    "ne_id": 1159309753,
+    "population": 509108,
+    "wikidata_id": "Q45007"
   },
   "id3:AR-V": {
     "name": "Tierra del Fuego",
-    "ne_id": 1159309691
+    "ne_id": 1159309691,
+    "population": 160720,
+    "wikidata_id": "Q44832"
   },
   "id3:AR-W": {
     "name": "Corrientes",
-    "ne_id": 1159309787
+    "ne_id": 1159309787,
+    "population": 992595,
+    "wikidata_id": "Q44758"
   },
   "id3:AR-X": {
     "name": "Córdoba",
-    "ne_id": 1159309767
+    "ne_id": 1159309767,
+    "population": 3567654,
+    "wikidata_id": "Q44759"
   },
   "id3:AR-Y": {
     "name": "Jujuy",
-    "ne_id": 1159309771
+    "ne_id": 1159309771,
+    "population": 727780,
+    "wikidata_id": "Q44764"
   },
   "id3:AR-Z": {
     "name": "Santa Cruz",
-    "ne_id": 1159309749
+    "ne_id": 1159309749,
+    "population": 273964,
+    "wikidata_id": "Q44821"
   }
 }

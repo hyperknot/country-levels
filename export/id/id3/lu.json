@@ -1,14 +1,20 @@
 {
   "id3:LU-D": {
     "name": "Diekirch",
-    "ne_id": 1159310951
+    "ne_id": 1159310951,
+    "population": 85439,
+    "wikidata_id": "Q208747"
   },
   "id3:LU-G": {
     "name": "Grevenmacher",
-    "ne_id": 1159310953
+    "ne_id": 1159310953,
+    "population": 66207,
+    "wikidata_id": "Q208284"
   },
   "id3:LU-L": {
     "name": "Luxembourg",
-    "ne_id": 1159310955
+    "ne_id": 1159310955,
+    "population": 0,
+    "wikidata_id": null
   }
 }
