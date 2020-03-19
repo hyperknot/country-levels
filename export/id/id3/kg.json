@@ -17,6 +17,12 @@
     "population": 1027200,
     "wikidata_id": "Q9361"
   },
+  "id3:KG-GO": {
+    "name": "Osh",
+    "ne_id": 1159309475,
+    "population": 251000,
+    "wikidata_id": "Q47282"
+  },
   "id3:KG-J": {
     "name": "Jalal-Abad",
     "ne_id": 1159309471,
@@ -28,12 +34,6 @@
     "ne_id": 1159309465,
     "population": 269700,
     "wikidata_id": "Q486375"
-  },
-  "id3:KG-O": {
-    "name": "Osh",
-    "ne_id": 1159309475,
-    "population": 251000,
-    "wikidata_id": "Q47282"
   },
   "id3:KG-T": {
     "name": "Talas",

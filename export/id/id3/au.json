@@ -64,5 +64,11 @@
     "ne_id": 1159315603,
     "population": 20,
     "wikidata_id": "Q46650"
+  },
+  "id3:AU-X04": {
+    "name": "Ashmore and Cartier Islands",
+    "ne_id": 1159315625,
+    "population": 0,
+    "wikidata_id": null
   }
 }

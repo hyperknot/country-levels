@@ -48,16 +48,16 @@
     "wikidata_id": "Q934126"
   },
   "id3:MU-PL": {
-    "name": "Port Louis city",
-    "ne_id": 1159316591,
-    "population": 149194,
-    "wikidata_id": "Q3929"
-  },
-  "id3:MU-PL_1159307843": {
     "name": "Port Louis",
     "ne_id": 1159307843,
     "population": 0,
     "wikidata_id": "Q960645"
+  },
+  "id3:MU-PU": {
+    "name": "Port Louis city",
+    "ne_id": 1159316591,
+    "population": 149194,
+    "wikidata_id": "Q3929"
   },
   "id3:MU-PW": {
     "name": "Plaines Wilhems",

@@ -6,16 +6,16 @@
     "wikidata_id": "Q133865"
   },
   "id3:TW-CYI": {
-    "name": "Chiayi City",
-    "ne_id": 1159310413,
-    "population": 268622,
-    "wikidata_id": "Q249995"
-  },
-  "id3:TW-CYQ": {
     "name": "Chiayi",
     "ne_id": 1159308289,
     "population": 507068,
     "wikidata_id": "Q166977"
+  },
+  "id3:TW-CYQ": {
+    "name": "Chiayi City",
+    "ne_id": 1159310413,
+    "population": 268622,
+    "wikidata_id": "Q249995"
   },
   "id3:TW-HSQ": {
     "name": "Hsinchu",

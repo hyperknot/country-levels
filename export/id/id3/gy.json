@@ -23,15 +23,15 @@
     "population": 0,
     "wikidata_id": "Q1277758"
   },
-  "id3:GY-ES": {
-    "name": "Essequibo Islands-West Demerara",
-    "ne_id": 1159308897,
+  "id3:GY-MA_1159308871": {
+    "name": "Mahaica-Berbice",
+    "ne_id": 1159308871,
     "population": 0,
     "wikidata_id": "Q1466671"
   },
-  "id3:GY-MA": {
-    "name": "Mahaica-Berbice",
-    "ne_id": 1159308871,
+  "id3:GY-MA_1159308897": {
+    "name": "Essequibo Islands-West Demerara",
+    "ne_id": 1159308897,
     "population": 0,
     "wikidata_id": "Q1466671"
   },

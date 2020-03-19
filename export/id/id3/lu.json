@@ -13,6 +13,12 @@
   },
   "id3:LU-L": {
     "name": "Luxembourg",
+    "ne_id": 1159315373,
+    "population": 411312,
+    "wikidata_id": "Q2032"
+  },
+  "id3:LU-L_1159310955": {
+    "name": "Luxembourg",
     "ne_id": 1159310955,
     "population": 0,
     "wikidata_id": null

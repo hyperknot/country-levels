@@ -17,16 +17,16 @@
     "population": 3048200,
     "wikidata_id": "Q633511"
   },
+  "id3:TJ-RA": {
+    "name": "Tadzhikistan Territories",
+    "ne_id": 1159308473,
+    "population": 1971600,
+    "wikidata_id": "Q633490"
+  },
   "id3:TJ-SU": {
     "name": "Leninabad",
     "ne_id": 1159308475,
     "population": 172700,
     "wikidata_id": "Q373808"
-  },
-  "id3:TJ-X01": {
-    "name": "Tadzhikistan Territories",
-    "ne_id": 1159308473,
-    "population": 1971600,
-    "wikidata_id": "Q633490"
   }
 }

@@ -11,12 +11,6 @@
     "population": 601175,
     "wikidata_id": "Q171314"
   },
-  "id3:GR-A1": {
-    "name": "Attiki",
-    "ne_id": 1159314215,
-    "population": 3756453,
-    "wikidata_id": "Q758056"
-  },
   "id3:GR-B": {
     "name": "Kentriki Makedonia",
     "ne_id": 1159314337,
@@ -58,6 +52,12 @@
     "ne_id": 1159314261,
     "population": 555623,
     "wikidata_id": "Q199580"
+  },
+  "id3:GR-I": {
+    "name": "Attiki",
+    "ne_id": 1159314215,
+    "population": 3756453,
+    "wikidata_id": "Q758056"
   },
   "id3:GR-J": {
     "name": "Peloponnisos",

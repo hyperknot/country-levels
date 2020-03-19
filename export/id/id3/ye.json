@@ -95,7 +95,13 @@
     "population": 521000,
     "wikidata_id": "Q475033"
   },
-  "id3:YE-SA": {
+  "id3:YE-SA_1159315163": {
+    "name": "Sana'a",
+    "ne_id": 1159315163,
+    "population": 2957000,
+    "wikidata_id": "Q2471"
+  },
+  "id3:YE-SA_1159315165": {
     "name": "Amanat Al Asimah",
     "ne_id": 1159315165,
     "population": 2957000,
@@ -112,12 +118,6 @@
     "ne_id": 1159309153,
     "population": 591000,
     "wikidata_id": "Q328180"
-  },
-  "id3:YE-SN": {
-    "name": "Sana'a",
-    "ne_id": 1159315163,
-    "population": 2957000,
-    "wikidata_id": "Q2471"
   },
   "id3:YE-TA": {
     "name": "Ta`izz",

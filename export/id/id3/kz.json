@@ -12,16 +12,16 @@
     "wikidata_id": "Q485437"
   },
   "id3:KZ-ALA": {
-    "name": "Almaty",
-    "ne_id": 1159314735,
-    "population": 1949837,
-    "wikidata_id": "Q186466"
-  },
-  "id3:KZ-ALA_1159315881": {
     "name": "Almaty City",
     "ne_id": 1159315881,
     "population": 1806833,
     "wikidata_id": "Q35493"
+  },
+  "id3:KZ-ALM": {
+    "name": "Almaty",
+    "ne_id": 1159314735,
+    "population": 1949837,
+    "wikidata_id": "Q186466"
   },
   "id3:KZ-AST": {
     "name": "Astana",
@@ -34,6 +34,12 @@
     "ne_id": 1159314719,
     "population": 556388,
     "wikidata_id": "Q427658"
+  },
+  "id3:KZ-BAY": {
+    "name": "Baykonur lease in Qyzylorda",
+    "ne_id": 1159308537,
+    "population": 39161,
+    "wikidata_id": "Q165413"
   },
   "id3:KZ-KAR": {
     "name": "Qaraghandy",

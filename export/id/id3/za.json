@@ -11,11 +11,17 @@
     "population": 2753200,
     "wikidata_id": "Q160284"
   },
-  "id3:ZA-GT": {
+  "id3:ZA-GP": {
     "name": "Gauteng",
     "ne_id": 1159309741,
     "population": 12272263,
     "wikidata_id": "Q133083"
+  },
+  "id3:ZA-KZN": {
+    "name": "KwaZulu-Natal",
+    "ne_id": 1159309747,
+    "population": 10267300,
+    "wikidata_id": "Q81725"
   },
   "id3:ZA-LP": {
     "name": "Limpopo",
@@ -34,12 +40,6 @@
     "ne_id": 1159309731,
     "population": 1145861,
     "wikidata_id": "Q132418"
-  },
-  "id3:ZA-NL": {
-    "name": "KwaZulu-Natal",
-    "ne_id": 1159309747,
-    "population": 10267300,
-    "wikidata_id": "Q81725"
   },
   "id3:ZA-NW": {
     "name": "North West",

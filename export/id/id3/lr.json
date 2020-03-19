@@ -35,6 +35,12 @@
     "population": 0,
     "wikidata_id": "Q574952"
   },
+  "id3:LR-GP": {
+    "name": "Gbapolu",
+    "ne_id": 1159310089,
+    "population": 0,
+    "wikidata_id": "Q592251"
+  },
   "id3:LR-LO": {
     "name": "Lofa",
     "ne_id": 1159308925,
@@ -65,6 +71,12 @@
     "population": 0,
     "wikidata_id": "Q868497"
   },
+  "id3:LR-RG": {
+    "name": "River Gee",
+    "ne_id": 1159310087,
+    "population": 0,
+    "wikidata_id": "Q1047875"
+  },
   "id3:LR-RI": {
     "name": "River Cess",
     "ne_id": 1159308935,
@@ -76,17 +88,5 @@
     "ne_id": 1159308915,
     "population": 104932,
     "wikidata_id": "Q1043644"
-  },
-  "id3:LR-X1": {
-    "name": "Gbapolu",
-    "ne_id": 1159310089,
-    "population": 0,
-    "wikidata_id": "Q592251"
-  },
-  "id3:LR-X2": {
-    "name": "River Gee",
-    "ne_id": 1159310087,
-    "population": 0,
-    "wikidata_id": "Q1047875"
   }
 }

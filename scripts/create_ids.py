@@ -10,7 +10,7 @@ def main():
     shutil.rmtree(id_dir, ignore_errors=True)
     id_dir.mkdir(parents=True)
 
-    process_id012()
+    # process_id012()
     process_id3()
 
 

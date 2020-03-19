@@ -48,12 +48,6 @@
     "wikidata_id": "Q2709118"
   },
   "id3:MV-12": {
-    "name": "Malé",
-    "ne_id": 1159316681,
-    "population": 133019,
-    "wikidata_id": "Q9347"
-  },
-  "id3:MV-12_1159316687": {
     "name": "Meemu",
     "ne_id": 1159316687,
     "population": 0,
@@ -124,5 +118,11 @@
     "ne_id": 1159316699,
     "population": 0,
     "wikidata_id": "Q1811116"
+  },
+  "id3:MV-MLE": {
+    "name": "Malé",
+    "ne_id": 1159316681,
+    "population": 133019,
+    "wikidata_id": "Q9347"
   }
 }

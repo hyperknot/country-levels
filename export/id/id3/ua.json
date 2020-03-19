@@ -53,15 +53,15 @@
     "population": 1377496,
     "wikidata_id": "Q178269"
   },
-  "id3:UA-30": {
-    "name": "Kiev City",
-    "ne_id": 1159315871,
+  "id3:UA-30_1159309615": {
+    "name": "Kiev",
+    "ne_id": 1159309615,
     "population": 2935239,
     "wikidata_id": "Q1899"
   },
-  "id3:UA-32": {
-    "name": "Kiev",
-    "ne_id": 1159309615,
+  "id3:UA-30_1159315871": {
+    "name": "Kiev City",
+    "ne_id": 1159315871,
     "population": 2935239,
     "wikidata_id": "Q1899"
   },
@@ -70,6 +70,18 @@
     "ne_id": 1159309613,
     "population": 956250,
     "wikidata_id": "Q180981"
+  },
+  "id3:UA-40": {
+    "name": "Sevastopol",
+    "ne_id": 1159315877,
+    "population": 448829,
+    "wikidata_id": "Q7525"
+  },
+  "id3:UA-43": {
+    "name": "Crimea",
+    "ne_id": 1159309535,
+    "population": 1957801,
+    "wikidata_id": "Q756294"
   },
   "id3:UA-46": {
     "name": "L'viv",

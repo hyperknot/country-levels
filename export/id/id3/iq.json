@@ -53,6 +53,12 @@
     "population": 1370000,
     "wikidata_id": "Q214104"
   },
+  "id3:IQ-KI": {
+    "name": "At-Ta'mim",
+    "ne_id": 1159314221,
+    "population": 1325853,
+    "wikidata_id": "Q193268"
+  },
   "id3:IQ-MA": {
     "name": "Maysan",
     "ne_id": 1159314243,
@@ -94,12 +100,6 @@
     "ne_id": 1159314253,
     "population": 1694895,
     "wikidata_id": "Q213182"
-  },
-  "id3:IQ-TS": {
-    "name": "At-Ta'mim",
-    "ne_id": 1159314221,
-    "population": 1325853,
-    "wikidata_id": "Q193268"
   },
   "id3:IQ-WA": {
     "name": "Wasit",

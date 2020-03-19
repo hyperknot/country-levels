@@ -25,15 +25,15 @@
   },
   "id3:MZ-L": {
     "name": "Maputo",
-    "ne_id": 1159317833,
-    "population": 1191613,
-    "wikidata_id": "Q3889"
-  },
-  "id3:MZ-L_1159311155": {
-    "name": "Maputo",
     "ne_id": 1159311155,
     "population": 0,
     "wikidata_id": "Q379658"
+  },
+  "id3:MZ-MPM": {
+    "name": "Maputo",
+    "ne_id": 1159317833,
+    "population": 1191613,
+    "wikidata_id": "Q3889"
   },
   "id3:MZ-N": {
     "name": "Nampula",

@@ -5,13 +5,7 @@
     "population": 0,
     "wikidata_id": "Q293722"
   },
-  "id3:SB-CH_1159314977": {
-    "name": "Western",
-    "ne_id": 1159314977,
-    "population": 0,
-    "wikidata_id": "Q150325"
-  },
-  "id3:SB-CH_1159314981": {
+  "id3:SB-CH": {
     "name": "Choiseul",
     "ne_id": 1159314981,
     "population": 0,
@@ -58,5 +52,11 @@
     "ne_id": 1159311165,
     "population": 0,
     "wikidata_id": "Q936088"
+  },
+  "id3:SB-WE": {
+    "name": "Western",
+    "ne_id": 1159314977,
+    "population": 0,
+    "wikidata_id": "Q150325"
   }
 }

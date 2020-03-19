@@ -23,11 +23,11 @@
     "population": 0,
     "wikidata_id": "Q2679107"
   },
-  "id3:TT-ETO": {
-    "name": "Eastern Tobago",
-    "ne_id": 1159308073,
-    "population": 60874,
-    "wikidata_id": "Q185111"
+  "id3:TT-MRC": {
+    "name": "Rio Claro-Mayaro",
+    "ne_id": 1159308049,
+    "population": 0,
+    "wikidata_id": "Q2487249"
   },
   "id3:TT-PED": {
     "name": "Penal-Debe",
@@ -53,12 +53,6 @@
     "population": 19056,
     "wikidata_id": "Q786957"
   },
-  "id3:TT-RCM": {
-    "name": "Rio Claro-Mayaro",
-    "ne_id": 1159308049,
-    "population": 0,
-    "wikidata_id": "Q2487249"
-  },
   "id3:TT-SFO": {
     "name": "San Fernando",
     "ne_id": 1159308065,
@@ -83,16 +77,22 @@
     "population": 0,
     "wikidata_id": "Q979608"
   },
+  "id3:TT-TOB_1159308073": {
+    "name": "Eastern Tobago",
+    "ne_id": 1159308073,
+    "population": 60874,
+    "wikidata_id": "Q185111"
+  },
+  "id3:TT-TOB_1159316403": {
+    "name": "Western Tobago",
+    "ne_id": 1159316403,
+    "population": 60874,
+    "wikidata_id": "Q185111"
+  },
   "id3:TT-TUP": {
     "name": "Tunapuna/Piarco",
     "ne_id": 1159308061,
     "population": 0,
     "wikidata_id": "Q1899163"
-  },
-  "id3:TT-WTO": {
-    "name": "Western Tobago",
-    "ne_id": 1159316403,
-    "population": 60874,
-    "wikidata_id": "Q185111"
   }
 }

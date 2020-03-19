@@ -53,18 +53,6 @@
     "population": 0,
     "wikidata_id": null
   },
-  "id3:XK-X10": {
-    "name": "Kosovska Kamenica",
-    "ne_id": 1159317913,
-    "population": 217726,
-    "wikidata_id": "Q124725"
-  },
-  "id3:XK-X11": {
-    "name": "Kosovska Mitrovica",
-    "ne_id": 1159317887,
-    "population": 0,
-    "wikidata_id": "Q2017517"
-  },
   "id3:XK-X12": {
     "name": "Leposavić",
     "ne_id": 1159317885,
@@ -112,18 +100,6 @@
     "ne_id": 1159317901,
     "population": 0,
     "wikidata_id": null
-  },
-  "id3:XK-X20": {
-    "name": "Priština",
-    "ne_id": 1159317903,
-    "population": 1808195,
-    "wikidata_id": "Q1255"
-  },
-  "id3:XK-X21": {
-    "name": "Prizren",
-    "ne_id": 1159309481,
-    "population": 2777,
-    "wikidata_id": "Q4864476"
   },
   "id3:XK-X22": {
     "name": "Srbica",

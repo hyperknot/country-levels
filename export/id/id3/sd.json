@@ -1,9 +1,15 @@
 {
-  "id3:SD-DE": {
+  "id3:SD-DC": {
     "name": "Central Darfur",
     "ne_id": 1159317839,
     "population": 0,
     "wikidata_id": "Q4116493"
+  },
+  "id3:SD-DE": {
+    "name": "Eastern Darfur",
+    "ne_id": 1159317841,
+    "population": 0,
+    "wikidata_id": "Q3545641"
   },
   "id3:SD-DN": {
     "name": "North Darfur",
@@ -11,17 +17,11 @@
     "population": 1583179,
     "wikidata_id": "Q688306"
   },
-  "id3:SD-DS_1159309199": {
+  "id3:SD-DS": {
     "name": "Southern Darfur",
     "ne_id": 1159309199,
     "population": 0,
     "wikidata_id": "Q838778"
-  },
-  "id3:SD-DS_1159317841": {
-    "name": "Eastern Darfur",
-    "ne_id": 1159317841,
-    "population": 0,
-    "wikidata_id": "Q3545641"
   },
   "id3:SD-DW": {
     "name": "Western Darfur",

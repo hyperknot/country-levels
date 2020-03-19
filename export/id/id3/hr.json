@@ -59,17 +59,17 @@
     "population": 84836,
     "wikidata_id": "Q58092"
   },
+  "id3:HR-11": {
+    "name": "Brodsko-Posavska",
+    "ne_id": 1159312541,
+    "population": 0,
+    "wikidata_id": "Q58111"
+  },
   "id3:HR-12": {
     "name": "Brodsko-Posavska",
     "ne_id": 1159312537,
     "population": 158575,
     "wikidata_id": "Q58129"
-  },
-  "id3:HR-12_1159312541": {
-    "name": "Brodsko-Posavska",
-    "ne_id": 1159312541,
-    "population": 0,
-    "wikidata_id": "Q58111"
   },
   "id3:HR-13": {
     "name": "Zadarska",

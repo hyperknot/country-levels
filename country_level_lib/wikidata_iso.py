@@ -14,7 +14,7 @@ def get_iso_id3():
         print(f'Querying wikidata ISO batch: #{i+1}, {len(batch)}')
 
         batch_data = run_query_id3(batch)
-        data = dict(batch_data, **batch_data)
+        data = dict(data, **batch_data)
 
         time.sleep(5)
 

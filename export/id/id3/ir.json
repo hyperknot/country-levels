@@ -41,12 +41,6 @@
     "population": 13267637,
     "wikidata_id": "Q590866"
   },
-  "id3:IR-07_1159317125": {
-    "name": "Alborz",
-    "ne_id": 1159317125,
-    "population": 2712400,
-    "wikidata_id": "Q392522"
-  },
   "id3:IR-08": {
     "name": "Chahar Mahall and Bakhtiari",
     "ne_id": 1159314283,
@@ -184,5 +178,11 @@
     "ne_id": 1159314321,
     "population": 863092,
     "wikidata_id": "Q180075"
+  },
+  "id3:IR-32": {
+    "name": "Alborz",
+    "ne_id": 1159317125,
+    "population": 2712400,
+    "wikidata_id": "Q392522"
   }
 }

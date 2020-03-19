@@ -23,6 +23,12 @@
     "population": 621785,
     "wikidata_id": "Q843975"
   },
+  "id3:TD-EN": {
+    "name": "Ennedi",
+    "ne_id": 1159317313,
+    "population": 0,
+    "wikidata_id": "Q748093"
+  },
   "id3:TD-GR": {
     "name": "Guéra",
     "ne_id": 1159310383,
@@ -124,11 +130,5 @@
     "ne_id": 1159310381,
     "population": 494933,
     "wikidata_id": "Q860813"
-  },
-  "id3:TD-X01": {
-    "name": "Ennedi",
-    "ne_id": 1159317313,
-    "population": 0,
-    "wikidata_id": "Q748093"
   }
 }

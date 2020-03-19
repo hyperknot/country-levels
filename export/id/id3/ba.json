@@ -1,69 +1,69 @@
 {
-  "id3:BA-BIH": {
-    "name": "Sarajevo",
-    "ne_id": 1159314613,
-    "population": 413593,
-    "wikidata_id": "Q18276"
-  },
-  "id3:BA-BIH_1159312511": {
-    "name": "West Bosnia",
-    "ne_id": 1159312511,
-    "population": 0,
-    "wikidata_id": null
-  },
-  "id3:BA-BIH_1159312513": {
+  "id3:BA-01": {
     "name": "Una-Sana",
     "ne_id": 1159312513,
     "population": 0,
     "wikidata_id": "Q18248"
   },
-  "id3:BA-BIH_1159312515": {
-    "name": "Central Bosnia",
-    "ne_id": 1159312515,
+  "id3:BA-02": {
+    "name": "Posavina",
+    "ne_id": 1159314607,
     "population": 0,
-    "wikidata_id": "Q18262"
+    "wikidata_id": "Q18249"
   },
-  "id3:BA-BIH_1159312517": {
-    "name": "West Herzegovina",
-    "ne_id": 1159312517,
-    "population": 0,
-    "wikidata_id": "Q18275"
-  },
-  "id3:BA-BIH_1159312519": {
-    "name": "Herzegovina-Neretva",
-    "ne_id": 1159312519,
-    "population": 222007,
-    "wikidata_id": "Q18273"
-  },
-  "id3:BA-BIH_1159314609": {
+  "id3:BA-03": {
     "name": "Tuzla",
     "ne_id": 1159314609,
     "population": 0,
     "wikidata_id": "Q18250"
   },
-  "id3:BA-BIH_1159314611": {
+  "id3:BA-04": {
     "name": "Zenica-Doboj",
     "ne_id": 1159314611,
     "population": 0,
     "wikidata_id": "Q18253"
   },
-  "id3:BA-BIH_1159314617": {
+  "id3:BA-05": {
     "name": "Bosnian Podrinje",
     "ne_id": 1159314617,
     "population": 0,
     "wikidata_id": "Q18256"
+  },
+  "id3:BA-06": {
+    "name": "Central Bosnia",
+    "ne_id": 1159312515,
+    "population": 0,
+    "wikidata_id": "Q18262"
+  },
+  "id3:BA-07": {
+    "name": "Herzegovina-Neretva",
+    "ne_id": 1159312519,
+    "population": 222007,
+    "wikidata_id": "Q18273"
+  },
+  "id3:BA-08": {
+    "name": "West Herzegovina",
+    "ne_id": 1159312517,
+    "population": 0,
+    "wikidata_id": "Q18275"
+  },
+  "id3:BA-09": {
+    "name": "Sarajevo",
+    "ne_id": 1159314613,
+    "population": 413593,
+    "wikidata_id": "Q18276"
+  },
+  "id3:BA-BIH": {
+    "name": "West Bosnia",
+    "ne_id": 1159312511,
+    "population": 0,
+    "wikidata_id": null
   },
   "id3:BA-BRC": {
     "name": "Brčko Distrikt",
     "ne_id": 1159315823,
     "population": 0,
     "wikidata_id": "Q194483"
-  },
-  "id3:BA-SRP": {
-    "name": "Posavina",
-    "ne_id": 1159314607,
-    "population": 0,
-    "wikidata_id": "Q18249"
   },
   "id3:BA-X01": {
     "name": "Doboj",

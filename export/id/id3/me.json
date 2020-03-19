@@ -83,7 +83,13 @@
     "population": 28124,
     "wikidata_id": "Q3299950"
   },
-  "id3:ME-15": {
+  "id3:ME-15_1159309481": {
+    "name": "Prizren",
+    "ne_id": 1159309481,
+    "population": 2777,
+    "wikidata_id": "Q4864476"
+  },
+  "id3:ME-15_1159310631": {
     "name": "Plužine",
     "ne_id": 1159310631,
     "population": 2777,
