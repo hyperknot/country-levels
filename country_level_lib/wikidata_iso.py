@@ -28,7 +28,7 @@ def get_iso_id3():
     data = dict()
 
     for i, batch in enumerate(split_to_chunks(all_ids, 100)):
-        print(f'Querying wikidata ISO ido3 batch: #{i+1}, {len(batch)}')
+        print(f'Querying wikidata ISO id3 batch: #{i+1}, {len(batch)}')
 
         batch_data = run_query_id3(batch)
         data = dict(data, **batch_data)
