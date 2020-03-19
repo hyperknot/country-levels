@@ -5,3 +5,7 @@ __pycache__/
 /.idea
 /node_modules
 /venv
+
+/data/shp
+/data/geojson
+/data/tmp
