@@ -106,5 +106,11 @@
     "ne_id": 1159315131,
     "population": 0,
     "wikidata_id": "Q842499"
+  },
+  "id3:CI-COM": {
+    "name": "Comoe",
+    "ne_id": 1159315133,
+    "population": 0,
+    "wikidata_id": "Q1074496"
   }
 }

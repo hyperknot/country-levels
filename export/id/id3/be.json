@@ -5,6 +5,12 @@
     "population": 1198726,
     "wikidata_id": "Q240"
   },
+  "id3:BE-L": {
+    "name": "Luxembourg",
+    "ne_id": 1159315373,
+    "population": 411312,
+    "wikidata_id": "Q2032"
+  },
   "id3:BE-VAN": {
     "name": "Antwerp",
     "ne_id": 1159315391,

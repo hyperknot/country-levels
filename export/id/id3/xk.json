@@ -1,4 +1,28 @@
 {
+  "id3:XK-15": {
+    "name": "Prizren",
+    "ne_id": 1159309481,
+    "population": 2777,
+    "wikidata_id": "Q4864476"
+  },
+  "id3:XK-28": {
+    "name": "Kosovska Mitrovica",
+    "ne_id": 1159317887,
+    "population": 0,
+    "wikidata_id": "Q2017517"
+  },
+  "id3:XK-29": {
+    "name": "Kosovska Kamenica",
+    "ne_id": 1159317913,
+    "population": 217726,
+    "wikidata_id": "Q124725"
+  },
+  "id3:XK-KM": {
+    "name": "Priština",
+    "ne_id": 1159317903,
+    "population": 1808195,
+    "wikidata_id": "Q1255"
+  },
   "id3:XK-X01": {
     "name": "Đakovica",
     "ne_id": 1159317929,

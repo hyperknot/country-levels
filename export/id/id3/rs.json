@@ -148,23 +148,5 @@
     "ne_id": 1159309525,
     "population": 0,
     "wikidata_id": "Q1061099"
-  },
-  "id3:RS-28": {
-    "name": "Kosovska Mitrovica",
-    "ne_id": 1159317887,
-    "population": 0,
-    "wikidata_id": "Q2017517"
-  },
-  "id3:RS-29": {
-    "name": "Kosovska Kamenica",
-    "ne_id": 1159317913,
-    "population": 217726,
-    "wikidata_id": "Q124725"
-  },
-  "id3:RS-KM": {
-    "name": "Priština",
-    "ne_id": 1159317903,
-    "population": 1808195,
-    "wikidata_id": "Q1255"
   }
 }

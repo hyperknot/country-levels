@@ -1,10 +1,4 @@
 {
-  "id3:NL-AW": {
-    "name": "Aruba",
-    "ne_id": 1159315531,
-    "population": 112309,
-    "wikidata_id": "Q21203"
-  },
   "id3:NL-BQ1": {
     "name": "Bonaire",
     "ne_id": 1159315527,
@@ -22,12 +16,6 @@
     "ne_id": 1159316513,
     "population": 0,
     "wikidata_id": "Q26180"
-  },
-  "id3:NL-CW": {
-    "name": "Curaçao",
-    "ne_id": 1159315529,
-    "population": 160337,
-    "wikidata_id": "Q25279"
   },
   "id3:NL-DR": {
     "name": "Drenthe",
@@ -82,12 +70,6 @@
     "ne_id": 1159309649,
     "population": 1142360,
     "wikidata_id": "Q773"
-  },
-  "id3:NL-SX": {
-    "name": "Sint Maarten",
-    "ne_id": 1159315549,
-    "population": 37132,
-    "wikidata_id": "Q26273"
   },
   "id3:NL-UT": {
     "name": "Utrecht",

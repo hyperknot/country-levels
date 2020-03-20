@@ -1,4 +1,10 @@
 {
+  "id3:MS-03": {
+    "name": "Saint Georges",
+    "ne_id": 1159316399,
+    "population": 0,
+    "wikidata_id": "Q1647443"
+  },
   "id3:MS-A": {
     "name": "Saint Anthony",
     "ne_id": 1159316401,

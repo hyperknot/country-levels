@@ -5,13 +5,7 @@
     "population": 7496,
     "wikidata_id": "Q1770796"
   },
-  "id3:AG-04_1159315963": {
-    "name": "Saint John",
-    "ne_id": 1159315963,
-    "population": 49225,
-    "wikidata_id": "Q548816"
-  },
-  "id3:AG-04_1159316419": {
+  "id3:AG-04": {
     "name": "Saint John",
     "ne_id": 1159316419,
     "population": 49225,
