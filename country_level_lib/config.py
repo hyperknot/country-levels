@@ -13,10 +13,6 @@ export_dir = root_dir / 'export'
 id_dir = export_dir / 'id'
 id3_dir = id_dir / 'id3'
 
-export_dir = export_dir / 'geojson'
-export_id0_dir = export_dir / 'id0'
-export_id1_dir = export_dir / 'id1'
-export_id2_dir = export_dir / 'id2'
-export_id3_dir = export_dir / 'id3'
+export_geojson_dir = export_dir / 'geojson'
 
 docs_dir = root_dir / 'docs'

@@ -9,6 +9,7 @@ cd scripts
 
 ./download.sh
 ./shp2geo.sh
+./topo_simplify.sh
 
 # ./wikidata_iso.py
 # ./wikidata_population.py
