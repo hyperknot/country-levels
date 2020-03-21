@@ -10,7 +10,7 @@ def main():
     export_geojson_dir.mkdir(parents=True)
 
     # export to different simplification levels
-    for simp in [5, 7, 8]:
+    for simp in [0, 5, 7, 8]:
         export_id0(simp)
         export_id1(simp)
         export_id2(simp)
