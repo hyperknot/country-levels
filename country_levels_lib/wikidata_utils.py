@@ -1,7 +1,7 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 
-from country_level_lib.config import geojson_dir
-from country_level_lib.utils import read_json
+from country_levels_lib.config import geojson_dir
+from country_levels_lib.utils import read_json
 
 
 def get_all_ids(

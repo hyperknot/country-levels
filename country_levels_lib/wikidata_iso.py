@@ -1,8 +1,8 @@
 import time
 
-from country_level_lib.config import wikidata_dir
-from country_level_lib.utils import split_to_chunks, write_json
-from country_level_lib.wikidata_utils import get_results, get_all_ids, make_wd_ids_str
+from country_levels_lib.config import wikidata_dir
+from country_levels_lib.utils import split_to_chunks, write_json
+from country_levels_lib.wikidata_utils import get_results, get_all_ids, make_wd_ids_str
 
 
 def get_iso_id0():

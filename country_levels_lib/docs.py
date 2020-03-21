@@ -1,5 +1,5 @@
-from country_level_lib.config import root_dir, id_dir, docs_dir, id3_dir
-from country_level_lib.utils import read_json, read_file, write_file
+from country_levels_lib.config import root_dir, id_dir, docs_dir, id3_dir
+from country_levels_lib.utils import read_json, read_file, write_file
 
 
 def generate_readme():

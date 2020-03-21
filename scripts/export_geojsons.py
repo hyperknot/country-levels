@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import shutil
 
-from country_level_lib.config import export_geojson_dir
-from country_level_lib.geojson import export_id0, export_id1, export_id2, export_id3
+from country_levels_lib.config import export_geojson_dir
+from country_levels_lib.geojson import export_id0, export_id1, export_id2, export_id3
 
 
 def main():
