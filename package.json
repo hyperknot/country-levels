@@ -1,6 +1,8 @@
 {
   "private": true,
   "dependencies": {
-    "shapefile": "^0.6.6"
+    "shapefile": "^0.6.6",
+    "topojson": "^3.0.2",
+    "topojson-simplify": "^3.0.3"
   }
 }
