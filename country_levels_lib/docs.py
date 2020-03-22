@@ -52,5 +52,5 @@ def generate_country_list():
                     f'\n\n'
                 )
 
-    write_file(docs_dir / 'country-list.md', code_list)
+    write_file(docs_dir / 'country_list.md', code_list)
     print(f'Readme updated')
