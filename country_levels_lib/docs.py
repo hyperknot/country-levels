@@ -2,20 +2,24 @@ from country_levels_lib.config import root_dir, id_dir, docs_dir, id3_dir
 from country_levels_lib.utils import read_json, read_file, write_file
 
 
-def generate_readme():
+def generate_country_list():
     levels = read_json(id_dir / 'id012.json')
-    tree_md = ''
+    code_list = '# Country list'
 
-    for id0, id0_data in levels.items():
+    for id0, id0_data in sorted(levels.items(), key=lambda item: item[1]['name']):
         name = id0_data['name']
         code = id0[4:].lower()
 
-        tree_md += f'\n**{id0}** [{name}](export/geojson/id0/{code}.geojson)'
+        code_list += (
+            f'\n{name}   '
+            f'[view](../export/geojson/small/id0/{code}.geojson)   '
+            f'code: **{id0}**   '
+        )
 
         if (id3_dir / f'{code}.json').is_file():
-            tree_md += f' *([id3](export/id/id3/{code}.json))*'
+            code_list += f'[states/counties](export/id/id3/{code}.json)'
 
-        tree_md += '\n\n'
+        code_list += '\n\n'
 
         if 'sub1' not in id0_data:
             continue
@@ -26,7 +30,12 @@ def generate_readme():
             level = id1[:3]
             code = id1[4:].lower()
 
-            tree_md += f'  - **{id1}** [{name}](export/geojson/{level}/{code}.geojson)\n\n'
+            code_list += (
+                f'  - {name}   '
+                f'[view](export/geojson/small/{level}/{code}.geojson)   '
+                f'code: **{id1}**   '
+                f'\n\n'
+            )
             if 'sub2' not in id1_data:
                 continue
 
@@ -36,10 +45,12 @@ def generate_readme():
                 level = id2[:3]
                 code = id2[4:].lower()
 
-                tree_md += f'    - **{id2}** [{name}](export/geojson/{level}/{code}.geojson)\n\n'
+                code_list += (
+                    f'  - {name}   '
+                    f'[view](export/geojson/small/{level}/{code}.geojson)   '
+                    f'code: **{id2}**   '
+                    f'\n\n'
+                )
 
-    readme_template = read_file(docs_dir / 'README_template.md')
-    readme_replaced = readme_template.replace('___REPLACE_TEMPLATE___', tree_md)
-    write_file(root_dir / 'README.md', readme_replaced)
-
+    write_file(docs_dir / 'country-list.md', code_list)
     print(f'Readme updated')
