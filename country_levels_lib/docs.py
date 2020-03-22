@@ -46,7 +46,7 @@ def generate_country_list():
                 code = id2[4:].lower()
 
                 code_list += (
-                    f'  - {name}   '
+                    f'    - {name}   '
                     f'[view](../export/geojson/medium/{level}/{code}.geojson)   '
                     f'code: **{id2}**   '
                     f'\n\n'
