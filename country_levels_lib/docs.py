@@ -3,6 +3,8 @@ import shutil
 from country_levels_lib.config import root_dir, id_dir, docs_dir, id3_dir
 from country_levels_lib.utils import read_json, read_file, write_file
 
+md_space = '&nbsp;' * 5
+
 
 def generate_country_list():
     levels = read_json(id_dir / 'id012.json')
@@ -13,9 +15,9 @@ def generate_country_list():
         code = id0[4:].lower()
 
         doc_md += (
-            f'\n{name}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
-            f'code: **{id0}**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
-            f'[view](../export/geojson/medium/id0/{code}.geojson)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+            f'\n{name}{md_space}'
+            f'code: **{id0}**{md_space}'
+            f'[view](../export/geojson/medium/id0/{code}.geojson){md_space}'
         )
 
         if (id3_dir / f'{code}.json').is_file():
