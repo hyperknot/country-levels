@@ -91,7 +91,7 @@ def generate_id3_md(country_iso):
         doc_md += (
             f'\n{name}{md_space}'
             f'code: **{id3}**{md_space}'
-            f'[view](../export/geojson/medium/id3/{country_iso.lower()}/{id3_state.lower()}.geojson){md_space}'
+            f'[view](../../export/geojson/medium/id3/{country_iso.lower()}/{id3_state.lower()}.geojson){md_space}'
             f'\n\n'
         )
 
