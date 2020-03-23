@@ -19,7 +19,7 @@ def generate_country_list():
         )
 
         if (id3_dir / f'{code}.json').is_file():
-            doc_md += f'[states/provinces](country_list_id3/{code}.json)'
+            doc_md += f'[states/provinces](country_list_id3/{code}.md)'
 
         doc_md += '\n\n'
 
