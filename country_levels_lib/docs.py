@@ -13,9 +13,9 @@ def generate_country_list():
         code = id0[4:].lower()
 
         doc_md += (
-            f'\n{name}     '
-            f'code: **{id0}**     '
-            f'[view](../export/geojson/medium/id0/{code}.geojson)     '
+            f'\n{name}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+            f'code: **{id0}**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+            f'[view](../export/geojson/medium/id0/{code}.geojson)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
         )
 
         if (id3_dir / f'{code}.json').is_file():
