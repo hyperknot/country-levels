@@ -1,7 +1,7 @@
 import shutil
 
-from country_levels_lib.config import root_dir, id_dir, docs_dir, id3_dir
-from country_levels_lib.utils import read_json, read_file, write_file
+from country_levels_lib.config import id_dir, docs_dir, id3_dir
+from country_levels_lib.utils import read_json, write_file
 
 md_space = '&nbsp;' * 5
 
@@ -35,9 +35,9 @@ def generate_country_list():
             code = id1[4:].lower()
 
             doc_md += (
-                f'  - {name}     '
-                f'code: **{id1}**     '
-                f'[view](../export/geojson/medium/{level}/{code}.geojson)     '
+                f'  - {name}{md_space}'
+                f'code: **{id1}**{md_space}'
+                f'[view](../export/geojson/medium/{level}/{code}.geojson){md_space} '
                 f'\n\n'
             )
             if 'sub2' not in id1_data:
@@ -50,9 +50,9 @@ def generate_country_list():
                 code = id2[4:].lower()
 
                 doc_md += (
-                    f'    - {name}     '
-                    f'code: **{id2}**     '
-                    f'[view](../export/geojson/medium/{level}/{code}.geojson)     '
+                    f'    - {name}{md_space}'
+                    f'code: **{id2}**{md_space}'
+                    f'[view](../export/geojson/medium/{level}/{code}.geojson){md_space}'
                     f'\n\n'
                 )
 
@@ -89,9 +89,9 @@ def generate_id3_md(country_iso):
         assert country_iso.lower() == id3_country.lower()
 
         doc_md += (
-            f'\n{name}     '
-            f'code: **{id3}**     '
-            f'[view](../export/geojson/medium/id3/{country_iso.lower()}/{id3_state.lower()}.geojson)     '
+            f'\n{name}{md_space}'
+            f'code: **{id3}**{md_space}'
+            f'[view](../export/geojson/medium/id3/{country_iso.lower()}/{id3_state.lower()}.geojson){md_space}'
             f'\n\n'
         )
 
