@@ -21,7 +21,7 @@ def write_empty_config():
     for c in countries:
         code = c['a_attr']['title'][:3]
         name = c['text'].split('(')[0].strip()
-        codes[code] = {'name': name, 'levels': []}
+        codes[code] = {'name': name, 'levels': [2]}
 
     wam_data_dir.mkdir(parents=True, exist_ok=True)
     write_json(wam_data_dir / 'config_empty.json', codes, indent=2, sort_keys=True)
