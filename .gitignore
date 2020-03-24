@@ -9,3 +9,4 @@ __pycache__/
 /data/shp
 /data/geojson
 /data/tmp
+/data/topojson
