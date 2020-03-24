@@ -14,8 +14,9 @@ def download_all_regions():
     config = read_json(wam_data_dir / 'config_empty.json')
     for country_code, country_data in config.items():
         print(country_data['name'])
-        download_country(country_code, 2, 8)
-        time.sleep(10)
+        downloaded = download_country(country_code, 0, 8)
+        if downloaded:
+            time.sleep(10)
 
 
 def write_empty_config():
@@ -64,8 +65,13 @@ def get_tree(id):
     return response.json()
 
 
-def download_country(country_code, level_min=2, level_max=8):
-    print(f'Downloading {country_code} {level_min}-{level_max}')
+def download_country(country_code, level_min=2, level_max=8, overwrite=False):
+    print(f'  Downloading {country_code} {level_min}-{level_max}')
+
+    geojson_subdir = geojson_dir / 'wam' / country_code
+    if geojson_subdir.is_dir():
+        print('    skipping')
+        return False
 
     params = (
         ('cliVersion', '1.0'),
@@ -97,11 +103,12 @@ def download_country(country_code, level_min=2, level_max=8):
     shutil.rmtree(geojson_subdir, ignore_errors=True)
     geojson_subdir.mkdir(parents=True, exist_ok=True)
 
-    cmd = ['unzip', str(zip_file_path), '-d', str(geojson_subdir)]
+    cmd = ['7z', 'x', f'-o{geojson_subdir}', str(zip_file_path)]
     p = subprocess.run(cmd, capture_output=True, text=True)
 
     if p.returncode != 0:
         print(f'Cmd was:\n{" ".join(cmd)}\n\nerror was:\n{p.stderr}')
         raise ValueError()
 
-    print('OK')
+    print('    OK')
+    return True
