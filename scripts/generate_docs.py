@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from country_levels_lib.docs import generate_country_list, generate_ne3_lists
+from country_levels_lib.ne_docs import generate_country_list, generate_ne3_lists
 
 
 def main():
