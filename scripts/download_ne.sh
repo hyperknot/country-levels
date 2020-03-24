@@ -3,6 +3,7 @@ set -e
 cd "${BASH_SOURCE%/*}/" || exit
 
 cd ../data
+
 rm -rf tmp shp/ne
 mkdir -p tmp shp/ne
 
