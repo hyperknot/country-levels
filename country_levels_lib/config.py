@@ -11,7 +11,7 @@ wikidata_dir = data_dir / 'wikidata'
 export_dir = root_dir / 'export'
 
 id_dir = export_dir / 'id'
-id3_dir = id_dir / 'id3'
+ne3_dir = id_dir / 'ne3'
 
 export_geojson_dir = export_dir / 'geojson'
 

@@ -2,7 +2,7 @@
 import shutil
 
 from country_levels_lib.config import export_geojson_dir
-from country_levels_lib.geojson import export_id0, export_id1, export_id2, export_id3
+from country_levels_lib.geojson import export_ne0, export_ne1, export_ne2, export_ne3
 
 
 def main():
@@ -11,10 +11,10 @@ def main():
 
     # export to different simplification levels
     for simp in [0, 5, 7, 8]:
-        export_id0(simp)
-        export_id1(simp)
-        export_id2(simp)
-        export_id3(simp)
+        export_ne0(simp)
+        export_ne1(simp)
+        export_ne2(simp)
+        export_ne3(simp)
 
 
 if __name__ == "__main__":

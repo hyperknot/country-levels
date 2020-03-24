@@ -1,57 +1,57 @@
 import shutil
 
-from country_levels_lib.config import id_dir, docs_dir, id3_dir
+from country_levels_lib.config import id_dir, docs_dir, ne3_dir
 from country_levels_lib.utils import read_json, write_file
 
 md_space = '&nbsp;' * 5
 
 
 def generate_country_list():
-    levels = read_json(id_dir / 'id012.json')
+    levels = read_json(id_dir / 'ne012.json')
     doc_md = '# Country list'
 
-    for id0, id0_data in sorted(levels.items(), key=lambda item: item[1]['name']):
-        name = id0_data['name']
-        code = id0[4:].lower()
+    for ne0, ne0_data in sorted(levels.items(), key=lambda item: item[1]['name']):
+        name = ne0_data['name']
+        code = ne0[4:].lower()
 
         doc_md += (
             f'\n{name}{md_space}'
-            f'code: **{id0}**{md_space}'
-            f'[view](../export/geojson/medium/id0/{code}.geojson){md_space}'
+            f'code: **{ne0}**{md_space}'
+            f'[view](../export/geojson/medium/ne0/{code}.geojson){md_space}'
         )
 
-        if (id3_dir / f'{code}.json').is_file():
-            doc_md += f'[states/provinces](country_list_id3/{code}.md)'
+        if (ne3_dir / f'{code}.json').is_file():
+            doc_md += f'[states/provinces](country_list_ne3/{code}.md)'
 
         doc_md += '\n\n'
 
-        if 'sub1' not in id0_data:
+        if 'sub1' not in ne0_data:
             continue
 
-        sub1 = id0_data['sub1']
-        for id1, id1_data in sorted(sub1.items(), key=lambda item: item[1]['name']):
-            name = id1_data['name']
-            level = id1[:3]
-            code = id1[4:].lower()
+        sub1 = ne0_data['sub1']
+        for ne1, ne1_data in sorted(sub1.items(), key=lambda item: item[1]['name']):
+            name = ne1_data['name']
+            level = ne1[:3]
+            code = ne1[4:].lower()
 
             doc_md += (
                 f'  - {name}{md_space}'
-                f'code: **{id1}**{md_space}'
+                f'code: **{ne1}**{md_space}'
                 f'[view](../export/geojson/medium/{level}/{code}.geojson){md_space} '
                 f'\n\n'
             )
-            if 'sub2' not in id1_data:
+            if 'sub2' not in ne1_data:
                 continue
 
-            sub2 = id1_data['sub2']
-            for id2, id2_data in sorted(sub2.items(), key=lambda item: item[1]['name']):
-                name = id2_data['name']
-                level = id2[:3]
-                code = id2[4:].lower()
+            sub2 = ne1_data['sub2']
+            for ne2, ne2_data in sorted(sub2.items(), key=lambda item: item[1]['name']):
+                name = ne2_data['name']
+                level = ne2[:3]
+                code = ne2[4:].lower()
 
                 doc_md += (
                     f'    - {name}{md_space}'
-                    f'code: **{id2}**{md_space}'
+                    f'code: **{ne2}**{md_space}'
                     f'[view](../export/geojson/medium/{level}/{code}.geojson){md_space}'
                     f'\n\n'
                 )
@@ -60,39 +60,39 @@ def generate_country_list():
     print(f'country_list.md updated')
 
 
-def generate_id3_lists():
-    docs_id3 = docs_dir / 'country_list_id3'
-    shutil.rmtree(docs_id3, ignore_errors=True)
-    docs_id3.mkdir(parents=True)
+def generate_ne3_lists():
+    docs_ne3 = docs_dir / 'country_list_ne3'
+    shutil.rmtree(docs_ne3, ignore_errors=True)
+    docs_ne3.mkdir(parents=True)
 
-    country_jsons = id3_dir.glob('*.json')
+    country_jsons = ne3_dir.glob('*.json')
     count = 0
     for country_json in country_jsons:
         country_code = country_json.stem
-        generate_id3_md(country_code)
+        generate_ne3_md(country_code)
         count += 1
-    print(f'{count} country_list id3.mds written')
+    print(f'{count} country_list ne3.mds written')
 
 
-def generate_id3_md(country_iso):
+def generate_ne3_md(country_iso):
     filename = f'{country_iso.lower()}.json'
-    level3 = read_json(id3_dir / filename)
-    level012 = read_json(id_dir / 'id012.json')
+    level3 = read_json(ne3_dir / filename)
+    level012 = read_json(id_dir / 'ne012.json')
 
-    country_name = level012[f'id0:{country_iso.upper()}']['name']
+    country_name = level012[f'ne0:{country_iso.upper()}']['name']
 
     doc_md = f'# {country_name} states/provinces/counties'
 
-    for id3, id3_data in sorted(level3.items(), key=lambda item: item[1]['name']):
-        name = id3_data['name']
-        id3_country, id3_state = id3.split(':')[1].split('-')
-        assert country_iso.lower() == id3_country.lower()
+    for ne3, ne3_data in sorted(level3.items(), key=lambda item: item[1]['name']):
+        name = ne3_data['name']
+        ne3_country, ne3_state = ne3.split(':')[1].split('-')
+        assert country_iso.lower() == ne3_country.lower()
 
         doc_md += (
             f'\n{name}{md_space}'
-            f'code: **{id3}**{md_space}'
-            f'[view](../../export/geojson/medium/id3/{country_iso.lower()}/{id3_state.lower()}.geojson){md_space}'
+            f'code: **{ne3}**{md_space}'
+            f'[view](../../export/geojson/medium/ne3/{country_iso.lower()}/{ne3_state.lower()}.geojson){md_space}'
             f'\n\n'
         )
 
-    write_file(docs_dir / 'country_list_id3' / f'{country_iso}.md', doc_md)
+    write_file(docs_dir / 'country_list_ne3' / f'{country_iso}.md', doc_md)

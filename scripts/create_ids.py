@@ -2,16 +2,16 @@
 import shutil
 
 from country_levels_lib.config import id_dir
-from country_levels_lib.id012 import process_id012
-from country_levels_lib.id3 import process_id3
+from country_levels_lib.ne012 import process_ne012
+from country_levels_lib.ne3 import process_ne3
 
 
 def main():
     shutil.rmtree(id_dir, ignore_errors=True)
     id_dir.mkdir(parents=True)
 
-    process_id012()
-    process_id3()
+    process_ne012()
+    process_ne3()
 
 
 if __name__ == "__main__":

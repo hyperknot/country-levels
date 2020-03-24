@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 
-from country_levels_lib.wikidata_iso import get_iso_id3
+from country_levels_lib.wikidata_iso import get_iso_ne3
 
 
 def main():
-    get_iso_id3()
+    get_iso_ne3()
 
 
 if __name__ == "__main__":
