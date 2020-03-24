@@ -1,13 +1,21 @@
+import shutil
+import subprocess
+import time
+
 import requests
 
-from country_levels_lib.config import data_dir
+from country_levels_lib.config import data_dir, tmp_dir, geojson_dir
 from country_levels_lib.utils import write_json, read_json
 
 wam_data_dir = data_dir / 'wam'
 
 
-def make_config():
-    pass
+def download_all_regions():
+    config = read_json(wam_data_dir / 'config_empty.json')
+    for country_code, country_data in config.items():
+        print(country_data['name'])
+        download_country(country_code, 2, 8)
+        time.sleep(10)
 
 
 def write_empty_config():
@@ -25,7 +33,6 @@ def write_empty_config():
 
     wam_data_dir.mkdir(parents=True, exist_ok=True)
     write_json(wam_data_dir / 'config_empty.json', codes, indent=2, sort_keys=True)
-    return codes
 
 
 def get_tree(id):
@@ -55,3 +62,46 @@ def get_tree(id):
     response.raise_for_status()
 
     return response.json()
+
+
+def download_country(country_code, level_min=2, level_max=8):
+    print(f'Downloading {country_code} {level_min}-{level_max}')
+
+    params = (
+        ('cliVersion', '1.0'),
+        ('cliKey', '38acad66-1a9b-4dd3-9a9f-9b5883f3c295'),
+        ('exportFormat', 'json'),
+        ('exportLayout', 'levels'),
+        ('exportAreas', 'land'),
+        ('union', 'false'),
+        ('selected', country_code),
+        ('from_AL', str(level_min)),
+        ('to_AL', str(level_max)),
+    )
+
+    response = requests.get(
+        'https://wambachers-osm.website/boundaries/exportBoundaries', params=params, stream=True
+    )
+
+    response.raise_for_status()
+
+    shutil.rmtree(tmp_dir, ignore_errors=True)
+    tmp_dir.mkdir(parents=True, exist_ok=True)
+    zip_file_path = tmp_dir / f'{country_code}.zip'
+
+    with open(zip_file_path, 'wb') as outfile:
+        for block in response.iter_content(1024):
+            outfile.write(block)
+
+    geojson_subdir = geojson_dir / 'wam' / country_code
+    shutil.rmtree(geojson_subdir, ignore_errors=True)
+    geojson_subdir.mkdir(parents=True, exist_ok=True)
+
+    cmd = ['unzip', str(zip_file_path), '-d', str(geojson_subdir)]
+    p = subprocess.run(cmd, capture_output=True, text=True)
+
+    if p.returncode != 0:
+        print(f'Cmd was:\n{" ".join(cmd)}\n\nerror was:\n{p.stderr}')
+        raise ValueError()
+
+    print('OK')
