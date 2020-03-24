@@ -19,7 +19,7 @@ def main():
 
     infile.close()
     outfile.close()
-    jsonl_path.unlink()
+    # jsonl_path.unlink()
 
 
 def get_feature(line):
