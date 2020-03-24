@@ -9,15 +9,19 @@ TOPOJSON=data/topojson/gadm
 rm -rf $TOPOJSON
 mkdir -p $TOPOJSON
 
-node --max-old-space-size=12000 node_modules/.bin/geo2topo \
+node --max-old-space-size=20000 node_modules/.bin/geo2topo \
     --quantization 1e6 \
     g0=$GEOJSON/g0.geojson \
     g1=$GEOJSON/g1.geojson \
-    g2=$GEOJSON/g2.geojson \
-    g3=$GEOJSON/g3.geojson \
-    g4=$GEOJSON/g4.geojson \
-    g5=$GEOJSON/g5.geojson \
-    -o $TOPOJSON/topo.json
+    -o $TOPOJSON/topo01.json
+
+for i in 2 3 4 5
+do
+  node --max-old-space-size=20000 node_modules/.bin/geo2topo \
+    --quantization 1e6 \
+    g0=$GEOJSON/g$i.geojson \
+    -o $TOPOJSON/topo$i.json
+done
 
 
 # for i in 5 7 8
