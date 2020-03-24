@@ -12,23 +12,25 @@ mkdir -p $TOPOJSON
 
 rm -f $GEOJSON/*.geojson
 
-node --max-old-space-size=20000 node_modules/.bin/geo2topo \
-  -n --quantization 1e8 \
-  cosm=$GEOJSON/cosm.ndjson \
-  -o $TOPOJSON/topo.json
-
-for i in 5 7 8
+for zone_type in country country_region state state_district
 do
-  node --max-old-space-size=20000 node_modules/.bin/toposimplify \
-    -s 1e-$i -o $TOPOJSON/simp-$i.json $TOPOJSON/topo.json
+  node --max-old-space-size=20000 node_modules/.bin/geo2topo \
+    -n --quantization 1e8 \
+    cosm=$GEOJSON/$zone_type.ndjson \
+    -o $TOPOJSON/topo.json
 
-  node --max-old-space-size=20000 node_modules/.bin/topo2geo \
-    -i $TOPOJSON/simp-$i.json cosm=$GEOJSON/cosm-$i.geojson
+  for i in 7
+  do
+    node --max-old-space-size=20000 node_modules/.bin/toposimplify \
+      -s 1e-$i -o $TOPOJSON/simp-$i.json $TOPOJSON/topo.json
 
-  node --max-old-space-size=20000 node_modules/.bin/geojson-precision \
-    -p 3 $GEOJSON/cosm-$i.geojson $GEOJSON/cosm-$i.geojson
+    node --max-old-space-size=20000 node_modules/.bin/topo2geo \
+      -i $TOPOJSON/simp-$i.json cosm=$GEOJSON/$zone_type-$i.geojson
+
+    node --max-old-space-size=20000 node_modules/.bin/geojson-precision \
+      -p 3 $GEOJSON/$zone_type-$i.geojson $GEOJSON/$zone_type-$i.geojson
+  done
 done
-
 
 rm -rf $TOPOJSON
 
