@@ -1,87 +1,88 @@
-import time
-
 from country_levels_lib.config import wikidata_dir
-from country_levels_lib.utils import split_to_chunks, write_json
-from country_levels_lib.wikidata_utils import get_results, get_all_ids, make_wd_ids_str
+from country_levels_lib.utils import write_json, read_json
+from country_levels_lib.wikidata_utils import get_results
 
 
-def get_iso_ne0():
-    all_ids = get_all_ids(get_countries=True, get_units=False, get_subunits=False, get_states=False)
-
-    data = dict()
-
-    for i, batch in enumerate(split_to_chunks(all_ids, 100)):
-        print(f'Querying wikidata ISO ne0 batch: #{i+1}, {len(batch)}')
-
-        batch_data = run_query_ne0(batch)
-        data = dict(data, **batch_data)
-
-        time.sleep(5)
-
-    wikidata_dir.mkdir(exist_ok=True, parents=True)
-    write_json(wikidata_dir / 'iso_ne0.json', data, indent=2, sort_keys=True)
-
-
-def get_iso_ne3():
-    all_ids = get_all_ids(get_countries=False, get_units=False, get_subunits=False, get_states=True)
-
-    data = dict()
-
-    for i, batch in enumerate(split_to_chunks(all_ids, 100)):
-        print(f'Querying wikidata ISO ne3 batch: #{i+1}, {len(batch)}')
-
-        batch_data = run_query_ne3(batch)
-        data = dict(data, **batch_data)
-
-        time.sleep(5)
-
-    wikidata_dir.mkdir(exist_ok=True, parents=True)
-    write_json(wikidata_dir / 'iso_ne3.json', data, indent=2, sort_keys=True)
-
-
-def run_query_ne0(qids: list):
-    wd_ids_str = make_wd_ids_str(qids)
+def get_osm_iso1_map():
+    file_path = wikidata_dir / 'osm_iso1_map.json'
+    if file_path.is_file():
+        return read_json(file_path)
 
     endpoint_url = "https://query.wikidata.org/sparql"
 
-    query = """SELECT ?item ?iso WHERE {
-        VALUES ?item { WD_ID_STR_TEMPLATE }
-        ?item wdt:P297 ?iso.
-    }""".replace(
-        'WD_ID_STR_TEMPLATE', wd_ids_str
-    )
+    query = """SELECT ?region ?iso1 ?iso2 ?osm WHERE {
+      ?region wdt:P297 ?iso1;
+        wdt:P402 ?osm.
+    }"""
 
     results = get_results(endpoint_url, query)
 
-    data = {}
+    osm_iso1_map = {}
 
     for result in results["results"]["bindings"]:
-        qid = result['item']['value'].split('/')[-1]
-        iso = result['iso']['value']
-        data[qid] = iso
+        iso1 = result['iso1']['value']
+        osm = int(result['osm']['value'])
 
-    return data
+        osm_iso1_map[osm] = iso1
+
+    write_json(file_path, osm_iso1_map, indent=2)
+    return osm_iso1_map
 
 
-def run_query_ne3(qids: list):
-    wd_ids_str = make_wd_ids_str(qids)
+def get_osm_iso2_map():
+    file_path = wikidata_dir / 'osm_iso2_map.json'
+    if file_path.is_file():
+        return read_json(file_path)
 
     endpoint_url = "https://query.wikidata.org/sparql"
 
-    query = """SELECT ?item ?iso WHERE {
-        VALUES ?item { WD_ID_STR_TEMPLATE }
-        ?item wdt:P300 ?iso.
-    }""".replace(
-        'WD_ID_STR_TEMPLATE', wd_ids_str
-    )
+    query = """SELECT ?region ?iso1 ?iso2 ?osm WHERE {
+      ?region wdt:P300 ?iso2;
+        wdt:P402 ?osm.
+    }"""
 
     results = get_results(endpoint_url, query)
 
-    data = {}
+    osm_iso2_map = {}
 
     for result in results["results"]["bindings"]:
-        qid = result['item']['value'].split('/')[-1]
-        iso = result['iso']['value']
-        data[qid] = iso
+        iso2 = result['iso2']['value']
+        osm = int(result['osm']['value'])
 
-    return data
+        osm_iso2_map[osm] = iso2
+
+    write_json(file_path, osm_iso2_map, indent=2)
+    return osm_iso2_map
+
+
+def get_osm_wd_map():
+    file_path = wikidata_dir / 'osm_wd_map.json'
+    if file_path.is_file():
+        return read_json(file_path)
+
+    endpoint_url = "https://query.wikidata.org/sparql"
+
+    query = """SELECT ?region ?osm WHERE {
+          ?region wdt:P297 ?iso1;
+            wdt:P402 ?osm.
+        }"""
+
+    iso1_results = get_results(endpoint_url, query)
+
+    query = """SELECT ?region ?osm WHERE {
+              ?region wdt:P300 ?iso2;
+                wdt:P402 ?osm.
+            }"""
+
+    iso2_results = get_results(endpoint_url, query)
+
+    osm_wd_map = {}
+
+    for result in iso1_results["results"]["bindings"] + iso2_results["results"]["bindings"]:
+        osm = int(result['osm']['value'])
+        wd_id = result['region']['value'].split('/')[-1]
+
+        osm_wd_map[osm] = wd_id
+
+    write_json(file_path, osm_wd_map, indent=2)
+    return osm_wd_map

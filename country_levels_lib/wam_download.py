@@ -8,15 +8,25 @@ from country_levels_lib.config import data_dir, tmp_dir, geojson_dir
 from country_levels_lib.utils import write_json, read_json
 
 wam_data_dir = data_dir / 'wam'
+wam_geojson_download_dir = geojson_dir / 'wam' / 'download'
 
 
 def download_all_regions():
     config = read_json(wam_data_dir / 'config_empty.json')
     for country_code, country_data in config.items():
         print(country_data['name'])
-        downloaded = download_country(country_code, 0, 8)
+
+        if country_code == 'USA':
+            continue
+
+        downloaded = download_country(country_code, 2, 8)
         if downloaded:
             time.sleep(10)
+
+    download_country('USA', 2, 6)
+    # needs manual downloading because USA is too big
+    # download_country('USA', 7, 7, merge=True)
+    # download_country('USA', 8, 8, merge=True)
 
 
 def write_empty_config():
@@ -65,11 +75,11 @@ def get_tree(id):
     return response.json()
 
 
-def download_country(country_code, level_min=2, level_max=8, overwrite=False):
+def download_country(country_code, level_min=2, level_max=8, overwrite=False, merge=False):
     print(f'  Downloading {country_code} {level_min}-{level_max}')
 
-    geojson_subdir = geojson_dir / 'wam' / country_code
-    if geojson_subdir.is_dir():
+    geojson_subdir = wam_geojson_download_dir / country_code
+    if geojson_subdir.is_dir() and not (overwrite or merge):
         print('    skipping')
         return False
 
@@ -99,8 +109,8 @@ def download_country(country_code, level_min=2, level_max=8, overwrite=False):
         for block in response.iter_content(1024):
             outfile.write(block)
 
-    geojson_subdir = geojson_dir / 'wam' / country_code
-    shutil.rmtree(geojson_subdir, ignore_errors=True)
+    if not merge:
+        shutil.rmtree(geojson_subdir, ignore_errors=True)
     geojson_subdir.mkdir(parents=True, exist_ok=True)
 
     cmd = ['7z', 'x', f'-o{geojson_subdir}', str(zip_file_path)]

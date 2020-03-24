@@ -2,7 +2,8 @@ import time
 
 from country_levels_lib.config import wikidata_dir
 from country_levels_lib.utils import split_to_chunks, write_json
-from country_levels_lib.wikidata_utils import get_all_ids, make_wd_ids_str, get_results
+from country_levels_lib.wikidata_utils import make_wd_ids_str, get_results
+from country_levels_lib.wikidata_ne import get_all_ids
 
 
 def get_population():

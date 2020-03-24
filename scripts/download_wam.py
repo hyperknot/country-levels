@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from country_levels_lib.wam import download_all_regions
+from country_levels_lib.wam_download import download_all_regions
 
 
 def main():
