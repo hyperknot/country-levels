@@ -3,23 +3,18 @@ set -e
 cd "${BASH_SOURCE%/*}/" || exit
 
 cd ..
+
 GEOJSON=data/geojson/gadm
 TOPOJSON=data/topojson/gadm
 
 rm -rf $TOPOJSON
 mkdir -p $TOPOJSON
 
-node --max-old-space-size=20000 node_modules/.bin/geo2topo \
-    --quantization 1e6 \
-    g0=$GEOJSON/g0.geojson \
-    g1=$GEOJSON/g1.geojson \
-    -o $TOPOJSON/topo01.json
-
-for i in 2 3 4 5
+for i in 0 1 2 3 4 5
 do
   node --max-old-space-size=20000 node_modules/.bin/geo2topo \
-    --quantization 1e6 \
-    g0=$GEOJSON/g$i.geojson \
+    --quantization 1e8 \
+    g=$GEOJSON/g$i.geojson \
     -o $TOPOJSON/topo$i.json
 done
 

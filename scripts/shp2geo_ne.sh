@@ -3,14 +3,18 @@ set -e
 cd "${BASH_SOURCE%/*}/" || exit
 
 cd ..
-rm -rf data/geojson
-mkdir data/geojson
+
+SHP=data/shp/ne
+GEOJSON=data/geojson/ne
+
+rm -rf $GEOJSON
+mkdir -p $GEOJSON
 
 yarn
 
-yarn shp2json data/shp/countries/*.shp -o data/geojson/countries.geojson --encoding utf8
-yarn shp2json data/shp/units/*.shp -o data/geojson/units.geojson --encoding utf8
-yarn shp2json data/shp/subunits/*.shp -o data/geojson/subunits.geojson --encoding utf8
-yarn shp2json data/shp/states/*.shp -o data/geojson/states.geojson --encoding utf8
+yarn shp2json $SHP/countries/*.shp -o $GEOJSON/countries.geojson --encoding utf8
+yarn shp2json $SHP/units/*.shp -o $GEOJSON/units.geojson --encoding utf8
+yarn shp2json $SHP/subunits/*.shp -o $GEOJSON/subunits.geojson --encoding utf8
+yarn shp2json $SHP/states/*.shp -o $GEOJSON/states.geojson --encoding utf8
 
-rm -r data/shp
+rm -r $SHP
