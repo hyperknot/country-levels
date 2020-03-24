@@ -10,7 +10,7 @@ TOPOJSON=data/topojson/cosm
 rm -rf $TOPOJSON
 mkdir -p $TOPOJSON
 
-rm $GEOJSON/*.geojson
+rm -f $GEOJSON/*.geojson
 
 yarn geo2topo -n \
   --quantization 1e8 \
@@ -19,12 +19,12 @@ yarn geo2topo -n \
 
 for i in 5 7 8
 do
-  yarn toposimplify -s 1e-$i -o $TOPOJSON/simp-$i.json $TOPOJSON/topo.json
-  yarn topo2geo -i $TOPOJSON/simp-$i.json \
+  node --max-old-space-size=20000 node_modules/.bin/toposimplify -s 1e-$i -o $TOPOJSON/simp-$i.json $TOPOJSON/topo.json
+  node --max-old-space-size=20000 node_modules/.bin/topo2geo -i $TOPOJSON/simp-$i.json \
     cosm=$GEOJSON/cosm-$i.geojson \
 
-  yarn geojson-precision -p 3 $GEOJSON/cosm-$i.geojson $GEOJSON/cosm-$i.geojson
-  yarn geojson-precision -p 4 $GEOJSON/cosm-$i.geojson $GEOJSON/cosm-$i.geojson
+  node --max-old-space-size=20000 node_modules/.bin/geojson-precision -p 3 $GEOJSON/cosm-$i.geojson $GEOJSON/cosm-$i.geojson
+  node --max-old-space-size=20000 node_modules/.bin/geojson-precision -p 4 $GEOJSON/cosm-$i.geojson $GEOJSON/cosm-$i.geojson
 done
 
 
