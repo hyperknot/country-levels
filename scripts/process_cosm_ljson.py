@@ -1,30 +1,36 @@
 #!/usr/bin/env python3
+
 import itertools
 import json
-from pprint import pprint
-
-import geojson
 
 from country_levels_lib.config import geojson_dir
 
 
 def main():
-    infile = open(geojson_dir / 'cosm' / 'cosm.jsonl')
+    jsonl_path = geojson_dir / 'cosm' / 'cosm.jsonl'
+    infile = open(jsonl_path)
     outfile = open(geojson_dir / 'cosm' / 'cosm.ndjson', 'w')
 
-    for i, line in enumerate(itertools.islice(infile, None, 5)):
+    for i, line in enumerate(itertools.islice(infile, None, None)):
         print(f'Processing line #{i}')
         feature = get_feature(line)
-        line_geojson = geojson.dumps(feature, ensure_ascii=False)
+        line_geojson = json.dumps(feature, ensure_ascii=False)
         outfile.write(line_geojson + '\n')
+
+    infile.close()
+    outfile.close()
+    jsonl_path.unlink()
 
 
 def get_feature(line):
     prop = json.loads(line)
     geom = prop.pop('geometry')
 
-    feature = geojson.Feature(geometry=geom, properties=prop)
-    assert feature.is_valid
+    feature = {"type": "Feature", "geometry": geom, "properties": prop}
+
+    # too slow
+    # feature = geojson.Feature(geometry={}, properties={})
+    # assert feature.is_valid
 
     return feature
 
