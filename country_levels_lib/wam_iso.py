@@ -22,7 +22,7 @@ def collect_iso():
     osm_iso2_map = get_osm_iso2_map()
     osm_wd_map = get_osm_wd_map()
 
-    geojson_files = (wam_geojson_download_dir / 'FRA').glob(
+    geojson_files = (wam_geojson_download_dir / 'HUN').glob(
         '**/*.GeoJson'
     )  # strange capitalization inside zips
 
@@ -42,6 +42,9 @@ def collect_iso():
 
 
 def add_iso(features: list, found_iso1_file, found_iso2_file):
+    count1 = 0
+    count2 = 0
+
     for feature in features:
         prop = feature['properties']
         alltags = prop['alltags']
@@ -60,7 +63,7 @@ def add_iso(features: list, found_iso1_file, found_iso2_file):
 
         if wd_id_from_wd and wd_id_from_osm and wd_id_from_wd != wd_id_from_osm:
             print(
-                f'  wd_id mismatch: name: {name} osm_id: {osm_id} wd: {wd_id_from_wd} osm: {wd_id_from_osm}'
+                f'\n  wd_id mismatch: name: {name} osm_id: {osm_id} wd: {wd_id_from_wd} osm: {wd_id_from_osm}\n'
             )
 
         if iso1_from_wd or iso1_from_osm:
@@ -69,7 +72,9 @@ def add_iso(features: list, found_iso1_file, found_iso2_file):
             iso1 = iso1_from_osm
             if iso1_from_wd != iso1_from_osm:
                 if iso1_from_wd and iso1_from_osm:
-                    print('iso1 mismatch', iso1_from_wd, iso1_from_osm, name, osm_id, iso1)
+                    print(
+                        f'  iso1 mismatch: name: {name} osm_id: {osm_id} iso1_from_osm: {iso1_from_osm} iso1_from_wd: {iso1_from_wd}'
+                    )
 
                 if iso1_from_wd:
                     iso1 = iso1_from_wd
@@ -78,16 +83,20 @@ def add_iso(features: list, found_iso1_file, found_iso2_file):
 
             geojson_str = json.dumps(feature, ensure_ascii=False, allow_nan=False)
             found_iso1_file.write(geojson_str + '\n')
+            count1 += 1
 
         #
         #
         if iso2_from_wd or iso2_from_osm:
+
             # if any of the sources has ISO2, use that
             # many examples in FRA, including FX which is only found in Wikidata
             iso2 = iso2_from_osm
             if iso2_from_wd != iso2_from_osm:
                 if iso2_from_wd and iso2_from_osm:
-                    print('iso2 mismatch', iso2_from_wd, iso2_from_osm, name, osm_id, iso2)
+                    print(
+                        f'  iso1 mismatch: name: {name} osm_id: {osm_id} iso1_from_osm: {iso1_from_osm} iso1_from_wd: {iso1_from_wd}'
+                    )
 
                 if iso2_from_wd:
                     iso2 = iso2_from_wd
@@ -96,3 +105,7 @@ def add_iso(features: list, found_iso1_file, found_iso2_file):
 
             geojson_str = json.dumps(feature, ensure_ascii=False, allow_nan=False)
             found_iso2_file.write(geojson_str + '\n')
+            count2 += 1
+
+    if count1 or count2:
+        print(f'  iso1 collected: {count1}, iso2 collected: {count2}')
