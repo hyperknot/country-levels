@@ -7,13 +7,13 @@ cd "${BASH_SOURCE%/*}/" || exit
 
 cd scripts
 
-./download.sh
-./shp2geo.sh
-./topo_simplify.sh
+./download_wam.sh
+./collect_iso_wam.sh
+./topo_simplify_wam.sh
 
 # ./wikidata_iso.py
 # ./wikidata_population.py
 
-./create_ids.py
-./export_geojsons.py
-./generate_docs.py
+# ./create_ids.py
+# ./export_geojsons.py
+# ./generate_docs.py

@@ -12,9 +12,10 @@ mkdir -p $TOPOJSON
 
 rm -f $GEOJSON/*.geojson
 
-node --max-old-space-size=20000 node_modules/.bin/geo2topo \
+node --max-old-space-size=40000 node_modules/.bin/geo2topo \
   -n --quantization 1e8 \
   iso1=$GEOJSON/iso1.ndjson \
+  iso2=$GEOJSON/iso2.ndjson \
   -o $TOPOJSON/topo.json
 
 # for i in 7
