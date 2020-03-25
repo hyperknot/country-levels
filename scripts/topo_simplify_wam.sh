@@ -4,31 +4,33 @@ cd "${BASH_SOURCE%/*}/" || exit
 
 cd ..
 
-GEOJSON=data/geojson/wam/collected
+GEOJSON_COLLECTED=data/geojson/wam/collected
+GEOJSON_SIMP=data/geojson/wam/simp
 TOPOJSON=data/topojson/wam
 
-rm -rf $TOPOJSON
-mkdir -p $TOPOJSON
+rm -rf $TOPOJSON $GEOJSON_SIMP
+mkdir -p $TOPOJSON $GEOJSON_SIMP
 
-rm -f $GEOJSON/*.geojson
+for l in 1 2
+do
+  node --max-old-space-size=40000 node_modules/.bin/geo2topo \
+    -n --quantization 1e8 \
+    iso$l=$GEOJSON_COLLECTED/iso$l.ndjson \
+    -o $TOPOJSON/topo$l.json
 
-node --max-old-space-size=40000 node_modules/.bin/geo2topo \
-  -n --quantization 1e8 \
-  iso1=$GEOJSON/iso1.ndjson \
-  iso2=$GEOJSON/iso2.ndjson \
-  -o $TOPOJSON/topo.json
+  for i in 5 7 8
+  do
+    node --max-old-space-size=40000 node_modules/.bin/toposimplify \
+      -s 1e-$i -o $TOPOJSON/simp-$i.json $TOPOJSON/topo$l.json
 
-# for i in 7
-# do
-#   node --max-old-space-size=20000 node_modules/.bin/toposimplify \
-#     -s 1e-$i -o $TOPOJSON/simp-$i.json $TOPOJSON/topo.json
+    node --max-old-space-size=40000 node_modules/.bin/topo2geo \
+      -i $TOPOJSON/simp-$i.json \
+      iso$l=$GEOJSON_SIMP/iso$l-$i.geojson
 
-#   node --max-old-space-size=20000 node_modules/.bin/topo2geo \
-#     -i $TOPOJSON/simp-$i.json cosm=$GEOJSON/$zone_type-$i.geojson
-
-#   node --max-old-space-size=20000 node_modules/.bin/geojson-precision \
-#     -p 3 $GEOJSON/$zone_type-$i.geojson $GEOJSON/$zone_type-$i.geojson
-# done
+    node --max-old-space-size=40000 node_modules/.bin/geojson-precision \
+      -p 3 $GEOJSON_SIMP/iso$l-$i.geojson $GEOJSON_SIMP/iso$l-$i.geojson
+  done
+done
 
 # rm -rf $TOPOJSON
 
