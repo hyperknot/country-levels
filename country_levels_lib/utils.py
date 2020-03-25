@@ -36,3 +36,7 @@ def osm_url(id_):
 
 def wd_url(id_):
     return f'https://www.wikidata.org/wiki/{id_}'
+
+
+def wikipedia_url(id_):
+    return f'http://en.wikipedia.org/wiki/{id_}'
