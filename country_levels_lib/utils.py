@@ -1,5 +1,6 @@
 import json
 import pathlib
+import urllib.parse
 
 
 def read_json(file_path: pathlib.Path):
@@ -39,4 +40,5 @@ def wikidata_url(id_):
 
 
 def wikipedia_url(id_):
-    return f'http://en.wikipedia.org/wiki/{id_}'
+    url = f'http://en.wikipedia.org/wiki/{id_}'
+    return urllib.parse.quote(url)
