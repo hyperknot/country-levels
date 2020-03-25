@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-from country_levels_lib.wam_process import processs_simplified_wam
+from country_levels_lib.wam_process import process_geojson_wam
 
 
 def main():
-    processs_simplified_wam()
+    process_geojson_wam()
 
 
 if __name__ == "__main__":

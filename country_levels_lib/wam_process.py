@@ -8,7 +8,7 @@ from country_levels_lib.wam_iso import validate_iso1, validate_iso2
 wam_geojson_simp_dir = geojson_dir / 'wam' / 'simp'
 
 
-def processs_simplified_wam():
+def process_geojson_wam():
     shutil.rmtree(export_dir / 'iso1', ignore_errors=True)
     shutil.rmtree(export_dir / 'iso2', ignore_errors=True)
 
