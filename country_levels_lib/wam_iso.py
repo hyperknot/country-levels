@@ -22,7 +22,7 @@ def collect_iso():
     osm_iso2_map = get_osm_iso2_map()
     osm_wd_map = get_osm_wd_map()
 
-    geojson_files = (wam_geojson_download_dir / 'HUN').glob(
+    geojson_files = (wam_geojson_download_dir).glob(
         '**/*.GeoJson'
     )  # strange capitalization inside zips
 
@@ -30,11 +30,15 @@ def collect_iso():
     iso1_found = open(iso1_found_path, 'w')
     iso2_found = open(iso2_found_path, 'w')
 
-    geojson_files_sorted = sorted(geojson_files, key=lambda p: p.stat().st_size, reverse=True)
+    geojson_files_sorted = sorted(geojson_files, key=lambda p: p.stem, reverse=False)
 
-    for f in itertools.islice(geojson_files_sorted, None, 10):
+    for f in itertools.islice(geojson_files_sorted, None, None):
         print(f.stem)
-        features = read_json(f)['features']
+        try:
+            features = read_json(f)['features']
+        except json.decoder.JSONDecodeError as e:
+            print(f'  Error reading {f.stem} {e}')
+            continue
         add_iso(features, iso1_found, iso2_found)
 
     iso1_found.close()
