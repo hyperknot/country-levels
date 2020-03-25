@@ -7,8 +7,8 @@ from country_levels_lib.wam_download import wam_geojson_download_dir
 from country_levels_lib.wikidata_iso import get_osm_iso1_map, get_osm_wd_map, get_osm_iso2_map
 
 collected_dir = geojson_dir / 'wam' / 'collected'
-iso1_found_path = collected_dir / 'iso1_found.ndjson'
-iso2_found_path = collected_dir / 'iso2_found.ndjson'
+iso1_found_path = collected_dir / 'iso1.ndjson'
+iso2_found_path = collected_dir / 'iso2.ndjson'
 
 osm_iso1_map = {}
 osm_iso2_map = {}
@@ -67,7 +67,7 @@ def add_iso(features: list, found_iso1_file, found_iso2_file):
 
         if wd_id_from_wd and wd_id_from_osm and wd_id_from_wd != wd_id_from_osm:
             print(
-                f'\n  wd_id mismatch: name: {name} osm_id: {osm_id} wd: {wd_id_from_wd} osm: {wd_id_from_osm}\n'
+                f'  wd_id mismatch: name: {name} osm_id: {osm_id} wd: {wd_id_from_wd} osm: {wd_id_from_osm}\n'
             )
 
         if iso1_from_wd or iso1_from_osm:
