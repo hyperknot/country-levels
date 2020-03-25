@@ -1,14 +1,10 @@
 import time
 
-from country_levels_lib.config import wikidata_dir
-from country_levels_lib.utils import split_to_chunks, write_json
+from country_levels_lib.utils import split_to_chunks
 from country_levels_lib.wikidata_utils import make_wd_ids_str, get_results
-from country_levels_lib.wikidata_ne import get_all_ids
 
 
-def get_population():
-    all_ids = get_all_ids()
-
+def get_population(all_ids):
     simple_data = dict()
     latest_data = dict()
 
@@ -26,9 +22,7 @@ def get_population():
         time.sleep(5)
 
     mix_data = dict(simple_data, **latest_data)
-
-    wikidata_dir.mkdir(exist_ok=True, parents=True)
-    write_json(wikidata_dir / 'population.json', mix_data, indent=2, sort_keys=True)
+    return mix_data
 
 
 def run_query_simple(qids: list):
