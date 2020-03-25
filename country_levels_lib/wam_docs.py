@@ -8,7 +8,7 @@ def generate_iso1_list():
     doc_md = (
         '# ISO 3166-1 list\n'
         'Name | ISO code | GeoJSON | ISO 2 | OSM | Wikidata | Wikipedia | Country Level ID | population\n'
-        '--- | \n'
+        '--- | --- | --- | --- | --- | --- | --- | --- | --- \n'
     )
 
     for feature in iso1_json.values():
