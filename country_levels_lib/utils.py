@@ -34,7 +34,7 @@ def osm_url(id_):
     return f'https://www.openstreetmap.org/relation/{id_}'
 
 
-def wd_url(id_):
+def wikidata_url(id_):
     return f'https://www.wikidata.org/wiki/{id_}'
 
 
