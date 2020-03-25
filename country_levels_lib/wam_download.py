@@ -12,7 +12,7 @@ wam_geojson_download_dir = geojson_dir / 'wam' / 'download'
 
 
 def download_all_regions():
-    config = read_json(wam_data_dir / 'config_empty.json')
+    config = read_json(wam_data_dir / 'config.json')
     for country_code, country_data in config.items():
         print(country_data['name'])
 
@@ -29,21 +29,17 @@ def download_all_regions():
     # download_country('USA', 8, 8, merge=True)
 
 
-def write_empty_config():
-    # file_path = wam_data_dir / 'codes.json'
-    # if file_path.is_file():
-    #     return read_json(file_path)
-
+def write_config():
     countries = get_tree(0)
 
     codes = {}
     for c in countries:
         code = c['a_attr']['title'][:3]
         name = c['text'].split('(')[0].strip()
-        codes[code] = {'name': name, 'levels': [2]}
+        codes[code] = {'name': name}
 
     wam_data_dir.mkdir(parents=True, exist_ok=True)
-    write_json(wam_data_dir / 'config_empty.json', codes, indent=2, sort_keys=True)
+    write_json(wam_data_dir / 'config.json', codes, indent=2, sort_keys=True)
 
 
 def get_tree(id):
