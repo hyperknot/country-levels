@@ -11,7 +11,7 @@ def generate_iso1_list():
         '--- | --- | --- | --- | --- | --- | --- | --- \n'
     )
 
-    for feature in iso1_json.values():
+    for feature in sorted(iso1_json.values(), key=lambda k: k['name']):
         name = feature['name']
         iso1 = feature['iso1']
         osm_id = feature['osm_id']
