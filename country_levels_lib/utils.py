@@ -28,3 +28,11 @@ def split_to_chunks(lst, n):
     """Yield successive n-sized chunks from lst."""
     for i in range(0, len(lst), n):
         yield lst[i : i + n]
+
+
+def osm_url(id_):
+    return f'https://www.openstreetmap.org/relation/{id_}'
+
+
+def wd_url(id_):
+    return f'https://www.wikidata.org/wiki/{id_}'

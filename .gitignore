@@ -10,3 +10,5 @@ __pycache__/
 /data/geojson
 /data/tmp
 /data/topojson
+
+/export
