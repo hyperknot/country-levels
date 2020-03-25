@@ -99,7 +99,7 @@ def add_iso(features: list, found_iso1_file, found_iso2_file):
             if iso2_from_wd != iso2_from_osm:
                 if iso2_from_wd and iso2_from_osm:
                     print(
-                        f'  iso1 mismatch: name: {name} osm_id: {osm_id} iso1_from_osm: {iso1_from_osm} iso1_from_wd: {iso1_from_wd}'
+                        f'  iso2 mismatch: name: {name} osm_id: {osm_id} iso2_from_osm: {iso2_from_osm} iso2_from_wd: {iso2_from_wd}'
                     )
 
                 if iso2_from_wd:
