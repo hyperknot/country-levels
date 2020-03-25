@@ -40,5 +40,5 @@ def wikidata_url(id_):
 
 
 def wikipedia_url(id_):
-    url = f'http://en.wikipedia.org/wiki/{id_}'
-    return urllib.parse.quote(url)
+    id_quoted = urllib.parse.quote(id_)
+    return f'http://en.wikipedia.org/wiki/{id_quoted}'
