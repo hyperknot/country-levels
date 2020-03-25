@@ -8,7 +8,7 @@ GEOJSON_COLLECTED=data/geojson/wam/collected
 GEOJSON_SIMP=data/geojson/wam/simp
 TOPOJSON=data/topojson/wam
 
-rm -rf $TOPOJSON $GEOJSON_SIMP
+# rm -rf $TOPOJSON $GEOJSON_SIMP
 mkdir -p $TOPOJSON $GEOJSON_SIMP
 
 for l in 1 2
@@ -18,7 +18,7 @@ do
     iso$l=$GEOJSON_COLLECTED/iso$l.ndjson \
     -o $TOPOJSON/topo$l.json
 
-  for i in 5 7 8
+  for i in 7
   do
     node --max-old-space-size=40000 node_modules/.bin/toposimplify \
       -s 1e-$i -o $TOPOJSON/simp-$i.json $TOPOJSON/topo$l.json
