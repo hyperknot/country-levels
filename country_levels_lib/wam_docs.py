@@ -13,7 +13,7 @@ def generate_iso1_list():
     doc_md = (
         '# ISO 3166-1 list\n'
         'Name | ISO1 | ISO2 | GeoJSON | OSM | Wikidata | Wikipedia | population \n'
-        '--- | --- | --- | --- | --- | --- | --- | --- \n'
+        '--- | --- | --- | --- | --- | --- | --- | --: \n'
     )
 
     for item in sorted(iso1_json.values(), key=lambda k: k['name']):
@@ -65,7 +65,7 @@ def generate_iso2_list_country(iso1):
         doc_md += f'\n\n#### Level {level}\n'
         doc_md += (
             'Name | ISO2 | GeoJSON | OSM | Wikidata | Wikipedia | population \n'
-            '--- | --- | --- | --- | --- | --- | --- \n'
+            '--- | --- | --- | --- | --- | --- | --: \n'
         )
 
         for item in sorted(level_items, key=lambda k: k['name']):
