@@ -1,7 +1,7 @@
 import csv
 
 from country_levels_lib.config import data_dir, geojson_dir
-from country_levels_lib.utils import read_json
+from country_levels_lib.utils import read_json, write_json
 
 fips_data_dir = data_dir / 'fips'
 fips_csv = fips_data_dir / 'fips.csv'
@@ -78,6 +78,8 @@ def process_fips():
     print(len(features))
 
     counties_by_str = get_county_codes()[1]
+
+    write_json(data_dir / 'out.json', counties_by_str, indent=2, sort_keys=True)
     print(len(counties_by_str))
 
     states_by_code = get_state_codes()[0]

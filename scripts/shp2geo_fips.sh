@@ -4,8 +4,8 @@ cd "${BASH_SOURCE%/*}/" || exit
 
 cd ..
 
-SHP=data/shp/census
-GEOJSON=data/geojson/census
+SHP=data/shp/fips
+GEOJSON=data/geojson/fips
 
 rm -rf $GEOJSON
 mkdir -p $GEOJSON
