@@ -2,21 +2,16 @@ import csv
 
 from country_levels_lib.config import data_dir, geojson_dir
 from country_levels_lib.utils import read_json
-from country_levels_lib.wam_download import wam_geojson_download_dir
 
 fips_data_dir = data_dir / 'fips'
-census_csv = fips_data_dir / 'census.csv'
-census_geojson_dir = geojson_dir / 'census'
-
-
-def collect_fips():
-    collect_from_osm()
+fips_csv = fips_data_dir / 'fips.csv'
+fips_geojson_dir = geojson_dir / 'fips'
 
 
 def get_census_dicts():
     rows = list()
 
-    with open(census_csv, newline='') as csvfile:
+    with open(fips_csv, newline='') as csvfile:
         reader = csv.DictReader(
             csvfile,
             fieldnames=[
@@ -78,8 +73,8 @@ def get_county_codes():
     return counties_by_int, counties_by_str
 
 
-def collect_from_osm():
-    features = read_json(census_geojson_dir / 'counties_20m.geojson')['features']
+def process_fips():
+    features = read_json(fips_geojson_dir / 'counties_20m.geojson')['features']
     print(len(features))
 
     counties_by_str = get_county_codes()[1]
@@ -97,5 +92,11 @@ def collect_from_osm():
             continue
 
         name_from_fips = counties_by_str[full_code_str]['name']
+        countrylevel_id = f'fips:{full_code_str}'
 
-        new_prop = {'name': '1'}
+        data = {
+            'name': name_from_fips,
+            'countrylevel_id': countrylevel_id,
+            'fips': full_code_str,
+            # 'population': population,
+        }
