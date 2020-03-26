@@ -1,5 +1,4 @@
 import shutil
-from pprint import pprint
 
 from country_levels_lib.config import export_dir, docs_dir
 from country_levels_lib.utils import read_json, write_file, osm_url, wikidata_url, wikipedia_url
@@ -51,7 +50,7 @@ def generate_iso2_list_country(iso1):
     doc_md = f'# ISO 3166-2 list: {iso1.upper()}\n'
 
     iso2_by_level = {}
-    for item in iso2_filtered:
+    for item in sorted(iso2_filtered, key=lambda k: k['admin_level']):
         level = item['admin_level']
         iso2_by_level.setdefault(level, [])
         iso2_by_level[level].append(item)
