@@ -30,7 +30,7 @@ def generate_iso1_list():
         doc_md += (
             f'{data["name"]} | {iso1} | {iso_2_link} | {geojson_link} | '
             f'{data["osm_link"]} | {data["wikidata_link"]} | '
-            f'{data["wikipedia_link"]} | {data["population"]}'
+            f'{data["wikipedia_link"]} | {data["population_str"]}'
             f'\n'
         )
 
@@ -77,7 +77,7 @@ def generate_iso2_list_country(iso1):
             doc_md += (
                 f'{data["name"]} | {iso2} | {geojson_link} | '
                 f'{data["osm_link"]} | {data["wikidata_link"]} | '
-                f'{data["wikipedia_link"]} | {data["population"]}'
+                f'{data["wikipedia_link"]} | {data["population_str"]}'
                 f'\n'
             )
 
@@ -88,7 +88,7 @@ def build_row_data(item):
     name = item['name']
     osm_id = item['osm_id']
     countrylevel_id = item['countrylevel_id']
-    population = item.get('population') or ''
+    population = item['population']
 
     wikidata_id = item.get('wikidata_id')
     wikipedia_id = item.get('wikipedia_id')
@@ -103,11 +103,15 @@ def build_row_data(item):
     if wikipedia_id:
         wikipedia_link = f'[Wikipedia]({wikipedia_url(wikipedia_id)})'
 
+    population_str = ''
+    if population:
+        population_str = f'{population:,}'
+
     return {
         'name': name,
         'osm_link': osm_link,
         'countrylevel_id': countrylevel_id,
-        'population': population,
+        'population_str': population_str,
         'wikidata_link': wikidata_link,
         'wikipedia_link': wikipedia_link,
     }
