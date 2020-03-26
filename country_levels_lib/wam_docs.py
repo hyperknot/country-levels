@@ -10,7 +10,7 @@ def generate_iso1_list():
 
     doc_md = (
         '# ISO 3166-1 list\n'
-        'Name | ISO code | GeoJSON | ISO-2 | OSM | Wikidata | Wikipedia | population \n'
+        'Name | ISO code | GeoJSON | ISO2 | OSM | Wikidata | Wikipedia | population \n'
         '--- | --- | --- | --- | --- | --- | --- | --- \n'
     )
 
@@ -20,7 +20,7 @@ def generate_iso1_list():
         iso1 = item['iso1']
         geojson_link = f'[GeoJSON](../export/geojson/q7/iso1/{iso1.upper()}.geojson)'
 
-        iso_2_link = f'[ISO-2](iso2_list/{iso1.upper()}.md)'
+        iso_2_link = f'[ISO2](iso2_list/{iso1.upper()}.md)'
 
         doc_md += (
             f'{data["name"]} | {iso1} | {geojson_link} | {iso_2_link} | '
