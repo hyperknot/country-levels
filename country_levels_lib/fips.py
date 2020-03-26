@@ -79,8 +79,23 @@ def get_county_codes():
 
 
 def collect_from_osm():
-    features = read_json(census_geojson_dir / 'counties_500k.geojson')['features']
+    features = read_json(census_geojson_dir / 'counties_20m.geojson')['features']
     print(len(features))
 
-    counties_by_int = get_county_codes()[0]
-    print(len(counties_by_int))
+    counties_by_str = get_county_codes()[1]
+    print(len(counties_by_str))
+
+    states_by_code = get_state_codes()[0]
+
+    for feature in features:
+        prop = feature['properties']
+        full_code_str = prop['GEOID']
+        state_code = int(prop['STATEFP'])
+
+        # skip minor islands without state code found in 500k dataset
+        if state_code not in states_by_code:
+            continue
+
+        name_from_fips = counties_by_str[full_code_str]['name']
+
+        new_prop = {'name': '1'}
