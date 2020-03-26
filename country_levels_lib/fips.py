@@ -1,11 +1,12 @@
 import csv
 
-from country_levels_lib.config import data_dir
+from country_levels_lib.config import data_dir, geojson_dir
 from country_levels_lib.utils import read_json
 from country_levels_lib.wam_download import wam_geojson_download_dir
 
 fips_data_dir = data_dir / 'fips'
 census_csv = fips_data_dir / 'census.csv'
+census_geojson_dir = geojson_dir / 'census'
 
 
 def collect_fips():
@@ -78,7 +79,7 @@ def get_county_codes():
 
 
 def collect_from_osm():
-    features = read_json(wam_geojson_download_dir / 'USA' / 'United States_AL6.GeoJson')['features']
+    features = read_json(census_geojson_dir / 'counties_500k.geojson')['features']
     print(len(features))
 
     counties_by_int = get_county_codes()[0]
