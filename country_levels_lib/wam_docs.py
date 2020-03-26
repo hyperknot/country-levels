@@ -7,6 +7,9 @@ from country_levels_lib.utils import read_json, write_file, osm_url, wikidata_ur
 def generate_iso1_list():
     iso1_json = read_json(export_dir / 'iso1.json')
 
+    iso2_json = read_json(export_dir / 'iso2.json')
+    iso2_country_codes = {i.split('-')[0] for i in iso2_json}
+
     doc_md = (
         '# ISO 3166-1 list\n'
         'Name | ISO1 | ISO2 | GeoJSON | OSM | Wikidata | Wikipedia | population \n'
@@ -17,9 +20,12 @@ def generate_iso1_list():
         data = build_row_data(item)
 
         iso1 = item['iso1']
-        geojson_link = f'[GeoJSON](../export/geojson/q7/iso1/{iso1.upper()}.geojson)'
+        geojson_link = f'[GeoJSON](../export/geojson/q7/iso1/{iso1}.geojson)'
 
-        iso_2_link = f'[ISO2](iso2_list/{iso1.upper()}.md)'
+        if iso1 in iso2_country_codes:
+            iso_2_link = f'[ISO2](iso2_list/{iso1}.md)'
+        else:
+            iso_2_link = ''
 
         doc_md += (
             f'{data["name"]} | {iso1} | {iso_2_link} | {geojson_link} | '
@@ -47,7 +53,7 @@ def generate_iso2_list_country(iso1):
     iso2_json = read_json(export_dir / 'iso2.json')
     iso2_filtered = [i for i in iso2_json.values() if i['iso2'].split('-')[0] == iso1]
 
-    doc_md = f'# ISO 3166-2 list: {iso1.upper()}\n'
+    doc_md = f'# ISO 3166-2 list: {iso1}\n'
 
     iso2_by_level = {}
     for item in sorted(iso2_filtered, key=lambda k: k['admin_level']):
@@ -66,9 +72,7 @@ def generate_iso2_list_country(iso1):
             data = build_row_data(item)
 
             iso2 = item['iso2']
-            geojson_link = (
-                f'[GeoJSON](../../export/geojson/q7/iso2/{iso1.upper()}/{iso2.upper()}.geojson)'
-            )
+            geojson_link = f'[GeoJSON](../../export/geojson/q7/iso2/{iso1}/{iso2}.geojson)'
 
             doc_md += (
                 f'{data["name"]} | {iso2} | {geojson_link} | '
@@ -77,7 +81,7 @@ def generate_iso2_list_country(iso1):
                 f'\n'
             )
 
-    write_file(docs_dir / 'iso2_list' / f'{iso1.upper()}.md', doc_md)
+    write_file(docs_dir / 'iso2_list' / f'{iso1}.md', doc_md)
 
 
 def build_row_data(item):
