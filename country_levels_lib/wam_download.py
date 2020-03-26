@@ -21,7 +21,7 @@ def download_all_regions():
 
         downloaded = download_country(country_code, 2, 8)
         if downloaded:
-            time.sleep(10)
+            time.sleep(60)
 
     download_country('USA', 2, 6)
     # needs manual downloading because USA is too big
