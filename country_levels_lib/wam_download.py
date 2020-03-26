@@ -81,7 +81,7 @@ def download_country(country_code, level_min=2, level_max=8, overwrite=False, me
 
     params = (
         ('cliVersion', '1.0'),
-        ('cliKey', '38acad66-1a9b-4dd3-9a9f-9b5883f3c295'),
+        ('cliKey', '__CLI__KEY__'),
         ('exportFormat', 'json'),
         ('exportLayout', 'levels'),
         ('exportAreas', 'land'),
