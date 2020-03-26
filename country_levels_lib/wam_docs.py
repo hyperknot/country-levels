@@ -23,7 +23,7 @@ def generate_iso1_list():
 
         osm_link = f'[OSM]({osm_url(osm_id)})'
 
-        geojson_link = f'[GeoJSON](../../export/geojson/q7/iso1/{iso1.upper()}.geojson)'
+        geojson_link = f'[GeoJSON](../export/geojson/q7/iso1/{iso1.upper()}.geojson)'
 
         wikidata_link = ''
         if wikidata_id:
