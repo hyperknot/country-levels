@@ -8,7 +8,7 @@ census_csv = fips_data_dir / 'census.csv'
 
 
 def collect_fips():
-    state_codes = get_state_codes()
+    get_county_codes()
 
 
 def get_census_dicts():
@@ -47,3 +47,19 @@ def get_state_codes():
             states_by_name[name] = state_code
 
     return states_by_code, states_by_name
+
+
+def get_county_codes():
+    dicts = get_census_dicts()
+
+    counties_by_code = {}
+    for data in dicts:
+        if data['summary_level'] == '050':
+            state_code = int(data['state_code'])
+            county_code = int(data['county_code'])
+            full_code = state_code * 1000 + county_code
+            name = data['name']
+
+            counties_by_code[full_code] = name
+
+    return counties_by_code
