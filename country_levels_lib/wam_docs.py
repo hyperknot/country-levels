@@ -11,35 +11,48 @@ def generate_iso1_list():
         '--- | --- | --- | --- | --- | --- | --- | --- \n'
     )
 
-    for feature in sorted(iso1_json.values(), key=lambda k: k['name']):
-        name = feature['name']
-        iso1 = feature['iso1']
-        osm_id = feature['osm_id']
-        countrylevel_id = feature['countrylevel_id']
-        population = feature['population']
+    for item in sorted(iso1_json.values(), key=lambda k: k['name']):
+        data = build_row_data(item)
 
-        wikidata_id = feature.get('wikidata_id')
-        wikipedia_id = feature.get('wikipedia_id')
-
-        osm_link = f'[OSM]({osm_url(osm_id)})'
-
+        iso1 = item['iso1']
         geojson_link = f'[GeoJSON](../export/geojson/q7/iso1/{iso1.upper()}.geojson)'
-
-        wikidata_link = ''
-        if wikidata_id:
-            wikidata_link = f'[Wikidata]({wikidata_url(wikidata_id)})'
-
-        wikipedia_link = ''
-        if wikipedia_id:
-            wikipedia_link = f'[Wikipedia]({wikipedia_url(wikipedia_id)})'
 
         iso_2_link = ''
 
         doc_md += (
-            f'{name} | {iso1} | {geojson_link} | {iso_2_link} | '
-            f'{osm_link} | {wikidata_link} | '
-            f'{wikipedia_link} | {population}'
+            f'{data["name"]} | {iso1} | {geojson_link} | {iso_2_link} | '
+            f'{data["osm_link"]} | {data["wikidata_link"]} | '
+            f'{data["wikipedia_link"]} | {data["population"]}'
             f'\n'
         )
 
     write_file(docs_dir / 'iso1_list.md', doc_md)
+
+
+def build_row_data(item):
+    name = item['name']
+    osm_id = item['osm_id']
+    countrylevel_id = item['countrylevel_id']
+    population = item['population']
+
+    wikidata_id = item.get('wikidata_id')
+    wikipedia_id = item.get('wikipedia_id')
+
+    osm_link = f'[OSM]({osm_url(osm_id)})'
+
+    wikidata_link = ''
+    if wikidata_id:
+        wikidata_link = f'[Wikidata]({wikidata_url(wikidata_id)})'
+
+    wikipedia_link = ''
+    if wikipedia_id:
+        wikipedia_link = f'[Wikipedia]({wikipedia_url(wikipedia_id)})'
+
+    return {
+        'name': name,
+        'osm_link': osm_link,
+        'countrylevel_id': countrylevel_id,
+        'population': population,
+        'wikidata_link': wikidata_link,
+        'wikipedia_link': wikipedia_link,
+    }
