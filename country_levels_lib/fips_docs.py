@@ -1,12 +1,14 @@
 from country_levels_lib.config import export_dir, docs_dir
+from country_levels_lib.fips_utils import get_state_codes
 from country_levels_lib.utils import read_json, write_file
 
 
 def generate_fips_list():
     fips_json = read_json(export_dir / 'fips.json')
     counties = sorted(fips_json.values(), key=lambda k: k['name'])
+    state_by_code = get_state_codes()[0]
 
-    doc_md = f'# US County FIPS list\n'
+    doc_md = f'# US County FIPS code list\n'
 
     county_by_state = {}
     for item in sorted(counties, key=lambda k: k['state_code']):
@@ -15,7 +17,8 @@ def generate_fips_list():
         county_by_state[state_code].append(item)
 
     for state_code, state_items in county_by_state.items():
-        doc_md += f'\n\n#### State {state_code}\n'
+        state_name = state_by_code[state_code]
+        doc_md += f'\n\n#### {state_name}, state code: {state_code}\n'
         doc_md += 'Name | FIPS | GeoJSON | population \n'
         doc_md += '--- | --- | --- | --: \n'
 

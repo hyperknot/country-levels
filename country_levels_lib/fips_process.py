@@ -1,10 +1,9 @@
 import shutil
 
-from country_levels_lib.config import data_dir, geojson_dir, export_dir
+from country_levels_lib.config import geojson_dir, export_dir
 from country_levels_lib.fips_utils import get_state_codes, get_county_data
 from country_levels_lib.utils import read_json, write_json
 
-fips_data_dir = data_dir / 'fips'
 fips_geojson_dir = geojson_dir / 'fips'
 
 
