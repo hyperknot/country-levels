@@ -14,7 +14,7 @@ quality_map = {
 }
 
 
-def process_fips():
+def export_fips():
     for quality in quality_map:
         process_fips_quality(quality)
 

@@ -2,7 +2,8 @@
 set -e
 cd "${BASH_SOURCE%/*}/" || exit
 
-./fips_download_csv.sh
-./fips_download_shp.sh
-./fips_shp2geo.sh
-./fips_export.py
+./wam_download.py
+./wam_collect.py
+./wam_topo_simplify.sh
+./wam_export.py
+./wam_docs.py
