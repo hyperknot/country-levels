@@ -79,7 +79,7 @@ def process_fips_quality(quality):
         count += 1
 
         json_data[full_code_str] = {k: v for k, v in new_data.items() if k != 'census_data'}
-        json_data[full_code_str]['file_path'] = f'fips/{state_code_str}/{full_code_str}.geojson'
+        json_data[full_code_str]['geojson_path'] = f'fips/{state_code_str}/{full_code_str}.geojson'
 
     write_json(
         export_dir / 'geojson' / f'q{quality}' / 'fips_all.geojson',
