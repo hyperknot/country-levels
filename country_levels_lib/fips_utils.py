@@ -2,6 +2,8 @@ import csv
 
 from country_levels_lib.config import data_dir
 
+fips_data_dir = data_dir / 'fips'
+
 
 def get_census_dicts():
     rows = list()
@@ -98,6 +100,3 @@ def get_population_data():
             counties_by_str[full_code_str] = population
 
     return counties_by_str
-
-
-fips_data_dir = data_dir / 'fips'
