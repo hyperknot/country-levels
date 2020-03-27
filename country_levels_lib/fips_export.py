@@ -1,7 +1,7 @@
 import shutil
 
 from country_levels_lib.config import geojson_dir, export_dir
-from country_levels_lib.fips_utils import get_state_codes, get_county_data, get_population_data
+from country_levels_lib.fips_utils import get_state_codes, get_county_data
 from country_levels_lib.utils import read_json, write_json
 
 fips_geojson_dir = geojson_dir / 'fips'
@@ -18,7 +18,7 @@ def export_fips():
     for quality in quality_map:
         process_fips_quality(quality)
 
-    export_population_json()
+    export_county_json()
 
 
 def process_fips_quality(quality):
@@ -95,8 +95,8 @@ def process_fips_quality(quality):
     print(f'  {count} GeoJSON processed')
 
 
-def export_population_json():
-    population_data = get_population_data()
+def export_county_json():
+    county_data = get_county_data()
     fips_subdir = export_dir / 'fips'
     fips_subdir.mkdir(parents=True, exist_ok=True)
-    write_json(fips_subdir / 'counties_population.json', population_data, indent=2, sort_keys=True)
+    write_json(fips_subdir / 'counties_population.json', county_data, indent=2, sort_keys=True)
