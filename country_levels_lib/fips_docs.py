@@ -8,7 +8,7 @@ def generate_fips_list():
     counties = sorted(fips_json.values(), key=lambda k: k['name'])
     state_by_code = get_state_codes()[0]
 
-    doc_md = f'# US County FIPS code list\n'
+    doc_md = f'# US county FIPS code list\n'
     doc_md += '[GeoJSON for all counties](../export/geojson/q5/fips_all.geojson)'
 
     county_by_state = {}
