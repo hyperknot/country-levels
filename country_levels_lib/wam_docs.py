@@ -20,7 +20,8 @@ def generate_iso1_list():
         data = build_row_data(item)
 
         iso1 = item['iso1']
-        geojson_link = f'[GeoJSON](../export/geojson/q7/iso1/{iso1}.geojson)'
+        geojson_path = item['geojson_path']
+        geojson_link = f'[GeoJSON](../export/geojson/q7/{geojson_path})'
 
         if iso1 in iso2_country_codes:
             iso_2_link = f'[ISO2](iso2_list/{iso1}.md)'
@@ -72,7 +73,8 @@ def generate_iso2_list_country(iso1):
             data = build_row_data(item)
 
             iso2 = item['iso2']
-            geojson_link = f'[GeoJSON](../../export/geojson/q7/iso2/{iso1}/{iso2}.geojson)'
+            geojson_path = item['geojson_path']
+            geojson_link = f'[GeoJSON](../../export/geojson/q7/{geojson_path})'
 
             doc_md += (
                 f'{data["name"]} | {iso2} | {geojson_link} | '
