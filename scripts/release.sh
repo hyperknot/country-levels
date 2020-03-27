@@ -12,6 +12,7 @@ do
   cp export/*.json release/q$i
   cp -R export/geojson/q$i/ release/q$i/geojson
   cd release/q$i || exit
+  cp ../../data_license.md license.md
   7z a ../export_q$i.zip "*"
   cd ../..
 done

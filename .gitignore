@@ -6,11 +6,5 @@ __pycache__/
 /node_modules
 /venv
 
-/data/shp
-/data/geojson
-/data/tmp
-/data/topojson
-
-/data/wam
-/data/fips
+/data
 /release
