@@ -74,7 +74,7 @@ def generate_iso2_list_country(iso1):
 
             iso2 = item['iso2']
             geojson_path = item['geojson_path']
-            geojson_link = f'[GeoJSON](../../export/geojson/q7/{geojson_path})'
+            geojson_link = f'[GeoJSON](../../export/geojson/q8/{geojson_path})'
 
             doc_md += (
                 f'{data["name"]} | {iso2} | {geojson_link} | '
