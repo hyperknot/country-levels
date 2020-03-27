@@ -15,4 +15,5 @@ do
   cp ../../data_license.md license.md
   7z a ../export_q$i.zip "*"
   cd ../..
+  rm -rf release/q$i
 done
