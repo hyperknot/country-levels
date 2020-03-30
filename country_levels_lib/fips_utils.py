@@ -23,6 +23,7 @@ def get_census_dicts():
         )
 
         for row in reader:
+            row['name'] = row['name'].replace('city', 'City')
             rows.append(row)
 
     return rows
