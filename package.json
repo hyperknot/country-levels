@@ -1,7 +1,6 @@
 {
   "private": true,
   "name": "country-levels",
-  "version" : "1.0.0",
   "devDependencies": {
     "geojson-precision": "^1.0.0",
     "shapefile": "^0.6.6",
