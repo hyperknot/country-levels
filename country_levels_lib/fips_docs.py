@@ -6,26 +6,27 @@ from country_levels_lib.utils import read_json, write_file
 def generate_fips_list():
     fips_json = read_json(export_dir / 'fips.json')
     counties = sorted(fips_json.values(), key=lambda k: k['name'])
-    state_by_code = get_state_data()
+    states_by_int = get_state_data()[0]
 
     doc_md = f'# US county FIPS code list\n'
     doc_md += '[GeoJSON for all counties](../export/geojson/q5/fips_all.geojson)'
 
     county_by_state = {}
-    for item in sorted(counties, key=lambda k: k['state_code']):
-        state_code = item['state_code']
-        county_by_state.setdefault(state_code, [])
-        county_by_state[state_code].append(item)
+    for item in sorted(counties, key=lambda k: k['state_code_int']):
+        state_code_int = item['state_code_int']
+        county_by_state.setdefault(state_code_int, [])
+        county_by_state[state_code_int].append(item)
 
-    for state_code, state_items in county_by_state.items():
-        state_name = state_by_code[state_code]
-        doc_md += f'\n\n#### {state_name}, state code: {state_code}\n'
+    for state_code_int, state_items in county_by_state.items():
+        state_name = states_by_int[state_code_int]['name']
+        state_code_postal = states_by_int[state_code_int]['postal_code']
+        doc_md += f'\n\n#### {state_name} - {state_code_postal}, state code: {state_code_int}\n'
         doc_md += 'Name | FIPS | GeoJSON | population \n'
         doc_md += '--- | --- | --- | --: \n'
 
         for item in sorted(state_items, key=lambda k: k['name']):
             fips = item['fips']
-            name = item['name']
+            name_long = item['name_long']
             population = item['population']
 
             population_str = ''
@@ -35,6 +36,6 @@ def generate_fips_list():
             state_code_str = fips[:2]
             geojson_link = f'[GeoJSON](../export/geojson/q8/fips/{state_code_str}/{fips}.geojson)'
 
-            doc_md += f'{name} | {fips} | {geojson_link} | {population_str}\n'
+            doc_md += f'{name_long} | {fips} | {geojson_link} | {population_str}\n'
 
     write_file(docs_dir / 'fips_list.md', doc_md)

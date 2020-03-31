@@ -9,7 +9,8 @@ def get_state_data():
     state_postal_codes = get_state_postal_codes()
     all_geocode_data = get_all_geocode_data()
 
-    states_by_code = {}
+    states_by_int = {}
+    states_by_postal = {}
     for geocode_row in all_geocode_data:
         # states
         if geocode_row['summary_level'] != '040':
@@ -25,15 +26,16 @@ def get_state_data():
             'postal_code': state_postal_code,
         }
 
-        states_by_code[state_int_code] = state_data
+        states_by_int[state_int_code] = state_data
+        states_by_postal[state_postal_code] = state_data
 
-    return states_by_code
+    return states_by_int, states_by_postal
 
 
 def get_county_data():
     all_geocode_data = get_all_geocode_data()
     population_data = get_population_data()
-    state_data = get_state_data()
+    states_by_int = get_state_data()[0]
 
     counties_by_int = {}
     counties_by_str = {}
@@ -43,7 +45,7 @@ def get_county_data():
             continue
 
         state_code_int = int(data['state_code'])
-        state_code_postal = state_data[state_code_int]['postal_code']
+        state_code_postal = states_by_int[state_code_int]['postal_code']
         state_code_iso = f'US-{state_code_postal}'
         county_code = int(data['county_code'])
         full_code_int = state_code_int * 1000 + county_code

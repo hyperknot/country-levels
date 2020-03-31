@@ -29,7 +29,7 @@ def process_fips_quality(quality):
     features = read_json(fips_geojson_dir / f'counties_{quality_map[quality]}.geojson')['features']
 
     counties_by_str = get_county_data()[1]
-    states_by_code = get_state_data()
+    states_by_int = get_state_data()[0]
 
     geojson_export_dir = export_dir / 'geojson' / f'q{quality}' / 'fips'
     shutil.rmtree(geojson_export_dir, ignore_errors=True)
@@ -45,20 +45,20 @@ def process_fips_quality(quality):
         county_code = int(prop['COUNTYFP'])
 
         # skip minor islands without state code found in 500k dataset
-        if state_code_int not in states_by_code:
+        if state_code_int not in states_by_int:
             continue
 
-        state_code_postal = states_by_code[state_code_int]['postal_code']
-        state_code_iso2 = f'US-{state_code_postal}'
-
         county_data = counties_by_str[full_code_str]
-        print(county_data)
-
         assert county_data['county_code'] == county_code
         assert county_data['state_code_int'] == state_code_int
 
         name = county_data['name']
-        name_long = f'{name}, {state_code_postal}'
+        name_long = county_data['name_long']
+
+        state_code_int = county_data['state_code_int']
+        state_code_postal = county_data['state_code_postal']
+        state_code_iso = county_data['state_code_iso']
+
         population = county_data['population']
 
         countrylevel_id = f'fips:{full_code_str}'
@@ -72,7 +72,7 @@ def process_fips_quality(quality):
             'fips': full_code_str,
             'state_code_int': state_code_int,
             'state_code_postal': state_code_postal,
-            'state_code_iso2': state_code_iso2,
+            'state_code_iso': state_code_iso,
             'county_code': county_code,
             'population': population,
             'countrylevel_id': countrylevel_id,
