@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
-from country_levels_lib.fips_export import export_fips
+from pprint import pprint
+
+from country_levels_lib.fips_utils import get_county_data
 
 
 def main():
-    export_fips()
+    data = get_county_data()
+    pprint(data)
+    # export_fips()
 
 
 if __name__ == "__main__":

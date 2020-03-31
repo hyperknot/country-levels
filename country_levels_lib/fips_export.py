@@ -1,7 +1,7 @@
 import shutil
 
 from country_levels_lib.config import geojson_dir, export_dir
-from country_levels_lib.fips_utils import get_state_codes, get_county_data
+from country_levels_lib.fips_utils import get_state_data, get_county_data
 from country_levels_lib.utils import read_json, write_json
 
 fips_geojson_dir = geojson_dir / 'fips'
@@ -29,8 +29,7 @@ def process_fips_quality(quality):
     features = read_json(fips_geojson_dir / f'counties_{quality_map[quality]}.geojson')['features']
 
     counties_by_str = get_county_data()[1]
-
-    states_by_code = get_state_codes()[0]
+    states_by_code = get_state_data()
 
     geojson_export_dir = export_dir / 'geojson' / f'q{quality}' / 'fips'
     shutil.rmtree(geojson_export_dir, ignore_errors=True)
@@ -42,19 +41,24 @@ def process_fips_quality(quality):
     for feature in features:
         prop = feature['properties']
         full_code_str = prop['GEOID']
-        state_code = int(prop['STATEFP'])
+        state_code_int = int(prop['STATEFP'])
         county_code = int(prop['COUNTYFP'])
 
         # skip minor islands without state code found in 500k dataset
-        if state_code not in states_by_code:
+        if state_code_int not in states_by_code:
             continue
 
+        state_code_postal = states_by_code[state_code_int]['postal_code']
+        state_code_iso2 = f'US-{state_code_postal}'
+
         county_data = counties_by_str[full_code_str]
+        print(county_data)
 
         assert county_data['county_code'] == county_code
-        assert county_data['state_code'] == state_code
+        assert county_data['state_code_int'] == state_code_int
 
         name = county_data['name']
+        name_long = f'{name}, {state_code_postal}'
         population = county_data['population']
 
         countrylevel_id = f'fips:{full_code_str}'
@@ -64,8 +68,11 @@ def process_fips_quality(quality):
 
         new_prop = {
             'name': name,
+            'name_long': name_long,
             'fips': full_code_str,
-            'state_code': state_code,
+            'state_code_int': state_code_int,
+            'state_code_postal': state_code_postal,
+            'state_code_iso2': state_code_iso2,
             'county_code': county_code,
             'population': population,
             'countrylevel_id': countrylevel_id,

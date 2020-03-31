@@ -1,12 +1,12 @@
 from country_levels_lib.config import export_dir, docs_dir
-from country_levels_lib.fips_utils import get_state_codes
+from country_levels_lib.fips_utils import get_state_data
 from country_levels_lib.utils import read_json, write_file
 
 
 def generate_fips_list():
     fips_json = read_json(export_dir / 'fips.json')
     counties = sorted(fips_json.values(), key=lambda k: k['name'])
-    state_by_code = get_state_codes()[0]
+    state_by_code = get_state_data()
 
     doc_md = f'# US county FIPS code list\n'
     doc_md += '[GeoJSON for all counties](../export/geojson/q5/fips_all.geojson)'
