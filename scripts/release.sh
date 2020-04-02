@@ -13,6 +13,7 @@ do
   cp -R export/geojson/q$i/ release/q$i/geojson
   cd release/q$i || exit
   cp ../../data_license.md license.md
+  echo '{"name": "country-levels","version": "1.0.0"}' > package.json
   tar -czvf ../export_q$i.tgz .
   cd ../..
   rm -rf release/q$i
