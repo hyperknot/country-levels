@@ -2,6 +2,7 @@ import shutil
 
 from country_levels_lib.config import geojson_dir, export_dir
 from country_levels_lib.fips_utils import get_state_data, get_county_data
+from country_levels_lib.geo import calculate_centroid
 from country_levels_lib.utils import read_json, write_json
 
 fips_geojson_dir = geojson_dir / 'fips'
@@ -48,6 +49,8 @@ def process_fips_quality(quality):
         if state_code_int not in states_by_int:
             continue
 
+        centroid = calculate_centroid(feature)
+
         county_data = counties_by_str[full_code_str]
         assert county_data['county_code'] == county_code
         assert county_data['state_code_int'] == state_code_int
@@ -77,6 +80,8 @@ def process_fips_quality(quality):
             'population': population,
             'countrylevel_id': countrylevel_id,
             'census_data': prop,
+            'center_lat': round(centroid['lat'], 2),
+            'center_lon': round(centroid['lon'], 2),
         }
         feature['properties'] = new_prop
         new_features.append(feature)
