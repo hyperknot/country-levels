@@ -90,7 +90,7 @@ def build_row_data(item):
     name = item['name']
     osm_id = item['osm_id']
     countrylevel_id = item['countrylevel_id']
-    population = item['population']
+    population = item.get('population')
 
     wikidata_id = item.get('wikidata_id')
     wikipedia_id = item.get('wikipedia_id')
