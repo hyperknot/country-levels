@@ -19,8 +19,6 @@ def export_fips():
     for quality in quality_map:
         process_fips_quality(quality)
 
-    export_county_json()
-
 
 def process_fips_quality(quality):
     assert quality in [5, 7, 8]
@@ -100,15 +98,8 @@ def process_fips_quality(quality):
         {"type": "FeatureCollection", "features": new_features},
     )
 
-    if quality == 5:  # only write the file once
+    if quality == 7:  # only write the file once
         write_json(export_dir / f'fips.json', json_data, indent=2, sort_keys=True)
 
     assert count == len(counties_by_str)
     print(f'  {count} GeoJSON processed')
-
-
-def export_county_json():
-    counties_by_str = get_county_data()[0]
-    fips_subdir = export_dir / 'fips'
-    fips_subdir.mkdir(parents=True, exist_ok=True)
-    write_json(fips_subdir / 'counties_population.json', counties_by_str, indent=2, sort_keys=True)
