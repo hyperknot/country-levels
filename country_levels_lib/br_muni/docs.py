@@ -7,7 +7,7 @@ def generate_br_muni_list():
     counties = sorted(br_muni_json.values(), key=lambda k: k['name'])
 
     doc_md = f'# Brazil municipality IBGE code list\n'
-    doc_md += '[GeoJSON for all counties](../export/geojson/q5/br_muni_all.geojson)'
+    doc_md += '[GeoJSON for all municipalities](../export/geojson/q5/br_muni_all.geojson)'
 
     county_by_state = {}
     for item in sorted(counties, key=lambda k: k['state_code']):
