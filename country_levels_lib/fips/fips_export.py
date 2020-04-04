@@ -1,7 +1,7 @@
 import shutil
 
 from country_levels_lib.config import geojson_dir, export_dir
-from country_levels_lib.fips_utils import get_state_data, get_county_data
+from country_levels_lib.fips.fips_utils import get_state_data, get_county_data
 from country_levels_lib.geo import calculate_centroid
 from country_levels_lib.utils import read_json, write_json
 

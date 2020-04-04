@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import shutil
 
-from country_levels_lib import wam_export
+from country_levels_lib.wam import wam_export
 from country_levels_lib.config import export_dir
 
 

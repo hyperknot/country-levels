@@ -2,7 +2,7 @@ import time
 
 from country_levels_lib.config import geojson_dir, wikidata_dir
 from country_levels_lib.utils import read_json, split_to_chunks, write_json
-from country_levels_lib.wikidata_utils import make_wd_ids_str, get_results
+from country_levels_lib.wikidata.wikidata_utils import make_wd_ids_str, get_results
 
 
 def get_all_ids(

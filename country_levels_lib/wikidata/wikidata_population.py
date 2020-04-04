@@ -1,7 +1,7 @@
 import time
 
 from country_levels_lib.utils import split_to_chunks
-from country_levels_lib.wikidata_utils import make_wd_ids_str, get_results
+from country_levels_lib.wikidata.wikidata_utils import make_wd_ids_str, get_results
 
 
 def get_population(all_ids):

@@ -1,6 +1,6 @@
 from country_levels_lib.config import wikidata_dir
 from country_levels_lib.utils import write_json, read_json
-from country_levels_lib.wikidata_utils import get_results
+from country_levels_lib.wikidata.wikidata_utils import get_results
 
 
 def get_osm_iso1_map():

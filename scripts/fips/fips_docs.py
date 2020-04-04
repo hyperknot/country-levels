@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from country_levels_lib.fips_docs import generate_fips_list
+from country_levels_lib.fips.fips_docs import generate_fips_list
 
 
 def main():

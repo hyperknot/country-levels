@@ -1,5 +1,5 @@
 from country_levels_lib.config import export_dir, docs_dir
-from country_levels_lib.fips_utils import get_state_data
+from country_levels_lib.fips.fips_utils import get_state_data
 from country_levels_lib.utils import read_json, write_file
 
 

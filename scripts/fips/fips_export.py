@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from country_levels_lib.fips_export import export_fips
+from country_levels_lib.fips.fips_export import export_fips
 
 
 def main():
