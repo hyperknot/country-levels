@@ -2,7 +2,7 @@
 set -e
 cd "${BASH_SOURCE%/*}/" || exit
 
-cd ..
+cd ../..
 
 GEOJSON_COLLECTED=data/geojson/wam/collected
 GEOJSON_SIMP=data/geojson/wam/simp

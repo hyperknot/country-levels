@@ -2,7 +2,7 @@
 set -e
 cd "${BASH_SOURCE%/*}/" || exit
 
-cd ../data
+cd ../../data
 
 rm -rf tmp shp/fips
 mkdir -p tmp shp/fips

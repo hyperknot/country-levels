@@ -2,7 +2,7 @@
 set -e
 cd "${BASH_SOURCE%/*}/" || exit
 
-cd ..
+cd ../..
 
 SHP=data/shp/fips
 GEOJSON=data/geojson/fips
