@@ -34,7 +34,6 @@ def generate_fips_list():
             if population:
                 population_str = f'{population:,}'
 
-            state_code_str = fips[:2]
             geojson_link = f'[GeoJSON](../export/geojson/q8/{geojson_path})'
 
             doc_md += f'{name_long} | {fips} | {geojson_link} | {population_str}\n'
