@@ -28,13 +28,14 @@ def generate_fips_list():
             fips = item['fips']
             name_long = item['name_long']
             population = item['population']
+            geojson_path = item['geojson_path']
 
             population_str = ''
             if population:
                 population_str = f'{population:,}'
 
             state_code_str = fips[:2]
-            geojson_link = f'[GeoJSON](../export/geojson/q8/fips/{state_code_str}/{fips}.geojson)'
+            geojson_link = f'[GeoJSON](../export/geojson/q8/{geojson_path})'
 
             doc_md += f'{name_long} | {fips} | {geojson_link} | {population_str}\n'
 
