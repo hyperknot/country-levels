@@ -24,14 +24,13 @@ def generate_br_muni_list():
             ibge_code = item['ibge_code']
             name_long = item['name_long']
             population = item['population']
+            geojson_path = item['geojson_path']
 
             population_str = ''
             if population:
                 population_str = f'{population:,}'
 
-            geojson_link = (
-                f'[GeoJSON](../export/geojson/q8/br_muni/{state_code}/{ibge_code}.geojson)'
-            )
+            geojson_link = f'[GeoJSON](../export/geojson/q8/{geojson_path})'
 
             doc_md += f'{name_long} | {ibge_code} | {geojson_link} | {population_str}\n'
 
