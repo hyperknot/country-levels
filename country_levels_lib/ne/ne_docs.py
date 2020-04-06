@@ -1,13 +1,14 @@
 import shutil
 
-from country_levels_lib.config import id_dir, docs_dir, ne3_dir
+from country_levels_lib.config import docs_dir
+from country_levels_lib.ne.ne_012 import ne_id_dir, ne3_dir
 from country_levels_lib.utils import read_json, write_file
 
 md_space = '&nbsp;' * 5
 
 
 def generate_country_list():
-    levels = read_json(id_dir / 'ne012.json')
+    levels = read_json(ne_id_dir / 'ne012.json')
     doc_md = '# Country list'
 
     for ne0, ne0_data in sorted(levels.items(), key=lambda item: item[1]['name']):
@@ -77,7 +78,7 @@ def generate_ne3_lists():
 def generate_ne3_md(country_iso):
     filename = f'{country_iso.lower()}.json'
     level3 = read_json(ne3_dir / filename)
-    level012 = read_json(id_dir / 'ne012.json')
+    level012 = read_json(ne_id_dir / 'ne012.json')
 
     country_name = level012[f'ne0:{country_iso.upper()}']['name']
 
