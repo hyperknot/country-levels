@@ -10,8 +10,8 @@ wikidata_dir = data_dir / 'wikidata'
 tmp_dir = data_dir / 'tmp'
 
 export_dir = root_dir / 'export'
-
-
 export_geojson_dir = export_dir / 'geojson'
 
 docs_dir = root_dir / 'docs'
+
+fixes_dir = root_dir / 'fixes'
