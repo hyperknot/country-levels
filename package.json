@@ -6,5 +6,8 @@
     "shapefile": "^0.6.6",
     "topojson": "^3.0.2",
     "topojson-simplify": "^3.0.3"
+  },
+  "dependencies": {
+    "prettier": "^2.0.3"
   }
 }
