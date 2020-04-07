@@ -3,11 +3,11 @@ import shutil
 
 from country_levels_lib.config import export_dir
 from country_levels_lib.wam import wam_export
-from country_levels_lib.wam.wam_collect import save_population
+from country_levels_lib.wam.wam_collect import save_wam_population
 
 
 def main():
-    save_population()
+    save_wam_population()
 
     shutil.rmtree(export_dir / 'geojson', ignore_errors=True)
 
