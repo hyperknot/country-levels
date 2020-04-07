@@ -1,15 +1,15 @@
-from country_levels_lib.config import wikidata_dir
-from country_levels_lib.utils import write_json, read_json
 from country_levels_lib.wikidata.wikidata_utils import get_results
 
 
 def get_osm_iso1_map():
     endpoint_url = "https://query.wikidata.org/sparql"
 
-    query = """SELECT ?region ?iso1 ?iso2 ?osm WHERE {
+    query = """
+    SELECT ?region ?iso1 ?osm WHERE {
       ?region wdt:P297 ?iso1;
         wdt:P402 ?osm.
-    }"""
+    }
+    """
 
     results = get_results(endpoint_url, query)
 
@@ -27,10 +27,12 @@ def get_osm_iso1_map():
 def get_osm_iso2_map():
     endpoint_url = "https://query.wikidata.org/sparql"
 
-    query = """SELECT ?region ?iso1 ?iso2 ?osm WHERE {
+    query = """
+    SELECT ?region ?iso1 ?iso2 ?osm WHERE {
       ?region wdt:P300 ?iso2;
         wdt:P402 ?osm.
-    }"""
+    }
+    """
 
     results = get_results(endpoint_url, query)
 
@@ -48,10 +50,12 @@ def get_osm_iso2_map():
 def get_osm_wd_map():
     endpoint_url = "https://query.wikidata.org/sparql"
 
-    query = """SELECT ?region ?osm WHERE {
+    query = """
+    SELECT ?region ?osm WHERE {
           ?region wdt:P297 ?iso1;
             wdt:P402 ?osm.
-        }"""
+    }
+    """
 
     iso1_results = get_results(endpoint_url, query)
 
