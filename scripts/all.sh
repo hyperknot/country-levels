@@ -4,6 +4,7 @@ cd "${BASH_SOURCE%/*}/" || exit
 
 ./wam/all.sh
 ./fips/all.sh
+./release.sh
 
 cd ..
 
