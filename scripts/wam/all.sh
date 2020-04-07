@@ -2,8 +2,9 @@
 set -e
 cd "${BASH_SOURCE%/*}/" || exit
 
+# ./download.py
+
 ../fips/download_csv.sh
-./download.py
 ./collect.py
 ./topo_simplify.sh
 ./export.py
