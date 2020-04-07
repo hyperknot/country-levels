@@ -14,10 +14,10 @@ mkdir -p $TOPOJSON $GEOJSON_SIMP
 for i in 1 2
 do
   echo "geo2topo iso$i"
-   node --max-old-space-size=40000 node_modules/.bin/geo2topo \
-     -n --quantization 1e8 \
-     iso$i=$GEOJSON_COLLECTED/iso$i.ndjson \
-     -o $TOPOJSON/topo$i.json
+  node --max-old-space-size=40000 node_modules/.bin/geo2topo \
+    -n --quantization 1e8 \
+    iso$i=$GEOJSON_COLLECTED/iso$i.ndjson \
+    -o $TOPOJSON/topo$i.json
 
   for q in 5 7 8
   do
