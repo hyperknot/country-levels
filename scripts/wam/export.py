@@ -7,7 +7,7 @@ from country_levels_lib.wam.wam_collect import save_population
 
 
 def main():
-    # save_population()
+    save_population()
 
     shutil.rmtree(export_dir / 'geojson', ignore_errors=True)
 

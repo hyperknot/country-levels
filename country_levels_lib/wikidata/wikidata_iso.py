@@ -4,10 +4,6 @@ from country_levels_lib.wikidata.wikidata_utils import get_results
 
 
 def get_osm_iso1_map():
-    file_path = wikidata_dir / 'osm_iso1_map.json'
-    if file_path.is_file():
-        return read_json(file_path)
-
     endpoint_url = "https://query.wikidata.org/sparql"
 
     query = """SELECT ?region ?iso1 ?iso2 ?osm WHERE {
@@ -25,15 +21,10 @@ def get_osm_iso1_map():
 
         osm_iso1_map[osm] = iso1
 
-    write_json(file_path, osm_iso1_map, indent=2)
     return osm_iso1_map
 
 
 def get_osm_iso2_map():
-    file_path = wikidata_dir / 'osm_iso2_map.json'
-    if file_path.is_file():
-        return read_json(file_path)
-
     endpoint_url = "https://query.wikidata.org/sparql"
 
     query = """SELECT ?region ?iso1 ?iso2 ?osm WHERE {
@@ -51,15 +42,10 @@ def get_osm_iso2_map():
 
         osm_iso2_map[osm] = iso2
 
-    write_json(file_path, osm_iso2_map, indent=2)
     return osm_iso2_map
 
 
 def get_osm_wd_map():
-    file_path = wikidata_dir / 'osm_wd_map.json'
-    if file_path.is_file():
-        return read_json(file_path)
-
     endpoint_url = "https://query.wikidata.org/sparql"
 
     query = """SELECT ?region ?osm WHERE {
@@ -84,5 +70,4 @@ def get_osm_wd_map():
 
         osm_wd_map[osm] = wd_id
 
-    write_json(file_path, osm_wd_map, indent=2)
     return osm_wd_map
