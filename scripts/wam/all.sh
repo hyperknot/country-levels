@@ -5,7 +5,7 @@ cd "${BASH_SOURCE%/*}/" || exit
 # ./download.py
 
 ../fips/download_csv.sh
-./collect.py
+python -u collect.py | tee collect.txt
 ./topo_simplify.sh
 ./export.py
 ./docs.py
