@@ -8,30 +8,32 @@ GEOJSON_COLLECTED=data/geojson/wam/collected
 GEOJSON_SIMP=data/geojson/wam/simp
 TOPOJSON=data/topojson/wam
 
-# rm -rf $TOPOJSON $GEOJSON_SIMP
+rm -rf $TOPOJSON $GEOJSON_SIMP
 mkdir -p $TOPOJSON $GEOJSON_SIMP
 
-for l in 1 2
+for i in 1 2
 do
    node --max-old-space-size=40000 node_modules/.bin/geo2topo \
      -n --quantization 1e8 \
-     iso$l=$GEOJSON_COLLECTED/iso$l.ndjson \
-     -o $TOPOJSON/topo$l.json
+     iso$l=$GEOJSON_COLLECTED/iso$i.ndjson \
+     -o $TOPOJSON/topo$i.json
 
-  for i in 5 7 8
+  for q in 5 7 8
   do
+    echo "topo_simplify iso$i q$q"
+
     node --max-old-space-size=40000 node_modules/.bin/toposimplify \
-      -s 1e-$i -o $TOPOJSON/simp-$i.json $TOPOJSON/topo$l.json
+      -s 1e-$q -o $TOPOJSON/simp-$q.json $TOPOJSON/topo$i.json
 
     node --max-old-space-size=40000 node_modules/.bin/topo2geo \
-      -i $TOPOJSON/simp-$i.json \
-      iso$l=$GEOJSON_SIMP/iso$l-$i.geojson
+      -i $TOPOJSON/simp-$q.json \
+      iso$i=$GEOJSON_SIMP/iso$i-$q.geojson
 
     node --max-old-space-size=40000 node_modules/.bin/geojson-precision \
-      -p 3 $GEOJSON_SIMP/iso$l-$i.geojson $GEOJSON_SIMP/iso$l-$i.geojson
+      -p 3 $GEOJSON_SIMP/iso$i-$q.geojson $GEOJSON_SIMP/iso$i-$q.geojson
   done
 done
 
-# rm -rf $TOPOJSON
+rm -rf $TOPOJSON
 
 
