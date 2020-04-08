@@ -12,7 +12,7 @@ git clone --mirror git@github.com:hyperknot/country-levels.git tmp_recompress
 cd tmp_recompress || exit
 bfg -b 4K -D '*.geojson'
 git reflog expire --expire=now --all && git gc --prune=now --aggressive
-git push
+git push -u origin master
 cd .. || exit
 
 git clone git@github.com:hyperknot/country-levels.git tmp_clean
