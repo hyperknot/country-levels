@@ -11,5 +11,5 @@ rm -rf ../export
 cd ..
 
 git add .
-git commit 'regenerated'
+git commit -m 'regenerated'
 
