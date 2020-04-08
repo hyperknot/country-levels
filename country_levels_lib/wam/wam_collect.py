@@ -90,9 +90,9 @@ def add_iso(features: list, found_iso1_file, found_iso2_file):
         wd_id_from_wd = osm_wd_map.get(osm_id)
         wd_id_from_osm = prop.get('wikidata')
 
-        wd_id = wd_id_from_wd
-        if wd_id_from_osm:
-            wd_id = wd_id_from_osm
+        wd_id = wd_id_from_osm
+        if wd_id_from_wd:
+            wd_id = wd_id_from_wd
 
         prop['wikidata_id'] = wd_id
         prop.pop('wikidata', None)
