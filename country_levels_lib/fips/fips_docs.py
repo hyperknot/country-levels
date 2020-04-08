@@ -38,4 +38,5 @@ def generate_fips_list():
 
             doc_md += f'{name_long} | {fips} | {geojson_link} | {population_str}\n'
 
+    docs_dir.mkdir(parents=True, exist_ok=True)
     write_file(docs_dir / 'fips_list.md', doc_md)

@@ -35,6 +35,7 @@ def generate_iso1_list():
             f'\n'
         )
 
+    docs_dir.mkdir(parents=True, exist_ok=True)
     write_file(docs_dir / 'iso1_list.md', doc_md)
 
 

@@ -34,4 +34,5 @@ def generate_br_muni_list():
 
             doc_md += f'{name_long} | {ibge_code} | {geojson_link} | {population_str}\n'
 
+    docs_dir.mkdir(parents=True, exist_ok=True)
     write_file(docs_dir / 'br_muni_list.md', doc_md)
