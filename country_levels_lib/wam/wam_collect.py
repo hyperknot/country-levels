@@ -31,9 +31,13 @@ def collect_iso():
     osm_iso2_map = get_osm_iso2_map()
     osm_wd_map = get_osm_wd_map()
 
-    custom_iso2 = read_json(fixes_dir / 'custom_iso2.json')
-    custom_iso2 = {int(k): v for k, v in custom_iso2.items()}
+    custom_osm = read_json(fixes_dir / 'custom_osm.json')
+    custom_iso1 = {int(k): v['iso1'] for k, v in custom_osm.items() if 'iso1' in v}
+    custom_iso2 = {int(k): v['iso2'] for k, v in custom_osm.items() if 'iso2' in v}
+    custom_wd = {int(k): v['wikidata_id'] for k, v in custom_osm.items() if 'wikidata_id' in v}
+    osm_iso1_map.update(custom_iso1)
     osm_iso2_map.update(custom_iso2)
+    osm_wd_map.update(custom_wd)
 
     geojson_files = (wam_geojson_download_dir).glob(
         '**/*.GeoJson'
