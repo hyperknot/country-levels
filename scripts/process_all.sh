@@ -9,4 +9,4 @@ rm -rf ../../country-levels-export
 ./br_muni/all.sh
 
 ./export.sh
-# ./release.sh
+./release.sh

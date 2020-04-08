@@ -2,17 +2,17 @@
 set -e
 cd "${BASH_SOURCE%/*}/" || exit
 
-cd ..
+cd ../../country-levels-export
 
 rm -rf release
 
 for i in 5 7 8
 do
   mkdir -p release/q$i/geojson
-  cp export/*.json release/q$i
-  cp -R export/geojson/q$i/ release/q$i/geojson
+  cp *.json release/q$i
+  cp *.md release/q$i
+  cp -R geojson/q$i/ release/q$i/geojson
   cd release/q$i || exit
-  cp ../../data_license.md license.md
   echo '{"name": "country-levels","version": "1.0.0"}' > package.json
   tar -czvf ../export_q$i.tgz .
   cd ../..
