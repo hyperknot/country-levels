@@ -2,6 +2,8 @@ from country_levels_lib.wikidata.wikidata_utils import get_results
 
 
 def get_osm_iso1_map():
+    print('getting osm iso1 map')
+
     endpoint_url = "https://query.wikidata.org/sparql"
 
     query = """
@@ -25,6 +27,8 @@ def get_osm_iso1_map():
 
 
 def get_osm_iso2_map():
+    print('getting osm iso2 map')
+
     endpoint_url = "https://query.wikidata.org/sparql"
 
     query = """
@@ -48,6 +52,8 @@ def get_osm_iso2_map():
 
 
 def get_osm_wd_map():
+    print('getting osm wd map')
+
     endpoint_url = "https://query.wikidata.org/sparql"
 
     query = """
