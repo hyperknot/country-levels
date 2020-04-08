@@ -6,6 +6,7 @@ rm -rf ../export
 
 ./wam/all.sh
 ./fips/all.sh
+./br_muni/all.sh
 ./release.sh
 
 cd ..
