@@ -5,6 +5,7 @@ cd "${BASH_SOURCE%/*}/" || exit
 cd ../../country-levels-export
 
 cp ../country-levels/docs/export_readme.md README.md
+echo '{"name": "country-levels","version": "1.0.0"}' > package.json
 
 rm -rf release
 
@@ -15,7 +16,6 @@ do
   cp *.md release/q$i
   cp -R geojson/q$i/. release/q$i/geojson
   cd release/q$i || exit
-  echo '{"name": "country-levels","version": "1.0.0"}' > package.json
   tar -czvf ../export_q$i.tgz .
   cd ../..
   rm -rf release/q$i
