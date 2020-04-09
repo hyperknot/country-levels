@@ -8,5 +8,5 @@ rm -rf ../../country-levels-export
 ./fips/all.sh
 ./br_muni/all.sh
 
-./export.sh
+./push.sh
 ./release.sh

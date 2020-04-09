@@ -4,6 +4,8 @@ cd "${BASH_SOURCE%/*}/" || exit
 
 cd ../../country-levels-export
 
+cp ../country-levels/docs/export_readme.md README.md
+
 rm -rf release
 
 for i in 5 7 8
