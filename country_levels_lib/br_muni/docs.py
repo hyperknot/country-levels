@@ -30,7 +30,7 @@ def generate_br_muni_list():
             if population:
                 population_str = f'{population:,}'
 
-            geojson_link = f'[GeoJSON](../export/geojson/q8/{geojson_path})'
+            geojson_link = f'[GeoJSON](../geojson/q8/{geojson_path})'
 
             doc_md += f'{name_long} | {ibge_code} | {geojson_link} | {population_str}\n'
 
