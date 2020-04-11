@@ -7,7 +7,7 @@ rm -rf ../data/geojson/{br_muni,fips}
 rm -rf ../data/geojson/wam/simp
 
 [ -z "$SKIP_COLLECT" ] && rm -rf ../data/wam
-[ -z "$SKIP_COLLECT" ] && rm -rf ../data/geojson/wam/collect
+[ -z "$SKIP_COLLECT" ] && rm -rf ../data/geojson/wam/collected
 
 rm -rf ../../country-levels-export
 
