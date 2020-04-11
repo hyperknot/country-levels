@@ -9,7 +9,7 @@ from country_levels_lib.wam.wam_download import wam_data_dir
 
 wam_geojson_simp_dir = geojson_dir / 'wam' / 'simp'
 
-population_map = read_json(wam_data_dir / 'population.json')
+population_map = None
 population_fixes = read_json(fixes_dir / 'population.json')
 skip_osm_features = {int(i) for i in read_json(fixes_dir / 'skip_osm.json')}
 us_states_by_postal = fips_utils.get_state_data()[1]
@@ -17,6 +17,10 @@ us_states_by_postal = fips_utils.get_state_data()[1]
 
 def split_geojson(iso_level: int, simp_level):
     assert iso_level in [1, 2]
+
+    global population_map
+    if not population_map:
+        population_map = read_json(wam_data_dir / 'population.json')
 
     print(f'Splitting iso{iso_level} to level: q{simp_level}')
     file_path = wam_geojson_simp_dir / f'iso{iso_level}-{simp_level}.geojson'
