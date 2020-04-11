@@ -62,6 +62,7 @@ def collect_iso():
         wd_ids_collected = wd_ids_collected.union(new_wd_ids)
 
     # add features from osm_missing
+    print('osm_missing_features')
     osm_missing_features = get_osm_missing_features()
     new_wd_ids = add_iso(osm_missing_features, iso1_found, iso2_found)
     wd_ids_collected = wd_ids_collected.union(new_wd_ids)
