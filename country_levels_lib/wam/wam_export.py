@@ -75,7 +75,7 @@ def split_geojson(iso_level: int, simp_level, *, debug: bool = False):
         if wikipedia_from_prop:
             wikipedia_id = wikipedia_from_prop
 
-        del feature['bbox']
+        feature.pop('bbox', None)
 
         for key in ['boundary', 'note', 'rpath', 'srid', 'timestamp']:
             prop.pop(key, None)

@@ -5,6 +5,7 @@ import re
 from country_levels_lib.config import geojson_dir, fixes_dir
 from country_levels_lib.utils import read_json, osm_url, wikidata_url, write_json
 from country_levels_lib.wam.wam_download import wam_geojson_download_dir, wam_data_dir
+from country_levels_lib.wam.wam_missing import get_osm_missing_features
 from country_levels_lib.wikidata.wikidata_iso import (
     get_osm_iso1_map,
     get_osm_wd_map,
@@ -51,7 +52,7 @@ def collect_iso():
 
     wd_ids_collected = set()
 
-    for f in itertools.islice(geojson_files_sorted, None, None):
+    for f in geojson_files_sorted:
         print(f.parent.stem, f.stem)
         try:
             features = read_json(f)['features']
@@ -60,6 +61,11 @@ def collect_iso():
             continue
         new_wd_ids = add_iso(features, iso1_found, iso2_found)
         wd_ids_collected = wd_ids_collected.union(new_wd_ids)
+
+    # add features from osm_missing
+    osm_missing_features = get_osm_missing_features()
+    new_wd_ids = add_iso(osm_missing_features, iso1_found, iso2_found)
+    wd_ids_collected = wd_ids_collected.union(new_wd_ids)
 
     wam_data_dir.mkdir(parents=True, exist_ok=True)
     write_json(wam_data_dir / 'wd_ids_collected.json', list(wd_ids_collected))
