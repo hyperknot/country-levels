@@ -4,10 +4,9 @@ cd "${BASH_SOURCE%/*}/" || exit
 
 rm -rf ../data/{fips,shp,topojson}
 rm -rf ../data/geojson/{br_muni,fips}
-rm -rf ../data/geojson/wam/simp
 
 [ -z "$SKIP_COLLECT" ] && rm -rf ../data/wam
-[ -z "$SKIP_COLLECT" ] && rm -rf ../data/geojson/wam/collected
+[ -z "$SKIP_COLLECT" ] && rm -rf ../data/geojson/wam/{collected,simp}
 
 rm -rf ../../country-levels-export
 
