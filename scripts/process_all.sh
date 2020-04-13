@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+set -e; set -o pipefail
 cd "${BASH_SOURCE%/*}/" || exit
 
 rm -rf ../data/{fips,shp,topojson}
