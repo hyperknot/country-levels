@@ -11,6 +11,7 @@ wam_geojson_simp_dir = geojson_dir / 'wam' / 'simp'
 
 population_map = None
 population_fixes = read_json(fixes_dir / 'population.json')
+timezone_fixes = read_json(fixes_dir / 'timezone.json')
 skip_osm_features = {int(i) for i in read_json(fixes_dir / 'skip_osm.json')}
 us_states_by_postal = fips_utils.get_state_data()[1]
 
@@ -80,7 +81,9 @@ def process_feature_properties(feature: dict, iso_level: int):
     if not timezone:
         timezone = find_timezone(centroid['lon'], centroid['lat'])
         if not timezone:
-            print(f'missing timezone for {iso} {name}')
+            timezone = timezone_fixes.get(countrylevel_id)
+        if not timezone:
+            print(f'missing timezone for {countrylevel_id} {name}')
 
     # override population for US states from Census data
     if iso.startswith('US-'):
