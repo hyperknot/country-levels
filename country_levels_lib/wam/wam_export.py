@@ -79,8 +79,8 @@ def process_feature_properties(feature: dict, iso_level: int):
     timezone = alltags.pop('timezone', None)
     if not timezone:
         timezone = find_timezone(centroid['lon'], centroid['lat'])
-        # if not timezone:
-        #     print(iso, name, timezone)
+        if not timezone:
+            print(f'missing timezone for ${iso} ${name} ${timezone}')
 
     # override population for US states from Census data
     if iso.startswith('US-'):
