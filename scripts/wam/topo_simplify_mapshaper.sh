@@ -8,15 +8,15 @@ GEOJSON_COLLECTED=data/geojson/wam/collected
 GEOJSON_SIMP=data/geojson/wam/simp_mapshaper
 TOPOJSON=data/topojson/wam_mapshaper
 
-rm -rf $TOPOJSON $GEOJSON_SIMP
-mkdir -p $TOPOJSON $GEOJSON_SIMP
+#rm -rf $TOPOJSON $GEOJSON_SIMP
+#mkdir -p $TOPOJSON $GEOJSON_SIMP
 
-echo "convert to topojson"
-node --max-old-space-size=40000 node_modules/.bin/mapshaper \
-  -i $GEOJSON_COLLECTED/iso1.ndjson $GEOJSON_COLLECTED/iso2.ndjson \
-  combine-files \
-  snap-interval=1e-4 \
-  -o $TOPOJSON/topo.topojson
+#echo "convert to topojson"
+#node --max-old-space-size=40000 node_modules/.bin/mapshaper \
+#  -i $GEOJSON_COLLECTED/iso1.ndjson $GEOJSON_COLLECTED/iso2.ndjson \
+#  combine-files \
+#  snap-interval=1e-4 \
+#  -o $TOPOJSON/topo.topojson
 
 for q in 100 1000 10000
 do
@@ -24,8 +24,8 @@ do
 
   node --max-old-space-size=40000 node_modules/.bin/mapshaper \
     -i $TOPOJSON/topo.topojson \
-    -simplify \
-    interval=$q \
+    -simplify interval=$q keep-shapes \
+    -filter-islands min-area=10km2 min-vertices=20 remove-empty \
     -o $TOPOJSON/simp-$q.topojson
 done
 
