@@ -18,7 +18,7 @@ node --max-old-space-size=40000 node_modules/.bin/mapshaper \
   snap-interval=1e-4 \
   -o $TOPOJSON/topo.topojson
 
-for q in 10 100 1000
+for q in 100 1000 10000
 do
   echo "topo_simplify q$q"
 

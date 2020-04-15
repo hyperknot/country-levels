@@ -6,6 +6,6 @@ cd "${BASH_SOURCE%/*}/" || exit
 
 ../fips/download_csv.sh
 [ -z "$SKIP_COLLECT" ] && python -u collect.py | tee collect.txt
-[ -z "$SKIP_COLLECT" ] && ./topo_simplify.sh
-python -u export.py | tee export.txt
-./docs.py
+[ -z "$SKIP_COLLECT" ] && ./topo_simplify_mapshaper.sh
+#python -u export.py | tee export.txt
+#./docs.py
