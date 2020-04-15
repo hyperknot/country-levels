@@ -8,14 +8,19 @@ def get_osm_missing_features():
 
     features = []
     for geojson_path in geojson_paths:
-        feature = read_json(geojson_path)
-        process_overpass_turbo_geojson(feature)
-        features.append(feature)
+        geojson = read_json(geojson_path)
+        if geojson['type'] == 'Feature':
+            clean_tags_overpass(geojson)
+            features.append(geojson)
+        if geojson['type'] == 'FeatureCollection':
+            for feature in geojson['features']:
+                clean_tags_overpass(feature)
+                features.append(feature)
 
     return features
 
 
-def process_overpass_turbo_geojson(feature):
+def clean_tags_overpass(feature):
     props = feature['properties']
     props['id'] = int(props.pop('@id').split('/')[1])
 
