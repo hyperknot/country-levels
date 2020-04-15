@@ -39,13 +39,13 @@ def collect_iso():
     osm_iso2_map.update(custom_iso2)
     osm_wd_map.update(custom_wd)
 
-    geojson_files = (wam_geojson_download_dir / 'HUN').glob(
+    geojson_files = (wam_geojson_download_dir).glob(
         '**/*.GeoJson'
     )  # strange capitalization inside zips
 
     collected_dir.mkdir(parents=True, exist_ok=True)
-    iso1_found = []
-    iso2_found = []
+    iso1_found = open(iso1_found_path, 'w')
+    iso2_found = open(iso2_found_path, 'w')
 
     geojson_files_sorted = sorted(geojson_files, key=lambda p: p.stem, reverse=False)
 
@@ -70,11 +70,11 @@ def collect_iso():
     wam_data_dir.mkdir(parents=True, exist_ok=True)
     write_json(wam_data_dir / 'wd_ids_collected.json', list(wd_ids_collected))
 
-    write_json(collected_dir / 'iso1.geojson', iso1_found)
-    write_json(collected_dir / 'iso2.geojson', iso2_found)
+    iso1_found.close()
+    iso2_found.close()
 
 
-def add_iso(features: list, iso1_found, iso2_found):
+def add_iso(features: list, found_iso1_file, found_iso2_file):
     count1 = 0
     count2 = 0
 
@@ -142,7 +142,9 @@ def add_iso(features: list, iso1_found, iso2_found):
                 continue
             prop['iso1'] = iso1
 
-            iso1_found.append(feature)
+            geojson_str = json.dumps(feature, ensure_ascii=False, allow_nan=False)
+            found_iso1_file.write(geojson_str + '\n')
+
             wd_ids_collected.add(wd_id)
             count1 += 1
 
@@ -179,7 +181,9 @@ def add_iso(features: list, iso1_found, iso2_found):
                 continue
             prop['iso2'] = iso2
 
-            iso2_found.append(feature)
+            geojson_str = json.dumps(feature, ensure_ascii=False, allow_nan=False)
+            found_iso2_file.write(geojson_str + '\n')
+
             wd_ids_collected.add(wd_id)
             count2 += 1
 
