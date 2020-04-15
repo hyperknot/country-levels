@@ -5,8 +5,8 @@ cd "${BASH_SOURCE%/*}/" || exit
 cd ../..
 
 GEOJSON_COLLECTED=data/geojson/wam/collected
-GEOJSON_SIMP=data/geojson/wam/simp
-TOPOJSON=data/topojson/wam
+GEOJSON_SIMP=data/geojson/wam/simp_mapshaper
+TOPOJSON=data/topojson/wam_mapshaper
 
 rm -rf $TOPOJSON $GEOJSON_SIMP
 mkdir -p $TOPOJSON $GEOJSON_SIMP
@@ -17,21 +17,17 @@ node --max-old-space-size=40000 node_modules/.bin/mapshaper \
   combine-files \
   snap-interval=1e-4 \
   -o $TOPOJSON/topo.topojson
-#
-#for q in 5 7 8
-#do
-#  echo "topo_simplify iso$i q$q"
-#
-#  node --max-old-space-size=40000 node_modules/.bin/toposimplify \
-#    -s 1e-$q -o $TOPOJSON/simp-$q.json $TOPOJSON/topo$i.json
-#
-#  node --max-old-space-size=40000 node_modules/.bin/topo2geo \
-#    -i $TOPOJSON/simp-$q.json \
-#    iso$i=$GEOJSON_SIMP/iso$i-$q.geojson
-#
-#  node --max-old-space-size=40000 node_modules/.bin/geojson-precision \
-#    -p 3 $GEOJSON_SIMP/iso$i-$q.geojson $GEOJSON_SIMP/iso$i-$q.geojson
-#done
+
+for q in 10 100 1000
+do
+  echo "topo_simplify q$q"
+
+  node --max-old-space-size=40000 node_modules/.bin/mapshaper \
+    -i $TOPOJSON/topo.topojson \
+    -simplify \
+    interval=$q \
+    -o $TOPOJSON/simp-$q.topojson
+done
 
 
 #rm -rf $TOPOJSON
