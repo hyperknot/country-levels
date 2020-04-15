@@ -8,6 +8,7 @@
     "topojson-simplify": "^3.0.3"
   },
   "dependencies": {
+    "mapshaper": "^0.5.0",
     "prettier": "^2.0.3"
   }
 }
