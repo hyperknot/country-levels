@@ -146,8 +146,6 @@ def add_iso(features: list, found_iso1_file, found_iso2_file):
                 continue
             prop['iso1'] = iso1
 
-            feature['properties'] = {}
-
             geojson_str = json.dumps(feature, ensure_ascii=False, allow_nan=False)
             found_iso1_file.write(geojson_str + '\n')
 
@@ -186,8 +184,6 @@ def add_iso(features: list, found_iso1_file, found_iso2_file):
                 )
                 continue
             prop['iso2'] = iso2
-
-            feature['properties'] = {}
 
             geojson_str = json.dumps(feature, ensure_ascii=False, allow_nan=False)
             found_iso2_file.write(geojson_str + '\n')

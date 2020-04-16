@@ -17,14 +17,12 @@ us_states_by_postal = fips_utils.get_state_data()[1]
 
 
 def split_geojson(iso_level: int, simp_level):
-    assert iso_level in [1, 2]
-
     global population_map
     if not population_map:
         population_map = read_json(wam_data_dir / 'population.json')
 
     print(f'Splitting iso{iso_level} to level: q{simp_level}')
-    file_path = wam_geojson_simp_dir / f'iso{iso_level}-{simp_level}.geojson'
+    file_path = wam_geojson_simp_dir / simp_level / f'iso{iso_level}.geojson'
 
     features = read_json(file_path)['features']
     features_sorted = sorted(features, key=lambda i: i['properties']['admin_level'])
@@ -57,8 +55,6 @@ def split_geojson(iso_level: int, simp_level):
 
 
 def process_feature_properties(feature: dict, iso_level: int):
-    assert iso_level in [1, 2]
-
     prop = feature['properties']
     alltags = prop['alltags']
 
