@@ -21,7 +21,7 @@ def split_geojson(iso_level: int, simp_level):
     if not population_map:
         population_map = read_json(wam_data_dir / 'population.json')
 
-    print(f'Splitting iso{iso_level} to level: q{simp_level}')
+    print(f'Splitting iso{iso_level} to level: {simp_level}')
     file_path = wam_geojson_simp_dir / simp_level / f'iso{iso_level}.geojson'
 
     features = read_json(file_path)['features']
@@ -182,7 +182,7 @@ def deduplicate_features_by_iso(features_by_iso: dict):
 def write_json_and_geojsons(deduplicated_by_iso: dict, iso_level: int, simp_level: int):
     assert iso_level in [1, 2]
 
-    level_subdir = export_dir / 'geojson' / f'q{simp_level}' / f'iso{iso_level}'
+    level_subdir = export_dir / 'geojson' / simp_level / f'iso{iso_level}'
     shutil.rmtree(level_subdir, ignore_errors=True)
     level_subdir.mkdir(parents=True)
 
@@ -206,5 +206,5 @@ def write_json_and_geojsons(deduplicated_by_iso: dict, iso_level: int, simp_leve
             write_json(level_subdir / iso2_start / f'{iso}.geojson', feature)
             json_data[iso]['geojson_path'] = f'iso2/{iso2_start}/{iso}.geojson'
 
-    if simp_level == 5:
+    if simp_level == 'medium':
         write_json(export_dir / f'iso{iso_level}.json', json_data, indent=2, sort_keys=True)
