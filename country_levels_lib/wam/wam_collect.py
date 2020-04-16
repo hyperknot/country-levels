@@ -1,4 +1,5 @@
 import json
+import os
 import re
 
 from country_levels_lib.config import geojson_dir, fixes_dir
@@ -39,9 +40,11 @@ def collect_iso():
     osm_iso2_map.update(custom_iso2)
     osm_wd_map.update(custom_wd)
 
-    geojson_files = (wam_geojson_download_dir).glob(
-        '**/*.GeoJson'
-    )  # strange capitalization inside zips
+    download_dir = wam_geojson_download_dir
+    if os.environ.get('ONLY_COUNTRY'):
+        download_dir = download_dir / os.environ.get('ONLY_COUNTRY')
+
+    geojson_files = (download_dir).glob('**/*.GeoJson')  # strange capitalization inside zips
 
     collected_dir.mkdir(parents=True, exist_ok=True)
     iso1_found = open(iso1_found_path, 'w')
@@ -62,10 +65,11 @@ def collect_iso():
         wd_ids_collected = wd_ids_collected.union(new_wd_ids)
 
     # add features from osm_missing
-    print('osm_missing_features')
-    osm_missing_features = get_osm_missing_features()
-    new_wd_ids = add_iso(osm_missing_features, iso1_found, iso2_found)
-    wd_ids_collected = wd_ids_collected.union(new_wd_ids)
+    if not os.environ.get('ONLY_COUNTRY'):
+        print('osm_missing_features')
+        osm_missing_features = get_osm_missing_features()
+        new_wd_ids = add_iso(osm_missing_features, iso1_found, iso2_found)
+        wd_ids_collected = wd_ids_collected.union(new_wd_ids)
 
     wam_data_dir.mkdir(parents=True, exist_ok=True)
     write_json(wam_data_dir / 'wd_ids_collected.json', list(wd_ids_collected))
