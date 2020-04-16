@@ -5,31 +5,43 @@ cd "${BASH_SOURCE%/*}/" || exit
 cd ../..
 
 GEOJSON_COLLECTED=data/geojson/wam/collected
-GEOJSON_SIMP=data/geojson/wam/simp_mapshaper
-TOPOJSON=data/topojson/wam_mapshaper
+GEOJSON_SIMP=data/geojson/wam/simp
 
-#rm -rf $TOPOJSON $GEOJSON_SIMP
-#mkdir -p $TOPOJSON $GEOJSON_SIMP
+rm -rf $GEOJSON_SIMP
+mkdir -p $GEOJSON_SIMP/low $GEOJSON_SIMP/medium $GEOJSON_SIMP/high
 
-#echo "convert to topojson"
-#node --max-old-space-size=40000 node_modules/.bin/mapshaper \
-#  -i $GEOJSON_COLLECTED/iso1.ndjson $GEOJSON_COLLECTED/iso2.ndjson \
-#  combine-files \
-#  snap-interval=1e-4 \
-#  -o $TOPOJSON/topo.topojson
+echo "mapshaper low"
+node --max-old-space-size=40000 node_modules/.bin/mapshaper \
+  -i $GEOJSON_COLLECTED/iso1.ndjson $GEOJSON_COLLECTED/iso2.ndjson \
+  combine-files \
+  snap-interval=1e-6 \
+  -simplify interval=10000 keep-shapes \
+  -filter-islands min-area=10km2 min-vertices=10 \
+  -filter-slivers min-area=10km2 \
+  -o $GEOJSON_SIMP/low/ format=geojson extension=geojson \
+  precision=0.001 singles geojson-type=FeatureCollection
 
-for q in 100 1000 10000
-do
-  echo "topo_simplify q$q"
+echo "mapshaper medium"
+node --max-old-space-size=40000 node_modules/.bin/mapshaper \
+  -i $GEOJSON_COLLECTED/iso1.ndjson $GEOJSON_COLLECTED/iso2.ndjson \
+  combine-files \
+  snap-interval=1e-6 \
+  -simplify interval=1000 keep-shapes \
+  -filter-islands min-area=10km2 min-vertices=10 \
+  -filter-slivers min-area=10km2 \
+  -o $GEOJSON_SIMP/medium/ format=geojson extension=geojson \
+  precision=0.001 singles geojson-type=FeatureCollection
 
-  node --max-old-space-size=40000 node_modules/.bin/mapshaper \
-    -i $TOPOJSON/topo.topojson \
-    -simplify interval=$q keep-shapes \
-    -filter-islands min-area=10km2 min-vertices=20 remove-empty \
-    -o $TOPOJSON/simp-$q.topojson
-done
+echo "mapshaper high"
+node --max-old-space-size=40000 node_modules/.bin/mapshaper \
+  -i $GEOJSON_COLLECTED/iso1.ndjson $GEOJSON_COLLECTED/iso2.ndjson \
+  combine-files \
+  snap-interval=1e-6 \
+  -simplify interval=100 keep-shapes \
+  -o $GEOJSON_SIMP/high/ format=geojson extension=geojson \
+  precision=0.001 singles geojson-type=FeatureCollection
 
 
-#rm -rf $TOPOJSON
+
 
 
