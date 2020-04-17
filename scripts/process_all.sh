@@ -2,10 +2,9 @@
 set -e; set -o pipefail
 cd "${BASH_SOURCE%/*}/" || exit
 
-rm -rf ../data/{fips,shp,topojson}
+rm -rf ../data/{fips,shp,topojson,wam}
 rm -rf ../data/geojson/{br_muni,fips}
 
-[ -z "$SKIP_COLLECT" ] && rm -rf ../data/wam
 [ -z "$SKIP_COLLECT" ] && rm -rf ../data/geojson/wam/{collected,simp}
 
 rm -rf ../../country-levels-export
