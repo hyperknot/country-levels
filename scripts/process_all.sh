@@ -13,7 +13,7 @@ rm -rf ../../country-levels-export
 ./fips/all.sh
 #./br_muni/all.sh
 
-cp ../docs/export_readme.md ../../country-levels-export/
+cp ../docs/export_readme.md ../../country-levels-export/README.md
 
 ./push.sh
 ./release.sh

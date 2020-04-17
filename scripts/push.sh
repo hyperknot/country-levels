@@ -4,7 +4,7 @@ cd "${BASH_SOURCE%/*}/" || exit
 
 cd ../../country-levels-export
 
-rm -rf .git
+rm -rf .git release
 
 DATE=$(date -u +%Y-%m-%dT%H:%M)
 
