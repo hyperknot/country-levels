@@ -21,8 +21,6 @@ def export_fips():
 
 
 def process_fips_quality(quality):
-    assert quality in [5, 7, 8]
-
     print(f'Processing FIPS county GeoJSON {quality_map[quality]}')
 
     features = read_json(fips_geojson_dir / f'counties_{quality_map[quality]}.geojson')['features']
