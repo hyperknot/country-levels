@@ -53,8 +53,6 @@ def collect_iso():
 
     geojson_files_sorted = sorted(geojson_files, key=lambda p: p.stem, reverse=False)
 
-    wd_ids_collected = set()
-
     for f in geojson_files_sorted:
         print(f.parent.stem, f.stem)
         try:
@@ -62,18 +60,13 @@ def collect_iso():
         except json.decoder.JSONDecodeError as e:
             print(f'  Error reading {f.stem} {e}')
             continue
-        new_wd_ids = add_iso(features, iso1_found, iso2_found)
-        wd_ids_collected = wd_ids_collected.union(new_wd_ids)
+        add_iso(features, iso1_found, iso2_found)
 
     # add features from osm_missing
     if not os.environ.get('ONLY_COUNTRY'):
         print('osm_missing_features')
         osm_missing_features = get_osm_missing_features()
-        new_wd_ids = add_iso(osm_missing_features, iso1_found, iso2_found)
-        wd_ids_collected = wd_ids_collected.union(new_wd_ids)
-
-    wam_data_dir.mkdir(parents=True, exist_ok=True)
-    write_json(wam_data_dir / 'wd_ids_collected.json', list(wd_ids_collected))
+        add_iso(osm_missing_features, iso1_found, iso2_found)
 
     iso1_found.close()
     iso2_found.close()
@@ -82,8 +75,6 @@ def collect_iso():
 def add_iso(features: list, found_iso1_file, found_iso2_file):
     count1 = 0
     count2 = 0
-
-    wd_ids_collected = set()
 
     for feature in features:
         prop = feature['properties']
@@ -150,7 +141,6 @@ def add_iso(features: list, found_iso1_file, found_iso2_file):
             geojson_str = json.dumps(feature, ensure_ascii=False, allow_nan=False)
             found_iso1_file.write(geojson_str + '\n')
 
-            wd_ids_collected.add(wd_id)
             count1 += 1
 
         #
@@ -189,13 +179,10 @@ def add_iso(features: list, found_iso1_file, found_iso2_file):
             geojson_str = json.dumps(feature, ensure_ascii=False, allow_nan=False)
             found_iso2_file.write(geojson_str + '\n')
 
-            wd_ids_collected.add(wd_id)
             count2 += 1
 
     if count1 or count2:
         print(f'  iso1 collected: {count1}, iso2 collected: {count2}')
-
-    return wd_ids_collected
 
 
 def save_wam_population():
