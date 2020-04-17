@@ -14,12 +14,18 @@ population_fixes = read_json(fixes_dir / 'population.json')
 timezone_fixes = read_json(fixes_dir / 'timezone.json')
 skip_osm_features = {int(i) for i in read_json(fixes_dir / 'skip_osm.json')}
 us_states_by_postal = fips_utils.get_state_data()[1]
+iso1_json = None
+iso2_json = None
 
 
-def split_geojson(iso_level: int, simp_level):
-    global population_map
+def split_geojson(iso_level: int, simp_level: str):
+    global population_map, iso1_json, iso2_json
     if not population_map:
         population_map = read_json(wam_data_dir / 'population.json')
+
+    if simp_level != 'high':
+        iso1_json = read_json(export_dir / 'iso1.json')
+        iso2_json = read_json(export_dir / 'iso2.json')
 
     print(f'Splitting iso{iso_level} to level: {simp_level}')
     file_path = wam_geojson_simp_dir / simp_level / f'iso{iso_level}.geojson'
@@ -30,7 +36,9 @@ def split_geojson(iso_level: int, simp_level):
     features_by_iso = dict()
 
     for feature in features_sorted:
-        feature_processed = process_feature_properties(feature, iso_level)
+        feature_processed = process_feature_properties(feature, iso_level, simp_level)
+        if feature_processed is None:
+            continue
         feature_clean = feature_processed['feature']
         osm_id = feature_clean['properties']['osm_id']
         if osm_id in skip_osm_features:
@@ -54,7 +62,7 @@ def split_geojson(iso_level: int, simp_level):
     write_json_and_geojsons(deduplicated_by_iso, iso_level, simp_level)
 
 
-def process_feature_properties(feature: dict, iso_level: int):
+def process_feature_properties(feature: dict, iso_level: int, simp_level: str):
     prop = feature['properties']
     alltags = prop['alltags']
 
@@ -62,7 +70,18 @@ def process_feature_properties(feature: dict, iso_level: int):
     osm_id = int(prop.pop('id'))
     iso = prop.pop(f'iso{iso_level}')
 
-    centroid = calculate_centroid(feature)
+    if iso_level == 1:
+        iso_json = iso1_json
+    else:
+        iso_json = iso2_json
+
+    if simp_level == 'high':
+        centroid = calculate_centroid(feature)
+        center_lat = centroid['lat']
+        center_lon = centroid['lon']
+    else:
+        center_lat = iso_json[iso]['center_lat']
+        center_lon = iso_json[iso]['center_lon']
 
     admin_level = int(prop.pop('admin_level'))
     wikidata_id = prop.pop('wikidata_id', None)
@@ -75,7 +94,7 @@ def process_feature_properties(feature: dict, iso_level: int):
 
     timezone = alltags.pop('timezone', None)
     if not timezone:
-        timezone = find_timezone(centroid['lon'], centroid['lat'])
+        timezone = find_timezone(center_lon, center_lat)
         if not timezone:
             timezone = timezone_fixes.get(countrylevel_id)
         if not timezone:
@@ -125,8 +144,8 @@ def process_feature_properties(feature: dict, iso_level: int):
         'osm_id': osm_id,
         'countrylevel_id': countrylevel_id,
         'osm_data': prop,
-        'center_lat': round(centroid['lat'], 2),
-        'center_lon': round(centroid['lon'], 2),
+        'center_lat': round(center_lat, 2),
+        'center_lon': round(center_lon, 2),
     }
 
     if timezone:
@@ -206,5 +225,5 @@ def write_json_and_geojsons(deduplicated_by_iso: dict, iso_level: int, simp_leve
             write_json(level_subdir / iso2_start / f'{iso}.geojson', feature)
             json_data[iso]['geojson_path'] = f'iso2/{iso2_start}/{iso}.geojson'
 
-    if simp_level == 'medium':
+    if simp_level == 'high':
         write_json(export_dir / f'iso{iso_level}.json', json_data, indent=2, sort_keys=True)
