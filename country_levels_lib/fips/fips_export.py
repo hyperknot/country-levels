@@ -98,7 +98,7 @@ def process_fips_quality(quality):
         {"type": "FeatureCollection", "features": new_features},
     )
 
-    if quality == 7:  # only write the file once
+    if quality == 'high':  # only write the file once
         write_json(export_dir / f'fips.json', json_data, indent=2, sort_keys=True)
 
     assert count == len(counties_by_str)
