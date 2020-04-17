@@ -25,7 +25,8 @@ GeoJSON files and JSON catalogs are also browsable in the [export](https://githu
 
 #### [ISO country code list](https://github.com/hyperknot/country-levels-export/blob/master/docs/iso1_list.md)
 #### [US county list (FIPS codes)](https://github.com/hyperknot/country-levels-export/blob/master/docs/fips_list.md)
-#### [BR municipality list (IBGE codes)](https://github.com/hyperknot/country-levels-export/blob/master/docs/br_muni_list.md)
+
+<!--[BR municipality list (IBGE codes)](https://github.com/hyperknot/country-levels-export/blob/master/docs/br_muni_list.md)-->
 
 ### Country Level IDs
 
@@ -83,4 +84,5 @@ If you have [direnv](https://direnv.net/) installed, the virtualenv will activat
 
 #### [ISO country code list](https://github.com/hyperknot/country-levels-export/blob/master/docs/iso1_list.md)
 #### [US county list (FIPS codes)](https://github.com/hyperknot/country-levels-export/blob/master/docs/fips_list.md)
-#### [BR municipality list (IBGE codes)](https://github.com/hyperknot/country-levels-export/blob/master/docs/br_muni_list.md)
+
+<!--[BR municipality list (IBGE codes)](https://github.com/hyperknot/country-levels-export/blob/master/docs/br_muni_list.md)-->
