@@ -1,13 +1,11 @@
 import shutil
 
 from country_levels_lib.fips import fips_utils
-from country_levels_lib.config import geojson_dir, export_dir, fixes_dir
+from country_levels_lib.config import export_dir, fixes_dir
 from country_levels_lib.geo import calculate_centroid, find_timezone
 from country_levels_lib.utils import read_json, osm_url, write_json, wikidata_url
-from country_levels_lib.wam.wam_collect import validate_iso1, validate_iso2
+from country_levels_lib.wam.wam_collect import validate_iso1, validate_iso2, simp_dir
 from country_levels_lib.wam.wam_download import wam_data_dir
-
-wam_geojson_simp_dir = geojson_dir / 'wam' / 'simp'
 
 population_map = None
 population_fixes = read_json(fixes_dir / 'population.json')
@@ -28,7 +26,7 @@ def split_geojson(iso_level: int, simp_level: str):
         iso2_json = read_json(export_dir / 'iso2.json')
 
     print(f'Splitting iso{iso_level} to level: {simp_level}')
-    file_path = wam_geojson_simp_dir / simp_level / f'iso{iso_level}.geojson'
+    file_path = simp_dir / simp_level / f'iso{iso_level}.geojson'
 
     features = read_json(file_path)['features']
     features_sorted = sorted(features, key=lambda i: i['properties']['admin_level'])
@@ -69,6 +67,7 @@ def process_feature_properties(feature: dict, iso_level: int, simp_level: str):
     name = prop.pop('name')
     osm_id = int(prop.pop('id'))
     iso = prop.pop(f'iso{iso_level}')
+    countrylevel_id = f'iso{iso_level}:{iso}'
 
     if iso_level == 1:
         iso_json = iso1_json
@@ -83,9 +82,22 @@ def process_feature_properties(feature: dict, iso_level: int, simp_level: str):
         center_lat = iso_json[iso]['center_lat']
         center_lon = iso_json[iso]['center_lon']
 
+    if not feature['geometry']:
+        print(f'  missing geometry: {countrylevel_id}')
+        geojson_path = iso_json[iso]['geojson_path']
+        medium_geojson_path = export_dir / 'geojson' / 'medium' / geojson_path
+        high_geojson_path = export_dir / 'geojson' / 'high' / geojson_path
+        if medium_geojson_path.is_file():
+            medium_geojson = read_json(medium_geojson_path)
+            if medium_geojson['geometry']:
+                print('    using geometry from medium geojson')
+        if high_geojson_path.is_file():
+            high_geojson = read_json(high_geojson_path)
+            if high_geojson['geometry']:
+                print('    using geometry from high geojson')
+
     admin_level = int(prop.pop('admin_level'))
     wikidata_id = prop.pop('wikidata_id', None)
-    countrylevel_id = f'iso{iso_level}:{iso}'
     population = population_map.get(wikidata_id)
     if countrylevel_id in population_fixes:
         if population:

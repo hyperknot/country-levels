@@ -14,8 +14,9 @@ from country_levels_lib.wikidata.wikidata_iso import (
 from country_levels_lib.wikidata.wikidata_population import get_population
 
 collected_dir = geojson_dir / 'wam' / 'collected'
-iso1_found_path = collected_dir / 'iso1.ndjson'
-iso2_found_path = collected_dir / 'iso2.ndjson'
+iso1_collected_path = collected_dir / 'iso1.ndjson'
+iso2_collected_path = collected_dir / 'iso2.ndjson'
+simp_dir = geojson_dir / 'wam' / 'simp'
 
 osm_iso1_map = {}
 osm_iso2_map = {}
@@ -47,8 +48,8 @@ def collect_iso():
     geojson_files = (download_dir).glob('**/*.GeoJson')  # strange capitalization inside zips
 
     collected_dir.mkdir(parents=True, exist_ok=True)
-    iso1_found = open(iso1_found_path, 'w')
-    iso2_found = open(iso2_found_path, 'w')
+    iso1_found = open(iso1_collected_path, 'w')
+    iso2_found = open(iso2_collected_path, 'w')
 
     geojson_files_sorted = sorted(geojson_files, key=lambda p: p.stem, reverse=False)
 
@@ -198,7 +199,14 @@ def add_iso(features: list, found_iso1_file, found_iso2_file):
 
 
 def save_wam_population():
-    all_ids = read_json(wam_data_dir / 'wd_ids_collected.json')
+    features = read_json(simp_dir / 'high' / f'iso1.geojson')['features']
+    iso1_ids = {f['properties']['wikidata_id'] for f in features}
+
+    features = read_json(simp_dir / 'high' / f'iso2.geojson')['features']
+    iso2_ids = {f['properties']['wikidata_id'] for f in features}
+
+    all_ids = list(iso1_ids.union(iso2_ids))
+
     population_data = get_population(all_ids)
     write_json(wam_data_dir / 'population.json', population_data, indent=2, sort_keys=True)
 
