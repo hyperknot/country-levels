@@ -28,7 +28,7 @@ def process_fips_quality(quality):
     counties_by_str = get_county_data()[1]
     states_by_int = get_state_data()[0]
 
-    geojson_export_dir = export_dir / 'geojson' / f'q{quality}' / 'fips'
+    geojson_export_dir = export_dir / 'geojson' / quality / 'fips'
     shutil.rmtree(geojson_export_dir, ignore_errors=True)
 
     new_features = list()
@@ -94,7 +94,7 @@ def process_fips_quality(quality):
         json_data[full_code_str]['geojson_path'] = f'fips/{state_code_str}/{full_code_str}.geojson'
 
     write_json(
-        export_dir / 'geojson' / f'q{quality}' / 'fips_all.geojson',
+        export_dir / 'geojson' / quality / 'fips_all.geojson',
         {"type": "FeatureCollection", "features": new_features},
     )
 
