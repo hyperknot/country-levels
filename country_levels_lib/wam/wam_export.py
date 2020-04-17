@@ -91,10 +91,11 @@ def process_feature_properties(feature: dict, iso_level: int, simp_level: str):
             medium_geojson = read_json(medium_geojson_path)
             if medium_geojson['geometry']:
                 print('    using geometry from medium geojson')
-        if high_geojson_path.is_file():
-            high_geojson = read_json(high_geojson_path)
-            if high_geojson['geometry']:
+                feature['geometry'] = medium_geojson['geometry']
+            else:
+                high_geojson = read_json(high_geojson_path)
                 print('    using geometry from high geojson')
+                feature['geometry'] = high_geojson['geometry']
 
     admin_level = int(prop.pop('admin_level'))
     wikidata_id = prop.pop('wikidata_id', None)

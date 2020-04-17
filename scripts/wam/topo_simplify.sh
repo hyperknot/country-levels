@@ -17,7 +17,6 @@ node --max-old-space-size=40000 node_modules/.bin/mapshaper \
   snap-interval=1e-6 \
   -simplify interval=10000 keep-shapes \
   -filter-islands min-area=10km2 min-vertices=10 \
-  -filter-slivers min-area=10km2 \
   -o $GEOJSON_SIMP/low/ format=geojson extension=geojson \
   precision=0.001 singles geojson-type=FeatureCollection
 
@@ -28,7 +27,6 @@ node --max-old-space-size=40000 node_modules/.bin/mapshaper \
   snap-interval=1e-6 \
   -simplify interval=1000 keep-shapes \
   -filter-islands min-area=10km2 min-vertices=10 \
-  -filter-slivers min-area=10km2 \
   -o $GEOJSON_SIMP/medium/ format=geojson extension=geojson \
   precision=0.001 singles geojson-type=FeatureCollection
 
