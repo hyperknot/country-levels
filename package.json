@@ -3,9 +3,7 @@
   "name": "country-levels",
   "devDependencies": {
     "geojson-precision": "^1.0.0",
-    "shapefile": "^0.6.6",
-    "topojson": "^3.0.2",
-    "topojson-simplify": "^3.0.3"
+    "shapefile": "^0.6.6"
   },
   "dependencies": {
     "mapshaper": "^0.5.0",
