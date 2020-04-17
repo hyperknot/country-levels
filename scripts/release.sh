@@ -4,7 +4,6 @@ cd "${BASH_SOURCE%/*}/" || exit
 
 cd ../../country-levels-export
 
-cp ../country-levels/docs/export_readme.md README.md
 echo '{"name": "country-levels","version": "1.0.0"}' > package.json
 
 rm -rf release
