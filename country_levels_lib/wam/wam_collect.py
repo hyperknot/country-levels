@@ -42,8 +42,8 @@ def collect_iso():
     osm_wd_map.update(custom_wd)
 
     download_dir = wam_geojson_download_dir
-    if os.environ.get('ONLY_COUNTRY'):
-        download_dir = download_dir / os.environ.get('ONLY_COUNTRY')
+    if os.environ.get('COUNTRY'):
+        download_dir = download_dir / os.environ.get('COUNTRY')
 
     geojson_files = (download_dir).glob('**/*.GeoJson')  # strange capitalization inside zips
 
@@ -63,7 +63,7 @@ def collect_iso():
         add_iso(features, iso1_found, iso2_found)
 
     # add features from osm_missing
-    if not os.environ.get('ONLY_COUNTRY'):
+    if not os.environ.get('COUNTRY'):
         print('osm_missing_features')
         osm_missing_features = get_osm_missing_features()
         add_iso(osm_missing_features, iso1_found, iso2_found)
