@@ -195,6 +195,8 @@ def save_wam_population():
     all_ids = list(iso1_ids.union(iso2_ids))
 
     population_data = get_population(all_ids)
+
+    wam_data_dir.mkdir(parents=True, exist_ok=True)
     write_json(wam_data_dir / 'population.json', population_data, indent=2, sort_keys=True)
 
 
