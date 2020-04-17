@@ -1,4 +1,5 @@
 import shutil
+import sys
 
 from country_levels_lib.fips import fips_utils
 from country_levels_lib.config import export_dir, fixes_dir
@@ -84,18 +85,11 @@ def process_feature_properties(feature: dict, iso_level: int, simp_level: str):
 
     if not feature['geometry']:
         print(f'  missing geometry: {countrylevel_id}')
+        if simp_level == 'high':
+            sys.exit('high level missing geometry')
+
         geojson_path = iso_json[iso]['geojson_path']
-        medium_geojson_path = export_dir / 'geojson' / 'medium' / geojson_path
-        high_geojson_path = export_dir / 'geojson' / 'high' / geojson_path
-        if medium_geojson_path.is_file():
-            medium_geojson = read_json(medium_geojson_path)
-            if medium_geojson['geometry']:
-                print('    using geometry from medium geojson')
-                feature['geometry'] = medium_geojson['geometry']
-            else:
-                high_geojson = read_json(high_geojson_path)
-                print('    using geometry from high geojson')
-                feature['geometry'] = high_geojson['geometry']
+        feature['geometry'] = get_geometry_from_medium_high(geojson_path)
 
     admin_level = int(prop.pop('admin_level'))
     wikidata_id = prop.pop('wikidata_id', None)
@@ -240,3 +234,18 @@ def write_json_and_geojsons(deduplicated_by_iso: dict, iso_level: int, simp_leve
 
     if simp_level == 'high':
         write_json(export_dir / f'iso{iso_level}.json', json_data, indent=2, sort_keys=True)
+
+
+def get_geometry_from_medium_high(geojson_path):
+    medium_geojson_path = export_dir / 'geojson' / 'medium' / geojson_path
+    high_geojson_path = export_dir / 'geojson' / 'high' / geojson_path
+
+    if medium_geojson_path.is_file():
+        medium_geojson = read_json(medium_geojson_path)
+        if medium_geojson['geometry']:
+            print('    using geometry from medium geojson')
+            return medium_geojson['geometry']
+
+    high_geojson = read_json(high_geojson_path)
+    print('    using geometry from high geojson')
+    return high_geojson['geometry']
