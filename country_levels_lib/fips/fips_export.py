@@ -9,9 +9,9 @@ fips_geojson_dir = geojson_dir / 'fips'
 
 
 quality_map = {
-    5: '20m',
-    7: '5m',
-    8: '500k',
+    'low': '20m',
+    'medium': '5m',
+    'high': '500k',
 }
 
 

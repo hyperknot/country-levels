@@ -9,14 +9,14 @@ echo '{"name": "country-levels","version": "1.0.0"}' > package.json
 
 rm -rf release
 
-for i in 5 7 8
+for simp in low medium high
 do
-  mkdir -p release/q$i/geojson
-  cp *.json release/q$i
-  cp *.md release/q$i
-  cp -R geojson/q$i/. release/q$i/geojson
-  cd release/q$i || exit
-  tar -czvf ../export_q$i.tgz .
+  mkdir -p release/$simp/geojson
+  cp *.json release/$simp
+  cp *.md release/$simp
+  cp -R geojson/$simp/. release/$simp/geojson
+  cd release/$simp || exit
+  tar -czvf ../export_$simp.tgz .
   cd ../..
-  rm -rf release/q$i
+  rm -rf release/$simp
 done

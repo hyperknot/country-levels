@@ -11,7 +11,7 @@ rm -rf ../../country-levels-export
 
 ./wam/all.sh
 ./fips/all.sh
-./br_muni/all.sh
+#./br_muni/all.sh
 
 ./push.sh
 ./release.sh
