@@ -18,9 +18,12 @@ iso1_collected_path = collected_dir / 'iso1.ndjson'
 iso2_collected_path = collected_dir / 'iso2.ndjson'
 simp_dir = geojson_dir / 'wam' / 'simp'
 
+
 osm_iso1_map = {}
 osm_iso2_map = {}
 osm_wd_map = {}
+
+skip_osm_features = {int(i) for i in read_json(fixes_dir / 'skip_osm.json')}
 
 iso1_regex = re.compile('[A-Z]{2}')
 iso2_regex = re.compile('[A-Z]{2}-[A-Z0-9]{1,4}')
@@ -66,13 +69,13 @@ def collect_iso():
     if not os.environ.get('COUNTRY'):
         print('osm_missing_features')
         osm_missing_features = get_osm_missing_features()
-        add_iso(osm_missing_features, iso1_found, iso2_found)
+        add_iso(osm_missing_features, iso1_found, iso2_found, is_fixes=True)
 
     iso1_found.close()
     iso2_found.close()
 
 
-def add_iso(features: list, found_iso1_file, found_iso2_file):
+def add_iso(features: list, found_iso1_file, found_iso2_file, is_fixes=False):
     count1 = 0
     count2 = 0
 
@@ -82,6 +85,10 @@ def add_iso(features: list, found_iso1_file, found_iso2_file):
 
         name = prop['name']
         osm_id = int(prop['id'])
+
+        if osm_id in skip_osm_features and not is_fixes:
+            print(f'  skipping osm_id: {osm_id}')
+            continue
 
         iso1_from_wd = osm_iso1_map.get(osm_id)
         iso1_from_osm = alltags.get('ISO3166-1')

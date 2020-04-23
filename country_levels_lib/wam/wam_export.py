@@ -11,7 +11,6 @@ from country_levels_lib.wam.wam_download import wam_data_dir
 population_map = None
 population_fixes = read_json(fixes_dir / 'population.json')
 timezone_fixes = read_json(fixes_dir / 'timezone.json')
-skip_osm_features = {int(i) for i in read_json(fixes_dir / 'skip_osm.json')}
 us_states_by_postal = fips_utils.get_state_data()[1]
 iso1_json = None
 iso2_json = None
@@ -40,9 +39,6 @@ def split_geojson(iso_level: int, simp_level: str):
             continue
         feature_clean = feature_processed['feature']
         osm_id = feature_clean['properties']['osm_id']
-        if osm_id in skip_osm_features:
-            print(f'  skipping osm_id: {osm_id}')
-            continue
 
         iso = feature_processed['iso']
         if iso_level == 1:
