@@ -10,7 +10,7 @@ rm -rf release
 
 for simp in low medium high json
 do
-  mkdir -p release/$simp/geojson
+  mkdir -p release/$simp
   cp *.json release/$simp
   cp *.md release/$simp
   [ $simp != "json" ] && cp -R geojson/$simp/. release/$simp/geojson
