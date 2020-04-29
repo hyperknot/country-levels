@@ -7,6 +7,8 @@ from country_levels_lib.geo import calculate_centroid, find_timezone
 from country_levels_lib.utils import read_json, osm_url, write_json, wikidata_url
 from country_levels_lib.wam.wam_collect import validate_iso1, validate_iso2, simp_dir
 from country_levels_lib.wam.wam_download import wam_data_dir
+from area import area
+
 
 population_map = None
 population_fixes = read_json(fixes_dir / 'population.json')
@@ -74,9 +76,11 @@ def process_feature_properties(feature: dict, iso_level: int, simp_level: str):
         centroid = calculate_centroid(feature)
         center_lat = centroid['lat']
         center_lon = centroid['lon']
+        area_m2 = int(area(feature['geometry']))
     else:
         center_lat = iso_json[iso]['center_lat']
         center_lon = iso_json[iso]['center_lon']
+        area_m2 = iso_json[iso]['area_m2']
 
     if not feature['geometry']:
         print(f'  missing geometry: {countrylevel_id}')
@@ -148,6 +152,7 @@ def process_feature_properties(feature: dict, iso_level: int, simp_level: str):
         'osm_data': prop,
         'center_lat': round(center_lat, 2),
         'center_lon': round(center_lon, 2),
+        'area_m2': area_m2,
     }
 
     if timezone:
