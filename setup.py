@@ -1,6 +1,7 @@
 from setuptools import setup
 
 requirements = [
+    'area',
     'black',
     'geojson',
     'requests',

@@ -38,7 +38,6 @@ def split_geojson(iso_level: int, simp_level: str):
         if feature_processed is None:
             continue
         feature_clean = feature_processed['feature']
-        osm_id = feature_clean['properties']['osm_id']
 
         iso = feature_processed['iso']
         if iso_level == 1:
