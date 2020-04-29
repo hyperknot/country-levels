@@ -90,7 +90,8 @@ def process_fips_quality(quality):
         write_json(state_subdir / f'{full_code_str}.geojson', feature)
         count += 1
 
-        json_data[full_code_str] = {k: v for k, v in new_prop.items() if k != 'census_data'}
+        json_data[full_code_str] = new_prop
+        # json_data[full_code_str] = {k: v for k, v in new_prop.items() if k != 'census_data'}
         json_data[full_code_str]['geojson_path'] = f'fips/{state_code_str}/{full_code_str}.geojson'
 
     write_json(
