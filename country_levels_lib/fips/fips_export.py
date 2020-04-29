@@ -1,5 +1,7 @@
 import shutil
 
+from area import area
+
 from country_levels_lib.config import geojson_dir, export_dir
 from country_levels_lib.fips.fips_utils import get_state_data, get_county_data
 from country_levels_lib.geo import calculate_centroid, find_timezone
@@ -47,6 +49,7 @@ def process_fips_quality(quality):
 
         centroid = calculate_centroid(feature)
         timezone = find_timezone(centroid['lon'], centroid['lat'])
+        area_m2 = int(area(feature['geometry']))
 
         county_data = counties_by_str[full_code_str]
         assert county_data['county_code'] == county_code
@@ -79,6 +82,7 @@ def process_fips_quality(quality):
             'census_data': prop,
             'center_lat': round(centroid['lat'], 2),
             'center_lon': round(centroid['lon'], 2),
+            'area_m2': area_m2,
             'timezone': timezone,
         }
         feature['properties'] = new_prop
