@@ -43,7 +43,11 @@ def run_query_simple(qids: list):
 
     for result in results["results"]["bindings"]:
         qid = result['item']['value'].split('/')[-1]
-        population = int(float(result['population']['value']))
+        try:
+            population = int(float(result['population']['value']))
+        except Exception:
+            print(f'wrong population data: {qid}')
+            continue
         data[qid] = population
 
     return data
@@ -75,7 +79,11 @@ def run_query_latest(qids: list):
 
     for result in results["results"]["bindings"]:
         qid = result['item']['value'].split('/')[-1]
-        population = int(float(result['population']['value']))
+        try:
+            population = int(float(result['population']['value']))
+        except Exception:
+            print(f'wrong population data: {qid}')
+            continue
         data[qid] = population
 
     return data
