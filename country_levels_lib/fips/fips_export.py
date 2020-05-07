@@ -49,7 +49,7 @@ def process_fips_quality(quality):
 
         centroid = calculate_centroid(feature)
         timezone = find_timezone(centroid['lon'], centroid['lat'])
-        area_m2 = int(area(feature['geometry']))
+        area_m2 = int(prop['ALAND'] + prop['AWATER'])
 
         county_data = counties_by_str[full_code_str]
         assert county_data['county_code'] == county_code
